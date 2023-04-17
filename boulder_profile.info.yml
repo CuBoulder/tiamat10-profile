@@ -61,6 +61,7 @@ install:
   - config_update
   - features
   - pantheon_advanced_page_cache
+  - simplesamlphp_auth
   - simple_sitemap
   - antibot
   - cu_boulder_content_types
