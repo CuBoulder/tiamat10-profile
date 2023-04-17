@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.focal_image_square
+label: 'Focal Image - Square'
+targetEntityType: media
+cache: true

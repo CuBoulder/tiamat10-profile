@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block
+id: layout_manager
+label: 'Layout Manager'
+weight: 7
+is_admin: null
+permissions:
+  - 'administer blocks'

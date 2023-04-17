@@ -1,0 +1,39 @@
+uuid: 5d0e6c06-1069-4d59-bc77-fb7da4bec9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.video.field_media_oembed_video
+    - image.style.medium
+    - media.type.video
+  module:
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: tFStonYdaaMneR1HGBE67dTHp0_CdeLL5IkA-FLpilQ
+id: media.video.media_library
+targetEntityType: media
+bundle: video
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_oembed_video: true
+  name: true
+  uid: true

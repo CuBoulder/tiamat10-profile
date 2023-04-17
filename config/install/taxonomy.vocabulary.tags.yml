@@ -1,0 +1,8 @@
+uuid: 92b787fd-0ffa-457a-b3c1-b78366ff6c30
+langcode: en
+status: true
+dependencies: {  }
+name: Tags
+vid: tags
+description: ''
+weight: 0
