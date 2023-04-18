@@ -65,7 +65,6 @@ install:
   - simple_sitemap
   - antibot
   - redirect
-  - migrate_plus
   - devel
   - devel_generate
   - cu_boulder_content_types
