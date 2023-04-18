@@ -43,7 +43,7 @@ function boulder_profile_install() {
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest',
       'status' => 1,
-      'roles' => 'site_owner'
+      'roles' => 'architect'
     ])->enforceIsNew()->save();
   }
 }
