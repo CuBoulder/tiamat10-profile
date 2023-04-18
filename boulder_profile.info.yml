@@ -64,6 +64,9 @@ install:
   - simplesamlphp_auth
   - simple_sitemap
   - antibot
+  - redirect
+  - devel
+  - devel_generate
   - cu_boulder_content_types
   - ucb_admin_menus
   - ucb_site_configuration
