@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds CK Button to D10 profile
+  Adds CK Button to D10 profile
+---
+
 - ### Adds Google Maps support in Map CKEditor plugin
   This update adds support for Google Maps embeds via an embed code taken from Google Maps.
   
