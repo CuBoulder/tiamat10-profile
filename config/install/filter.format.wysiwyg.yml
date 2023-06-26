@@ -1,4 +1,3 @@
-uuid: 8e075e16-c0b2-46f4-81a9-ad6fdb5dd988
 langcode: en
 status: true
 dependencies:
@@ -17,10 +16,9 @@ dependencies:
   module:
     - editor
     - entity_embed
-    - shortcode
     - media
-_core:
-  default_config_hash: 7HerirK3YkRQhB-dE5ZJGDNp_zvOe6y_VGtxoDCT1Qk
+    - shortcode
+    - ucb_ckeditor_plugins
 name: WYSIWYG
 format: wysiwyg
 weight: 0
@@ -118,7 +116,7 @@ filters:
     status: true
     weight: 10
     settings: {  }
-    +  shortcode:
+  shortcode:
     id: shortcode
     provider: shortcode
     status: true
