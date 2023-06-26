@@ -17,6 +17,7 @@ dependencies:
   module:
     - editor
     - entity_embed
+    - shortcode
     - media
 _core:
   default_config_hash: 7HerirK3YkRQhB-dE5ZJGDNp_zvOe6y_VGtxoDCT1Qk
@@ -42,7 +43,7 @@ filters:
   filter_url:
     id: filter_url
     provider: filter
-    status: true
+    status: false
     weight: -48
     settings:
       filter_url_length: 72
@@ -116,4 +117,26 @@ filters:
     provider: ucb_ckeditor_plugins
     status: true
     weight: 10
+    settings: {  }
+    +  shortcode:
+    id: shortcode
+    provider: shortcode
+    status: true
+    weight: 0
+    settings:
+      box: '1'
+      button: '1'
+      callout: '1'
+      column: '1'
+      countup: '1'
+      expand: '1'
+      give: '1'
+      icon: '1'
+      imagecaption: '1'
+      map: '1'
+  shortcode_corrector:
+    id: shortcode_corrector
+    provider: shortcode
+    status: true
+    weight: 0
     settings: {  }
