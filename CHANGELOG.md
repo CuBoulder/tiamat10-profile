@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Shortcode and Migration filters
+  Added shortcodes and migration filters to the D10 profile
+---
+
 - ### Adds CK Button to D10 profile
   Adds CK Button to D10 profile
 ---
