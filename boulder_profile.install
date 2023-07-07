@@ -36,7 +36,7 @@ function boulder_profile_install() {
   /**
    * Create inital users for the UX Team
    */
-  $users = ['linebarg', 'brokaw', 'wetu1300', 'fraziere'];
+  $users = ['linebarg', 'niwa4700', 'brokaw', 'wetu1300', 'fraziere'];
   foreach( $users as $i ){
     User::create([
       'name' => $i,

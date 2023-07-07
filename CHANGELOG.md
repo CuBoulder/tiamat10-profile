@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adding Nicole Waldrip to the default install
+  Added new Architect to the base install profile.  
+---
+
 - ### Shortcode and Migration filters
   Added shortcodes and migration filters to the D10 profile
 ---
