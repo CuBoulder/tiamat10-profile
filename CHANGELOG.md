@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove full justification setting for wysiwyg
+  Removing the full justification setting option for they WYSIWYG text authoring configuration.  
+---
+
 - ### Adding Nicole Waldrip to the default install
   Added new Architect to the base install profile.  
 ---
