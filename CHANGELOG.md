@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update filter.format.wysiwyg.yml
+  Added new shortcodes to profile
+  
+  Sister PR: https://github.com/CuBoulder/ucb_migration_shortcodes/pull/3
+---
+
 - ### Removes "D9" from theme name and the theme, custom entities Composer package names
   CuBoulder/tiamat-theme#435
   

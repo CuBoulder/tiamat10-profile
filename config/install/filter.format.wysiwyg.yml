@@ -123,15 +123,23 @@ filters:
     weight: 0
     settings:
       box: '1'
+      buttongroup: '1'
       button: '1'
       callout: '1'
+      clear: '1'
+      close-margin: '1'
       column: '1'
       countup: '1'
       expand: '1'
       give: '1'
+      googlecalendar: '1'
       icon: '1'
       imagecaption: '1'
+      invisible: '1'
       map: '1'
+      masonry-images: '1'
+      print: '1'
+      responsive-table: '1'
   shortcode_corrector:
     id: shortcode_corrector
     provider: shortcode
