@@ -76,6 +76,7 @@ install:
   - media_library_form_element
   - shortcode
   - ucb_migration_shortcodes
+  - ucb_article_author
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
