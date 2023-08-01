@@ -39,10 +39,11 @@ settings:
       - removeFormat
       - '|'
       - 'box'
+      - 'button'
       - 'map'
+      - 'calendar'
       - 'tooltip'
       - 'invisible'
-      - 'button'
   plugins:
     ckeditor5_heading:
       enabled_headings:
