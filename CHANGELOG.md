@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Issue/shortcodes/2
+  Sister pull request for ucb_migration_shortcodes/issue/2.
+  Adds profile changes for shortcodes
+---
+
 - ### Adds the "Calendar" CKEditor 5 plugin
   This update adds a "Calendar" item to CKEditor 5, allowing insertion of Google Calendar embeds via an embed code taken from Google Calendar. Equivalent to the `[googlecalendar]` Shortcode in D7 Express.
   
