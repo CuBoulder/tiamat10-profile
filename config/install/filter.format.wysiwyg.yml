@@ -128,6 +128,7 @@ filters:
     status: true
     weight: 0
     settings:
+      blockquote: '1'
       box: '1'
       buttongroup: '1'
       button: '1'
@@ -135,13 +136,16 @@ filters:
       clear: '1'
       close-margin: '1'
       column: '1'
+      column-list: '1'
       countup: '1'
+      countdown: '1'
       expand: '1'
       give: '1'
       googlecalendar: '1'
       icon: '1'
       imagecaption: '1'
       invisible: '1'
+      list-item: '1'
       map: '1'
       masonry-images: '1'
       print: '1'
