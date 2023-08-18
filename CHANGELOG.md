@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update block.block.site_contact_info_footer.yml
+  Updated where site contact information is displayed by default
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/468
+---
+
 - ### Issue/shortcodes/2
   Sister pull request for ucb_migration_shortcodes/issue/2.
   Adds profile changes for shortcodes
