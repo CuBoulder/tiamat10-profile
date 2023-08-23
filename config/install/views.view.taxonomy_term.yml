@@ -366,7 +366,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "{% if field_ucb_article_thumbnail %}\r\n<div class = \"ucb-taxonomy-thumbnail\">{{ field_ucb_article_thumbnail }}</div>\r\n{% endif %}\r\n<div class = \"ucb-view-wrapper\">\r\n<div class = \"ucb-taxonomy-title\"> {{ title }} </div>\r\n<div class = \"ucb-taxonomy-date\"> {{ created }} </div>\r\n<div class= \"ucb-taxonomy-summary\">\r\n{% if field_ucb_article_summary %}\r\n{{ field_ucb_article_summary|striptags|render }}\r\n{% else %}\r\n{{ field_article_text }}\r\n{% endif %}\r\n</div>\r\n<div class= \"ucb-taxonomy-readmore\">{{ view_node }} </div>\r\n</div>"
+            text: "{% if field_ucb_article_thumbnail %}\r\n<div class = \"ucb-taxonomy-thumbnail\">{{ field_ucb_article_thumbnail }}</div>\r\n{% endif %}\r\n<div class = \"ucb-view-wrapper\">\r\n<div class = \"ucb-taxonomy-title\"> {{ title }} </div>\r\n<div class = \"ucb-taxonomy-date\"> {{ created }} </div>\r\n<div class= \"ucb-taxonomy-summary\">\r\n{% if field_ucb_article_summary %}\r\n{{ field_ucb_article_summary }}\r\n{% else %}\r\n{{ field_article_text }}\r\n{% endif %}\r\n</div>\r\n<div class= \"ucb-taxonomy-readmore\">{{ view_node }} </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
