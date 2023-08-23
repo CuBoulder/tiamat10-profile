@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### taxonomy implementation
+  Closes issue tiamat/theme/27.
+  Adds the taxonomy views
+---
+
 - ### Update block.block.site_contact_info_footer.yml
   Updated where site contact information is displayed by default
   
