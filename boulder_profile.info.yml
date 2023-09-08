@@ -36,6 +36,8 @@ install:
   - views_ui
   - editor
   - ckeditor5
+  - metatag
+  - metatag_open_graph
   - ucb_ckeditor_plugins
   - webform
   - webform_ui
