@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Tiamat theme/issue/149
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/149.
+  Adds profile changes for metatag installation
+---
+
 - ### taxonomy implementation
   Closes issue tiamat/theme/27.
   Adds the taxonomy views
