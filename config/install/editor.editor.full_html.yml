@@ -32,6 +32,7 @@ settings:
       - '|'
       - 'box'
       - 'button'
+      - 'buttongroup'
       - 'map'
       - 'calendar'
       - 'tooltip'

@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### New: Adds Button Group plugin to CKEditor
+  Adds Button Group to CKeditor5 wysiwyg and full html on install
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/251
+---
+
 - ### Tiamat theme/issue/149
   Closes https://github.com/CuBoulder/tiamat-theme/issues/149.
   Adds profile changes for metatag installation
