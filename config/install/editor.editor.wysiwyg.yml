@@ -40,7 +40,7 @@ settings:
       - '|'
       - 'box'
       - 'button'
-      - 'buttonGroup'
+      - 'buttongroup'
       - 'map'
       - 'calendar'
       - 'tooltip'
