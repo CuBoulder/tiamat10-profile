@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update boulder_profile.info.yml
+  Add new global library dependency at install.
+  
+  Sister PR: https://github.com/CuBoulder/ucb_migration_shortcodes/pull/9
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/485
+  Sister PR: https://github.com/CuBoulder/tiamat10-project-template/pull/12
+---
+
 - ### New: Adds Button Group plugin to CKEditor
   Adds Button Group to CKeditor5 wysiwyg and full html on install
   
