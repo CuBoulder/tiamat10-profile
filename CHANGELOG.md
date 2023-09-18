@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Changing permissions for Content Editor
+  Adding in Block permissions for the Content Editor role to resolve CuBoulder/tiamat-theme#486
+  
+  
+  
+---
+
 - ### Update boulder_profile.info.yml
   Add new global library dependency at install.
   
