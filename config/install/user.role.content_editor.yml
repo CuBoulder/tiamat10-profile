@@ -1,7 +1,30 @@
+uuid: d0199a8e-6373-46ab-902a-4bf3f04cb975
 langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.article_list_block
+    - block_content.type.content_grid
+    - block_content.type.content_list
+    - block_content.type.content_row
+    - block_content.type.content_sequence
+    - block_content.type.events_calendar
+    - block_content.type.expandable_content
+    - block_content.type.hero_unit
+    - block_content.type.image_gallery
+    - block_content.type.slider
+    - block_content.type.text_block
+    - block_content.type.ucb_article_feature
+    - block_content.type.ucb_article_grid
+    - block_content.type.ucb_article_slider
+    - block_content.type.ucb_category_cloud
+    - block_content.type.ucb_current_issue_block
+    - block_content.type.ucb_form
+    - block_content.type.ucb_latest_issues_block
+    - block_content.type.ucb_people_list_block
+    - block_content.type.ucb_slate_form
+    - block_content.type.ucb_tag_cloud
+    - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.wysiwyg
     - media.type.audio
@@ -25,6 +48,7 @@ dependencies:
     - taxonomy.vocabulary.tags
     - taxonomy.vocabulary.ucb_person_job_type
   module:
+    - block_content
     - contextual
     - entity_reference_revisions
     - file
@@ -39,12 +63,15 @@ dependencies:
     - system
     - taxonomy
     - toolbar
+_core:
+  default_config_hash: 4nck0Sg7JvcKHnV6QKfcx6TezLk_VoNieDBXHr149wc
 id: content_editor
 label: 'Content Editor'
 weight: 4
 is_admin: null
 permissions:
   - 'access administration pages'
+  - 'access block library'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
@@ -58,12 +85,22 @@ permissions:
   - 'configure any layout'
   - 'configure editable basic_page node layout overrides'
   - 'create and edit custom blocks'
+  - 'create article_list_block block content'
   - 'create audio media'
   - 'create basic_page content'
+  - 'create content_grid block content'
+  - 'create content_list block content'
+  - 'create content_row block content'
+  - 'create content_sequence block content'
   - 'create document media'
+  - 'create events_calendar block content'
+  - 'create expandable_content block content'
   - 'create form_page content'
+  - 'create hero_unit block content'
   - 'create image media'
+  - 'create image_gallery block content'
   - 'create media'
+  - 'create slider block content'
   - 'create terms in byline'
   - 'create terms in categories'
   - 'create terms in category'
@@ -74,25 +111,81 @@ permissions:
   - 'create terms in newsletter'
   - 'create terms in tags'
   - 'create terms in ucb_person_job_type'
+  - 'create text_block block content'
   - 'create ucb_article content'
+  - 'create ucb_article_feature block content'
+  - 'create ucb_article_grid block content'
   - 'create ucb_article_list content'
+  - 'create ucb_article_slider block content'
+  - 'create ucb_category_cloud block content'
+  - 'create ucb_current_issue_block block content'
+  - 'create ucb_form block content'
+  - 'create ucb_latest_issues_block block content'
+  - 'create ucb_people_list_block block content'
   - 'create ucb_people_list_page content'
   - 'create ucb_person content'
+  - 'create ucb_slate_form block content'
+  - 'create ucb_tag_cloud block content'
   - 'create url aliases'
   - 'create video media'
+  - 'create video_reveal block content'
   - 'customize shortcut links'
   - 'delete all revisions'
+  - 'delete any article_list_block block content'
+  - 'delete any article_list_block block content revisions'
   - 'delete any audio media'
   - 'delete any basic_page content'
+  - 'delete any content_grid block content'
+  - 'delete any content_grid block content revisions'
+  - 'delete any content_list block content'
+  - 'delete any content_list block content revisions'
+  - 'delete any content_row block content'
+  - 'delete any content_row block content revisions'
+  - 'delete any content_sequence block content'
+  - 'delete any content_sequence block content revisions'
   - 'delete any document media'
+  - 'delete any events_calendar block content'
+  - 'delete any events_calendar block content revisions'
+  - 'delete any expandable_content block content'
+  - 'delete any expandable_content block content revisions'
   - 'delete any form_page content'
+  - 'delete any hero_unit block content'
+  - 'delete any hero_unit block content revisions'
   - 'delete any image media'
+  - 'delete any image_gallery block content'
+  - 'delete any image_gallery block content revisions'
   - 'delete any media'
+  - 'delete any slider block content'
+  - 'delete any slider block content revisions'
+  - 'delete any text_block block content'
+  - 'delete any text_block block content revisions'
   - 'delete any ucb_article content'
+  - 'delete any ucb_article_feature block content'
+  - 'delete any ucb_article_feature block content revisions'
+  - 'delete any ucb_article_grid block content'
+  - 'delete any ucb_article_grid block content revisions'
   - 'delete any ucb_article_list content'
+  - 'delete any ucb_article_slider block content'
+  - 'delete any ucb_article_slider block content revisions'
+  - 'delete any ucb_category_cloud block content'
+  - 'delete any ucb_category_cloud block content revisions'
+  - 'delete any ucb_current_issue_block block content'
+  - 'delete any ucb_current_issue_block block content revisions'
+  - 'delete any ucb_form block content'
+  - 'delete any ucb_form block content revisions'
+  - 'delete any ucb_latest_issues_block block content'
+  - 'delete any ucb_latest_issues_block block content revisions'
+  - 'delete any ucb_people_list_block block content'
+  - 'delete any ucb_people_list_block block content revisions'
   - 'delete any ucb_people_list_page content'
   - 'delete any ucb_person content'
+  - 'delete any ucb_slate_form block content'
+  - 'delete any ucb_slate_form block content revisions'
+  - 'delete any ucb_tag_cloud block content'
+  - 'delete any ucb_tag_cloud block content revisions'
   - 'delete any video media'
+  - 'delete any video_reveal block content'
+  - 'delete any video_reveal block content revisions'
   - 'delete basic_page revisions'
   - 'delete form_page revisions'
   - 'delete media'
@@ -121,16 +214,38 @@ permissions:
   - 'delete ucb_article_list revisions'
   - 'delete ucb_people_list_page revisions'
   - 'delete ucb_person revisions'
+  - 'edit any article_list_block block content'
   - 'edit any audio media'
   - 'edit any basic_page content'
+  - 'edit any content_grid block content'
+  - 'edit any content_list block content'
+  - 'edit any content_row block content'
+  - 'edit any content_sequence block content'
   - 'edit any document media'
+  - 'edit any events_calendar block content'
+  - 'edit any expandable_content block content'
   - 'edit any form_page content'
+  - 'edit any hero_unit block content'
   - 'edit any image media'
+  - 'edit any image_gallery block content'
+  - 'edit any slider block content'
+  - 'edit any text_block block content'
   - 'edit any ucb_article content'
+  - 'edit any ucb_article_feature block content'
+  - 'edit any ucb_article_grid block content'
   - 'edit any ucb_article_list content'
+  - 'edit any ucb_article_slider block content'
+  - 'edit any ucb_category_cloud block content'
+  - 'edit any ucb_current_issue_block block content'
+  - 'edit any ucb_form block content'
+  - 'edit any ucb_latest_issues_block block content'
+  - 'edit any ucb_people_list_block block content'
   - 'edit any ucb_people_list_page content'
   - 'edit any ucb_person content'
+  - 'edit any ucb_slate_form block content'
+  - 'edit any ucb_tag_cloud block content'
   - 'edit any video media'
+  - 'edit any video_reveal block content'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own document media'
@@ -153,6 +268,28 @@ permissions:
   - 'edit terms in ucb_person_job_type'
   - 'link to any page'
   - 'revert all revisions'
+  - 'revert any article_list_block block content revisions'
+  - 'revert any content_grid block content revisions'
+  - 'revert any content_list block content revisions'
+  - 'revert any content_row block content revisions'
+  - 'revert any content_sequence block content revisions'
+  - 'revert any events_calendar block content revisions'
+  - 'revert any expandable_content block content revisions'
+  - 'revert any hero_unit block content revisions'
+  - 'revert any image_gallery block content revisions'
+  - 'revert any slider block content revisions'
+  - 'revert any text_block block content revisions'
+  - 'revert any ucb_article_feature block content revisions'
+  - 'revert any ucb_article_grid block content revisions'
+  - 'revert any ucb_article_slider block content revisions'
+  - 'revert any ucb_category_cloud block content revisions'
+  - 'revert any ucb_current_issue_block block content revisions'
+  - 'revert any ucb_form block content revisions'
+  - 'revert any ucb_latest_issues_block block content revisions'
+  - 'revert any ucb_people_list_block block content revisions'
+  - 'revert any ucb_slate_form block content revisions'
+  - 'revert any ucb_tag_cloud block content revisions'
+  - 'revert any video_reveal block content revisions'
   - 'revert basic_page revisions'
   - 'revert form_page revisions'
   - 'revert ucb_article revisions'
@@ -166,6 +303,28 @@ permissions:
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view all revisions'
+  - 'view any article_list_block block content history'
+  - 'view any content_grid block content history'
+  - 'view any content_list block content history'
+  - 'view any content_row block content history'
+  - 'view any content_sequence block content history'
+  - 'view any events_calendar block content history'
+  - 'view any expandable_content block content history'
+  - 'view any hero_unit block content history'
+  - 'view any image_gallery block content history'
+  - 'view any slider block content history'
+  - 'view any text_block block content history'
+  - 'view any ucb_article_feature block content history'
+  - 'view any ucb_article_grid block content history'
+  - 'view any ucb_article_slider block content history'
+  - 'view any ucb_category_cloud block content history'
+  - 'view any ucb_current_issue_block block content history'
+  - 'view any ucb_form block content history'
+  - 'view any ucb_latest_issues_block block content history'
+  - 'view any ucb_people_list_block block content history'
+  - 'view any ucb_slate_form block content history'
+  - 'view any ucb_tag_cloud block content history'
+  - 'view any video_reveal block content history'
   - 'view basic_page revisions'
   - 'view form_page revisions'
   - 'view own unpublished content'
