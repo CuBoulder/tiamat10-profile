@@ -79,6 +79,7 @@ install:
   - shortcode
   - ucb_migration_shortcodes
   - ucb_third_party_libraries
+  - ucb_default_content
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.

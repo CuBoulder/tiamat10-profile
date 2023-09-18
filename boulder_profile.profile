@@ -25,20 +25,3 @@ function boulder_profile_form_install_configure_submit($form, FormStateInterface
   ContactForm::load('feedback')->setRecipients([$site_mail])->trustData()->save();
 }
 
-/**
- * Implements hook_modules_installed().
- *
- * @param $modules
- * Install syslog and uninstall dblog if site is not local
- * Install default content for the site
- */
-function boulder_profile_modules_installed( $modules ){
-  if( in_array('boulder_profile', $modules )){
-    $installer = \Drupal::service('module_installer');
-    // install or uninstall modules once the profile has installed
-    $installer->install([
-      'ucb_default_content'
-    ]);
-    \Drupal::logger('boulder_profile')->notice('Installed CU Default Homepage Content');
-  }
-}

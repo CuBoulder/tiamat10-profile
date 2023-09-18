@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Refactoring Installation of CU Default Content
+  Resolves CuBoulder/tiamat-theme#488
+  
+---
+
 ## [20230918] - 2023-09-18
 
 -   ### Changing permissions for Content Editor
