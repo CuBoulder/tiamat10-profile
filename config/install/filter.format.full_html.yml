@@ -1,4 +1,3 @@
-uuid: 79024a0f-06ca-48e7-b6ef-720a2f4f9e73
 langcode: en
 status: true
 dependencies:
@@ -16,8 +15,8 @@ dependencies:
     - editor
     - entity_embed
     - media
-_core:
-  default_config_hash: QPTmQxe-7BR8rBwwvw5XRyAvbwqSN8rGET57-nLhBKA
+    - shortcode
+    - ucb_ckeditor_plugins
 name: 'Full HTML'
 format: full_html
 weight: 1
@@ -106,15 +105,43 @@ filters:
     status: false
     weight: -42
     settings: {  }
-  filter_map_embed:
-    id: filter_map_embed
-    provider: ucb_ckeditor_plugins
-    status: true
-    weight: 10
-    settings: {  }
   filter_calendar_embed:
     id: filter_calendar_embed
     provider: ucb_ckeditor_plugins
     status: true
     weight: 10
     settings: {  }
+  filter_map_embed:
+    id: filter_map_embed
+    provider: ucb_ckeditor_plugins
+    status: true
+    weight: 10
+    settings: {  }
+  shortcode:
+    id: shortcode
+    provider: shortcode
+    status: false
+    weight: 0
+    settings:
+      blockquote: '1'
+      box: '1'
+      buttongroup: '1'
+      button: '1'
+      callout: '1'
+      clear: '1'
+      close-margin: '1'
+      columnlist: '1'
+      column: '1'
+      countup: '1'
+      countdown: '1'
+      expand: '1'
+      give: '1'
+      googlecalendar: '1'
+      icon: '1'
+      imagecaption: '1'
+      invisible: '1'
+      listitem: '1'
+      map: '1'
+      masonry-images: '1'
+      print: '1'
+      responsive-table: '1'

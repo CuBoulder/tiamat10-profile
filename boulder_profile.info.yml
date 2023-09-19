@@ -36,6 +36,7 @@ install:
   - views_ui
   - editor
   - ckeditor5
+  - ckeditor5_icons
   - metatag
   - metatag_open_graph
   - ucb_ckeditor_plugins
