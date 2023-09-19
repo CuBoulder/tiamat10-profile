@@ -1,4 +1,3 @@
-uuid: df5da3f9-3fcf-4827-a714-24fffb80e43f
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - filter.format.full_html
   module:
     - ckeditor5
-_core:
-  default_config_hash: '--vgnLnNuLQRo14mW9U1kYpjPS3DpxGW2GEEZizuLOY'
 format: full_html
 editor: ckeditor5
 settings:
@@ -23,6 +20,8 @@ settings:
       - '|'
       - bulletedList
       - numberedList
+      - specialCharacters
+      - icon
       - insertTable
       - '|'
       - heading
@@ -30,14 +29,58 @@ settings:
       - codeBlock
       - code
       - '|'
-      - 'box'
-      - 'button'
-      - 'buttongroup'
-      - 'map'
-      - 'calendar'
-      - 'tooltip'
-      - 'invisible'
+      - box
+      - button
+      - buttongroup
+      - map
+      - calendar
+      - tooltip
+      - invisible
   plugins:
+    ckeditor5_codeBlock:
+      languages:
+        -
+          label: 'Plain text'
+          language: plaintext
+        -
+          label: C
+          language: c
+        -
+          label: 'C#'
+          language: cs
+        -
+          label: C++
+          language: cpp
+        -
+          label: CSS
+          language: css
+        -
+          label: Diff
+          language: diff
+        -
+          label: HTML
+          language: html
+        -
+          label: Java
+          language: java
+        -
+          label: JavaScript
+          language: javascript
+        -
+          label: PHP
+          language: php
+        -
+          label: Python
+          language: python
+        -
+          label: Ruby
+          language: ruby
+        -
+          label: TypeScript
+          language: typescript
+        -
+          label: XML
+          language: xml
     ckeditor5_heading:
       enabled_headings:
         - heading2
@@ -45,11 +88,20 @@ settings:
         - heading4
         - heading5
         - heading6
-    ckeditor5_sourceEditing:
-      allowed_tags: {  }
+    ckeditor5_icons_icon:
+      fa_version: '6'
+      fa_styles:
+        - solid
+        - regular
+        - brands
+      custom_metadata: false
+      async_metadata: true
+      recommended_enabled: false
     ckeditor5_list:
       reversed: true
       startIndex: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
     media_media:
       allow_view_mode_override: true
 image_upload: {  }

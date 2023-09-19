@@ -1,4 +1,3 @@
-uuid: a1359cf9-864c-479f-9139-d0844a6244a3
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - filter.format.wysiwyg
   module:
     - ckeditor5
-_core:
-  default_config_hash: wdHdLeMerwpZ1bNQ6TMbz7GJJxeQKX2RcKuORXLlyxY
 format: wysiwyg
 editor: ckeditor5
 settings:
@@ -32,20 +29,26 @@ settings:
       - '|'
       - horizontalLine
       - specialCharacters
+      - icon
       - insertTable
       - '|'
       - heading
       - '|'
       - removeFormat
       - '|'
-      - 'box'
-      - 'button'
-      - 'buttongroup'
-      - 'map'
-      - 'calendar'
-      - 'tooltip'
-      - 'invisible'
+      - box
+      - button
+      - buttongroup
+      - map
+      - calendar
+      - tooltip
+      - invisible
   plugins:
+    ckeditor5_alignment:
+      enabled_alignments:
+        - center
+        - left
+        - right
     ckeditor5_heading:
       enabled_headings:
         - heading2
@@ -53,14 +56,18 @@ settings:
         - heading4
         - heading5
         - heading6
+    ckeditor5_icons_icon:
+      fa_version: '6'
+      fa_styles:
+        - solid
+        - regular
+        - brands
+      custom_metadata: false
+      async_metadata: true
+      recommended_enabled: false
     ckeditor5_list:
       reversed: true
       startIndex: true
-    ckeditor5_alignment:
-      enabled_alignments:
-        - left
-        - center
-        - right
     media_media:
       allow_view_mode_override: true
 image_upload:

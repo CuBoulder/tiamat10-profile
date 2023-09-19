@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Installs and enables CKEditor 5 Icons
+  Installs and enables the [CKEditor 5 Icons](https://www.drupal.org/project/ckeditor5_icons) contrib module and the Icon plugin.
+  
+  Resolves CuBoulder/tiamat-theme#372
+---
+
 - ### Refactoring Installation of CU Default Content
   Resolves CuBoulder/tiamat-theme#488
   
