@@ -76,6 +76,7 @@ install:
   - ucb_site_configuration
   - ucb_campus_news
   - ucb_user_invite
+  - ucb_person_title
   - ucb_focal_image_enable
   - ucb_bootstrap_layouts
   - media_library_form_element
@@ -83,8 +84,7 @@ install:
   - ucb_migration_shortcodes
   - ucb_third_party_libraries
   - ucb_default_content
-  - hook_event_dispatcher
-  
+
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
 dependencies:
