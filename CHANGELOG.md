@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Fixes UCB Person Page custom modules
+  Adds the fixed versions of `UCB Person Title` and `UCB Article Author` to template and profile. Allows First and Last Name fields to create a Person Page title, getting rid of the need to enter a title for these pages. Also automatically creates a Byline taxonomy for newly created Person Pages, for use in the Byline field. 
+  
+  Includes:
+  
+  - `tiamat10-project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/15 (`issue/ucb_person_title/2`)
+  -  `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/28 (`issue/ucb_person_title/2`)
+  -  `ucb_person_title` => https://github.com/CuBoulder/ucb_person_title/pull/4 (`issue/2`)
+  -  `ucb_article_author` => https://github.com/CuBoulder/ucb_article_author/pull/2 (`issue/1`)
+  
+  Resolves https://github.com/CuBoulder/ucb_article_author/issues/1, Resolves https://github.com/CuBoulder/ucb_person_title/issues/2
+---
+
 - ### Installs and enables CKEditor 5 Icons
   Installs and enables the [CKEditor 5 Icons](https://www.drupal.org/project/ckeditor5_icons) contrib module and the Icon plugin.
   
