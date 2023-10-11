@@ -19,6 +19,9 @@ function boulder_profile_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
+  // Sets the site mail.
+  \Drupal::configFactory()->getEditable('system.site')->set('mail', 'webexpress_noreply@colorado.edu');
+
   /**
    * Create inital users for the Web Team
    */
