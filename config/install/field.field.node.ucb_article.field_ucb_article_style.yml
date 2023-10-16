@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_article_style
+    - node.type.ucb_article
+  module:
+    - options
+id: node.ucb_article.field_ucb_article_style
+field_name: field_ucb_article_style
+entity_type: node
+bundle: ucb_article
+label: 'Page style'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

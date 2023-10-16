@@ -1,0 +1,72 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_sequence
+    - field.storage.block_content.field_content_sequence_items
+    - paragraphs.paragraphs_type.content_sequence_item
+  module:
+    - entity_reference_revisions
+id: block_content.content_sequence.field_content_sequence_items
+field_name: field_content_sequence_items
+entity_type: block_content
+bundle: content_sequence
+label: Items
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      content_sequence_item: content_sequence_item
+    negate: 0
+    target_bundles_drag_drop:
+      article_content:
+        weight: 16
+        enabled: false
+      blockquote:
+        weight: 17
+        enabled: false
+      content_sequence_item:
+        weight: 18
+        enabled: true
+      expandable_content_text:
+        weight: 19
+        enabled: false
+      grid_layout_content:
+        weight: 20
+        enabled: false
+      how_to_step:
+        weight: 21
+        enabled: false
+      media:
+        weight: 22
+        enabled: false
+      newsletter_section:
+        weight: 23
+        enabled: false
+      newsletter_section_article:
+        weight: 24
+        enabled: false
+      newsletter_section_content:
+        weight: 25
+        enabled: false
+      row_layout_content:
+        weight: 26
+        enabled: false
+      slider_image:
+        weight: 27
+        enabled: false
+      ucb_article_hero:
+        weight: 28
+        enabled: false
+      ucb_issue_section:
+        weight: 29
+        enabled: false
+      ucb_related_articles_block:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

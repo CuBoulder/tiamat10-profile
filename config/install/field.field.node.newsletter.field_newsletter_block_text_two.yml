@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_block_text_two
+    - filter.format.full_html
+    - filter.format.wysiwyg
+    - node.type.newsletter
+  module:
+    - text
+id: node.newsletter.field_newsletter_block_text_two
+field_name: field_newsletter_block_text_two
+entity_type: node
+bundle: newsletter
+label: 'Second Block Text'
+description: 'Right hand text block that will display beneath Sections'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter_section_article
+label: 'Newsletter Section Article'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph used for linking article content for UCB Newsletter sections'
+behavior_plugins: {  }

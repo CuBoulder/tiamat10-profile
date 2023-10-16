@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_newsletter_content_text
+    - filter.format.full_html
+    - filter.format.wysiwyg
+    - paragraphs.paragraphs_type.newsletter_section_content
+  module:
+    - text
+id: paragraph.newsletter_section_content.field_newsletter_content_text
+field_name: field_newsletter_content_text
+entity_type: paragraph
+bundle: newsletter_section_content
+label: Text
+description: 'Main text block for newsletter section content'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

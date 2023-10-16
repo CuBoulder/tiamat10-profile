@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_list
+label: 'Content List'
+revision: 0
+description: 'Use this block to create a generic list of content on your site.'

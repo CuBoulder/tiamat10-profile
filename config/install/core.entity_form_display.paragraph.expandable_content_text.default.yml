@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.expandable_content_text.field_expandable_content_body
+    - field.field.paragraph.expandable_content_text.field_expandable_content_title
+    - paragraphs.paragraphs_type.expandable_content_text
+  module:
+    - text
+id: paragraph.expandable_content_text.default
+targetEntityType: paragraph
+bundle: expandable_content_text
+mode: default
+content:
+  field_expandable_content_body:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_expandable_content_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

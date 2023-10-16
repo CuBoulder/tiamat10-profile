@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_slate_form
+    - field.field.block_content.ucb_slate_form.body
+    - field.field.block_content.ucb_slate_form.field_ucb_slate_form_domain
+    - field.field.block_content.ucb_slate_form.field_ucb_slate_form_id
+  module:
+    - link
+id: block_content.ucb_slate_form.default
+targetEntityType: block_content
+bundle: ucb_slate_form
+mode: default
+content:
+  field_ucb_slate_form_domain:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_ucb_slate_form_id:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  info: true

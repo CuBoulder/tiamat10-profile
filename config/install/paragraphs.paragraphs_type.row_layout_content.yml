@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: row_layout_content
+label: 'Row Layout Content'
+icon_uuid: null
+icon_default: null
+description: 'Actual content fields for row layouts'
+behavior_plugins: {  }

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slider
+label: Slider
+revision: 0
+description: 'A rotating image/content slider'

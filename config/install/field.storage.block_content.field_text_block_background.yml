@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_text_block_background
+field_name: field_text_block_background
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: None
+    -
+      value: '1'
+      label: 'Light Gray'
+    -
+      value: '2'
+      label: 'Dark Gray'
+    -
+      value: '3'
+      label: Black
+    -
+      value: '4'
+      label: Gold
+    - 
+      value: '5'
+      label: White
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

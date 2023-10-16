@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.newsletter.field_newsletter_design
+    - field.field.taxonomy_term.newsletter.field_newsletter_footer
+    - field.field.taxonomy_term.newsletter.field_newsletter_name_image
+    - field.field.taxonomy_term.newsletter.field_newsletter_path
+    - taxonomy.vocabulary.newsletter
+  module:
+    - image
+    - options
+    - text
+id: taxonomy_term.newsletter.default
+targetEntityType: taxonomy_term
+bundle: newsletter
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_newsletter_design:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_newsletter_footer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_newsletter_name_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_newsletter_path:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

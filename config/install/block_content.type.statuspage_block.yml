@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: statuspage_block
+label: 'Statuspage Block'
+revision: 0
+description: 'Creates a placeable block showing the current status of a Statuspage.io site'

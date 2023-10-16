@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_promo_image_two
+    - media.type.image
+    - node.type.newsletter
+id: node.newsletter.field_newsletter_promo_image_two
+field_name: field_newsletter_promo_image_two
+entity_type: node
+bundle: newsletter
+label: 'Second Promo Image'
+description: 'This image will display below the blocks section and be linked.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

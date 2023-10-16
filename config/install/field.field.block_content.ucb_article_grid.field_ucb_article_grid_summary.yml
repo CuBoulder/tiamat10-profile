@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_grid
+    - field.storage.block_content.field_ucb_article_grid_summary
+id: block_content.ucb_article_grid.field_ucb_article_grid_summary
+field_name: field_ucb_article_grid_summary
+entity_type: block_content
+bundle: ucb_article_grid
+label: 'Include Summary'
+description: 'Choose whether or not to display Article summaries below the thumbnail image'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

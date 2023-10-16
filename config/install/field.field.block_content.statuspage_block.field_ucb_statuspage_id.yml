@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statuspage_block
+    - field.storage.block_content.field_ucb_statuspage_id
+id: block_content.statuspage_block.field_ucb_statuspage_id
+field_name: field_ucb_statuspage_id
+entity_type: block_content
+bundle: statuspage_block
+label: 'Page ID'
+description: 'Provide your page ID for the third-party StatusPage.io service'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

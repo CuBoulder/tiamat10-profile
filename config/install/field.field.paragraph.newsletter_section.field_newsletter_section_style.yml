@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_newsletter_section_style
+    - paragraphs.paragraphs_type.newsletter_section
+  module:
+    - options
+id: paragraph.newsletter_section.field_newsletter_section_style
+field_name: field_newsletter_section_style
+entity_type: paragraph
+bundle: newsletter_section
+label: 'Section Style'
+description: "Two display types for section content.\r\nFeature: Image on top, followed by title, categories, and summary text\r\nTeaser: Floated smaller square images, title, categories, summary text"
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

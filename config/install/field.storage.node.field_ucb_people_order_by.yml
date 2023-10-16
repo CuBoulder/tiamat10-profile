@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ucb_people_order_by
+field_name: field_ucb_people_order_by
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: last
+      label: 'Last Name'
+    -
+      value: type
+      label: 'Job Type, Last Name'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

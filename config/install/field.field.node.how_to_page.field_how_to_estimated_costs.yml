@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_how_to_estimated_costs
+    - node.type.how_to_page
+id: node.how_to_page.field_how_to_estimated_costs
+field_name: field_how_to_estimated_costs
+entity_type: node
+bundle: how_to_page
+label: 'Estimated Cost'
+description: 'A value expressed as a USD amount (e.g. 450.50) to show the estimated cost of the project.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

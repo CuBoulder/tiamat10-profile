@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_article_media_location
+    - paragraphs.paragraphs_type.article_content
+  module:
+    - options
+id: paragraph.article_content.field_article_media_location
+field_name: field_article_media_location
+entity_type: paragraph
+bundle: article_content
+label: 'Article Media Location'
+description: "Options for media placement. \r\nTop/Bottom is good for wide images while Left/Right are good for tall images."
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

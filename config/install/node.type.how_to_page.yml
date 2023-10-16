@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - secondary
+      - footer
+    parent: 'main:'
+name: 'How-To Page'
+type: how_to_page
+description: 'A page to show a process or project. This page will use information gathered to make a widget on google searches related to the page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

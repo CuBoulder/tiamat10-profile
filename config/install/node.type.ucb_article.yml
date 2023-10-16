@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Article
+type: ucb_article
+description: 'Content type for displaying time-sensitive information like news, announcements or blog posts.  '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

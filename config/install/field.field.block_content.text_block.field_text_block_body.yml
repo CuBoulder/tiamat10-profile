@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_block
+    - field.storage.block_content.field_text_block_body
+    - filter.format.full_html
+    - filter.format.wysiwyg
+  module:
+    - text
+id: block_content.text_block.field_text_block_body
+field_name: field_text_block_body
+entity_type: block_content
+bundle: text_block
+label: Body
+description: 'Add your text and images here'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

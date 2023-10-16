@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_align
+    - paragraphs.paragraphs_type.ucb_article_hero
+  module:
+    - options
+id: paragraph.ucb_article_hero.field_text_align
+field_name: field_text_align
+entity_type: paragraph
+bundle: ucb_article_hero
+label: 'Text Align'
+description: 'Set the text alignment'
+required: true
+translatable: false
+default_value:
+  -
+    value: text-left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

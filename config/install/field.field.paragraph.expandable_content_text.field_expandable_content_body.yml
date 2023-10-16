@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_expandable_content_body
+    - filter.format.full_html
+    - filter.format.wysiwyg
+    - paragraphs.paragraphs_type.expandable_content_text
+  module:
+    - text
+id: paragraph.expandable_content_text.field_expandable_content_body
+field_name: field_expandable_content_body
+entity_type: paragraph
+bundle: expandable_content_text
+label: 'Expandable Content Body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_header_image_text
+    - node.type.ucb_article
+id: node.ucb_article.field_article_header_image_text
+field_name: field_article_header_image_text
+entity_type: node
+bundle: ucb_article
+label: 'Header Image Optional Text'
+description: 'Adds an optional line of text beneath the Article date and byline. Useful for adding supplemental Article Header Image information such as an attribution.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_people_filter_2_s
+    - node.type.ucb_people_list_page
+id: node.ucb_people_list_page.field_ucb_people_filter_2_s
+field_name: field_ucb_people_filter_2_s
+entity_type: node
+bundle: ucb_people_list_page
+label: 'Allow visitors to filter by Filter 2'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

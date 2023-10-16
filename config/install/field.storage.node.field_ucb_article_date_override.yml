@@ -1,0 +1,44 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_ucb_article_date_override
+field_name: field_ucb_article_date_override
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: None
+    -
+      value: '1'
+      label: 'Short Date'
+    -
+      value: '2'
+      label: 'Medium Date'
+    -
+      value: '3'
+      label: 'Long Date'
+    -
+      value: '4'
+      label: 'Short Date with Time'
+    -
+      value: '5'
+      label: 'Medium Date with Time'
+    -
+      value: '6'
+      label: 'Long Date with Time'
+    -
+      value: '7'
+      label: 'Hide Date/Time'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

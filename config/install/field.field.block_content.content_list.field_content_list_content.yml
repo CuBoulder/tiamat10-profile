@@ -1,0 +1,34 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_list
+    - field.storage.block_content.field_content_list_content
+    - node.type.basic_page
+    - node.type.how_to_page
+    - node.type.ucb_article
+    - node.type.ucb_person
+id: block_content.content_list.field_content_list_content
+field_name: field_content_list_content
+entity_type: block_content
+bundle: content_list
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ucb_article: ucb_article
+      basic_page: basic_page
+      how_to_page: how_to_page
+      ucb_person: ucb_person
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ucb_article
+field_type: entity_reference

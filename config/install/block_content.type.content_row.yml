@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_row
+label: 'Content Row'
+revision: 0
+description: "A paragraph that allows users to select different types of grid layouts to display content. \r\nTeasers\r\nTeasers Alternate\r\nTiles\r\nFeatures (3 cells Only)"

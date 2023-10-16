@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_grid
+    - field.storage.block_content.field_grid_layout_content
+    - paragraphs.paragraphs_type.grid_layout_content
+  module:
+    - entity_reference_revisions
+id: block_content.content_grid.field_grid_layout_content
+field_name: field_grid_layout_content
+entity_type: block_content
+bundle: content_grid
+label: 'Grid Layout Content'
+description: 'Add your grid''s content here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      grid_layout_content: grid_layout_content
+    negate: 0
+    target_bundles_drag_drop:
+      expandable_content_text:
+        weight: 2
+        enabled: false
+      grid_layout_content:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

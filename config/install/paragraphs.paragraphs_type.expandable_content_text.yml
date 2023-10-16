@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: expandable_content_text
+label: 'Expandable Content Text'
+icon_uuid: null
+icon_default: null
+description: 'Title and text used for tabbed and accordion content'
+behavior_plugins: {  }

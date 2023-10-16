@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: article_list_block
+label: 'Article List Block'
+revision: 0
+description: 'A block containing a list of Articles, similar to an Article List page. Includes configuration options such as category and tag include/exclude filters, block style customization, and # of items to display.'

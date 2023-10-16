@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_issue_section
+    - node.type.ucb_issue
+    - paragraphs.paragraphs_type.ucb_issue_section
+  module:
+    - entity_reference_revisions
+id: node.ucb_issue.field_ucb_issue_section
+field_name: field_ucb_issue_section
+entity_type: node
+bundle: ucb_issue
+label: 'Issue Section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ucb_issue_section: ucb_issue_section
+    negate: 0
+    target_bundles_drag_drop:
+      article_content:
+        weight: 15
+        enabled: false
+      blockquote:
+        weight: 16
+        enabled: false
+      expandable_content_text:
+        weight: 17
+        enabled: false
+      grid_layout_content:
+        weight: 18
+        enabled: false
+      how_to_step:
+        weight: 19
+        enabled: false
+      media:
+        weight: 20
+        enabled: false
+      newsletter_section:
+        weight: 21
+        enabled: false
+      newsletter_section_article:
+        weight: 22
+        enabled: false
+      newsletter_section_content:
+        weight: 23
+        enabled: false
+      row_layout_content:
+        weight: 24
+        enabled: false
+      slider_image:
+        weight: 25
+        enabled: false
+      ucb_article_hero:
+        weight: 26
+        enabled: false
+      ucb_issue_section:
+        weight: 27
+        enabled: true
+      ucb_related_articles_block:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

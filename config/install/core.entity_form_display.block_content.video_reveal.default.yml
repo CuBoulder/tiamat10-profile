@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_reveal
+    - field.field.block_content.video_reveal.field_video_reveal_image
+    - field.field.block_content.video_reveal.field_video_reveal_text
+    - field.field.block_content.video_reveal.field_video_reveal_video
+  module:
+    - media_library
+id: block_content.video_reveal.default
+targetEntityType: block_content
+bundle: video_reveal
+mode: default
+content:
+  field_video_reveal_image:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_video_reveal_text:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_video_reveal_video:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

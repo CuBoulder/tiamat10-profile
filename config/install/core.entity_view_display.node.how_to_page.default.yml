@@ -1,0 +1,75 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.how_to_page.body
+    - field.field.node.how_to_page.field_how_to_estimated_costs
+    - field.field.node.how_to_page.field_how_to_initial_image
+    - field.field.node.how_to_page.field_how_to_materials
+    - field.field.node.how_to_page.field_how_to_steps
+    - field.field.node.how_to_page.field_how_to_tools
+    - node.type.how_to_page
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.how_to_page.default
+targetEntityType: node
+bundle: how_to_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_how_to_estimated_costs:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_how_to_initial_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_how_to_materials:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_how_to_steps:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_how_to_tools:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

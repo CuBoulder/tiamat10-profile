@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_list
+    - field.storage.block_content.field_content_list_sort
+  module:
+    - options
+id: block_content.content_list.field_content_list_sort
+field_name: field_content_list_sort
+entity_type: block_content
+bundle: content_list
+label: Sort
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: custom
+default_value_callback: ''
+settings: {  }
+field_type: list_string

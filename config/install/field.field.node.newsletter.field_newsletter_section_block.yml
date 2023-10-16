@@ -1,0 +1,66 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_section_block
+    - node.type.newsletter
+    - paragraphs.paragraphs_type.newsletter_section
+  module:
+    - entity_reference_revisions
+id: node.newsletter.field_newsletter_section_block
+field_name: field_newsletter_section_block
+entity_type: node
+bundle: newsletter
+label: 'Section Content'
+description: 'Section where you can either show articles related to your newsletter or create custom content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      newsletter_section: newsletter_section
+    negate: 0
+    target_bundles_drag_drop:
+      article_content:
+        weight: 14
+        enabled: false
+      blockquote:
+        weight: 15
+        enabled: false
+      expandable_content_text:
+        weight: 16
+        enabled: false
+      grid_layout_content:
+        weight: 17
+        enabled: false
+      how_to_step:
+        weight: 18
+        enabled: false
+      media:
+        weight: 19
+        enabled: false
+      newsletter_section:
+        weight: 20
+        enabled: true
+      newsletter_section_article:
+        weight: 21
+        enabled: false
+      newsletter_section_content:
+        weight: 22
+        enabled: false
+      row_layout_content:
+        weight: 23
+        enabled: false
+      slider_image:
+        weight: 24
+        enabled: false
+      ucb_article_hero:
+        weight: 25
+        enabled: false
+      ucb_related_articles_block:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,68 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_sequence
+    - field.field.block_content.content_sequence.body
+    - field.field.block_content.content_sequence.field_content_sequence_display
+    - field.field.block_content.content_sequence.field_content_sequence_items
+    - field.field.block_content.content_sequence.field_content_sequence_media
+    - field.field.block_content.content_sequence.field_content_sequence_scale
+    - field.field.block_content.content_sequence.field_content_sequence_title
+  module:
+    - entity_reference_revisions
+    - options
+    - text
+id: block_content.content_sequence.default
+targetEntityType: block_content
+bundle: content_sequence
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_content_sequence_display:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_content_sequence_items:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_content_sequence_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_content_sequence_scale:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_content_sequence_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

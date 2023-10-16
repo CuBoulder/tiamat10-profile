@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_article_slider
+label: 'Article Slider'
+revision: 0
+description: 'Displays a maximum of 6 Articles in an interactive slider. Articles must have a thumbnail to appear here'

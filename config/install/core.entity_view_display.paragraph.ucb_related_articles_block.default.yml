@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ucb_related_articles_block.field_ucb_related_articles_bool
+    - paragraphs.paragraphs_type.ucb_related_articles_block
+id: paragraph.ucb_related_articles_block.default
+targetEntityType: paragraph
+bundle: ucb_related_articles_block
+mode: default
+content:
+  field_ucb_related_articles_bool:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

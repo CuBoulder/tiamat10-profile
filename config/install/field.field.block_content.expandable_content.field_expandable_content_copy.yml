@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.expandable_content
+    - field.storage.block_content.field_expandable_content_copy
+    - paragraphs.paragraphs_type.expandable_content_text
+  module:
+    - entity_reference_revisions
+id: block_content.expandable_content.field_expandable_content_copy
+field_name: field_expandable_content_copy
+entity_type: block_content
+bundle: expandable_content
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      expandable_content_text: expandable_content_text
+    negate: 0
+    target_bundles_drag_drop:
+      expandable_content_text:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

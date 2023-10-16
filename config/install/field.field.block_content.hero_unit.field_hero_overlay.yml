@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_unit
+    - field.storage.block_content.field_hero_overlay
+id: block_content.hero_unit.field_hero_overlay
+field_name: field_hero_overlay
+entity_type: block_content
+bundle: hero_unit
+label: Overlay
+description: 'Add overlay to improve readability'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

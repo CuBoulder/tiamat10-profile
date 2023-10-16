@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.newsletter_section_content.field_news_content_categories
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_image
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_text
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_title
+    - paragraphs.paragraphs_type.newsletter_section_content
+  module:
+    - media_library
+    - text
+id: paragraph.newsletter_section_content.default
+targetEntityType: paragraph
+bundle: newsletter_section_content
+mode: default
+content:
+  field_news_content_categories:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_content_image:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_newsletter_content_text:
+    type: text_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_content_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

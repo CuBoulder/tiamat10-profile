@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_people_list_block
+    - field.field.block_content.ucb_people_list_block.body
+    - field.field.block_content.ucb_people_list_block.field_people_block_department
+    - field.field.block_content.ucb_people_list_block.field_people_block_display
+    - field.field.block_content.ucb_people_list_block.field_people_block_filter_1
+    - field.field.block_content.ucb_people_list_block.field_people_block_filter_2
+    - field.field.block_content.ucb_people_list_block.field_people_block_filter_3
+    - field.field.block_content.ucb_people_list_block.field_people_block_job_type
+  module:
+    - options
+    - text
+id: block_content.ucb_people_list_block.default
+targetEntityType: block_content
+bundle: ucb_people_list_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_people_block_department:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_people_block_display:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_people_block_filter_1:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_people_block_filter_2:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_people_block_filter_3:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_people_block_job_type:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ucb_related_articles_bool
+    - paragraphs.paragraphs_type.ucb_related_articles_block
+id: paragraph.ucb_related_articles_block.field_ucb_related_articles_bool
+field_name: field_ucb_related_articles_bool
+entity_type: paragraph
+bundle: ucb_related_articles_block
+label: 'Related Articles'
+description: 'Enable a section showing related articles. You can configure your Excluded Categories and Tags In Configuration / CU Boulder site settings / Related Articles'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Related Articles'
+  off_label: 'Off'
+field_type: boolean

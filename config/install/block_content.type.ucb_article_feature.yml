@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_article_feature
+label: 'Article Feature'
+revision: 0
+description: 'The Article Feature block displays the latest articles with the first article displaying a large image and summary and the remaining articles displaying titles and thumbnails. Articles must have a thumbnail set to display here.'

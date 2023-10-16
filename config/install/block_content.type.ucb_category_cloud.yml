@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_category_cloud
+label: 'Category Cloud'
+revision: 0
+description: 'This block will display all Category taxonomy terms. Each term is linked to its category list page. This is a nice block to use as a search block.'

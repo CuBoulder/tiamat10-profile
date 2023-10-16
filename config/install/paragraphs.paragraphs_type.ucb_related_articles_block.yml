@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_related_articles_block
+label: 'Related Articles'
+icon_uuid: null
+icon_default: null
+description: 'The related articles block is a block which can be placed on articles which will show up to 3 other articles that are similar.'
+behavior_plugins: {  }

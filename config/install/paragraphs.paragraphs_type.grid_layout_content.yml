@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: grid_layout_content
+label: 'Grid Layout Content'
+icon_uuid: null
+icon_default: null
+description: 'Actual content fields for grid layouts'
+behavior_plugins: {  }

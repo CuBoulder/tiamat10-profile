@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: expandable_content
+label: 'Expandable Content'
+revision: 0
+description: 'A paragraph that allows users to implement tab and accordion content on their web page.'

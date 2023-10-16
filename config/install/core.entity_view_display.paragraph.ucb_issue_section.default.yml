@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_article_select
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_section_style
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_section_title
+    - paragraphs.paragraphs_type.ucb_issue_section
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.ucb_issue_section.default
+targetEntityType: paragraph
+bundle: ucb_issue_section
+mode: default
+content:
+  field_ucb_issue_article_select:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ucb_issue_section_style:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_ucb_issue_section_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

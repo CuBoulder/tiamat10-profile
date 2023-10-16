@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.events_calendar
+    - field.storage.block_content.field_calendar_code
+id: block_content.events_calendar.field_calendar_code
+field_name: field_calendar_code
+entity_type: block_content
+bundle: events_calendar
+label: 'Calendar Code'
+description: 'Add automatically generated calendar code from https://calendar.colorado.edu/help/widget to this section to display your event calendar. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

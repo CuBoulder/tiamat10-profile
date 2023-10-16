@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_article_blockquote_icon
+field_name: field_article_blockquote_icon
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Quote
+    -
+      value: '1'
+      label: 'Exclamation Mark'
+    -
+      value: '2'
+      label: 'Question Mark'
+    -
+      value: '3'
+      label: Lightbulb
+    -
+      value: '4'
+      label: Person
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

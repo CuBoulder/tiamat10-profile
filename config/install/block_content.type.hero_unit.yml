@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: hero_unit
+label: 'Hero Unit'
+revision: 1
+description: 'A lightweight, flexible component to showcase key content on your site'

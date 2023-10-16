@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_author_person_page
+    - node.type.ucb_person
+    - taxonomy.vocabulary.byline
+id: taxonomy_term.byline.field_author_person_page
+field_name: field_author_person_page
+entity_type: taxonomy_term
+bundle: byline
+label: 'Author Person Page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ucb_person: ucb_person
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

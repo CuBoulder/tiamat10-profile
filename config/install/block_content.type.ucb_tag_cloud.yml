@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_tag_cloud
+label: 'Tag Cloud'
+revision: 0
+description: 'This block will display all Tag taxonomy terms. Each term is linked to its Tag List page. This is a nice block to use as a search block.'

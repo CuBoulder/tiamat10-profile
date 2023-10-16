@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.article_content.field_article_media_location
+    - field.field.paragraph.article_content.field_article_media_selection
+    - field.field.paragraph.article_content.field_article_text
+    - paragraphs.paragraphs_type.article_content
+  module:
+    - entity_reference_revisions
+    - options
+    - text
+id: paragraph.article_content.default
+targetEntityType: paragraph
+bundle: article_content
+mode: default
+content:
+  field_article_media_location:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_article_media_selection:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_article_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_newsletter_footer
+    - filter.format.full_html
+    - filter.format.wysiwyg
+    - taxonomy.vocabulary.newsletter
+  module:
+    - text
+id: taxonomy_term.newsletter.field_newsletter_footer
+field_name: field_newsletter_footer
+entity_type: taxonomy_term
+bundle: newsletter
+label: 'Email Footer'
+description: 'This text is displayed at the bottom of the email version of a newsletter.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

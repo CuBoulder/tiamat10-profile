@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_promo_link_one
+    - node.type.newsletter
+  module:
+    - link
+id: node.newsletter.field_newsletter_promo_link_one
+field_name: field_newsletter_promo_link_one
+entity_type: node
+bundle: newsletter
+label: "First Promo Link\t"
+description: 'This image link for the first promo.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

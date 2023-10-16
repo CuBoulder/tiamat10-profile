@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_slider
+    - field.storage.block_content.field_article_slider_tag_exclude
+    - taxonomy.vocabulary.tags
+id: block_content.ucb_article_slider.field_article_slider_tag_exclude
+field_name: field_article_slider_tag_exclude
+entity_type: block_content
+bundle: ucb_article_slider
+label: 'Tag Exclude'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

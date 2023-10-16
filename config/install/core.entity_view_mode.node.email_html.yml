@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.email_html
+label: 'Email HTML'
+targetEntityType: node
+cache: true

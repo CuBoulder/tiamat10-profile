@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_newsletter_design
+field_name: field_newsletter_design
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: classic
+      label: Classic
+    -
+      value: minimal
+      label: Minimal
+    -
+      value: lightbox
+      label: 'Light Boxed'
+    -
+      value: darkbox
+      label: 'Dark Boxed'
+    -
+      value: simple
+      label: Simple
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

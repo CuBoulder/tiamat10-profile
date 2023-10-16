@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_grid
+    - field.storage.block_content.field_ucb_article_grid_cat_inc
+    - taxonomy.vocabulary.category
+id: block_content.ucb_article_grid.field_ucb_article_grid_cat_inc
+field_name: field_ucb_article_grid_cat_inc
+entity_type: block_content
+bundle: ucb_article_grid
+label: 'Category Include'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

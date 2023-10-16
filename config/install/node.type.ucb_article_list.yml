@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - secondary
+      - footer
+    parent: 'main:'
+name: 'Article List'
+type: ucb_article_list
+description: 'The Article List Page pulls together all articles with the same categories and/or tags and aggregates them on a page. Before you can make an Article List Page, you’ll need to create articles and add categories and/or tags for each.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

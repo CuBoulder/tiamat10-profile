@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_article_select
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_section_style
+    - field.field.paragraph.ucb_issue_section.field_ucb_issue_section_title
+    - paragraphs.paragraphs_type.ucb_issue_section
+  module:
+    - entity_reference_revisions
+    - field_group
+third_party_settings:
+  field_group:
+    group_ucb_issue_section_tabs:
+      children:
+        - group_ucb_issue_style
+        - group_article_selection
+      label: ''
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_ucb_issue_style:
+      children:
+        - field_ucb_issue_section_title
+        - field_ucb_issue_section_style
+      label: Style
+      region: content
+      parent_name: group_ucb_issue_section_tabs
+      weight: 6
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: 'Style your Issue Section'
+        required_fields: true
+    group_article_selection:
+      children:
+        - field_ucb_issue_article_select
+      label: 'Article Selection'
+      region: content
+      parent_name: group_ucb_issue_section_tabs
+      weight: 7
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: 'Select Articles for your Issue Section'
+        required_fields: true
+id: paragraph.ucb_issue_section.default
+targetEntityType: paragraph
+bundle: ucb_issue_section
+mode: default
+content:
+  field_ucb_issue_article_select:
+    type: entity_reference_revisions_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ucb_issue_section_style:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ucb_issue_section_title:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

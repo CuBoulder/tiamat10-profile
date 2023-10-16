@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_list_block
+    - field.storage.block_content.field_art_list_block_filter_cat
+    - taxonomy.vocabulary.category
+id: block_content.article_list_block.field_art_list_block_filter_cat
+field_name: field_art_list_block_filter_cat
+entity_type: block_content
+bundle: article_list_block
+label: 'Filter by Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,55 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.email_html
+    - field.field.paragraph.newsletter_section_content.field_news_content_categories
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_image
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_text
+    - field.field.paragraph.newsletter_section_content.field_newsletter_content_title
+    - paragraphs.paragraphs_type.newsletter_section_content
+  module:
+    - layout_builder
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: paragraph.newsletter_section_content.email_html
+targetEntityType: paragraph
+bundle: newsletter_section_content
+mode: email_html
+content:
+  field_news_content_categories:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_newsletter_content_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_newsletter_content_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_newsletter_content_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

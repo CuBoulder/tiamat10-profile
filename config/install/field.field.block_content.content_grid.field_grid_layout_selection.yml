@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_grid
+    - field.storage.block_content.field_grid_layout_selection
+  module:
+    - options
+id: block_content.content_grid.field_grid_layout_selection
+field_name: field_grid_layout_selection
+entity_type: block_content
+bundle: content_grid
+label: 'Grid Layout Selection'
+description: 'Choose how you would like your grid to be laid out.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

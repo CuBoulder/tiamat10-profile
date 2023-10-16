@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: articles_by_date_and_title
+label: 'Articles by date and title'
+type: 'canonical_entities:node'
+pattern: '/[node:created:custom:Y]/[node:created:custom:m]/[node:created:custom:d]/[node:title]'
+selection_criteria:
+  9f550793-8abf-43a8-99af-ea856a6c4176:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 9f550793-8abf-43a8-99af-ea856a6c4176
+    context_mapping:
+      node: node
+    bundles:
+      ucb_article: ucb_article
+selection_logic: and
+weight: -5
+relationships: {  }

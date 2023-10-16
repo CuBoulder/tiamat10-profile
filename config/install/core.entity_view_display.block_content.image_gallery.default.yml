@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_gallery
+    - field.field.block_content.image_gallery.field_image_gallery_photo
+id: block_content.image_gallery.default
+targetEntityType: block_content
+bundle: image_gallery
+mode: default
+content:
+  field_image_gallery_photo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: focal_image_square
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

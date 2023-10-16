@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_latest_issues_block
+label: 'Latest Issues Block'
+revision: 0
+description: 'This block displays four of the latest Issues and provides a link to to the Archives List page. You must have over four Issues for the Archives List link to appear on the block.'

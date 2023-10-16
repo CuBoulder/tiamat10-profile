@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_article_media_selection
+    - paragraphs.paragraphs_type.article_content
+    - paragraphs.paragraphs_type.blockquote
+    - paragraphs.paragraphs_type.media
+  module:
+    - entity_reference_revisions
+id: paragraph.article_content.field_article_media_selection
+field_name: field_article_media_selection
+entity_type: paragraph
+bundle: article_content
+label: 'Media Selection'
+description: 'With these options you can add media (image/video) or a blockquote to the section.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      media: media
+      blockquote: blockquote
+    target_bundles_drag_drop:
+      article_content:
+        weight: -13
+        enabled: false
+      blockquote:
+        enabled: true
+        weight: -14
+      hero_unit:
+        weight: -12
+        enabled: false
+      media:
+        enabled: true
+        weight: -15
+      slider:
+        weight: -11
+        enabled: false
+      slider_image:
+        weight: -10
+        enabled: false
+      text_block:
+        weight: -9
+        enabled: false
+field_type: entity_reference_revisions

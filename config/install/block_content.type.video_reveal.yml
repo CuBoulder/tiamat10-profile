@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: video_reveal
+label: 'Video Reveal'
+revision: 0
+description: 'The Video Reveal block allows you to choose the image that displays for your video and any text you may want to have on top of that image. When the user clicks the play icon on the block, the video will appear and begin playing. '

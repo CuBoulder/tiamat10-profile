@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_row
+    - field.storage.block_content.field_row_layout_selection
+  module:
+    - options
+id: block_content.content_row.field_row_layout_selection
+field_name: field_row_layout_selection
+entity_type: block_content
+bundle: content_row
+label: 'Row Layout Selection'
+description: 'Choose how you would like your row to be laid out.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

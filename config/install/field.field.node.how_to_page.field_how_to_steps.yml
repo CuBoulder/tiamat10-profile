@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_how_to_steps
+    - node.type.how_to_page
+    - paragraphs.paragraphs_type.how_to_step
+  module:
+    - entity_reference_revisions
+id: node.how_to_page.field_how_to_steps
+field_name: field_how_to_steps
+entity_type: node
+bundle: how_to_page
+label: Steps
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      how_to_step: how_to_step
+    negate: 0
+    target_bundles_drag_drop:
+      article_content:
+        weight: 5
+        enabled: false
+      blockquote:
+        weight: 6
+        enabled: false
+      how_to_step:
+        weight: 7
+        enabled: true
+      media:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

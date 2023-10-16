@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Filter 1'
+vid: filter_1
+description: 'A custom filter which can be used to categorize and search for people.'
+weight: 0

@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.byline.field_author_person_page
+    - taxonomy.vocabulary.byline
+  module:
+    - text
+id: taxonomy_term.byline.default
+targetEntityType: taxonomy_term
+bundle: byline
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_author_person_page:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

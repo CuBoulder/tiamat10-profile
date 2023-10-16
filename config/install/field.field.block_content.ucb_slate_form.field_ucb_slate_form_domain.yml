@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_slate_form
+    - field.storage.block_content.field_ucb_slate_form_domain
+  module:
+    - link
+id: block_content.ucb_slate_form.field_ucb_slate_form_domain
+field_name: field_ucb_slate_form_domain
+entity_type: block_content
+bundle: ucb_slate_form
+label: 'Slate Form URL'
+description: 'Enter the domain of your Slate Form'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

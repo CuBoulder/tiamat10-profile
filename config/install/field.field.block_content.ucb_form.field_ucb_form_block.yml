@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_form
+    - field.storage.block_content.field_ucb_form_block
+  module:
+    - webform
+id: block_content.ucb_form.field_ucb_form_block
+field_name: field_ucb_form_block
+entity_type: block_content
+bundle: ucb_form
+label: ucb_form_block
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: f2534a1b-1cda-45ad-9a2b-f4886d36eb6d
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

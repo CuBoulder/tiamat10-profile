@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_sequence
+    - field.storage.block_content.field_content_sequence_scale
+  module:
+    - options
+id: block_content.content_sequence.field_content_sequence_scale
+field_name: field_content_sequence_scale
+entity_type: block_content
+bundle: content_sequence
+label: Scale
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

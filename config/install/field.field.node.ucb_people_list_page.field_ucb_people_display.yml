@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_people_display
+    - node.type.ucb_people_list_page
+  module:
+    - options
+id: node.ucb_people_list_page.field_ucb_people_display
+field_name: field_ucb_people_display
+entity_type: node
+bundle: ucb_people_list_page
+label: Display
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: list
+default_value_callback: ''
+settings: {  }
+field_type: list_string

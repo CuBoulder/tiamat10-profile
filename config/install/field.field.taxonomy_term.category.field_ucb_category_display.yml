@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_ucb_category_display
+    - taxonomy.vocabulary.category
+id: taxonomy_term.category.field_ucb_category_display
+field_name: field_ucb_category_display
+entity_type: taxonomy_term
+bundle: category
+label: 'Category Display'
+description: 'Choose whether a Category will display to the visitor. This is useful for using Category tags to group Articles, for example, ''Homepage Articles'', that don''t need to be displayed in the Category list at the bottom of articles.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_article_header_overlay
+    - node.type.ucb_article
+id: node.ucb_article.field_ucb_article_header_overlay
+field_name: field_ucb_article_header_overlay
+entity_type: node
+bundle: ucb_article
+label: 'Article Header Overlay'
+description: "Add an Image overlay to improve readability of your header\r\n"
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

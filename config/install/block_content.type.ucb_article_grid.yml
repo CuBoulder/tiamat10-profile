@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_article_grid
+label: 'Article Grid'
+revision: 0
+description: 'Displays Articles in a grid. Articles must have a thumbnail set to appear in the results here'

@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_feature
+    - field.storage.block_content.field_article_feature_cat_excl
+    - taxonomy.vocabulary.category
+id: block_content.ucb_article_feature.field_article_feature_cat_excl
+field_name: field_article_feature_cat_excl
+entity_type: block_content
+bundle: ucb_article_feature
+label: 'Category Exclude'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

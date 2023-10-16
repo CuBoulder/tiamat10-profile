@@ -1,0 +1,94 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.article_content.field_article_media_location
+    - field.field.paragraph.article_content.field_article_media_selection
+    - field.field.paragraph.article_content.field_article_text
+    - paragraphs.paragraphs_type.article_content
+  module:
+    - field_group
+    - paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_article_tabs:
+      children:
+        - group_article_text_tab
+        - group_article_media_tab
+      label: Tabs
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_article_text_tab:
+      children:
+        - field_article_text
+      label: Text
+      region: content
+      parent_name: group_article_tabs
+      weight: 6
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: false
+    group_article_media_tab:
+      children:
+        - field_article_media_selection
+        - field_article_media_location
+      label: Media
+      region: hidden
+      parent_name: group_article_tabs
+      weight: 7
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+id: paragraph.article_content.default
+targetEntityType: paragraph
+bundle: article_content
+mode: default
+content:
+  field_article_media_location:
+    type: options_select
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_article_media_selection:
+    type: entity_reference_paragraphs
+    weight: 8
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+  field_article_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

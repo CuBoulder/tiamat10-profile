@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_person_phone
+    - node.type.ucb_person
+  module:
+    - telephone
+id: node.ucb_person.field_ucb_person_phone
+field_name: field_ucb_person_phone
+entity_type: node
+bundle: ucb_person
+label: Phone
+description: 'Include the area code and use the following format: 303-555-1212'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

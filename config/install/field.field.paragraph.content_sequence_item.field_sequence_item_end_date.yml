@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sequence_item_end_date
+    - paragraphs.paragraphs_type.content_sequence_item
+id: paragraph.content_sequence_item.field_sequence_item_end_date
+field_name: field_sequence_item_end_date
+entity_type: paragraph
+bundle: content_sequence_item
+label: 'Item End Date'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1678312329
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

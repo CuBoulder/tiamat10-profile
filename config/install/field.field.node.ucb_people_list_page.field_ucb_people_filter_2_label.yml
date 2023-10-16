@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_people_filter_2_label
+    - node.type.ucb_people_list_page
+id: node.ucb_people_list_page.field_ucb_people_filter_2_label
+field_name: field_ucb_people_filter_2_label
+entity_type: node
+bundle: ucb_people_list_page
+label: Label
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Filter 2'
+default_value_callback: ''
+settings: {  }
+field_type: string

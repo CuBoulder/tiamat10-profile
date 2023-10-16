@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider
+    - field.storage.block_content.field_slider_size
+  module:
+    - options
+id: block_content.slider.field_slider_size
+field_name: field_slider_size
+entity_type: block_content
+bundle: slider
+label: Size
+description: 'Set the max sizes of your slider. '
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

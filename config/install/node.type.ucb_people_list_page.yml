@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - secondary
+      - footer
+    parent: 'main:'
+name: 'People List Page'
+type: ucb_people_list_page
+description: 'The People List Page lists people that you''ve created using the Person content type. Individuals are displayed alphabetically and can be grouped and filtered.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

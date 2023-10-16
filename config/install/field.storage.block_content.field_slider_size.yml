@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_slider_size
+field_name: field_slider_size
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: 'Ultrawide - 1600x600'
+    -
+      value: '1'
+      label: 'Widescreen - 1600x900'
+    -
+      value: '2'
+      label: '3:2 - 1500x500'
+    -
+      value: '3'
+      label: Large
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

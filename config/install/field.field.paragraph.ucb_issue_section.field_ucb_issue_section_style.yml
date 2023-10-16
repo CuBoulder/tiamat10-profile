@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ucb_issue_section_style
+    - paragraphs.paragraphs_type.ucb_issue_section
+  module:
+    - options
+id: paragraph.ucb_issue_section.field_ucb_issue_section_style
+field_name: field_ucb_issue_section_style
+entity_type: paragraph
+bundle: ucb_issue_section
+label: 'Section Style'
+description: 'Choose display option for your Issue Section'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

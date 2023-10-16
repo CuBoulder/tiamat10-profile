@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.video_reveal
+    - field.storage.block_content.field_video_reveal_image
+    - media.type.image
+id: block_content.video_reveal.field_video_reveal_image
+field_name: field_video_reveal_image
+entity_type: block_content
+bundle: video_reveal
+label: Image
+description: 'Image that will be the overlay to the video reveal'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

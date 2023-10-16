@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider
+    - field.storage.block_content.field_slider_text_style
+  module:
+    - options
+id: block_content.slider.field_slider_text_style
+field_name: field_slider_text_style
+entity_type: block_content
+bundle: slider
+label: 'Text Style'
+description: 'Set the style of the text as it appears in the slider'
+required: false
+translatable: false
+default_value:
+  -
+    value: bottom-overlay
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_unit
+    - field.storage.block_content.field_size
+  module:
+    - options
+id: block_content.hero_unit.field_size
+field_name: field_size
+entity_type: block_content
+bundle: hero_unit
+label: Size
+description: 'This setting determines the size of the hero unit. Use Small for narrow areas, Medium for slightly taller areas, and Large for tall areas. '
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

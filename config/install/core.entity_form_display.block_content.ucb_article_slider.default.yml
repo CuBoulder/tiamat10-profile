@@ -1,0 +1,110 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_slider
+    - field.field.block_content.ucb_article_slider.body
+    - field.field.block_content.ucb_article_slider.field_article_slider_cat_exclude
+    - field.field.block_content.ucb_article_slider.field_article_slider_cat_include
+    - field.field.block_content.ucb_article_slider.field_article_slider_tag_exclude
+    - field.field.block_content.ucb_article_slider.field_article_slider_tag_include
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_article_slider_filters:
+      children:
+        - group_article_slider_inc_filters
+        - group_article_slider_exc_filters
+      label: Filters
+      region: content
+      parent_name: ''
+      weight: 2
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_article_slider_inc_filters:
+      children:
+        - field_article_slider_cat_include
+        - field_article_slider_tag_include
+      label: 'Include Filters'
+      region: content
+      parent_name: group_article_slider_filters
+      weight: 7
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+    group_article_slider_exc_filters:
+      children:
+        - field_article_slider_cat_exclude
+        - field_article_slider_tag_exclude
+      label: 'Exclude FIlters'
+      region: content
+      parent_name: group_article_slider_filters
+      weight: 8
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+id: block_content.ucb_article_slider.default
+targetEntityType: block_content
+bundle: ucb_article_slider
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_article_slider_cat_exclude:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_article_slider_cat_include:
+    type: options_buttons
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_article_slider_tag_exclude:
+    type: options_buttons
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_article_slider_tag_include:
+    type: options_buttons
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

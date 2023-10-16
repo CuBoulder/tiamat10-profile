@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_list
+    - field.storage.block_content.field_content_list_display
+  module:
+    - options
+id: block_content.content_list.field_content_list_display
+field_name: field_content_list_display
+entity_type: block_content
+bundle: content_list
+label: Display
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: full
+default_value_callback: ''
+settings: {  }
+field_type: list_string

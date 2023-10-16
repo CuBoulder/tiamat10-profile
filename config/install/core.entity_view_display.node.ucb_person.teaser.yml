@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ucb_person.body
+    - field.field.node.ucb_person.field_ucb_person_address
+    - field.field.node.ucb_person.field_ucb_person_department
+    - field.field.node.ucb_person.field_ucb_person_email
+    - field.field.node.ucb_person.field_ucb_person_filter_1
+    - field.field.node.ucb_person.field_ucb_person_filter_2
+    - field.field.node.ucb_person.field_ucb_person_filter_3
+    - field.field.node.ucb_person.field_ucb_person_first_name
+    - field.field.node.ucb_person.field_ucb_person_job_type
+    - field.field.node.ucb_person.field_ucb_person_last_name
+    - field.field.node.ucb_person.field_ucb_person_links
+    - field.field.node.ucb_person.field_ucb_person_office_hours
+    - field.field.node.ucb_person.field_ucb_person_phone
+    - field.field.node.ucb_person.field_ucb_person_photo
+    - field.field.node.ucb_person.field_ucb_person_primary_link
+    - field.field.node.ucb_person.field_ucb_person_pronouns
+    - field.field.node.ucb_person.field_ucb_person_title
+    - node.type.ucb_person
+  module:
+    - text
+    - user
+id: node.ucb_person.teaser
+targetEntityType: node
+bundle: ucb_person
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ucb_person_address: true
+  field_ucb_person_department: true
+  field_ucb_person_email: true
+  field_ucb_person_filter_1: true
+  field_ucb_person_filter_2: true
+  field_ucb_person_filter_3: true
+  field_ucb_person_first_name: true
+  field_ucb_person_job_type: true
+  field_ucb_person_last_name: true
+  field_ucb_person_links: true
+  field_ucb_person_office_hours: true
+  field_ucb_person_phone: true
+  field_ucb_person_photo: true
+  field_ucb_person_primary_link: true
+  field_ucb_person_pronouns: true
+  field_ucb_person_title: true

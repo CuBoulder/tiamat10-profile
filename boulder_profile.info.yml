@@ -69,7 +69,6 @@ install:
   - redirect
   - devel
   - devel_generate
-  - cu_boulder_content_types
   - ucb_admin_menus
   - ucb_site_configuration
   - ucb_campus_news

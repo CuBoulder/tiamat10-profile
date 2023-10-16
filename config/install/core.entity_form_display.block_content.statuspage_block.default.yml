@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.statuspage_block
+    - field.field.block_content.statuspage_block.body
+    - field.field.block_content.statuspage_block.field_ucb_statuspage_id
+id: block_content.statuspage_block.default
+targetEntityType: block_content
+bundle: statuspage_block
+mode: default
+content:
+  field_ucb_statuspage_id:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true

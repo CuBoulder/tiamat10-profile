@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_block
+label: 'Text Block'
+revision: 0
+description: 'A regular block that can contain text and images.'

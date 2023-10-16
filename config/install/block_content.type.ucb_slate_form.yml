@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_slate_form
+label: 'Slate Form'
+revision: 0
+description: 'Create a Slate Form Block'

@@ -24,4 +24,3 @@ function boulder_profile_form_install_configure_submit($form, FormStateInterface
   $site_mail = $form_state->getValue('site_mail');
   ContactForm::load('feedback')->setRecipients([$site_mail])->trustData()->save();
 }
-

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_grid
+    - field.storage.block_content.field_grid_column_count
+  module:
+    - options
+id: block_content.content_grid.field_grid_column_count
+field_name: field_grid_column_count
+entity_type: block_content
+bundle: content_grid
+label: 'Grid Column Count'
+description: "This option determines how many columns will be in each row. \r\nThis option only affects the columns, cards, and overlays layout options. \r\nThe offset layout is a grid of 3 cells in each row "
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

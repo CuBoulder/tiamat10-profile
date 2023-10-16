@@ -1,0 +1,236 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.newsletter.field_newsletter_block_text_one
+    - field.field.node.newsletter.field_newsletter_block_text_two
+    - field.field.node.newsletter.field_newsletter_block_title_one
+    - field.field.node.newsletter.field_newsletter_block_title_two
+    - field.field.node.newsletter.field_newsletter_intro_body
+    - field.field.node.newsletter.field_newsletter_intro_image
+    - field.field.node.newsletter.field_newsletter_promo_image_one
+    - field.field.node.newsletter.field_newsletter_promo_image_two
+    - field.field.node.newsletter.field_newsletter_promo_link_one
+    - field.field.node.newsletter.field_newsletter_promo_link_two
+    - field.field.node.newsletter.field_newsletter_section_block
+    - field.field.node.newsletter.field_newsletter_type
+    - node.type.newsletter
+  module:
+    - field_group
+    - link
+    - media_library
+    - paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_newsletter_tabs:
+      children:
+        - group_intro
+        - group_sections
+        - group_blocks
+        - group_ads_promos
+      label: 'Newsletter Tabs'
+      region: content
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_intro:
+      children:
+        - field_newsletter_type
+        - field_newsletter_intro_image
+        - field_newsletter_intro_body
+      label: Intro
+      region: content
+      parent_name: group_newsletter_tabs
+      weight: 3
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_sections:
+      children:
+        - field_newsletter_section_block
+      label: Sections
+      region: content
+      parent_name: group_newsletter_tabs
+      weight: 4
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_blocks:
+      children:
+        - field_newsletter_block_title_one
+        - field_newsletter_block_text_one
+        - field_newsletter_block_title_two
+        - field_newsletter_block_text_two
+      label: Blocks
+      region: content
+      parent_name: group_newsletter_tabs
+      weight: 5
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_ads_promos:
+      children:
+        - field_newsletter_promo_image_one
+        - field_newsletter_promo_link_one
+        - field_newsletter_promo_image_two
+        - field_newsletter_promo_link_two
+      label: Ads/Promos
+      region: content
+      parent_name: group_newsletter_tabs
+      weight: 6
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+id: node.newsletter.default
+targetEntityType: node
+bundle: newsletter
+mode: default
+content:
+  field_newsletter_block_text_one:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_block_text_two:
+    type: text_textarea
+    weight: 14
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_block_title_one:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_block_title_two:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_intro_body:
+    type: text_textarea
+    weight: 21
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_newsletter_intro_image:
+    type: media_library_widget
+    weight: 20
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_newsletter_promo_image_one:
+    type: media_library_widget
+    weight: 12
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_newsletter_promo_image_two:
+    type: media_library_widget
+    weight: 14
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_newsletter_promo_link_one:
+    type: link_default
+    weight: 13
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_newsletter_promo_link_two:
+    type: link_default
+    weight: 15
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_newsletter_section_block:
+    type: paragraphs
+    weight: 9
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_newsletter_type:
+    type: options_select
+    weight: 19
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

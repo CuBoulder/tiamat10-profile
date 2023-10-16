@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_header_text_color
+    - node.type.ucb_article
+  module:
+    - options
+id: node.ucb_article.field_article_header_text_color
+field_name: field_article_header_text_color
+entity_type: node
+bundle: ucb_article
+label: 'Article Header Text Color'
+description: 'Set the Header Image''s header text color'
+required: true
+translatable: false
+default_value:
+  -
+    value: text-body
+default_value_callback: ''
+settings: {  }
+field_type: list_string

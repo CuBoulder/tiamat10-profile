@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_promo_link_two
+    - node.type.newsletter
+  module:
+    - link
+id: node.newsletter.field_newsletter_promo_link_two
+field_name: field_newsletter_promo_link_two
+entity_type: node
+bundle: newsletter
+label: 'Second Promo Link'
+description: 'This image link for the second promo.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

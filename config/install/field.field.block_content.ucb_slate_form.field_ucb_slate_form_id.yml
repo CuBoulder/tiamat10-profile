@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_slate_form
+    - field.storage.block_content.field_ucb_slate_form_id
+id: block_content.ucb_slate_form.field_ucb_slate_form_id
+field_name: field_ucb_slate_form_id
+entity_type: block_content
+bundle: ucb_slate_form
+label: 'Form ID'
+description: 'Enter the Slate Form ID'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

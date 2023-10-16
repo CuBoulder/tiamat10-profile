@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_news_content_categories
+    - paragraphs.paragraphs_type.newsletter_section_content
+    - taxonomy.vocabulary.category
+id: paragraph.newsletter_section_content.field_news_content_categories
+field_name: field_news_content_categories
+entity_type: paragraph
+bundle: newsletter_section_content
+label: Categories
+description: 'Enter a list of words to describe your content. Categories are general topics for broad grouping of articles.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      category: category
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

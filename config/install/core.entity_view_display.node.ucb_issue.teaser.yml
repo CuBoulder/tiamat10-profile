@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.ucb_issue.body
+    - field.field.node.ucb_issue.field_ucb_issue_image
+    - field.field.node.ucb_issue.field_ucb_issue_secondary_image
+    - field.field.node.ucb_issue.field_ucb_issue_section
+    - node.type.ucb_issue
+  module:
+    - text
+    - user
+id: node.ucb_issue.teaser
+targetEntityType: node
+bundle: ucb_issue
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ucb_issue_image: true
+  field_ucb_issue_secondary_image: true
+  field_ucb_issue_section: true

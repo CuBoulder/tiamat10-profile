@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_list_block
+    - field.storage.block_content.field_art_list_block_item_count
+  module:
+    - options
+id: block_content.article_list_block.field_art_list_block_item_count
+field_name: field_art_list_block_item_count
+entity_type: block_content
+bundle: article_list_block
+label: 'Items to Display'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

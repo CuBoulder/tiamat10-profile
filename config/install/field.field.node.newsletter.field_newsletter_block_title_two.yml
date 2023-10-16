@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_newsletter_block_title_two
+    - node.type.newsletter
+id: node.newsletter.field_newsletter_block_title_two
+field_name: field_newsletter_block_title_two
+entity_type: node
+bundle: newsletter
+label: 'Second Block Title'
+description: 'Right hand title block that will display beneath Sections'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

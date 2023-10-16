@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_article_date_override
+    - node.type.ucb_article
+  module:
+    - options
+id: node.ucb_article.field_ucb_article_date_override
+field_name: field_ucb_article_date_override
+entity_type: node
+bundle: ucb_article
+label: 'Date/Time Formatting'
+description: "Allows for this Article to override the site-wide Date/Time formatting. Leave as None to use site-wide default setting.\r\nSite-wide Date/Time format is set in Configuration - CU Boulder site settings."
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

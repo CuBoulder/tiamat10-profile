@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.expandable_content
+    - field.storage.block_content.field_expandable_content_open
+id: block_content.expandable_content.field_expandable_content_open
+field_name: field_expandable_content_open
+entity_type: block_content
+bundle: expandable_content
+label: 'Expand First Item'
+description: 'This option will have the first item in your accordion content either open or closed by default.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Open
+  off_label: Closed
+field_type: boolean

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_sequence
+label: 'Content Sequence'
+revision: 0
+description: 'A block to list content cards in order. This can change between a vertical or horizontal view. There is also an advanced version for items needed to be listed in chronological order or in a timeline.'

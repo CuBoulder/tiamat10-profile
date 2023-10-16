@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_article_feature
+    - field.storage.block_content.field_article_feature_display
+  module:
+    - options
+id: block_content.ucb_article_feature.field_article_feature_display
+field_name: field_article_feature_display
+entity_type: block_content
+bundle: ucb_article_feature
+label: Display
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: inline-half
+default_value_callback: ''
+settings: {  }
+field_type: list_string

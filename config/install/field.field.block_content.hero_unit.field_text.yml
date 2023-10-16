@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_unit
+    - field.storage.block_content.field_text
+    - filter.format.full_html
+    - filter.format.wysiwyg
+  module:
+    - text
+id: block_content.hero_unit.field_text
+field_name: field_text
+entity_type: block_content
+bundle: hero_unit
+label: Text
+description: 'Small text to appear under the headline'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

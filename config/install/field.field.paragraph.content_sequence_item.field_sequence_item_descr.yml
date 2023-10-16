@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sequence_item_descr
+    - filter.format.full_html
+    - filter.format.wysiwyg
+    - paragraphs.paragraphs_type.content_sequence_item
+  module:
+    - text
+id: paragraph.content_sequence_item.field_sequence_item_descr
+field_name: field_sequence_item_descr
+entity_type: paragraph
+bundle: content_sequence_item
+label: 'Item Description'
+description: 'Description of the current step/item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
+field_type: text_long

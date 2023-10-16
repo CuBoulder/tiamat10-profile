@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.how_to_step.field_how_to_step_image
+    - field.field.paragraph.how_to_step.field_how_to_step_title
+    - field.field.paragraph.how_to_step.field_how_to_sub_steps
+    - paragraphs.paragraphs_type.how_to_step
+  module:
+    - text
+id: paragraph.how_to_step.default
+targetEntityType: paragraph
+bundle: how_to_step
+mode: default
+content:
+  field_how_to_step_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_how_to_step_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_how_to_sub_steps:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_person_pronouns
+    - node.type.ucb_person
+id: node.ucb_person.field_ucb_person_pronouns
+field_name: field_ucb_person_pronouns
+entity_type: node
+bundle: ucb_person
+label: Pronouns
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

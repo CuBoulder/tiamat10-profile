@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_grid
+label: 'Content Grid'
+revision: 0
+description: "A paragraph that allows users to select different types of grid layouts to display content. \r\nColumns\r\nCards\r\nOverlays\r\nOffset (Group of 3 cells)"

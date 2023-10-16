@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_ucb_tag_display
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.field_ucb_tag_display
+field_name: field_ucb_tag_display
+entity_type: taxonomy_term
+bundle: tags
+label: 'Tag Display'
+description: 'Choose whether a Tag will display to a visitor. This is useful for using Tags to group Articles. For example, ''Homepage Articles'', that don''t need to be displayed in the Tag list at the bottom of articles'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

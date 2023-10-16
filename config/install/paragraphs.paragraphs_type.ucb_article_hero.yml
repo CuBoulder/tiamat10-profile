@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_article_hero
+label: 'Article Hero'
+icon_uuid: null
+icon_default: null
+description: 'A lightweight, flexible component to showcase key content on your site - similar to the Basic Page Hero Unit, this Hero unit variation is tailored for Article Pages'
+behavior_plugins: {  }

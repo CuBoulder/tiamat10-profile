@@ -1,0 +1,84 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.article_list_block
+    - field.field.block_content.article_list_block.body
+    - field.field.block_content.article_list_block.field_art_list_block_cat_exclude
+    - field.field.block_content.article_list_block.field_art_list_block_display
+    - field.field.block_content.article_list_block.field_art_list_block_filter_cat
+    - field.field.block_content.article_list_block.field_art_list_block_filter_tag
+    - field.field.block_content.article_list_block.field_art_list_block_item_count
+    - field.field.block_content.article_list_block.field_art_list_block_more_url
+    - field.field.block_content.article_list_block.field_art_list_block_tag_exclude
+  module:
+    - link
+    - options
+    - text
+id: block_content.article_list_block.default
+targetEntityType: block_content
+bundle: article_list_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_art_list_block_cat_exclude:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_art_list_block_display:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_art_list_block_filter_cat:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_art_list_block_filter_tag:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_art_list_block_item_count:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_art_list_block_more_url:
+    type: link_separate
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_art_list_block_tag_exclude:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

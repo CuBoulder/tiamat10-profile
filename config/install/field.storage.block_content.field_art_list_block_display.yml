@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_art_list_block_display
+field_name: field_art_list_block_display
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: teaser
+      label: Teaser
+    -
+      value: feature-wide
+      label: 'Feature with Wide Photo'
+    -
+      value: feature-large
+      label: 'Feature with Full Photo'
+    -
+      value: title-thumbnail
+      label: 'Title & Thumbnail'
+    -
+      value: title-only
+      label: Titles
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

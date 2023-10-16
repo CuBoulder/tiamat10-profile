@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Type'
+vid: ucb_person_job_type
+description: 'Used to group people in to categories such as administration, faculty, staff, etc.'
+weight: 0

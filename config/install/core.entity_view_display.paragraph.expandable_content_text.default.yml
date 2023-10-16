@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.expandable_content_text.field_expandable_content_body
+    - field.field.paragraph.expandable_content_text.field_expandable_content_title
+    - paragraphs.paragraphs_type.expandable_content_text
+  module:
+    - text
+id: paragraph.expandable_content_text.default
+targetEntityType: paragraph
+bundle: expandable_content_text
+mode: default
+content:
+  field_expandable_content_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_expandable_content_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

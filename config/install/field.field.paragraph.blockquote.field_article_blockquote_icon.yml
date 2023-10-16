@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_article_blockquote_icon
+    - paragraphs.paragraphs_type.blockquote
+  module:
+    - options
+id: paragraph.blockquote.field_article_blockquote_icon
+field_name: field_article_blockquote_icon
+entity_type: paragraph
+bundle: blockquote
+label: 'Article Blockquote Icon'
+description: 'The Icon that is placed to the left of the blockquote.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

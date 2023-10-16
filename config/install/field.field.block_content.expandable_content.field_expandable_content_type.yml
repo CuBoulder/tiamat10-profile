@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.expandable_content
+    - field.storage.block_content.field_expandable_content_type
+  module:
+    - options
+id: block_content.expandable_content.field_expandable_content_type
+field_name: field_expandable_content_type
+entity_type: block_content
+bundle: expandable_content
+label: 'Content Type'
+description: 'Select what type of expandable content you want to display.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

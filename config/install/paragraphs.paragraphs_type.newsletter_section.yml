@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: newsletter_section
+label: 'Newsletter Section'
+icon_uuid: null
+icon_default: null
+description: 'A paragraph that is used by the UCB Newsletter content type. It allows you to add your own new content or link to relevant articles'
+behavior_plugins: {  }

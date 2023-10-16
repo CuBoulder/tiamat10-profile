@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_unit
+    - field.field.block_content.hero_unit.field_background_media
+    - field.field.block_content.hero_unit.field_headline
+    - field.field.block_content.hero_unit.field_hero_overlay
+    - field.field.block_content.hero_unit.field_link_color
+    - field.field.block_content.hero_unit.field_links
+    - field.field.block_content.hero_unit.field_size
+    - field.field.block_content.hero_unit.field_solid_colors
+    - field.field.block_content.hero_unit.field_text
+    - field.field.block_content.hero_unit.field_text_align
+    - field.field.block_content.hero_unit.field_text_color
+  module:
+    - link
+    - text
+id: block_content.hero_unit.default
+targetEntityType: block_content
+bundle: hero_unit
+mode: default
+content:
+  field_headline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_links:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_background_media: true
+  field_hero_overlay: true
+  field_link_color: true
+  field_size: true
+  field_solid_colors: true
+  field_text_align: true
+  field_text_color: true

@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_row
+    - field.field.block_content.content_row.field_row_layout_content
+    - field.field.block_content.content_row.field_row_layout_selection
+  module:
+    - entity_reference_revisions
+    - options
+id: block_content.content_row.default
+targetEntityType: block_content
+bundle: content_row
+mode: default
+content:
+  field_row_layout_content:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_row_layout_selection:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

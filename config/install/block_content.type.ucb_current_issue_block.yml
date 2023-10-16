@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ucb_current_issue_block
+label: 'Current Issue Block'
+revision: 0
+description: 'This block displays the most current Issue cover art and links to the current Issue page'

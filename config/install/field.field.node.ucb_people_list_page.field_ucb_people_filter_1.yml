@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_people_filter_1
+    - node.type.ucb_people_list_page
+    - taxonomy.vocabulary.filter_1
+id: node.ucb_people_list_page.field_ucb_people_filter_1
+field_name: field_ucb_people_filter_1
+entity_type: node
+bundle: ucb_people_list_page
+label: 'Filter 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      filter_1: filter_1
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slider_image
+label: 'Slider Image'
+icon_uuid: null
+icon_default: null
+description: 'Images to be used in the Slider Block'
+behavior_plugins: {  }

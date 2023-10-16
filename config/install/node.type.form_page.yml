@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - secondary
+      - footer
+    parent: 'main:'
+name: 'Form Page'
+type: form_page
+description: 'The Form Page makes it easy to create forms. You can create sophisticated forms without the need for any coding.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

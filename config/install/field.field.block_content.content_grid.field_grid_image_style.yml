@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_grid
+    - field.storage.block_content.field_grid_image_style
+  module:
+    - options
+id: block_content.content_grid.field_grid_image_style
+field_name: field_grid_image_style
+entity_type: block_content
+bundle: content_grid
+label: 'Grid Image Style'
+description: 'Select between wide and square image styling.'
+required: true
+translatable: false
+default_value:
+  -
+    value: '0'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

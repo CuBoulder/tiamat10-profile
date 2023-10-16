@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: image_gallery
+label: 'Image Gallery'
+revision: 0
+description: 'A gallery of images that can be expanded into full screen images when clicked.'

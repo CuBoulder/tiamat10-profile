@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_person_primary_link
+    - node.type.ucb_person
+  module:
+    - link
+id: node.ucb_person.field_ucb_person_primary_link
+field_name: field_ucb_person_primary_link
+entity_type: node
+bundle: ucb_person
+label: 'Primary Link'
+description: 'A primary link to other needed information or sites.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+      - secondary
+      - footer
+    parent: 'main:'
+name: 'Basic Page'
+type: basic_page
+description: 'The Basic page is the most commonly used type of content. It’s easy to add to the navigation structure and has quite a few features for displaying photos, media and links.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

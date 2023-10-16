@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_article_feature_display
+field_name: field_article_feature_display
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: inline-half
+      label: 'Inline 50/50'
+    -
+      value: inline-large
+      label: 'Inline 66/33'
+    -
+      value: stacked
+      label: Stacked
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

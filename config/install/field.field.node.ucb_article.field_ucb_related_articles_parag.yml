@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ucb_related_articles_parag
+    - node.type.ucb_article
+    - paragraphs.paragraphs_type.ucb_related_articles_block
+  module:
+    - entity_reference_revisions
+id: node.ucb_article.field_ucb_related_articles_parag
+field_name: field_ucb_related_articles_parag
+entity_type: node
+bundle: ucb_article
+label: 'Related Articles'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      ucb_related_articles_block: ucb_related_articles_block
+    negate: 0
+    target_bundles_drag_drop:
+      article_content:
+        weight: 10
+        enabled: false
+      blockquote:
+        weight: 11
+        enabled: false
+      expandable_content_text:
+        weight: 12
+        enabled: false
+      grid_layout_content:
+        weight: 13
+        enabled: false
+      how_to_step:
+        weight: 14
+        enabled: false
+      media:
+        weight: 15
+        enabled: false
+      row_layout_content:
+        weight: 16
+        enabled: false
+      slider_image:
+        weight: 17
+        enabled: false
+      ucb_article_hero:
+        weight: 19
+        enabled: false
+      ucb_related_articles_block:
+        weight: 18
+        enabled: true
+field_type: entity_reference_revisions

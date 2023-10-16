@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_solid_colors
+field_name: field_solid_colors
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '--ucb-white'
+      label: White
+    -
+      value: '--ucb-black'
+      label: Black
+    -
+      value: '--ucb-light-gray'
+      label: 'Light Gray'
+    -
+      value: '--ucb-dark-gray'
+      label: 'Dark Gray'
+    -
+      value: '--ucb-light-blue'
+      label: 'Light Blue'
+    -
+      value: none
+      label: None
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_article_feature_image_size
+field_name: field_article_feature_image_size
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: regular
+      label: 'Regular (3:2 aspect ratio)'
+    -
+      value: wide
+      label: 'Wide (slider image style)'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

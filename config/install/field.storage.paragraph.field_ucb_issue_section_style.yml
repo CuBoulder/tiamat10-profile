@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_ucb_issue_section_style
+field_name: field_ucb_issue_section_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '0'
+      label: Teaser
+    -
+      value: '1'
+      label: Feature
+    -
+      value: '2'
+      label: 'Title and Thumbnail'
+    -
+      value: '3'
+      label: Title
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

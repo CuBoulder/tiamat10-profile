@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_form
+    - field.field.block_content.ucb_form.body
+    - field.field.block_content.ucb_form.field_ucb_form_block
+  module:
+    - text
+    - webform
+id: block_content.ucb_form.default
+targetEntityType: block_content
+bundle: ucb_form
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_ucb_form_block:
+    type: webform_entity_reference_entity_view
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
