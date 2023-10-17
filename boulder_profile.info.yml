@@ -79,7 +79,6 @@ install:
   - shortcode
   - ucb_migration_shortcodes
   - ucb_third_party_libraries
-  - ucb_default_content
   - ucb_person_title
   - ucb_article_author
   

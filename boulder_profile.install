@@ -5,6 +5,8 @@
  * Install, update and uninstall functions for the CU Boulder install profile.
  */
 
+use Drupal\node\Entity\Node;
+use Drupal\pathauto\PathautoState;
 use Drupal\user\Entity\User;
 
 /**
@@ -19,6 +21,18 @@ function boulder_profile_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
+  boulder_profile_create_users();
+  boulder_profile_create_home_page();
+  boulder_profile_create_404_page();
+}
+
+/**
+ * Creates all the standard privileged user accounts.
+ *
+ * Normal users with default permissions don't need to be created this way,
+ * and will instead be created automatically at login time.
+ */
+function boulder_profile_create_users() {
   // Creates initial users for the Web Team.
   $users = ['jesp3304', 'mibo7729', 'alco6164', 'joni1621', 'jako6198', 'crafts', 'titr7839', 'pabr5825'];
   foreach ($users as $i) {
@@ -42,4 +56,40 @@ function boulder_profile_install() {
       'roles' => 'architect',
     ])->enforceIsNew()->save();
   }
+}
+
+/**
+ * Creates and sets the default homepage.
+ */
+function boulder_profile_create_home_page() {
+  // Creates the default homepage node.
+  Node::create([
+    'type' => 'basic_page',
+    'title' => 'Home Page',
+    'path' => ['alias' => '/homepage', 'pathauto' => PathautoState::SKIP],
+    'body' => 'Congratulations, your Web Express site is up and running!
+Please click the EDIT button at the top of the screen to edit this page.',
+  ])->enforceIsNew()->save();
+  // Sets the newly-created node as the site homepage.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/homepage')->save();
+}
+
+/**
+ * Creates and sets the default 404 page.
+ */
+function boulder_profile_create_404_page() {
+  // Creates the default 404 page node.
+  $image_path = '/themes/custom/boulder_base/images/img-ucb-404.jpeg';
+  Node::create([
+    'type' => 'basic_page',
+    'title' => 'Page Not Found',
+    'path' => ['alias' => '/404', 'pathauto' => PathautoState::SKIP],
+    'body' => [
+      'summary' => '',
+      'value' => '<img src="' . $image_path . '" alt="The page you are looking for appears to have been moved, deleted, or does not exist.">',
+      'format' => 'full_html',
+    ],
+  ])->enforceIsNew()->save();
+  // Sets the newly-created node as the site 404 page.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.404', '/404')->save();
 }
