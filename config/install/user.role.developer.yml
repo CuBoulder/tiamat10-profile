@@ -296,6 +296,7 @@ permissions:
   - 'edit ucb site appearance'
   - 'edit ucb site contact info'
   - 'edit ucb site general'
+  - 'edit ucb site pages'
   - 'edit webform assets'
   - 'edit webform source'
   - 'edit webform twig'

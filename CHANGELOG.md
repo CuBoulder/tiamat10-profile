@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds home page setting to CU Boulder site settings
+  This update to CU Boulder Site Configuration:
+  - Adds a new home page setting to CU Boulder site settings. CuBoulder/tiamat-theme#506
+  - Adds a new `edit ucb site pages` permission:
+    - Architect, Developer, and Site Manager have been given this new permission. 
+    - While "Pages" could eventually be split off into its own tab, the settings are found under "General", at least for now. The existing settings in "General" still require `edit ucb site general` to access.
+  - Cleans up PHP files in CU Boulder Site Configuration according to Drupal coding standards. Full compliance has not yet been achieved. CuBoulder/ucb_site_configuration#27
+  
+  Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/28)
+---
+
 - ### Fixes UCB Person Page custom modules
   Adds the fixed versions of `UCB Person Title` and `UCB Article Author` to template and profile. Allows First and Last Name fields to create a Person Page title, getting rid of the need to enter a title for these pages. Also automatically creates a Byline taxonomy for newly created Person Pages, for use in the Byline field. 
   
