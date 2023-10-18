@@ -165,6 +165,7 @@ permissions:
   - 'edit terms in ucb_person_job_type'
   - 'edit ucb site appearance'
   - 'edit ucb site contact info'
+  - 'edit ucb site pages'
   - 'invite users'
   - 'link to any page'
   - 'revert all revisions'

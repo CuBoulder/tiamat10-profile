@@ -208,6 +208,7 @@ permissions:
   - 'edit ucb site appearance'
   - 'edit ucb site contact info'
   - 'edit ucb site general'
+  - 'edit ucb site pages'
   - 'invite users'
   - 'link to any page'
   - 'revert all revisions'
