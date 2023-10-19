@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Profile clean up
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/501.
+  Cleans up the profile.
+---
+
 - ### Adds "Created" column to content administration page
   Resolves CuBoulder/tiamat-theme#505
 ---

@@ -1,9 +1,6 @@
-uuid: 537e1995-c791-4285-b76e-ebb85b029b47
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: flCi9IdafdLXlJqvoHguutUOiC05-aynK4niYN4YZ3o
 id: focal_point
 label: 'Focal point'
 description: 'Crop type used by Focal point module.'
