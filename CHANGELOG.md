@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds "Created" column to content administration page
+  Resolves CuBoulder/tiamat-theme#505
+---
+
 - ### Sets site default email address in the profile
   This update:
   - Sets the site default email address in the profile at install time. CuBoulder/tiamat-theme#500
