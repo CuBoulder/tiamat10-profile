@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: sLG6vT7rVibgeNTycwVG90Jw1lIBZYrnT7FVfnS7qtU
 langcode: en
 activate: true
 auth_source: cu_boulder
