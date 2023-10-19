@@ -3,6 +3,8 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_media_image_caption
+    - filter.format.full_html
+    - filter.format.wysiwyg
     - media.type.image
   module:
     - text
@@ -16,5 +18,8 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
+settings:
+  allowed_formats:
+    - wysiwyg
+    - full_html
 field_type: text_long

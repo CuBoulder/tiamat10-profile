@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update field.field.media.image.field_media_image_caption.yml
+  Actual placement for this caption item.
+  
+  Closes #31 
+---
+
 - ### Adds home page setting to CU Boulder site settings
   This update to CU Boulder Site Configuration:
   - Adds a new home page setting to CU Boulder site settings. CuBoulder/tiamat-theme#506
