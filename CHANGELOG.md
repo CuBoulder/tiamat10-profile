@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Sets site default email address in the profile
+  This update:
+  - Sets the site default email address in the profile at install time. CuBoulder/tiamat-theme#500
+  - Changes "D9" to "D10" in the Drupal module description.
+---
+
 - ### Update field.field.media.image.field_media_image_caption.yml
   Actual placement for this caption item.
   
