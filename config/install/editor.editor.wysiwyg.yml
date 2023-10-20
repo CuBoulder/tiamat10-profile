@@ -14,28 +14,24 @@ settings:
       - italic
       - superscript
       - subscript
+      - removeFormat
       - '|'
       - alignment
-      - blockQuote
-      - '|'
       - bulletedList
       - numberedList
+      - blockQuote
       - '|'
       - undo
       - redo
       - '|'
       - link
-      - drupalMedia
       - '|'
+      - drupalMedia
       - horizontalLine
       - specialCharacters
-      - icon
       - insertTable
       - '|'
-      - heading
-      - '|'
-      - removeFormat
-      - '|'
+      - icon
       - box
       - button
       - buttongroup
@@ -43,6 +39,10 @@ settings:
       - calendar
       - tooltip
       - invisible
+      - '|'
+      - heading
+      - sourceEditing
+      - '-'
   plugins:
     ckeditor5_alignment:
       enabled_alignments:
