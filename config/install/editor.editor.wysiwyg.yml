@@ -14,28 +14,24 @@ settings:
       - italic
       - superscript
       - subscript
+      - removeFormat
       - '|'
       - alignment
-      - blockQuote
-      - '|'
       - bulletedList
       - numberedList
+      - blockQuote
       - '|'
       - undo
       - redo
       - '|'
       - link
-      - drupalMedia
       - '|'
+      - drupalMedia
       - horizontalLine
       - specialCharacters
-      - icon
       - insertTable
       - '|'
-      - heading
-      - '|'
-      - removeFormat
-      - '|'
+      - icon
       - box
       - button
       - buttongroup
@@ -43,6 +39,11 @@ settings:
       - calendar
       - tooltip
       - invisible
+      - '|'
+      - heading
+      - style
+      - sourceEditing
+      - '-'
   plugins:
     ckeditor5_alignment:
       enabled_alignments:
@@ -68,6 +69,55 @@ settings:
     ckeditor5_list:
       reversed: true
       startIndex: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: Lead
+          element: '<p class="lead">'
+        -
+          label: Hero
+          element: '<p class="hero">'
+        -
+          label: Supersize
+          element: '<p class="supersize">'
+        -
+          label: Underline
+          element: '<ul class="list-style-underline">'
+        -
+          label: 'No Bullets'
+          element: '<ul class="list-style-nobullet">'
+        -
+          label: Border
+          element: '<ul class="list-style-border">'
+        -
+          label: 'Alpha Uppercase'
+          element: '<ol class="list-style-alpha-upper">'
+        -
+          label: 'Alpha Lowercase'
+          element: '<ol class="list-style-alpha-lower">'
+        -
+          label: 'Roman Uppercase'
+          element: '<ol class="list-style-roman-upper">'
+        -
+          label: 'Roman Lowercase'
+          element: '<ol class="list-style-roman-lower">'
+        -
+          label: Zebra
+          element: '<table class="table-zebra">'
+        -
+          label: Condensed
+          element: '<table class="table-condensed">'
+        -
+          label: 'Small Table'
+          element: '<table class="table-small">'
+        -
+          label: Columns
+          element: '<table class="table-vertical">'
+        -
+          label: Rows
+          element: '<table class="table-horizontal">'
     media_media:
       allow_view_mode_override: true
 image_upload:
