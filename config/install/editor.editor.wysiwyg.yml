@@ -43,6 +43,7 @@ settings:
       - calendar
       - tooltip
       - invisible
+      - countup
   plugins:
     ckeditor5_alignment:
       enabled_alignments:
