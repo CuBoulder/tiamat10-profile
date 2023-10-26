@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Content Styles
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/515.
+  Adds the necessary html tags for new styles added in Issue 515
+---
+
 - ### initial site manager and content editor roles
   Closes https://github.com/CuBoulder/tiamat-theme/issues/514.
   Adds the initial site manager and content editor accounts.
