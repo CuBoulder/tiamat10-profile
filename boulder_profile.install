@@ -49,4 +49,32 @@ function boulder_profile_install() {
       'roles' => 'architect'
     ])->enforceIsNew()->save();
   }
+
+  /**
+   * Create inital users for the Site Manager Role
+   */
+  $users = ['webexpress-manager'];
+  foreach( $users as $i ){
+    User::create([
+      'name' => $i,
+      'mail' => "{$i}@colorado.edu",
+      'pass' => 'nextest',
+      'status' => 1,
+      'roles' => 'site_manager'
+    ])->enforceIsNew()->save();
+  }
+
+  /**
+   * Create inital users for the Content Editor Role
+   */
+  $users = ['webexpress-editor'];
+  foreach( $users as $i ){
+    User::create([
+      'name' => $i,
+      'mail' => "{$i}@colorado.edu",
+      'pass' => 'nextest',
+      'status' => 1,
+      'roles' => 'content_editor'
+    ])->enforceIsNew()->save();
+  }
 }
