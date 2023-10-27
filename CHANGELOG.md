@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Content Styles
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/515.
+  Adds the necessary html tags for new styles added in Issue 515
+---
+
+- ### initial site manager and content editor roles
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/514.
+  Adds the initial site manager and content editor accounts.
+---
+
 - ### fixed wysiwyg toolbar ordering
   Closes https://github.com/CuBoulder/tiamat-theme/issues/503.
   Fixes ordering of the toolbar of the WYSIWYG text editor. The current missing link is the styles tab, as we currently have no styles.
