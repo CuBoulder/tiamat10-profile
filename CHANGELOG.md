@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### fixed wysiwyg toolbar ordering
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/503.
+  Fixes ordering of the toolbar of the WYSIWYG text editor. The current missing link is the styles tab, as we currently have no styles.
+---
+
 - ### Profile clean up
   Closes https://github.com/CuBoulder/tiamat-theme/issues/501.
   Cleans up the profile.
