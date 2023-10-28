@@ -41,6 +41,7 @@ settings:
       - invisible
       - countup
       - countdown
+      - callout
       - '|'
       - heading
       - style
