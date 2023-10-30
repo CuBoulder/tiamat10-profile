@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Wide Image Size Adjustment
+  Sets the `Wide` image style size to 1500x563px
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/518
+  
+  
+---
+
 - ### Issue/36
   Added allowed HTML and wysiwyg button
   
