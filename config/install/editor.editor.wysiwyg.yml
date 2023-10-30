@@ -39,6 +39,9 @@ settings:
       - calendar
       - tooltip
       - invisible
+      - countup
+      - countdown
+      - callout
       - '|'
       - heading
       - style
