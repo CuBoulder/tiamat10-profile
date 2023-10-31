@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Resolves configuration conflict for Image Styles causing issues on the Admin Interface
+  Removes conflicting/duplicate `Image Style` configuration from `profile` that already existed in `custom-entities`, which caused the Admin interface to WSOD while trying to update the Image Styles via UI. 
+  
+  Includes:
+  - `profile` => [`issue/tiamat-theme/524`](https://github.com/CuBoulder/tiamat10-profile/pull/40)
+  - `custom-entities` => [`issue/tiamat-theme/524` ](https://github.com/CuBoulder/tiamat-custom-entities/pull/82)
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/524
+---
+
 - ### Wide Image Size Adjustment
   Sets the `Wide` image style size to 1500x563px
   
