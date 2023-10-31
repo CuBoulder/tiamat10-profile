@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove Tooltip
+  Remove the editor and filter information for `tooltip` as it is not needed and out-of-date
+  
+  Closes #41 
+---
+
 - ### Resolves configuration conflict for Image Styles causing issues on the Admin Interface
   Removes conflicting/duplicate `Image Style` configuration from `profile` that already existed in `custom-entities`, which caused the Admin interface to WSOD while trying to update the Image Styles via UI. 
   
