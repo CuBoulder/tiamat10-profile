@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Moving simplesamlphp_auth config to optional
+  Added dependency to config as well.   
+---
+
 - ### Remove Tooltip
   Remove the editor and filter information for `tooltip` as it is not needed and out-of-date
   
