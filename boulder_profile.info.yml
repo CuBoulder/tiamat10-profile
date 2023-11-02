@@ -65,6 +65,7 @@ install:
   - features
   - pantheon_advanced_page_cache
   - simple_sitemap
+  - google_cse
   - antibot
   - redirect
   - devel
