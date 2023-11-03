@@ -84,6 +84,8 @@ install:
   - ucb_default_content
   - ucb_person_title
   - ucb_article_author
+  - datetime
+  - scheduler
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
