@@ -1,0 +1,6 @@
+kill_switch: false
+media_bundles:
+  document: document
+  audio: '0'
+  image: '0'
+  video: '0'

@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Issue/510
+  Profile updates for the new media file changes
+  
+  Settings + profile install 
+  
+  Sister PR: https://github.com/CuBoulder/tiamat10-project-template/pull/22
+---
+
 - ### Adds search frontend and settings
   This update:
   - Adds a search modal which appears when clicking on the search icon in the top bar.

@@ -78,6 +78,9 @@ install:
   - ucb_focal_image_enable
   - ucb_bootstrap_layouts
   - media_library_form_element
+  - media_alias_display
+  - media_entity_file_replace
+  - media_file_delete
   - shortcode
   - ucb_migration_shortcodes
   - ucb_third_party_libraries
