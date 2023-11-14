@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### paste filter profile change
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/537.
+  Adds profile changes necessary for the paste filter module.
+---
+
 - ### Updated block permissions
   Closes https://github.com/CuBoulder/tiamat-theme/issues/536.
   Adds the content editor permissions to the developer, architect, and site manager roles
