@@ -81,6 +81,7 @@ install:
   - media_alias_display
   - media_entity_file_replace
   - media_file_delete
+  - menu_block
   - shortcode
   - ucb_migration_shortcodes
   - ucb_third_party_libraries
