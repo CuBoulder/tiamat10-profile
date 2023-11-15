@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adding in Scheduler module
+  Used for https://github.com/CuBoulder/tiamat-theme/issues/504.
+  Adds necessary profile changes for the scheduler module implementation.
+---
+
 - ### paste filter profile change
   Closes https://github.com/CuBoulder/tiamat-theme/issues/537.
   Adds profile changes necessary for the paste filter module.

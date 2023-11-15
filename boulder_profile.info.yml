@@ -68,6 +68,8 @@ install:
   - google_cse
   - antibot
   - redirect
+  - datetime
+  - scheduler
   - devel
   - devel_generate
   - cu_boulder_content_types
