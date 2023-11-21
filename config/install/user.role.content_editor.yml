@@ -335,7 +335,7 @@ permissions:
   - 'view user email addresses'
   - 'schedule publishing of media'
   - 'schedule publishing of nodes'
-  - 'schedule publishing of taxonomy_term’ 
+  - 'schedule publishing of taxonomy_term'
   - 'view scheduled content'
   - 'view scheduled media'
   - 'view scheduled taxonomy_term'
