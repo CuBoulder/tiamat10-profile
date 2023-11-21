@@ -333,3 +333,9 @@ permissions:
   - 'view ucb_person revisions'
   - 'view unpublished paragraphs'
   - 'view user email addresses'
+  - 'schedule publishing of media'
+  - 'schedule publishing of nodes'
+  - 'schedule publishing of taxonomy_term’ 
+  - 'view scheduled content'
+  - 'view scheduled media'
+  - 'view scheduled taxonomy_term'

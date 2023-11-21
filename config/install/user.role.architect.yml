@@ -380,3 +380,9 @@ permissions:
   - 'view any ucb_slate_form block content history'
   - 'view any ucb_tag_cloud block content history'
   - 'view any video_reveal block content history'
+  - 'schedule publishing of media'
+  - 'schedule publishing of nodes'
+  - 'schedule publishing of taxonomy_term’ 
+  - 'view scheduled content'
+  - 'view scheduled media'
+  - 'view scheduled taxonomy_term'
