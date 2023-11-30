@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Scheduler Permissions
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/554.
+  Adds scheduler permissions for various roles.
+---
+
 - ### CU Boulder Site Configuration 2.5.2
   This update:
   - Places "Type" and "Affiliation" under  an "Advanced" section in the "General" settings. This section behaves identically to the one in "Appearance and layout", requiring the same special permission to access.
