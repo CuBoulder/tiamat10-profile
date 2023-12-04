@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### CU Boulder Site Configuration 2.6
+  This update:
+  - Moves all settings from "Pages and Search" into "General". Search settings are now advanced settings.
+  - Replaces the "Pages and search" and "Related articles" tabs with a brand new "Content types" tab. All "Related articles" settings have been moved into "Content types".
+  - Replaces the `edit ucb pages` and `configure ucb related articles` permissions with a new `edit ucb content types` permission.
+  - Moves the People List filter labels and Article date format into "Content types".
+  - Moves the GTM account setting into "General" as an advanced setting.
+  
+  CuBoulder/ucb_site_configuration#36
+  
+  Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/38), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/576)
+---
+
 - ### Scheduler Permissions
   Closes https://github.com/CuBoulder/tiamat-theme/issues/554.
   Adds scheduler permissions for various roles.
