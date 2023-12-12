@@ -2,12 +2,20 @@ langcode: en
 status: true
 dependencies:
   module:
+    - contact
+    - google_cse
     - media
+    - search
     - system
+    - webform
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'access site-wide contact form'
+  - 'access webform submission user'
+  - 'search Google CSE'
+  - 'search content'
   - 'view media'

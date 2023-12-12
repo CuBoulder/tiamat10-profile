@@ -2,6 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.article_list_block
+    - block_content.type.content_grid
+    - block_content.type.content_list
+    - block_content.type.content_row
+    - block_content.type.content_sequence
+    - block_content.type.events_calendar
+    - block_content.type.expandable_content
+    - block_content.type.hero_unit
+    - block_content.type.image_gallery
+    - block_content.type.slider
+    - block_content.type.statuspage_block
+    - block_content.type.text_block
+    - block_content.type.ucb_article_feature
+    - block_content.type.ucb_article_grid
+    - block_content.type.ucb_article_slider
+    - block_content.type.ucb_category_cloud
+    - block_content.type.ucb_current_issue_block
+    - block_content.type.ucb_form
+    - block_content.type.ucb_latest_issues_block
+    - block_content.type.ucb_people_list_block
+    - block_content.type.ucb_slate_form
+    - block_content.type.ucb_tag_cloud
+    - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.full_html
     - filter.format.wysiwyg
@@ -31,6 +54,7 @@ dependencies:
     - taxonomy.vocabulary.ucb_person_job_type
   module:
     - aggregator
+    - antibot
     - block
     - block_content
     - comment
@@ -51,10 +75,14 @@ dependencies:
     - layout_builder
     - layout_builder_modal
     - media
+    - media_file_delete
+    - metatag
     - node
     - paragraphs
     - path
     - pathauto
+    - redirect
+    - scheduler
     - search
     - shortcut
     - simple_sitemap
@@ -87,7 +115,6 @@ permissions:
   - 'access site-wide contact form'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access user contact forms'
   - 'access user profiles'
   - 'access webform help'
   - 'access webform overview'
@@ -97,6 +124,7 @@ permissions:
   - 'administer aggregator_feed display'
   - 'administer aggregator_feed fields'
   - 'administer aggregator_feed form display'
+  - 'administer antibot configuration'
   - 'administer block content'
   - 'administer block types'
   - 'administer block_content display'
@@ -123,9 +151,11 @@ permissions:
   - 'administer media'
   - 'administer media display'
   - 'administer media fields'
+  - 'administer media file delete'
   - 'administer media form display'
   - 'administer media types'
   - 'administer menu'
+  - 'administer meta tags'
   - 'administer modules'
   - 'administer news feeds'
   - 'administer node display'
@@ -139,6 +169,8 @@ permissions:
   - 'administer paragraphs types'
   - 'administer pathauto'
   - 'administer permissions'
+  - 'administer redirect settings'
+  - 'administer redirects'
   - 'administer scheduler'
   - 'administer search'
   - 'administer shortcuts'
@@ -235,6 +267,7 @@ permissions:
   - 'delete any events_calendar block content revisions'
   - 'delete any expandable_content block content'
   - 'delete any expandable_content block content revisions'
+  - 'delete any file'
   - 'delete any form_page content'
   - 'delete any hero_unit block content'
   - 'delete any hero_unit block content revisions'
@@ -448,9 +481,6 @@ permissions:
   - 'use advanced search'
   - 'use text format full_html'
   - 'use text format wysiwyg'
-  - 'view scheduled content'
-  - 'view scheduled media'
-  - 'view scheduled taxonomy_term'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any article_list_block block content history'
@@ -487,6 +517,9 @@ permissions:
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view own webform submission'
+  - 'view scheduled content'
+  - 'view scheduled media'
+  - 'view scheduled taxonomy_term'
   - 'view the administration theme'
   - 'view ucb_article revisions'
   - 'view ucb_article_list revisions'

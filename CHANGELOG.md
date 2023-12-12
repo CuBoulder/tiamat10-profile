@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updating role permissions
+  Updating role permissions to more accurately reflect the needs of our Express roles.  
+---
+
 - ### CU Boulder Site Configuration 2.6
   This update:
   - Moves all settings from "Pages and Search" into "General". Search settings are now advanced settings.

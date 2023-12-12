@@ -2,7 +2,10 @@ langcode: en
 status: true
 dependencies:
   module:
+    - contact
+    - google_cse
     - media
+    - search
     - system
 id: anonymous
 label: 'Anonymous user'
@@ -10,4 +13,7 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access site-wide contact form'
+  - 'search Google CSE'
+  - 'search content'
   - 'view media'
