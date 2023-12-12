@@ -9,188 +9,231 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Updating role permissions
-  Updating role permissions to more accurately reflect the needs of our Express roles.  
----
+## [20231212] - 2023-12-12
 
-- ### CU Boulder Site Configuration 2.6
-  This update:
-  - Moves all settings from "Pages and Search" into "General". Search settings are now advanced settings.
-  - Replaces the "Pages and search" and "Related articles" tabs with a brand new "Content types" tab. All "Related articles" settings have been moved into "Content types".
-  - Replaces the `edit ucb pages` and `configure ucb related articles` permissions with a new `edit ucb content types` permission.
-  - Moves the People List filter labels and Article date format into "Content types".
-  - Moves the GTM account setting into "General" as an advanced setting.
-  
-  CuBoulder/ucb_site_configuration#36
-  
-  Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/38), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/576)
----
+-   ### Updating role permissions
+    Updating role permissions to more accurately reflect the needs of our Express roles.  
 
-- ### Scheduler Permissions
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/554.
-  Adds scheduler permissions for various roles.
----
+* * *
 
-- ### CU Boulder Site Configuration 2.5.2
-  This update:
-  - Places "Type" and "Affiliation" under  an "Advanced" section in the "General" settings. This section behaves identically to the one in "Appearance and layout", requiring the same special permission to access.
-  - Gives the "Site Manager" role the `edit ucb site general` permission to access the "General" settings.
-  
-  Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/34)
-  CuBoulder/ucb_site_configuration#33
----
+-   ### CU Boulder Site Configuration 2.6
 
-- ### Completes in-content menu blocks
-  This update completes in-content menu blocks (menu blocks placed outside of a navigation bar, e.g. in a sidebar) by styling them and adding the [Menu Block](https://www.drupal.org/project/menu_block) contrib module for additional options.
-  
-  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/552), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/25), [ucb_admin_menus](https://github.com/CuBoulder/ucb_admin_menus/pull/13)
-  
-  CuBoulder/tiamat-theme#267
-  CuBoulder/tiamat-theme#528
----
+    This update:
 
-- ### Adding in Scheduler module
-  Used for https://github.com/CuBoulder/tiamat-theme/issues/504.
-  Adds necessary profile changes for the scheduler module implementation.
----
+    -   Moves all settings from "Pages and Search" into "General". Search settings are now advanced settings.
+    -   Replaces the "Pages and search" and "Related articles" tabs with a brand new "Content types" tab. All "Related articles" settings have been moved into "Content types".
+    -   Replaces the `edit ucb pages` and `configure ucb related articles` permissions with a new `edit ucb content types` permission.
+    -   Moves the People List filter labels and Article date format into "Content types".
+    -   Moves the GTM account setting into "General" as an advanced setting.
 
-- ### paste filter profile change
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/537.
-  Adds profile changes necessary for the paste filter module.
----
+    CuBoulder/ucb_site_configuration#36
 
-- ### Updated block permissions
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/536.
-  Adds the content editor permissions to the developer, architect, and site manager roles
----
+    Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/38), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/576)
 
-- ### Issue/510
-  Profile updates for the new media file changes
-  
-  Settings + profile install 
-  
-  Sister PR: https://github.com/CuBoulder/tiamat10-project-template/pull/22
----
+* * *
 
-- ### Adds search frontend and settings
-  This update:
-  - Adds a search modal which appears when clicking on the search icon in the top bar.
-  - Adds a new "Pages and search" tab to CU Boulder site settings (`/admin/config/cu-boulder/pages`). This tab contains settings accessible to Architect, Developer, and Site Manager:
-    - The home page setting (moved from "General").
-    - Options to enable site search, all of Colorado.edu search (default), both, or neither.
-    - Configuration for the site search label, placeholder, and URL.
-  - Renames "Appearance" to "Appearance and layout" and alters the descriptions of menu items.
-  - Adds the [Google Programmable Search Engine](https://www.drupal.org/project/google_cse) module, which allows creating custom search pages to use with site search.
-  
-  CuBoulder/tiamat-theme#266
-  
-  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/527), [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/29), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/17)
----
+-   ### Scheduler Permissions
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/554>.
+    Adds scheduler permissions for various roles.
 
-- ### Moving simplesamlphp_auth config to optional
-  Added dependency to config as well.   
----
+* * *
 
-- ### Remove Tooltip
-  Remove the editor and filter information for `tooltip` as it is not needed and out-of-date
-  
-  Closes #41 
----
+-   ### CU Boulder Site Configuration 2.5.2
 
-- ### Resolves configuration conflict for Image Styles causing issues on the Admin Interface
-  Removes conflicting/duplicate `Image Style` configuration from `profile` that already existed in `custom-entities`, which caused the Admin interface to WSOD while trying to update the Image Styles via UI. 
-  
-  Includes:
-  - `profile` => [`issue/tiamat-theme/524`](https://github.com/CuBoulder/tiamat10-profile/pull/40)
-  - `custom-entities` => [`issue/tiamat-theme/524` ](https://github.com/CuBoulder/tiamat-custom-entities/pull/82)
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/524
----
+    This update:
 
-- ### Wide Image Size Adjustment
-  Sets the `Wide` image style size to 1500x563px
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/518
-  
-  
----
+    -   Places "Type" and "Affiliation" under  an "Advanced" section in the "General" settings. This section behaves identically to the one in "Appearance and layout", requiring the same special permission to access.
+    -   Gives the "Site Manager" role the `edit ucb site general` permission to access the "General" settings.
 
-- ### Issue/36
-  Added allowed HTML and wysiwyg button
-  
-  Sister PR: https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/37
----
+    Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/34)
+    CuBoulder/ucb_site_configuration#33
 
-- ### Content Styles
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/515.
-  Adds the necessary html tags for new styles added in Issue 515
----
+* * *
 
-- ### initial site manager and content editor roles
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/514.
-  Adds the initial site manager and content editor accounts.
----
+-   ### Completes in-content menu blocks
 
-- ### fixed wysiwyg toolbar ordering
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/503.
-  Fixes ordering of the toolbar of the WYSIWYG text editor. The current missing link is the styles tab, as we currently have no styles.
----
+    This update completes in-content menu blocks (menu blocks placed outside of a navigation bar, e.g. in a sidebar) by styling them and adding the [Menu Block](https://www.drupal.org/project/menu_block) contrib module for additional options.
 
-- ### Profile clean up
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/501.
-  Cleans up the profile.
----
+    Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/552), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/25), [ucb_admin_menus](https://github.com/CuBoulder/ucb_admin_menus/pull/13)
 
-- ### Adds "Created" column to content administration page
-  Resolves CuBoulder/tiamat-theme#505
----
+    CuBoulder/tiamat-theme#267
+    CuBoulder/tiamat-theme#528
 
-- ### Sets site default email address in the profile
-  This update:
-  - Sets the site default email address in the profile at install time. CuBoulder/tiamat-theme#500
-  - Changes "D9" to "D10" in the Drupal module description.
----
+* * *
 
-- ### Update field.field.media.image.field_media_image_caption.yml
-  Actual placement for this caption item.
-  
-  Closes #31 
----
+-   ### Adding in Scheduler module
+    Used for <https://github.com/CuBoulder/tiamat-theme/issues/504>.
+    Adds necessary profile changes for the scheduler module implementation.
 
-- ### Adds home page setting to CU Boulder site settings
-  This update to CU Boulder Site Configuration:
-  - Adds a new home page setting to CU Boulder site settings. CuBoulder/tiamat-theme#506
-  - Adds a new `edit ucb site pages` permission:
-    - Architect, Developer, and Site Manager have been given this new permission. 
-    - While "Pages" could eventually be split off into its own tab, the settings are found under "General", at least for now. The existing settings in "General" still require `edit ucb site general` to access.
-  - Cleans up PHP files in CU Boulder Site Configuration according to Drupal coding standards. Full compliance has not yet been achieved. CuBoulder/ucb_site_configuration#27
-  
-  Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/28)
----
+* * *
 
-- ### Fixes UCB Person Page custom modules
-  Adds the fixed versions of `UCB Person Title` and `UCB Article Author` to template and profile. Allows First and Last Name fields to create a Person Page title, getting rid of the need to enter a title for these pages. Also automatically creates a Byline taxonomy for newly created Person Pages, for use in the Byline field. 
-  
-  Includes:
-  
-  - `tiamat10-project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/15 (`issue/ucb_person_title/2`)
-  -  `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/28 (`issue/ucb_person_title/2`)
-  -  `ucb_person_title` => https://github.com/CuBoulder/ucb_person_title/pull/4 (`issue/2`)
-  -  `ucb_article_author` => https://github.com/CuBoulder/ucb_article_author/pull/2 (`issue/1`)
-  
-  Resolves https://github.com/CuBoulder/ucb_article_author/issues/1, Resolves https://github.com/CuBoulder/ucb_person_title/issues/2
----
+-   ### paste filter profile change
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/537>.
+    Adds profile changes necessary for the paste filter module.
 
-- ### Installs and enables CKEditor 5 Icons
-  Installs and enables the [CKEditor 5 Icons](https://www.drupal.org/project/ckeditor5_icons) contrib module and the Icon plugin.
-  
-  Resolves CuBoulder/tiamat-theme#372
----
+* * *
 
-- ### Refactoring Installation of CU Default Content
-  Resolves CuBoulder/tiamat-theme#488
-  
----
+-   ### Updated block permissions
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/536>.
+    Adds the content editor permissions to the developer, architect, and site manager roles
+
+* * *
+
+-   ### Issue/510
+
+    Profile updates for the new media file changes
+
+    Settings + profile install 
+
+    Sister PR: <https://github.com/CuBoulder/tiamat10-project-template/pull/22>
+
+* * *
+
+-   ### Adds search frontend and settings
+
+    This update:
+
+    -   Adds a search modal which appears when clicking on the search icon in the top bar.
+    -   Adds a new "Pages and search" tab to CU Boulder site settings (`/admin/config/cu-boulder/pages`). This tab contains settings accessible to Architect, Developer, and Site Manager:
+        -   The home page setting (moved from "General").
+        -   Options to enable site search, all of Colorado.edu search (default), both, or neither.
+        -   Configuration for the site search label, placeholder, and URL.
+    -   Renames "Appearance" to "Appearance and layout" and alters the descriptions of menu items.
+    -   Adds the [Google Programmable Search Engine](https://www.drupal.org/project/google_cse) module, which allows creating custom search pages to use with site search.
+
+    CuBoulder/tiamat-theme#266
+
+    Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/527), [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/29), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/17)
+
+* * *
+
+-   ### Moving simplesamlphp_auth config to optional
+    Added dependency to config as well.   
+
+* * *
+
+-   ### Remove Tooltip
+
+    Remove the editor and filter information for `tooltip` as it is not needed and out-of-date
+
+    Closes #41 
+
+* * *
+
+-   ### Resolves configuration conflict for Image Styles causing issues on the Admin Interface
+
+    Removes conflicting/duplicate `Image Style` configuration from `profile` that already existed in `custom-entities`, which caused the Admin interface to WSOD while trying to update the Image Styles via UI. 
+
+    Includes:
+
+    -   `profile` => [`issue/tiamat-theme/524`](https://github.com/CuBoulder/tiamat10-profile/pull/40)
+    -   `custom-entities` => [`issue/tiamat-theme/524` ](https://github.com/CuBoulder/tiamat-custom-entities/pull/82)
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/524>
+
+* * *
+
+-   ### Wide Image Size Adjustment
+
+    Sets the `Wide` image style size to 1500x563px
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/518>
+
+* * *
+
+-   ### Issue/36
+
+    Added allowed HTML and wysiwyg button
+
+    Sister PR: <https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/37>
+
+* * *
+
+-   ### Content Styles
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/515>.
+    Adds the necessary html tags for new styles added in Issue 515
+
+* * *
+
+-   ### initial site manager and content editor roles
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/514>.
+    Adds the initial site manager and content editor accounts.
+
+* * *
+
+-   ### fixed wysiwyg toolbar ordering
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/503>.
+    Fixes ordering of the toolbar of the WYSIWYG text editor. The current missing link is the styles tab, as we currently have no styles.
+
+* * *
+
+-   ### Profile clean up
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/501>.
+    Cleans up the profile.
+
+* * *
+
+-   ### Adds "Created" column to content administration page
+    Resolves CuBoulder/tiamat-theme#505
+
+* * *
+
+-   ### Sets site default email address in the profile
+    This update:
+    -   Sets the site default email address in the profile at install time. CuBoulder/tiamat-theme#500
+    -   Changes "D9" to "D10" in the Drupal module description.
+
+* * *
+
+-   ### Update field.field.media.image.field_media_image_caption.yml
+
+    Actual placement for this caption item.
+
+    Closes #31 
+
+* * *
+
+-   ### Adds home page setting to CU Boulder site settings
+
+    This update to CU Boulder Site Configuration:
+
+    -   Adds a new home page setting to CU Boulder site settings. CuBoulder/tiamat-theme#506
+    -   Adds a new `edit ucb site pages` permission:
+        -   Architect, Developer, and Site Manager have been given this new permission. 
+        -   While "Pages" could eventually be split off into its own tab, the settings are found under "General", at least for now. The existing settings in "General" still require `edit ucb site general` to access.
+    -   Cleans up PHP files in CU Boulder Site Configuration according to Drupal coding standards. Full compliance has not yet been achieved. CuBoulder/ucb_site_configuration#27
+
+    Sister PR in: [ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/28)
+
+* * *
+
+-   ### Fixes UCB Person Page custom modules
+
+    Adds the fixed versions of `UCB Person Title` and `UCB Article Author` to template and profile. Allows First and Last Name fields to create a Person Page title, getting rid of the need to enter a title for these pages. Also automatically creates a Byline taxonomy for newly created Person Pages, for use in the Byline field. 
+
+    Includes:
+
+    -   `tiamat10-project-template` => <https://github.com/CuBoulder/tiamat10-project-template/pull/15> (`issue/ucb_person_title/2`)
+    -   `tiamat-profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/28> (`issue/ucb_person_title/2`)
+    -   `ucb_person_title` => <https://github.com/CuBoulder/ucb_person_title/pull/4> (`issue/2`)
+    -   `ucb_article_author` => <https://github.com/CuBoulder/ucb_article_author/pull/2> (`issue/1`)
+
+    Resolves <https://github.com/CuBoulder/ucb_article_author/issues/1>, Resolves <https://github.com/CuBoulder/ucb_person_title/issues/2>
+
+* * *
+
+-   ### Installs and enables CKEditor 5 Icons
+
+    Installs and enables the [CKEditor 5 Icons](https://www.drupal.org/project/ckeditor5_icons) contrib module and the Icon plugin.
+
+    Resolves CuBoulder/tiamat-theme#372
+
+* * *
+
+-   ### Refactoring Installation of CU Default Content
+    Resolves CuBoulder/tiamat-theme#488
+
+* * *
 
 ## [20230918] - 2023-09-18
 
@@ -326,6 +369,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20230918...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20231212...HEAD
+
+[20231212]: https://github.com/CuBoulder/tiamat10-profile/compare/20230918...20231212
 
 [20230918]: https://github.com/CuBoulder/tiamat10-profile/compare/b18a1906373a01be11ef84f9cb95d6b171aa9eab...20230918
