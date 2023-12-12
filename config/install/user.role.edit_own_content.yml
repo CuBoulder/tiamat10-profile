@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.wysiwyg
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -13,13 +14,34 @@ dependencies:
     - node.type.ucb_people_list_page
     - node.type.ucb_person
   module:
+    - contextual
+    - file
+    - filter
     - media
     - node
+    - paragraphs
+    - system
+    - toolbar
 id: edit_own_content
 label: 'Edit My Own Content'
 weight: 9
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create video media'
+  - 'delete media'
+  - 'delete own document media'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own video media'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own document media'
@@ -30,3 +52,10 @@ permissions:
   - 'edit own ucb_people_list_page content'
   - 'edit own ucb_person content'
   - 'edit own video media'
+  - 'update media'
+  - 'use text format wysiwyg'
+  - 'view all media revisions'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'

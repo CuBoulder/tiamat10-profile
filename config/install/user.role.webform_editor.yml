@@ -13,5 +13,7 @@ permissions:
   - 'create webform'
   - 'delete any webform'
   - 'delete own webform'
+  - 'delete own webform submission'
   - 'edit any webform'
   - 'edit own webform'
+  - 'edit own webform submission'

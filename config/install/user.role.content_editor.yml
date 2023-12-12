@@ -34,6 +34,8 @@ dependencies:
     - node.type.form_page
     - node.type.ucb_article
     - node.type.ucb_article_list
+    - node.type.ucb_issue
+    - node.type.ucb_issue_archive
     - node.type.ucb_people_list_page
     - node.type.ucb_person
     - taxonomy.vocabulary.byline
@@ -57,6 +59,8 @@ dependencies:
     - node
     - paragraphs
     - path
+    - redirect
+    - scheduler
     - search
     - shortcut
     - system
@@ -78,6 +82,7 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'administer menu'
+  - 'administer redirects'
   - 'configure all basic_page node layout overrides'
   - 'configure any layout'
   - 'configure editable basic_page node layout overrides'
@@ -117,6 +122,8 @@ permissions:
   - 'create ucb_category_cloud block content'
   - 'create ucb_current_issue_block block content'
   - 'create ucb_form block content'
+  - 'create ucb_issue content'
+  - 'create ucb_issue_archive content'
   - 'create ucb_latest_issues_block block content'
   - 'create ucb_people_list_block block content'
   - 'create ucb_people_list_page content'
@@ -145,6 +152,7 @@ permissions:
   - 'delete any events_calendar block content revisions'
   - 'delete any expandable_content block content'
   - 'delete any expandable_content block content revisions'
+  - 'delete any file'
   - 'delete any form_page content'
   - 'delete any hero_unit block content'
   - 'delete any hero_unit block content revisions'
@@ -170,6 +178,8 @@ permissions:
   - 'delete any ucb_current_issue_block block content revisions'
   - 'delete any ucb_form block content'
   - 'delete any ucb_form block content revisions'
+  - 'delete any ucb_issue content'
+  - 'delete any ucb_issue_archive content'
   - 'delete any ucb_latest_issues_block block content'
   - 'delete any ucb_latest_issues_block block content revisions'
   - 'delete any ucb_people_list_block block content'
@@ -194,6 +204,8 @@ permissions:
   - 'delete own image media'
   - 'delete own ucb_article content'
   - 'delete own ucb_article_list content'
+  - 'delete own ucb_issue content'
+  - 'delete own ucb_issue_archive content'
   - 'delete own ucb_people_list_page content'
   - 'delete own ucb_person content'
   - 'delete own video media'
@@ -209,6 +221,8 @@ permissions:
   - 'delete terms in ucb_person_job_type'
   - 'delete ucb_article revisions'
   - 'delete ucb_article_list revisions'
+  - 'delete ucb_issue revisions'
+  - 'delete ucb_issue_archive revisions'
   - 'delete ucb_people_list_page revisions'
   - 'delete ucb_person revisions'
   - 'edit any article_list_block block content'
@@ -235,6 +249,8 @@ permissions:
   - 'edit any ucb_category_cloud block content'
   - 'edit any ucb_current_issue_block block content'
   - 'edit any ucb_form block content'
+  - 'edit any ucb_issue content'
+  - 'edit any ucb_issue_archive content'
   - 'edit any ucb_latest_issues_block block content'
   - 'edit any ucb_people_list_block block content'
   - 'edit any ucb_people_list_page content'
@@ -250,6 +266,8 @@ permissions:
   - 'edit own image media'
   - 'edit own ucb_article content'
   - 'edit own ucb_article_list content'
+  - 'edit own ucb_issue content'
+  - 'edit own ucb_issue_archive content'
   - 'edit own ucb_people_list_page content'
   - 'edit own ucb_person content'
   - 'edit own video media'
@@ -291,6 +309,8 @@ permissions:
   - 'revert form_page revisions'
   - 'revert ucb_article revisions'
   - 'revert ucb_article_list revisions'
+  - 'revert ucb_issue revisions'
+  - 'revert ucb_issue_archive revisions'
   - 'revert ucb_people_list_page revisions'
   - 'revert ucb_person revisions'
   - 'schedule publishing of media'
@@ -301,9 +321,6 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use text format wysiwyg'
-  - 'view scheduled content'
-  - 'view scheduled media'
-  - 'view scheduled taxonomy_term'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any article_list_block block content history'
@@ -332,9 +349,14 @@ permissions:
   - 'view form_page revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'
+  - 'view scheduled content'
+  - 'view scheduled media'
+  - 'view scheduled taxonomy_term'
   - 'view the administration theme'
   - 'view ucb_article revisions'
   - 'view ucb_article_list revisions'
+  - 'view ucb_issue revisions'
+  - 'view ucb_issue_archive revisions'
   - 'view ucb_people_list_page revisions'
   - 'view ucb_person revisions'
   - 'view unpublished paragraphs'

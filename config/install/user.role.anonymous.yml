@@ -2,6 +2,8 @@ langcode: en
 status: true
 dependencies:
   module:
+    - contact
+    - google_cse
     - media
     - system
 id: anonymous
@@ -10,4 +12,6 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access site-wide contact form'
+  - 'search Google CSE'
   - 'view media'
