@@ -5,6 +5,7 @@ dependencies:
     - contact
     - google_cse
     - media
+    - search
     - system
     - webform
 id: authenticated
@@ -16,4 +17,5 @@ permissions:
   - 'access site-wide contact form'
   - 'access webform submission user'
   - 'search Google CSE'
+  - 'search content'
   - 'view media'

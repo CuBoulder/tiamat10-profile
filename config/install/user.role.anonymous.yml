@@ -5,6 +5,7 @@ dependencies:
     - contact
     - google_cse
     - media
+    - search
     - system
 id: anonymous
 label: 'Anonymous user'
@@ -14,4 +15,5 @@ permissions:
   - 'access content'
   - 'access site-wide contact form'
   - 'search Google CSE'
+  - 'search content'
   - 'view media'
