@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - boulder_base
+id: boulder_base_responsive_menu_mobile_icon
+theme: boulder_base
+region: header
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }
