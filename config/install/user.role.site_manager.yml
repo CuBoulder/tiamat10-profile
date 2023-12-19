@@ -39,7 +39,6 @@ dependencies:
     - node.type.ucb_people_list_page
     - node.type.ucb_person
     - taxonomy.vocabulary.byline
-    - taxonomy.vocabulary.categories
     - taxonomy.vocabulary.category
     - taxonomy.vocabulary.department
     - taxonomy.vocabulary.filter_1
@@ -114,7 +113,6 @@ permissions:
   - 'create media'
   - 'create slider block content'
   - 'create terms in byline'
-  - 'create terms in categories'
   - 'create terms in category'
   - 'create terms in department'
   - 'create terms in filter_1'
@@ -220,7 +218,6 @@ permissions:
   - 'delete own ucb_person content'
   - 'delete own video media'
   - 'delete terms in byline'
-  - 'delete terms in categories'
   - 'delete terms in category'
   - 'delete terms in department'
   - 'delete terms in filter_1'
@@ -282,7 +279,6 @@ permissions:
   - 'edit own ucb_person content'
   - 'edit own video media'
   - 'edit terms in byline'
-  - 'edit terms in categories'
   - 'edit terms in category'
   - 'edit terms in department'
   - 'edit terms in filter_1'
