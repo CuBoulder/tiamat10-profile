@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove 'Categories' taxonomy term + Associated Permissions
+  Removing the **_'Categories'_** taxonomy term and permissions associated with it, as all current Content Types and Blocks use the correct taxonomy term **'Category'** for terms and sorting/filtering. There were no references to the deleted **_'Categories'_** term in `ucb_custom_entities` or any other custom modules, such as `Campus News` or `Site Configuration`, only fields with a machine name that included the word 'categories", but this was only in reference to a collection of **'Category'** terms and not the actual _**'Categories'**_ term.
+   
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/587
+---
+
 ## [20231212] - 2023-12-12
 
 -   ### Updating role permissions
