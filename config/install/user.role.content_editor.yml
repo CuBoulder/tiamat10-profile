@@ -362,3 +362,6 @@ permissions:
   - 'view ucb_issue revisions'
   - 'view ucb_issue_archive revisions'
   - 'view ucb_people_list_page revisions'
+  - 'view ucb_person revisions'
+  - 'view unpublished paragraphs'
+  - 'view user email addresses'
