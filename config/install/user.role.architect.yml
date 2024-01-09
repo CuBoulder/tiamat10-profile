@@ -23,6 +23,7 @@ dependencies:
     - block_content.type.ucb_people_list_block
     - block_content.type.ucb_slate_form
     - block_content.type.ucb_tag_cloud
+    - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.wysiwyg
@@ -123,6 +124,7 @@ permissions:
   - 'create expandable_content block content'
   - 'create form_page content'
   - 'create hero_unit block content'
+  - 'create video_hero_unit block content'
   - 'create image media'
   - 'create image_gallery block content'
   - 'create media'
@@ -181,6 +183,8 @@ permissions:
   - 'delete any form_page content'
   - 'delete any hero_unit block content'
   - 'delete any hero_unit block content revisions'
+  - 'delete any video_hero_unit block content'
+  - 'delete any video_hero_unit block content revisions'
   - 'delete any image media'
   - 'delete any image_gallery block content'
   - 'delete any image_gallery block content revisions'
@@ -268,6 +272,7 @@ permissions:
   - 'edit any expandable_content block content'
   - 'edit any form_page content'
   - 'edit any hero_unit block content'
+  - 'edit any video_hero_unit block content'
   - 'edit any image media'
   - 'edit any image_gallery block content'
   - 'edit any newsletter content'
@@ -332,6 +337,7 @@ permissions:
   - 'revert any events_calendar block content revisions'
   - 'revert any expandable_content block content revisions'
   - 'revert any hero_unit block content revisions'
+  - 'revert any video_hero_unit block content revisions'
   - 'revert any image_gallery block content revisions'
   - 'revert any slider block content revisions'
   - 'revert any text_block block content revisions'
@@ -375,6 +381,7 @@ permissions:
   - 'view any events_calendar block content history'
   - 'view any expandable_content block content history'
   - 'view any hero_unit block content history'
+  - 'view any video_hero_unit block content history'
   - 'view any image_gallery block content history'
   - 'view any slider block content history'
   - 'view any text_block block content history'
