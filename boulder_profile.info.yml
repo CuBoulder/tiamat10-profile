@@ -26,7 +26,6 @@ install:
   - layout_builder
   - layout_discovery
   - layout_builder_modal
-  - gin_lb
   - search
   - shortcut
   - toolbar
@@ -45,7 +44,6 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - admin_toolbar_links_access_filter
-  - gin_toolbar
   - media
   - media_library
   - field_group
@@ -104,4 +102,3 @@ dependencies:
 # Note that this will not set any theme as the default theme.
 themes:
   - boulder_base
-  - gin
