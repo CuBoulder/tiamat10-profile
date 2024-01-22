@@ -1,0 +1,19 @@
+roles:
+  site_manager: site_manager
+  content_editor: content_editor
+  layout_manager: layout_manager
+  site_owner: site_owner
+  edit_own_content: edit_own_content
+  newsletter: newsletter
+  webform_editor: webform_editor
+  webform_submissions_viewer: webform_submissions_viewer
+  authenticated: 0
+  developer: 0
+  architect: 0
+default_role: content_editor
+default_custom_message: 'Hello,'
+invite_subject: 'Invitation to log in to [site:name]'
+invite_template: "%custom_message%\r\n\r\nYou have been invited to log in to the [site:name] website as a user with %role_label% access privileges.\r\n\r\nTo accept this invitation:\r\n1) Go to %login_link%\r\n2) Log in with your CU Boulder credentials.\r\n\r\nThis invitation was sent by a manager of the site with permission to invite users. If you have any questions, please reach out to them directly at [current-user:mail].\r\n"
+confirmation_subject: 'Users invited to [site:name]'
+confirmation_template: "We have received your request to grant %role_label% (%role_id%) access to the following:\r\n\r\n%address_list%\r\n\r\nAn email invitation has been sent requesting the users to log in. If you did not submit this request, please contact your administrator at [site:mail].\r\n"
+
