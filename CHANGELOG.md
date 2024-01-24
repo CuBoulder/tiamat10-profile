@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Claro theme changes
+  Changes done for the claro theme move over
+---
+
 - ### Adds Redirect + Video Hero Unit Permissions
   ### Two Permissions changes:
   
