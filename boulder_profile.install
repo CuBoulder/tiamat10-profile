@@ -77,4 +77,20 @@ function boulder_profile_install() {
       'roles' => 'content_editor'
     ])->enforceIsNew()->save();
   }
+
+  // Installs default shortcuts
+
+  Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Blocks'),
+    'weight' => -18,
+    'link' => ['uri' => 'internal:/admin/content/blocks'],
+  ])->save();
+
+  Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Main menu'),
+    'weight' => -17,
+    'link' => ['uri' => 'internal:/admin/structure/menu/manage/main'],
+  ])->save();
 }
