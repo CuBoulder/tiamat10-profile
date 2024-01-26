@@ -22,7 +22,22 @@ function boulder_profile_install() {
   // Sets the site mail.
   \Drupal::configFactory()->getEditable('system.site')->set('mail', 'webexpress_noreply@colorado.edu');
 
-  /**
+  _boulder_profile_install_users();
+  _boulder_profile_install_shortcuts();
+}
+
+/**
+ * Adds default shortcuts (CuBoulder/tiamat10-profile#67).
+ */
+function boulder_profile_update_9501() {
+  _boulder_profile_install_shortcuts();
+}
+
+/**
+ * Installs default (privileged) users.
+ */
+function _boulder_profile_install_users() {
+  /*
    * Create inital users for the Web Team
    */
   $users = ['jesp3304', 'mibo7729', 'alco6164', 'joni1621', 'jako6198', 'crafts', 'titr7839', 'pabr5825'];
@@ -36,7 +51,7 @@ function boulder_profile_install() {
     ])->enforceIsNew()->save();
   }
 
-  /**
+  /*
    * Create inital users for the UX Team
    */
   $users = ['linebarg', 'niwa4700', 'brokaw', 'wetu1300', 'fraziere'];
@@ -50,7 +65,7 @@ function boulder_profile_install() {
     ])->enforceIsNew()->save();
   }
 
-  /**
+  /*
    * Create inital users for the Site Manager Role
    */
   $users = ['webexpress-manager'];
@@ -64,7 +79,7 @@ function boulder_profile_install() {
     ])->enforceIsNew()->save();
   }
 
-  /**
+  /*
    * Create inital users for the Content Editor Role
    */
   $users = ['webexpress-editor'];
@@ -77,4 +92,24 @@ function boulder_profile_install() {
       'roles' => 'content_editor'
     ])->enforceIsNew()->save();
   }
+}
+
+
+/**
+ * Installs default shortcuts.
+ */
+function _boulder_profile_install_shortcuts() {
+  Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Blocks'),
+    'weight' => -18,
+    'link' => ['uri' => 'internal:/admin/content/block'],
+  ])->save();
+
+  Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Main menu'),
+    'weight' => -17,
+    'link' => ['uri' => 'internal:/admin/structure/menu/manage/main'],
+  ])->save();
 }

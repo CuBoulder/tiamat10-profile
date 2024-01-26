@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds default Shortcuts
+  Adds two requested default Shortcuts:
+  - Blocks (admin/content/block)
+  - Main menu (admin/structure/menu/manage/main)
+  
+  Resolves CuBoulder/tiamat10-profile#63
+---
+
 - ### Claro theme changes
   Changes done for the claro theme move over
 ---
