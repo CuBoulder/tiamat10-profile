@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Switching to Express Admin for the administration theme
+  Express Admin administration sub-theme with Claro as the base theme set as the default admin theme.  
+---
+
 - ### Adds default Shortcuts
   Adds two requested default Shortcuts:
   - Blocks (admin/content/block)
