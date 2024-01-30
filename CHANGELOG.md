@@ -9,6 +9,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds + Enables Menu First Child Module on Install
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/637
+  
+  Includes:
+  - `express-admin` (issue/tiamat-theme/637) => https://github.com/CuBoulder/express_admin/pull/4
+  - `tiamat10-profile`(issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-profile/pull/70
+  - `tiamat10-project template` (issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-project-template/pull/31
+---
+
+- ### Modal module change
+  Changing from modal to iframe modal
+  
+  Sister PRs:
+  https://github.com/CuBoulder/tiamat-theme/pull/639
+  https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/23
+  https://github.com/CuBoulder/tiamat10-project-template/pull/30
+---
+
+- ### Switching to Express Admin for the administration theme
+  Express Admin administration sub-theme with Claro as the base theme set as the default admin theme.  
+---
+
+- ### Adds default Shortcuts
+  Adds two requested default Shortcuts:
+  - Blocks (admin/content/block)
+  - Main menu (admin/structure/menu/manage/main)
+  
+  Resolves CuBoulder/tiamat10-profile#63
+---
+
+- ### Claro theme changes
+  Changes done for the claro theme move over
+---
+
 - ### Adds Redirect + Video Hero Unit Permissions
   ### Two Permissions changes:
   

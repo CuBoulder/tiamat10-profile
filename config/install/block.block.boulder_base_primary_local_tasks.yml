@@ -2,18 +2,18 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - gin
-id: gin_secondary_local_tasks
-theme: gin
-region: pre_content
+    - boulder_base
+id: boulder_base_primary_local_tasks
+theme: boulder_base
+region: header
 weight: 0
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Secondary tabs'
+  label: 'Primary tabs'
   label_display: '0'
   provider: core
-  primary: false
-  secondary: true
+  primary: true
+  secondary: false
 visibility: {  }

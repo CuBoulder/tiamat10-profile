@@ -25,8 +25,7 @@ install:
   - dblog
   - layout_builder
   - layout_discovery
-  - layout_builder_modal
-  - gin_lb
+  - layout_builder_iframe_modal
   - search
   - shortcut
   - toolbar
@@ -45,7 +44,6 @@ install:
   - admin_toolbar
   - admin_toolbar_tools
   - admin_toolbar_links_access_filter
-  - gin_toolbar
   - media
   - media_library
   - field_group
@@ -91,6 +89,7 @@ install:
   - ucb_person_title
   - ucb_article_author
   - ckeditor5_paste_filter
+  - menu_firstchild
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
@@ -104,4 +103,4 @@ dependencies:
 # Note that this will not set any theme as the default theme.
 themes:
   - boulder_base
-  - gin
+  - express_admin
