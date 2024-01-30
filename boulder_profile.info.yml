@@ -25,7 +25,7 @@ install:
   - dblog
   - layout_builder
   - layout_discovery
-  - layout_builder_modal
+  - layout_builder_iframe_modal
   - search
   - shortcut
   - toolbar

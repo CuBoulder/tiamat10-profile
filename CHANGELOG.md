@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Modal module change
+  Changing from modal to iframe modal
+  
+  Sister PRs:
+  https://github.com/CuBoulder/tiamat-theme/pull/639
+  https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/23
+  https://github.com/CuBoulder/tiamat10-project-template/pull/30
+---
+
 - ### Switching to Express Admin for the administration theme
   Express Admin administration sub-theme with Claro as the base theme set as the default admin theme.  
 ---

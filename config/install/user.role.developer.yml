@@ -73,7 +73,6 @@ dependencies:
     - filter
     - image
     - layout_builder
-    - layout_builder_modal
     - media
     - media_file_delete
     - metatag
@@ -147,7 +146,6 @@ permissions:
   - 'administer embed buttons'
   - 'administer filters'
   - 'administer image styles'
-  - 'administer layout builder modal'
   - 'administer media'
   - 'administer media display'
   - 'administer media fields'
