@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds + Enables Menu First Child Module on Install
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/637
+  
+  Includes:
+  - `express-admin` (issue/tiamat-theme/637) => https://github.com/CuBoulder/express_admin/pull/4
+  - `tiamat10-profile`(issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-profile/pull/70
+  - `tiamat10-project template` (issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-project-template/pull/31
+---
+
 - ### Modal module change
   Changing from modal to iframe modal
   
