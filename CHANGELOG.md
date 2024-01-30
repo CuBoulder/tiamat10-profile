@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds User Invite configuration; adds Webform permissions to Site Manager role
+  Resolves CuBoulder/tiamat10-profile#60
+  Resolves CuBoulder/tiamat10-profile#61
+  CuBoulder/tiamat10-profile#65
+---
+
 - ### Adds + Enables Menu First Child Module on Install
   Resolves https://github.com/CuBoulder/tiamat-theme/issues/637
   
