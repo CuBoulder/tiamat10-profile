@@ -1,4 +1,3 @@
-uuid: e1d49075-684a-4289-ba7c-bbbe44fb84b8
 langcode: en
 status: true
 dependencies:
@@ -79,8 +78,6 @@ dependencies:
     - ucb_site_configuration
     - ucb_user_invite
     - webform
-_core:
-  default_config_hash: r_r1Kehz_H1Bw2RdfBLBcJNE2JSm0mO8S8xGNj50Vfg
 id: architect
 label: Architect
 weight: 3

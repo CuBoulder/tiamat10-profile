@@ -1,4 +1,3 @@
-uuid: edbff6ce-71cf-448f-a70e-a4cca4c90b4f
 langcode: en
 status: true
 dependencies:
@@ -74,8 +73,6 @@ dependencies:
     - ucb_site_configuration
     - ucb_user_invite
     - webform
-_core:
-  default_config_hash: Ce-8KdIhBas8abf49qefmKPiePoNHUQZrkBNxVlrXSo
 id: site_manager
 label: 'Site Manager'
 weight: 3

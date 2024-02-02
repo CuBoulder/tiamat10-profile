@@ -1,4 +1,3 @@
-uuid: e15262d4-cabc-45c2-9557-b95d1867e801
 langcode: en
 status: true
 dependencies:
@@ -96,8 +95,6 @@ dependencies:
     - ucb_user_invite
     - views_ui
     - webform
-_core:
-  default_config_hash: 7sjAzKtn0GdtFLORSXo_LGkPhgP1PzbMqqazNoQtJTc
 id: developer
 label: Developer
 weight: 2

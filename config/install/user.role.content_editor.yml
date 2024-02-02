@@ -1,4 +1,3 @@
-uuid: cd9802de-310a-41ad-b2b2-020fcd93cd72
 langcode: en
 status: true
 dependencies:
@@ -70,8 +69,6 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-_core:
-  default_config_hash: lKJZwY4qRopPnkoN1MjSXIRZFdfsc_ntCCWAx4eoH34
 id: content_editor
 label: 'Content Editor'
 weight: 4
