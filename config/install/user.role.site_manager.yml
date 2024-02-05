@@ -38,6 +38,9 @@ dependencies:
     - node.type.newsletter
     - node.type.ucb_article
     - node.type.ucb_article_list
+    - node.type.ucb_class_notes
+    - node.type.ucb_class_notes_list_page
+    - node.type.ucb_faq_page
     - node.type.ucb_issue
     - node.type.ucb_issue_archive
     - node.type.ucb_people_list_page
@@ -140,7 +143,10 @@ permissions:
   - 'create ucb_article_list content'
   - 'create ucb_article_slider block content'
   - 'create ucb_category_cloud block content'
+  - 'create ucb_class_notes content'
+  - 'create ucb_class_notes_list_page content'
   - 'create ucb_current_issue_block block content'
+  - 'create ucb_faq_page content'
   - 'create ucb_form block content'
   - 'create ucb_issue content'
   - 'create ucb_issue_archive content'
@@ -201,6 +207,7 @@ permissions:
   - 'delete any ucb_category_cloud block content revisions'
   - 'delete any ucb_current_issue_block block content'
   - 'delete any ucb_current_issue_block block content revisions'
+  - 'delete any ucb_faq_page content'
   - 'delete any ucb_form block content'
   - 'delete any ucb_form block content revisions'
   - 'delete any ucb_issue content'
@@ -234,6 +241,7 @@ permissions:
   - 'delete own image media'
   - 'delete own ucb_article content'
   - 'delete own ucb_article_list content'
+  - 'delete own ucb_faq_page content'
   - 'delete own ucb_issue content'
   - 'delete own ucb_issue_archive content'
   - 'delete own ucb_people_list_page content'
@@ -254,6 +262,7 @@ permissions:
   - 'delete terms in ucb_person_job_type'
   - 'delete ucb_article revisions'
   - 'delete ucb_article_list revisions'
+  - 'delete ucb_faq_page revisions'
   - 'delete ucb_issue revisions'
   - 'delete ucb_issue_archive revisions'
   - 'delete ucb_people_list_page revisions'
