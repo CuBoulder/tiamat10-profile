@@ -35,8 +35,6 @@ dependencies:
     - node.type.form_page
     - node.type.ucb_article
     - node.type.ucb_article_list
-    - node.type.ucb_class_notes
-    - node.type.ucb_class_notes_list_page
     - node.type.ucb_faq_page
     - node.type.ucb_issue
     - node.type.ucb_issue_archive
@@ -123,8 +121,6 @@ permissions:
   - 'create ucb_article_list content'
   - 'create ucb_article_slider block content'
   - 'create ucb_category_cloud block content'
-  - 'create ucb_class_notes content'
-  - 'create ucb_class_notes_list_page content'
   - 'create ucb_current_issue_block block content'
   - 'create ucb_faq_page content'
   - 'create ucb_form block content'
@@ -259,6 +255,7 @@ permissions:
   - 'edit any ucb_article_slider block content'
   - 'edit any ucb_category_cloud block content'
   - 'edit any ucb_current_issue_block block content'
+  - 'edit any ucb_faq_page content'
   - 'edit any ucb_form block content'
   - 'edit any ucb_issue content'
   - 'edit any ucb_issue_archive content'
