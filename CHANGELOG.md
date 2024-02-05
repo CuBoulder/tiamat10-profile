@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Fixes permissions with FAQ Pages
+  Resolves #71 
+---
+
 - ### Adds User Invite configuration; adds Webform permissions to Site Manager role
   Resolves CuBoulder/tiamat10-profile#60
   Resolves CuBoulder/tiamat10-profile#61
