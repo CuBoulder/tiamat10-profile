@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Class Note Enhancements
+  Adjusts permissions for Class Notes, adds optional image field. Resolves https://github.com/CuBoulder/tiamat-theme/issues/622
+  
+  Includes:
+  - tiamat-theme => https://github.com/CuBoulder/tiamat-theme/pull/648
+  - tiamat-profile => https://github.com/CuBoulder/tiamat10-profile/pull/75
+  - custom-entities => https://github.com/CuBoulder/tiamat-custom-entities/pull/94
+---
+
 - ### profile changes for collections
   Helps close https://github.com/CuBoulder/tiamat-theme/issues/534.
   Adds the necessary permissions for collection objects.
