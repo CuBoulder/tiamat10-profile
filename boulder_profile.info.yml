@@ -26,6 +26,7 @@ install:
   - layout_builder
   - layout_discovery
   - layout_builder_iframe_modal
+  - linkit
   - search
   - shortcut
   - toolbar

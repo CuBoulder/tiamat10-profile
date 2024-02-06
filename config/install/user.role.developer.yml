@@ -76,8 +76,11 @@ dependencies:
     - filter
     - image
     - layout_builder
+    - layout_builder_iframe_modal
     - media
     - media_file_delete
+    - layout_builder_iframe_modal
+    - linkit
     - metatag
     - node
     - paragraphs
@@ -149,6 +152,7 @@ permissions:
   - 'administer embed buttons'
   - 'administer filters'
   - 'administer image styles'
+  - 'administer linkit profiles'
   - 'administer media'
   - 'administer media display'
   - 'administer media fields'
@@ -201,6 +205,7 @@ permissions:
   - 'create and edit custom blocks'
   - 'create article_list_block block content'
   - 'create audio media'
+  - 'configure layout builder iframe modal'
   - 'create basic_page content'
   - 'create content_grid block content'
   - 'create content_list block content'
