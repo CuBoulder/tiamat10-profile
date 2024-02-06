@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Linkit and iframe modal
+  Added linkit to the install profile.
+  Updated developer permissions to handle linkit and iframe modal
+  
+  Includes:
+  - tiamat10-project-tempate => https://github.com/CuBoulder/tiamat10-project-template/pull/32
+  
+---
+
 - ### Class Note Enhancements
   Adjusts permissions for Class Notes, adds optional image field. Resolves https://github.com/CuBoulder/tiamat-theme/issues/622
   
