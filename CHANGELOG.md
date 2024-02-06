@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds sidebar menu block
+  CuBoulder/tiamat-theme#633
+  
+  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/650), ~~[ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/45)~~
+---
+
 - ### Linkit and iframe modal
   Added linkit to the install profile.
   Updated developer permissions to handle linkit and iframe modal
