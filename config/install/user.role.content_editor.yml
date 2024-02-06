@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - block_content.type.article_list_block
+    - block_content.type.collection_grid
     - block_content.type.content_grid
     - block_content.type.content_list
     - block_content.type.content_row
@@ -32,6 +33,7 @@ dependencies:
     - media.type.image
     - media.type.video
     - node.type.basic_page
+    - node.type.collection_item_page
     - node.type.form_page
     - node.type.ucb_article
     - node.type.ucb_article_list
@@ -42,6 +44,8 @@ dependencies:
     - node.type.ucb_person
     - taxonomy.vocabulary.byline
     - taxonomy.vocabulary.category
+    - taxonomy.vocabulary.collection_category
+    - taxonomy.vocabulary.collection_type
     - taxonomy.vocabulary.department
     - taxonomy.vocabulary.filter_1
     - taxonomy.vocabulary.filter_2
@@ -92,6 +96,8 @@ permissions:
   - 'create article_list_block block content'
   - 'create audio media'
   - 'create basic_page content'
+  - 'create collection_grid block content'
+  - 'create collection_item_page content'
   - 'create content_grid block content'
   - 'create content_list block content'
   - 'create content_row block content'
@@ -107,6 +113,8 @@ permissions:
   - 'create slider block content'
   - 'create terms in byline'
   - 'create terms in category'
+  - 'create terms in collection_category'
+  - 'create terms in collection_type'
   - 'create terms in department'
   - 'create terms in filter_1'
   - 'create terms in filter_2'
@@ -142,6 +150,9 @@ permissions:
   - 'delete any article_list_block block content revisions'
   - 'delete any audio media'
   - 'delete any basic_page content'
+  - 'delete any collection_grid block content'
+  - 'delete any collection_grid block content revisions'
+  - 'delete any collection_item_page content'
   - 'delete any content_grid block content'
   - 'delete any content_grid block content revisions'
   - 'delete any content_list block content'
@@ -200,11 +211,13 @@ permissions:
   - 'delete any video_reveal block content'
   - 'delete any video_reveal block content revisions'
   - 'delete basic_page revisions'
+  - 'delete collection_item_page revisions'
   - 'delete form_page revisions'
   - 'delete media'
   - 'delete orphan revisions'
   - 'delete own audio media'
   - 'delete own basic_page content'
+  - 'delete own collection_item_page content'
   - 'delete own document media'
   - 'delete own form_page content'
   - 'delete own image media'
@@ -218,6 +231,8 @@ permissions:
   - 'delete own video media'
   - 'delete terms in byline'
   - 'delete terms in category'
+  - 'delete terms in collection_category'
+  - 'delete terms in collection_type'
   - 'delete terms in department'
   - 'delete terms in filter_1'
   - 'delete terms in filter_2'
@@ -235,6 +250,8 @@ permissions:
   - 'edit any article_list_block block content'
   - 'edit any audio media'
   - 'edit any basic_page content'
+  - 'edit any collection_grid block content'
+  - 'edit any collection_item_page content'
   - 'edit any content_grid block content'
   - 'edit any content_list block content'
   - 'edit any content_row block content'
@@ -270,6 +287,7 @@ permissions:
   - 'edit any video_reveal block content'
   - 'edit own audio media'
   - 'edit own basic_page content'
+  - 'edit own collection_item_page content'
   - 'edit own document media'
   - 'edit own form_page content'
   - 'edit own image media'
@@ -282,6 +300,8 @@ permissions:
   - 'edit own video media'
   - 'edit terms in byline'
   - 'edit terms in category'
+  - 'edit terms in collection_category'
+  - 'edit terms in collection_type'
   - 'edit terms in department'
   - 'edit terms in filter_1'
   - 'edit terms in filter_2'
@@ -292,6 +312,7 @@ permissions:
   - 'link to any page'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
+  - 'revert any collection_grid block content revisions'
   - 'revert any content_grid block content revisions'
   - 'revert any content_list block content revisions'
   - 'revert any content_row block content revisions'
@@ -315,6 +336,7 @@ permissions:
   - 'revert any video_hero_unit block content revisions'
   - 'revert any video_reveal block content revisions'
   - 'revert basic_page revisions'
+  - 'revert collection_item_page revisions'
   - 'revert form_page revisions'
   - 'revert ucb_article revisions'
   - 'revert ucb_article_list revisions'
@@ -333,6 +355,7 @@ permissions:
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any article_list_block block content history'
+  - 'view any collection_grid block content history'
   - 'view any content_grid block content history'
   - 'view any content_list block content history'
   - 'view any content_row block content history'
@@ -356,6 +379,7 @@ permissions:
   - 'view any video_hero_unit block content history'
   - 'view any video_reveal block content history'
   - 'view basic_page revisions'
+  - 'view collection_item_page revisions'
   - 'view form_page revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'

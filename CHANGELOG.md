@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### profile changes for collections
+  Helps close https://github.com/CuBoulder/tiamat-theme/issues/534.
+  Adds the necessary permissions for collection objects.
+---
+
 - ### Fixes permissions with FAQ Pages
   Resolves #71 
 ---
