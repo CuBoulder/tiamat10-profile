@@ -1,0 +1,9 @@
+roles:
+  site_manager: safe
+  content_editor: safe
+  layout_manager: safe
+  site_owner: safe
+  edit_own_content: safe
+  newsletter: safe
+  webform_editor: safe
+  webform_submissions_viewer: safe
