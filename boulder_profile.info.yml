@@ -6,6 +6,7 @@ core_version_requirement: "^10"
 install:
   - history
   - automated_cron
+  - administerusersbyrole
   - block_content
   - breakpoint
   - config
