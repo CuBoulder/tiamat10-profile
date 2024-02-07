@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Create layout_builder_iframe_modal.settings.yml
+  Added missing settings yml for the iframe builder
+---
+
 - ### Adds sidebar menu block
   CuBoulder/tiamat-theme#633
   
