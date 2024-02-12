@@ -112,17 +112,16 @@ function _boulder_profile_install_shortcuts() {
     'weight' => -17,
     'link' => ['uri' => 'internal:/admin/structure/menu/manage/main'],
   ])->save();
+}
 
-  /**
-   * Installs "Administer users by role" contrib module settings.
-   *
-   * This workaround is necessary as the settings get overriden by the contrib
-   * module following the installation of the roles.
-   */
-  function _boulder_profile_install_administerusersbyrole_settings() {
-    $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
-    $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/administerusersbyrole.settings.yml'));
-    \Drupal::configFactory()->getEditable('administerusersbyrole.settings')->set('roles', $settingsYaml['roles'])->save();
-  }
-
+/**
+ * Installs "Administer users by role" contrib module settings.
+ *
+ * This workaround is necessary as the settings get overriden by the contrib
+ * module following the installation of the roles.
+ */
+function _boulder_profile_install_administerusersbyrole_settings() {
+  $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
+  $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/administerusersbyrole.settings.yml'));
+  \Drupal::configFactory()->getEditable('administerusersbyrole.settings')->set('roles', $settingsYaml['roles'])->save();
 }
