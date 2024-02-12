@@ -114,7 +114,10 @@ function _boulder_profile_install_shortcuts() {
   ])->save();
 
   /**
-   * Installs administerusersbyrole settings.
+   * Installs "Administer users by role" contrib module settings.
+   *
+   * This workaround is necessary as the settings get overriden by the contrib
+   * module following the installation of the roles.
    */
   function _boulder_profile_install_administerusersbyrole_settings() {
     $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
