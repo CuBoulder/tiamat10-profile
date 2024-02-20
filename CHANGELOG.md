@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds mobile menus! changes
+  - Expands all main menu child menu items. (CuBoulder/tiamat-theme#647)
+  
+  CuBoulder/tiamat-theme#653
+  
+  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/660)
+---
+
 - ### Create layout_builder_iframe_modal.settings.yml
   Added missing settings yml for the iframe builder
 ---
