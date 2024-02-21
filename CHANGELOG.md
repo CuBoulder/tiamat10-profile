@@ -9,106 +9,133 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Adds mobile menus! changes
-  - Expands all main menu child menu items. (CuBoulder/tiamat-theme#647)
-  
-  CuBoulder/tiamat-theme#653
-  
-  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/660)
----
+## [20240221] - 2024-02-21
 
-- ### Create layout_builder_iframe_modal.settings.yml
-  Added missing settings yml for the iframe builder
----
+-   ### Adds mobile menus! changes
 
-- ### Adds sidebar menu block
-  CuBoulder/tiamat-theme#633
-  
-  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/650), ~~[ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/45)~~
----
+    -   Expands all main menu child menu items. (CuBoulder/tiamat-theme#647)
 
-- ### Linkit and iframe modal
-  Added linkit to the install profile.
-  Updated developer permissions to handle linkit and iframe modal
-  
-  Includes:
-  - tiamat10-project-tempate => https://github.com/CuBoulder/tiamat10-project-template/pull/32
-  
----
+    CuBoulder/tiamat-theme#653
 
-- ### Class Note Enhancements
-  Adjusts permissions for Class Notes, adds optional image field. Resolves https://github.com/CuBoulder/tiamat-theme/issues/622
-  
-  Includes:
-  - tiamat-theme => https://github.com/CuBoulder/tiamat-theme/pull/648
-  - tiamat-profile => https://github.com/CuBoulder/tiamat10-profile/pull/75
-  - custom-entities => https://github.com/CuBoulder/tiamat-custom-entities/pull/94
----
+    Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/660)
 
-- ### profile changes for collections
-  Helps close https://github.com/CuBoulder/tiamat-theme/issues/534.
-  Adds the necessary permissions for collection objects.
----
+* * *
 
-- ### Fixes permissions with FAQ Pages
-  Resolves #71 
----
+-   ### Create layout_builder_iframe_modal.settings.yml
+    Added missing settings yml for the iframe builder
 
-- ### Adds User Invite configuration; adds Webform permissions to Site Manager role
-  Resolves CuBoulder/tiamat10-profile#60
-  Resolves CuBoulder/tiamat10-profile#61
-  CuBoulder/tiamat10-profile#65
----
+* * *
 
-- ### Adds + Enables Menu First Child Module on Install
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/637
-  
-  Includes:
-  - `express-admin` (issue/tiamat-theme/637) => https://github.com/CuBoulder/express_admin/pull/4
-  - `tiamat10-profile`(issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-profile/pull/70
-  - `tiamat10-project template` (issue/tiamat-theme/637) => https://github.com/CuBoulder/tiamat10-project-template/pull/31
----
+-   ### Adds sidebar menu block
 
-- ### Modal module change
-  Changing from modal to iframe modal
-  
-  Sister PRs:
-  https://github.com/CuBoulder/tiamat-theme/pull/639
-  https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/23
-  https://github.com/CuBoulder/tiamat10-project-template/pull/30
----
+    CuBoulder/tiamat-theme#633
 
-- ### Switching to Express Admin for the administration theme
-  Express Admin administration sub-theme with Claro as the base theme set as the default admin theme.  
----
+    Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/650), ~~[ucb_site_configuration](https://github.com/CuBoulder/ucb_site_configuration/pull/45)~~
 
-- ### Adds default Shortcuts
-  Adds two requested default Shortcuts:
-  - Blocks (admin/content/block)
-  - Main menu (admin/structure/menu/manage/main)
-  
-  Resolves CuBoulder/tiamat10-profile#63
----
+* * *
 
-- ### Claro theme changes
-  Changes done for the claro theme move over
----
+-   ### Linkit and iframe modal
 
-- ### Adds Redirect + Video Hero Unit Permissions
-  ### Two Permissions changes:
-  
-  - The content creator roles (Architect, Content Editor, Developer, Site Manager) have been given ability to manage redirects.
-  
-  - Anotmirrored the permissions of the Hero Unit to the new separate Video Hero Unit. 
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/556
----
+    Added linkit to the install profile.
+    Updated developer permissions to handle linkit and iframe modal
 
-- ### Remove 'Categories' taxonomy term + Associated Permissions
-  Removing the **_'Categories'_** taxonomy term and permissions associated with it, as all current Content Types and Blocks use the correct taxonomy term **'Category'** for terms and sorting/filtering. There were no references to the deleted **_'Categories'_** term in `ucb_custom_entities` or any other custom modules, such as `Campus News` or `Site Configuration`, only fields with a machine name that included the word 'categories", but this was only in reference to a collection of **'Category'** terms and not the actual _**'Categories'**_ term.
-   
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/587
----
+    Includes:
+
+    -   tiamat10-project-tempate => <https://github.com/CuBoulder/tiamat10-project-template/pull/32>
+
+* * *
+
+-   ### Class Note Enhancements
+
+    Adjusts permissions for Class Notes, adds optional image field. Resolves <https://github.com/CuBoulder/tiamat-theme/issues/622>
+
+    Includes:
+
+    -   tiamat-theme => <https://github.com/CuBoulder/tiamat-theme/pull/648>
+    -   tiamat-profile => <https://github.com/CuBoulder/tiamat10-profile/pull/75>
+    -   custom-entities => <https://github.com/CuBoulder/tiamat-custom-entities/pull/94>
+
+* * *
+
+-   ### profile changes for collections
+    Helps close <https://github.com/CuBoulder/tiamat-theme/issues/534>.
+    Adds the necessary permissions for collection objects.
+
+* * *
+
+-   ### Fixes permissions with FAQ Pages
+    Resolves #71 
+
+* * *
+
+-   ### Adds User Invite configuration; adds Webform permissions to Site Manager role
+    Resolves CuBoulder/tiamat10-profile#60
+    Resolves CuBoulder/tiamat10-profile#61
+    CuBoulder/tiamat10-profile#65
+
+* * *
+
+-   ### Adds + Enables Menu First Child Module on Install
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/637>
+
+    Includes:
+
+    -   `express-admin` (issue/tiamat-theme/637) => <https://github.com/CuBoulder/express_admin/pull/4>
+    -   `tiamat10-profile`(issue/tiamat-theme/637) => <https://github.com/CuBoulder/tiamat10-profile/pull/70>
+    -   `tiamat10-project template` (issue/tiamat-theme/637) => <https://github.com/CuBoulder/tiamat10-project-template/pull/31>
+
+* * *
+
+-   ### Modal module change
+
+    Changing from modal to iframe modal
+
+    Sister PRs:
+    <https://github.com/CuBoulder/tiamat-theme/pull/639>
+    <https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/23>
+    <https://github.com/CuBoulder/tiamat10-project-template/pull/30>
+
+* * *
+
+-   ### Switching to Express Admin for the administration theme
+    Express Admin administration sub-theme with Claro as the base theme set as the default admin theme.  
+
+* * *
+
+-   ### Adds default Shortcuts
+
+    Adds two requested default Shortcuts:
+
+    -   Blocks (admin/content/block)
+    -   Main menu (admin/structure/menu/manage/main)
+
+    Resolves CuBoulder/tiamat10-profile#63
+
+* * *
+
+-   ### Claro theme changes
+    Changes done for the claro theme move over
+
+* * *
+
+-   ### Adds Redirect + Video Hero Unit Permissions
+
+    ### Two Permissions changes:
+
+    -   The content creator roles (Architect, Content Editor, Developer, Site Manager) have been given ability to manage redirects.
+
+    -   Anotmirrored the permissions of the Hero Unit to the new separate Video Hero Unit. 
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/556>
+
+* * *
+
+-   ### Remove 'Categories' taxonomy term + Associated Permissions
+    Removing the **_'Categories'_** taxonomy term and permissions associated with it, as all current Content Types and Blocks use the correct taxonomy term **'Category'** for terms and sorting/filtering. There were no references to the deleted **_'Categories'_** term in `ucb_custom_entities` or any other custom modules, such as `Campus News` or `Site Configuration`, only fields with a machine name that included the word 'categories", but this was only in reference to a collection of **'Category'** terms and not the actual _**'Categories'**_ term.
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/587>
+
+* * *
 
 ## [20231212] - 2023-12-12
 
@@ -470,7 +497,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20231212...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240221...HEAD
+
+[20240221]: https://github.com/CuBoulder/tiamat10-profile/compare/20231212...20240221
 
 [20231212]: https://github.com/CuBoulder/tiamat10-profile/compare/20230918...20231212
 
