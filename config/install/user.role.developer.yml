@@ -60,6 +60,7 @@ dependencies:
     - taxonomy.vocabulary.tags
     - taxonomy.vocabulary.ucb_person_job_type
   module:
+    - administerusersbyrole
     - aggregator
     - antibot
     - block
@@ -81,10 +82,9 @@ dependencies:
     - image
     - layout_builder
     - layout_builder_iframe_modal
+    - linkit
     - media
     - media_file_delete
-    - layout_builder_iframe_modal
-    - linkit
     - metatag
     - node
     - paragraphs
@@ -126,6 +126,7 @@ permissions:
   - 'access toolbar'
   - 'access user contact forms'
   - 'access user profiles'
+  - 'access users overview'
   - 'access webform help'
   - 'access webform overview'
   - 'access webform submission user'
@@ -203,14 +204,16 @@ permissions:
   - 'administer webform'
   - 'administer webform element access'
   - 'administer webform submission'
+  - 'allow empty user mail'
   - 'bypass node access'
+  - 'cancel users by role'
   - 'configure all basic_page node layout overrides'
   - 'configure any layout'
   - 'configure editable basic_page node layout overrides'
+  - 'configure layout builder iframe modal'
   - 'create and edit custom blocks'
   - 'create article_list_block block content'
   - 'create audio media'
-  - 'configure layout builder iframe modal'
   - 'create basic_page content'
   - 'create collection_grid block content'
   - 'create collection_item_page content'
@@ -262,6 +265,7 @@ permissions:
   - 'create ucb_slate_form block content'
   - 'create ucb_tag_cloud block content'
   - 'create url aliases'
+  - 'create users'
   - 'create video media'
   - 'create video_hero_unit block content'
   - 'create video_reveal block content'
@@ -470,6 +474,7 @@ permissions:
   - 'edit ucb site contact info'
   - 'edit ucb site content types'
   - 'edit ucb site general'
+  - 'edit users by role'
   - 'edit webform assets'
   - 'edit webform source'
   - 'edit webform twig'
@@ -518,6 +523,7 @@ permissions:
   - 'revert ucb_issue_archive revisions'
   - 'revert ucb_people_list_page revisions'
   - 'revert ucb_person revisions'
+  - 'role-assign users by role'
   - 'schedule publishing of media'
   - 'schedule publishing of nodes'
   - 'schedule publishing of taxonomy_term'
@@ -584,3 +590,4 @@ permissions:
   - 'view ucb_person revisions'
   - 'view unpublished paragraphs'
   - 'view user email addresses'
+  - 'view users by role'

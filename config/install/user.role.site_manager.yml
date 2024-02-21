@@ -57,6 +57,7 @@ dependencies:
     - taxonomy.vocabulary.tags
     - taxonomy.vocabulary.ucb_person_job_type
   module:
+    - administerusersbyrole
     - block_content
     - contact
     - contextual
@@ -96,6 +97,7 @@ permissions:
   - 'access taxonomy overview'
   - 'access toolbar'
   - 'access user profiles'
+  - 'access users overview'
   - 'access webform overview'
   - 'administer contact forms'
   - 'administer menu'
@@ -346,6 +348,7 @@ permissions:
   - 'edit ucb site contact info'
   - 'edit ucb site content types'
   - 'edit ucb site general'
+  - 'edit users by role'
   - 'invite users'
   - 'link to any page'
   - 'revert all revisions'
@@ -385,6 +388,7 @@ permissions:
   - 'revert ucb_issue_archive revisions'
   - 'revert ucb_people_list_page revisions'
   - 'revert ucb_person revisions'
+  - 'role-assign users by role'
   - 'schedule publishing of media'
   - 'schedule publishing of nodes'
   - 'schedule publishing of taxonomy_term'
@@ -441,3 +445,4 @@ permissions:
   - 'view ucb_person revisions'
   - 'view unpublished paragraphs'
   - 'view user email addresses'
+  - 'view users by role'

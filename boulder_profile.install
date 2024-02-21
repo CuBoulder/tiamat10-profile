@@ -7,6 +7,7 @@
 
 use Drupal\shortcut\Entity\Shortcut;
 use Drupal\user\Entity\User;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * Implements hook_install().
@@ -20,11 +21,10 @@ function boulder_profile_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  // Sets the site mail.
-  \Drupal::configFactory()->getEditable('system.site')->set('mail', 'webexpress_noreply@colorado.edu');
-
+  // Afterward, run the custom install tasks.
   _boulder_profile_install_users();
   _boulder_profile_install_shortcuts();
+  _boulder_profile_install_administerusersbyrole_settings();
 }
 
 /**
@@ -112,4 +112,16 @@ function _boulder_profile_install_shortcuts() {
     'weight' => -17,
     'link' => ['uri' => 'internal:/admin/structure/menu/manage/main'],
   ])->save();
+}
+
+/**
+ * Installs "Administer users by role" contrib module settings.
+ *
+ * This workaround is necessary as the settings get overriden by the contrib
+ * module following the installation of the roles.
+ */
+function _boulder_profile_install_administerusersbyrole_settings() {
+  $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
+  $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/administerusersbyrole.settings.yml'));
+  \Drupal::configFactory()->getEditable('administerusersbyrole.settings')->set('roles', $settingsYaml['roles'])->save();
 }
