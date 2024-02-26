@@ -25,6 +25,7 @@ function boulder_profile_install() {
   _boulder_profile_install_users();
   _boulder_profile_install_shortcuts();
   _boulder_profile_install_administerusersbyrole_settings();
+  _boulder_profile_install_webform_settings();
 }
 
 /**
@@ -32,6 +33,13 @@ function boulder_profile_install() {
  */
 function boulder_profile_update_9501() {
   _boulder_profile_install_shortcuts();
+}
+
+/**
+ * Updates Webform defaults (CuBoulder/tiamat10-profile#81).
+ */
+function boulder_profile_update_9502() {
+  _boulder_profile_install_webform_settings();
 }
 
 /**
@@ -124,4 +132,14 @@ function _boulder_profile_install_administerusersbyrole_settings() {
   $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
   $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/administerusersbyrole.settings.yml'));
   \Drupal::configFactory()->getEditable('administerusersbyrole.settings')->set('roles', $settingsYaml['roles'])->save();
+}
+
+/**
+ * Installs "Webform" contrib module settings.
+ */
+function _boulder_profile_install_webform_settings() {
+  $settings = \Drupal::configFactory()->getEditable('webform.settings');
+  $htmlEditorSettings = $settings->get('html_editor');
+  $htmlEditorSettings['element_format'] = $htmlEditorSettings['mail_format'] = 'wysiwyg';
+  $settings->set('html_editor', $htmlEditorSettings)->save();
 }

@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates Webform element settings
+  Resolves CuBoulder/tiamat10-profile#81
+---
+
 - ### Adds "Administer Users by Role" contrib module and associated configuration
   Allows Site Managers to configure users with an equal or lower permission level, including adding or removing roles of an equal or lower permission level.
   
