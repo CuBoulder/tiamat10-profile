@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies: {  }
+id: UA-105731679-1.65de22067902c7.57590325
+label: UA-105731679-1
+weight: 0
+tag_container_ids:
+  - UA-105731679-1
+advanced_settings:
+  consent_mode: 1
+dimensions_metrics:
+  -
+    type: ''
+    name: dimension1
+    value: '[node:nid]'
+  -
+    type: dimension
+    name: dimension2
+    value: '[node:title]'
+  -
+    type: dimension
+    name: dimension3
+    value: '[node:content-type]'
+  -
+    type: dimension
+    name: dimension4
+    value: '[node:created]'
+conditions: {  }
+events:
+  generate_lead:
+    value: ''
+    currency: ''
+  search: {  }
+  webform_purchase: {  }
+  custom: {  }
+  login:
+    method: CMS
+  sign_up:
+    method: CMS

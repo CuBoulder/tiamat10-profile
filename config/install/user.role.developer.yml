@@ -79,6 +79,7 @@ dependencies:
     - field_ui
     - file
     - filter
+    - google_tag
     - image
     - layout_builder
     - layout_builder_iframe_modal
@@ -157,6 +158,7 @@ permissions:
   - 'administer display modes'
   - 'administer embed buttons'
   - 'administer filters'
+  - 'administer google_tag_container'
   - 'administer image styles'
   - 'administer linkit profiles'
   - 'administer media'

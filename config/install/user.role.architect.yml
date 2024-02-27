@@ -68,6 +68,7 @@ dependencies:
     - entity_reference_revisions
     - file
     - filter
+    - google_tag
     - layout_builder
     - media
     - node
@@ -108,6 +109,7 @@ permissions:
   - 'administer blocks'
   - 'administer contact forms'
   - 'administer devel_generate'
+  - 'administer google_tag_container'
   - 'administer menu'
   - 'administer news feeds'
   - 'administer redirect settings'
