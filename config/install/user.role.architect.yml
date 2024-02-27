@@ -110,6 +110,7 @@ permissions:
   - 'administer devel_generate'
   - 'administer menu'
   - 'administer news feeds'
+  - 'administer nodes'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer search'

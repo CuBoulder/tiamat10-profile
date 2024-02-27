@@ -87,6 +87,7 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'administer menu'
+  - 'administer nodes'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'configure all basic_page node layout overrides'
