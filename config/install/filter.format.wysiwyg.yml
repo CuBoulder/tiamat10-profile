@@ -21,7 +21,7 @@ dependencies:
     - ucb_ckeditor_plugins
 name: WYSIWYG
 format: wysiwyg
-weight: 0
+weight: -10
 filters:
   entity_embed:
     id: entity_embed

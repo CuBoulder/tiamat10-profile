@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Deprioritizes the "Aggregator HTML" text format
+  The "Aggregator HTML" text format should now show up at the bottom of the list. Resolves CuBoulder/tiamat10-profile#83
+---
+
 - ### Fixes Articles being duplicated on Taxonomy pages
   Resolves CuBoulder/tiamat10-profile#88
 ---

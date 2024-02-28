@@ -19,7 +19,7 @@ dependencies:
     - ucb_ckeditor_plugins
 name: 'Full HTML'
 format: full_html
-weight: 1
+weight: -9
 filters:
   filter_html:
     id: filter_html
