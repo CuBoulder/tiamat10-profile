@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds "Google Tag" contrib module
+  Adds [Google Tag](https://www.drupal.org/project/google_tag) contrib module to serve Google Analytics 4 trackers. The settings were copied over to match D7 Express. Only Architects and Developers can configure Google Tag.
+  
+  Resolves CuBoulder/tiamat10-profile#90
+  
+  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/35)
+---
+
 - ### Deprioritizes the "Aggregator HTML" text format
   The "Aggregator HTML" text format should now show up at the bottom of the list. Resolves CuBoulder/tiamat10-profile#83
 ---

@@ -66,6 +66,7 @@ install:
   - pantheon_advanced_page_cache
   - simple_sitemap
   - google_cse
+  - google_tag
   - antibot
   - redirect
   - datetime
