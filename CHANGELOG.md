@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Fixes Articles being duplicated on Taxonomy pages
+  Resolves CuBoulder/tiamat10-profile#88
+---
+
 - ### Updates Webform element settings
   Resolves CuBoulder/tiamat10-profile#81
 ---
