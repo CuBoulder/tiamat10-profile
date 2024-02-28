@@ -101,6 +101,7 @@ permissions:
   - 'access webform overview'
   - 'administer contact forms'
   - 'administer menu'
+  - 'administer nodes'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer ucb external services'

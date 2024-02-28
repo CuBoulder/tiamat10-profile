@@ -112,6 +112,7 @@ permissions:
   - 'administer google_tag_container'
   - 'administer menu'
   - 'administer news feeds'
+  - 'administer nodes'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer search'

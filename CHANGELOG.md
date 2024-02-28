@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update administer content permission
+  Adds the administer content permission to all 4 main roles.
+  
+  Resolves CuBoulder/tiamat10-profile#59
+  Resolves CuBoulder/tiamat10-profile#94
+---
+
 - ### Adds "Google Tag" contrib module
   Adds [Google Tag](https://www.drupal.org/project/google_tag) contrib module to serve Google Analytics 4 trackers. The settings were copied over to match D7 Express. Only Architects and Developers can configure Google Tag.
   
