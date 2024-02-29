@@ -90,7 +90,7 @@ settings:
           search: '(<[^>]*) (face="[^"]*")'
           replace: $1
         -
-          enabled: true
+          enabled: false
           weight: -7
           search: '(<[^>]*) (class="[^"]*")'
           replace: $1
@@ -110,12 +110,12 @@ settings:
           search: '<\/font>'
           replace: ''
         -
-          enabled: true
+          enabled: false
           weight: -3
           search: '<span[^>]*>'
           replace: ''
         -
-          enabled: true
+          enabled: false
           weight: -2
           search: '<\/span>'
           replace: ''
@@ -135,7 +135,7 @@ settings:
           search: '<b><\/b>'
           replace: ''
         -
-          enabled: true
+          enabled: false
           weight: 2
           search: '<i><\/i>'
           replace: ''
