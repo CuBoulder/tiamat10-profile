@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removes child menu items from mobile menus
+  Displays only the root menu items. Resolves CuBoulder/tiamat10-profile#96
+---
+
 - ### Update administer content permission
   Adds the administer content permission to all 4 main roles.
   
