@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image

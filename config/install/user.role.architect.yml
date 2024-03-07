@@ -28,6 +28,7 @@ dependencies:
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image

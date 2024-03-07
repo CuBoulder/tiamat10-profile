@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - shortcode
+name: 'Icon Picker'
+format: icon_picker
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p> <i class>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }
+  shortcode:
+    id: shortcode
+    provider: shortcode
+    status: false
+    weight: 0
+    settings:
+      countup: '1'
+      listitem: '1'
+      map: '1'
+      clear: '1'
+      responsive-table: '1'
+      googlecalendar: '1'
+      icon: '1'
+      countdown: '1'
+      blockquote: '1'
+      invisible: '1'
+      columnlist: '1'
+      buttongroup: '1'
+      give: '1'
+      column: '1'
+      print: '1'
+      box: '1'
+      button: '1'
+      close-margin: '1'
+      imagecaption: '1'
+      masonry-images: '1'
+      callout: '1'
+      expand: '1'

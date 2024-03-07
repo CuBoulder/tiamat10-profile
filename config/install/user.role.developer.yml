@@ -30,6 +30,7 @@ dependencies:
     - core.entity_view_display.node.basic_page.default
     - filter.format.full_html
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image
