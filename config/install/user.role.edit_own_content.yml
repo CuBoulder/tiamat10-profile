@@ -54,6 +54,7 @@ permissions:
   - 'edit own ucb_person content'
   - 'edit own video media'
   - 'update media'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view own unpublished content'

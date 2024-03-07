@@ -423,6 +423,7 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use advanced search'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view all revisions'

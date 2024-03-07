@@ -539,6 +539,7 @@ permissions:
   - 'update own consumer entities'
   - 'use advanced search'
   - 'use text format full_html'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view all revisions'
