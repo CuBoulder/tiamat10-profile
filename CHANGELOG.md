@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Change paste filter to accept ckeditor values
+  Closes #86.
+  Removes some of the paste filters to accept ckeditor values. This may have negative consequences on copy-pastes from word and other text editors.
+---
+
 - ### Removes child menu items from mobile menus
   Displays only the root menu items. Resolves CuBoulder/tiamat10-profile#96
 ---
