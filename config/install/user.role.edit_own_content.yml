@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -53,6 +54,7 @@ permissions:
   - 'edit own ucb_person content'
   - 'edit own video media'
   - 'update media'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view own unpublished content'

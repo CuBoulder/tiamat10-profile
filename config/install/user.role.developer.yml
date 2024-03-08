@@ -30,6 +30,7 @@ dependencies:
     - core.entity_view_display.node.basic_page.default
     - filter.format.full_html
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -538,6 +539,7 @@ permissions:
   - 'update own consumer entities'
   - 'use advanced search'
   - 'use text format full_html'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view all revisions'

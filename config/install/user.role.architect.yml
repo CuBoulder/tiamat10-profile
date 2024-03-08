@@ -28,6 +28,7 @@ dependencies:
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.wysiwyg
+    - filter.format.icon_picker
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -422,6 +423,7 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use advanced search'
+  - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'
   - 'view all revisions'

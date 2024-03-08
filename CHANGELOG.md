@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Block Styles update
+  Updated Editor, Filter, and user permissions for Block Styles
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/729
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/106
+---
+
 - ### Change paste filter to accept ckeditor values
   Closes #86.
   Removes some of the paste filters to accept ckeditor values. This may have negative consequences on copy-pastes from word and other text editors.
