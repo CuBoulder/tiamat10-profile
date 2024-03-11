@@ -43,6 +43,17 @@ function boulder_profile_update_9502() {
 }
 
 /**
+ * Auto-enables menufirstchild module on update
+ */
+function boulder_profile_update_9503() {
+  // Check if the menu_firstchild module is not already enabled.
+  if (!\Drupal::moduleHandler()->moduleExists('menu_firstchild')) {
+    // Enable the menu_firstchild module.
+    Drupal::service('module_installer')->install(['menu_firstchild']);
+  }
+}
+
+/**
  * Installs default (privileged) users.
  */
 function _boulder_profile_install_users() {
