@@ -43,7 +43,7 @@ roles:
     status: true
     default: false
     description: 'Add-on role that allows users access/view webform permissions.'
-default_custom_message: 'Hello,'
+default_custom_message: ''
 invite_subject: 'Invitation to log in to [site:name]'
 invite_template: "%custom_message%\r\n\r\nYou have been invited to log in to the [site:name] Web Express website as a user with %role_label% access privileges.\r\n\r\nTo accept this invitation:\r\n1) Go to %login_link%\r\n2) Login with your IdentiKey name and password.\r\n\r\nUpon completion, you will receive an email confirming your access.\r\n\r\n--\r\nThe Web Express Team\r\nhttps://www.colorado.edu/webcentral\r\nwebsupport@colorado.edu\r\n"
 confirmation_subject: 'Users invited to [site:name]'
