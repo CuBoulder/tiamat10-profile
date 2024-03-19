@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds major User Invite settings update, Linkit document matcher
+  This update:
+  - [New] Enables selection of multiple user roles for an invite. Previously only one role could be selected.
+  - [New] Adds role descriptions, which can be edited in settings.
+  - [Change] Updates the default user invite custom message to be blank. Resolves CuBoulder/tiamat10-profile#104
+  - [Change] Changes the namespace of the CU Boulder User Invite settings.
+  - [New] Adds Linkit profile settings to suggest documents. Resolves CuBoulder/tiamat10-profile#97
+  
+  CuBoulder/ucb_user_invite#6
+  
+  Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/7)
+---
+
 - ### Block Styles update
   Updated Editor, Filter, and user permissions for Block Styles
   
