@@ -93,6 +93,7 @@ install:
   - ucb_article_author
   - ckeditor5_paste_filter
   - menu_firstchild
+  - responsive_preview
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
