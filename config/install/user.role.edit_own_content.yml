@@ -21,6 +21,7 @@ dependencies:
     - media
     - node
     - paragraphs
+    - responsive_preview
     - system
     - toolbar
 id: edit_own_content
@@ -32,6 +33,7 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access media overview'
+  - 'access responsive preview'
   - 'access toolbar'
   - 'access user profiles'
   - 'create document media'

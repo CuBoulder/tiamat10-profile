@@ -93,6 +93,7 @@ dependencies:
     - path
     - pathauto
     - redirect
+    - responsive_preview
     - scheduler
     - search
     - shortcut
@@ -120,6 +121,7 @@ permissions:
   - 'access media overview'
   - 'access news feeds'
   - 'access own webform configuration'
+  - 'access responsive preview'
   - 'access shortcuts'
   - 'access site in maintenance mode'
   - 'access site reports'
@@ -185,6 +187,7 @@ permissions:
   - 'administer permissions'
   - 'administer redirect settings'
   - 'administer redirects'
+  - 'administer responsive preview'
   - 'administer scheduler'
   - 'administer search'
   - 'administer shortcuts'
