@@ -71,6 +71,7 @@ dependencies:
     - paragraphs
     - path
     - redirect
+    - responsive_preview
     - scheduler
     - search
     - shortcut
@@ -92,6 +93,7 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access media overview'
+  - 'access responsive preview'
   - 'access shortcuts'
   - 'access site reports'
   - 'access site-wide contact form'

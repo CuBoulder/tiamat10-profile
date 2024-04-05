@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Responsive Preview on install
+  Includes:
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/107
+  - `project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/39
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/720
+  
+---
+
 - ### Adds major User Invite settings update, Linkit document matcher
   This update:
   - [New] Enables selection of multiple user roles for an invite. Previously only one role could be selected.
