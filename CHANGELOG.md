@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove Video Hero Access
+  Removed video hero access
+  Users are still able to see that the item exists but they are unable to create or edit them.
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/808
+---
+
 - ### Adds Responsive Preview on install
   Includes:
   - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/107
