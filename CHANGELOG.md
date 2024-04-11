@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Form Configuration
+  Fixes the following configuration on forms and made config changes requested by Kevin during our Site Accessibility Review:
+  - Disable client-side validation for all webforms
+  - Display required indicator on all webforms
+  - Use Ajax for all webforms by default
+  - Adds Antibot to all webforms by default
+  
+  These changes and adding custom profile configuration for the default 'Contact' form allow both single and multipage forms to submit on Form Pages and Blocks
+  
+  Resolves #110 
+---
+
 - ### Remove Video Hero Access
   Removed video hero access
   Users are still able to see that the item exists but they are unable to create or edit them.
