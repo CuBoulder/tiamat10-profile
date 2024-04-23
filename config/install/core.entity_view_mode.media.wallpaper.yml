@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.wallpaper
+label: Wallpaper
+targetEntityType: media
+cache: true
