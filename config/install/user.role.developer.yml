@@ -38,7 +38,6 @@ dependencies:
     - node.type.basic_page
     - node.type.collection_item_page
     - node.type.form_page
-    - node.type.how_to_page
     - node.type.newsletter
     - node.type.ucb_article
     - node.type.ucb_article_list
@@ -232,7 +231,6 @@ permissions:
   - 'create expandable_content block content'
   - 'create form_page content'
   - 'create hero_unit block content'
-  - 'create how_to_page content'
   - 'create image media'
   - 'create image_gallery block content'
   - 'create media'
@@ -302,7 +300,6 @@ permissions:
   - 'delete any form_page content'
   - 'delete any hero_unit block content'
   - 'delete any hero_unit block content revisions'
-  - 'delete any how_to_page content'
   - 'delete any image media'
   - 'delete any image_gallery block content'
   - 'delete any image_gallery block content revisions'
@@ -354,7 +351,6 @@ permissions:
   - 'delete basic_page revisions'
   - 'delete collection_item_page revisions'
   - 'delete form_page revisions'
-  - 'delete how_to_page revisions'
   - 'delete media'
   - 'delete newsletter revisions'
   - 'delete orphan revisions'
@@ -364,7 +360,6 @@ permissions:
   - 'delete own consumer entities'
   - 'delete own document media'
   - 'delete own form_page content'
-  - 'delete own how_to_page content'
   - 'delete own image media'
   - 'delete own newsletter content'
   - 'delete own ucb_article content'
@@ -413,7 +408,6 @@ permissions:
   - 'edit any expandable_content block content'
   - 'edit any form_page content'
   - 'edit any hero_unit block content'
-  - 'edit any how_to_page content'
   - 'edit any image media'
   - 'edit any image_gallery block content'
   - 'edit any newsletter content'
@@ -450,7 +444,6 @@ permissions:
   - 'edit own collection_item_page content'
   - 'edit own document media'
   - 'edit own form_page content'
-  - 'edit own how_to_page content'
   - 'edit own image media'
   - 'edit own newsletter content'
   - 'edit own ucb_article content'
@@ -519,7 +512,6 @@ permissions:
   - 'revert basic_page revisions'
   - 'revert collection_item_page revisions'
   - 'revert form_page revisions'
-  - 'revert how_to_page revisions'
   - 'revert newsletter revisions'
   - 'revert ucb_article revisions'
   - 'revert ucb_article_list revisions'
@@ -576,7 +568,6 @@ permissions:
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
   - 'view form_page revisions'
-  - 'view how_to_page revisions'
   - 'view media'
   - 'view newsletter revisions'
   - 'view own consumer entities'
