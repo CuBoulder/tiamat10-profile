@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### remove how-to from permissions
+  Sister request to https://github.com/CuBoulder/tiamat-custom-entities/pull/134.
+  Removes all necessary permissions for the removal of the how-to pages.
+---
+
 - ### Form Configuration
   Fixes the following configuration on forms and made config changes requested by Kevin during our Site Accessibility Review:
   - Disable client-side validation for all webforms
