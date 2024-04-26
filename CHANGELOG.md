@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update block.block.boulder_base_sidebar_menu.yml
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/898
+  Sister PR: https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/38
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/135
+  
+  Update for sidebar menu to not be displayed on basic page node types.
+  This is so that every other page that isn't a basic page will still get the navigation from the block layout.
+---
+
 - ### Issue/tiamat theme/804
   Sister pull request to close https://github.com/CuBoulder/tiamat-theme/issues/804.
   Adds the necessary profile changes to add wallpaper image style.

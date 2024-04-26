@@ -27,4 +27,22 @@ settings:
   expand_all_items: false
   parent: 'main:'
   suggestion: main
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      collection_item_page: collection_item_page
+      form_page: form_page
+      newsletter: newsletter
+      ucb_article: ucb_article
+      ucb_article_list: ucb_article_list
+      ucb_class_notes: ucb_class_notes
+      ucb_class_notes_list_page: ucb_class_notes_list_page
+      ucb_faq_page: ucb_faq_page
+      ucb_issue: ucb_issue
+      ucb_issue_archive: ucb_issue_archive
+      ucb_people_list_page: ucb_people_list_page
+      ucb_person: ucb_person
