@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removes the Devel contrib module
+  Resolves CuBoulder/tiamat10-profile#108
+  
+  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/42)
+---
+
 - ### Update block.block.boulder_base_sidebar_menu.yml
   Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/898
   Sister PR: https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/38
