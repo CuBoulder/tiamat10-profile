@@ -64,8 +64,6 @@ dependencies:
     - block_content
     - contact
     - contextual
-    - devel
-    - devel_generate
     - entity_reference_revisions
     - file
     - filter
@@ -96,7 +94,6 @@ permissions:
   - 'access content'
   - 'access content overview'
   - 'access contextual links'
-  - 'access devel information'
   - 'access files overview'
   - 'access media overview'
   - 'access news feeds'
@@ -111,7 +108,6 @@ permissions:
   - 'access webform overview'
   - 'administer blocks'
   - 'administer contact forms'
-  - 'administer devel_generate'
   - 'administer google_tag_container'
   - 'administer menu'
   - 'administer news feeds'
@@ -421,7 +417,6 @@ permissions:
   - 'schedule publishing of taxonomy_term'
   - 'search content'
   - 'switch shortcut sets'
-  - 'switch users'
   - 'update any media'
   - 'update media'
   - 'use advanced search'

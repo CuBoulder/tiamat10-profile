@@ -16,6 +16,7 @@ settings:
       - sourceEditing
       - '|'
       - link
+      - anchor
       - drupalMedia
       - '|'
       - bulletedList
