@@ -71,8 +71,6 @@ dependencies:
     - contact
     - contextual
     - crop
-    - devel
-    - devel_generate
     - embed
     - entity_reference_revisions
     - externalauth
@@ -115,7 +113,6 @@ permissions:
   - 'access content'
   - 'access content overview'
   - 'access contextual links'
-  - 'access devel information'
   - 'access files overview'
   - 'access media overview'
   - 'access news feeds'
@@ -156,7 +153,6 @@ permissions:
   - 'administer content types'
   - 'administer crop'
   - 'administer crop types'
-  - 'administer devel_generate'
   - 'administer display modes'
   - 'administer embed buttons'
   - 'administer filters'
@@ -527,7 +523,6 @@ permissions:
   - 'schedule publishing of taxonomy_term'
   - 'search content'
   - 'switch shortcut sets'
-  - 'switch users'
   - 'synchronize configuration'
   - 'update any media'
   - 'update media'

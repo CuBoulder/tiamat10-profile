@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Anchor to WYSIWYG and Full HTML, removes Devel permissions
+  - Adds Anchor to WYSIWYG and Full HTML text editors, CK5 toolbars and allowed elements. 
+  - Removes Devel permissions from Architect and Developer. Also removes the 'switch user' permission -- all of which would break `install-site`
+  
+  Resolves #121 
+  Resolves #120 
+  
+  Includes:
+  - `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/122
+  - `project-template`=> https://github.com/CuBoulder/tiamat10-project-template/pull/43
+---
+
 - ### Removes the Devel contrib module
   Resolves CuBoulder/tiamat10-profile#108
   

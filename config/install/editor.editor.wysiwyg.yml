@@ -25,6 +25,7 @@ settings:
       - redo
       - '|'
       - link
+      - anchor
       - '|'
       - drupalMedia
       - horizontalLine
