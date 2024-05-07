@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates allowed file types for the document media type
+  Resolves CuBoulder/tiamat10-profile#118
+---
+
 - ### Adds Anchor to WYSIWYG and Full HTML, removes Devel permissions
   - Adds Anchor to WYSIWYG and Full HTML text editors, CK5 toolbars and allowed elements. 
   - Removes Devel permissions from Architect and Developer. Also removes the 'switch user' permission -- all of which would break `install-site`
