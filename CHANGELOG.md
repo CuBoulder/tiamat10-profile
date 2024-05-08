@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds `text-align-center` and `text-align-right` as permitted classes for `<th>` and `<td>` in WYSIWYG fields
+  Resolves CuBoulder/tiamat10-profile#116
+---
+
 - ### Updates allowed file types for the document media type
   Resolves CuBoulder/tiamat10-profile#118
 ---
