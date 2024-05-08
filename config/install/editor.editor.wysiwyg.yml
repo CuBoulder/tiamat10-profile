@@ -160,10 +160,10 @@ settings:
           element: '<p class="supersize">'
         -
           label: Small
-          element: '<p class="small">'
+          element: '<p class="small-text">'
         -
           label: 'Small Span'
-          element: '<span class="small">'
+          element: '<span class="small-text">'
         -
           label: Underline
           element: '<ul class="list-style-underline">'
