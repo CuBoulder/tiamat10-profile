@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update filter.format.wysiwyg.yml
+  Added `aria-hidden="true"` as acceptable html.
+  This is needed for the new update in the ckeditor 5 plugin
+  
+  Sister PR: https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/60
+  Sister PR: https://github.com/CuBoulder/ucb_migration_shortcodes/pull/20
+---
+
 - ### Adds `text-align-center` and `text-align-right` as permitted classes for `<th>` and `<td>` in WYSIWYG fields
   Resolves CuBoulder/tiamat10-profile#116
 ---
