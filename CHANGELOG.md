@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds 'View News Feed' permission to Anonymous Users
+  Adds the needed permission to allow anonymous users to view news feeds on the Aggregator Block. Previously the RSS feed element portion of the block would not display at all for anonymous users, causing image issues as the image part of the block would be the only part rendered.
+  
+  Resolves #129 
+---
+
 ## [20240513] - 2024-05-13
 
 -   ### Update filter.format.wysiwyg.yml
