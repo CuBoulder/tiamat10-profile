@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - filter.format.wysiwyg
     - filter.format.icon_picker
+    - filter.format.wysiwyg
     - media.type.audio
     - media.type.document
     - media.type.image

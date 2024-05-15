@@ -27,8 +27,8 @@ dependencies:
     - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
-    - filter.format.wysiwyg
     - filter.format.icon_picker
+    - filter.format.wysiwyg
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -119,6 +119,7 @@ permissions:
   - 'administer user invite'
   - 'administer users'
   - 'administer webform element access'
+  - 'bypass node access'
   - 'cancel users by role'
   - 'configure all basic_page node layout overrides'
   - 'configure any layout'
