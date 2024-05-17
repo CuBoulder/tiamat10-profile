@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds `bypass node access` permission to Architect and Content Editor roles
+  [Change] This update adds a permission which disables access restrictions on unpublished content as well as any other content access restrictions, to the Architect and Content Editor roles. Resolves CuBoulder/tiamat10-profile#112
+---
+
 - ### Updates user invite configuration
   [Change] This update changes the login link to an HTML link in invite email messages.
   
