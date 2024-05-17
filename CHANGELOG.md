@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates user invite configuration
+  [Change] This update changes the login link to an HTML link in invite email messages.
+  
+  CuBoulder/ucb_user_invite#8
+  
+  Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/9)
+---
+
 - ### Adds 'View News Feed' permission to Anonymous Users
   Adds the needed permission to allow anonymous users to view news feeds on the Aggregator Block. Previously the RSS feed element portion of the block would not display at all for anonymous users, causing image issues as the image part of the block would be the only part rendered.
   
