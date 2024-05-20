@@ -25,6 +25,3 @@ autoenablesaml: true
 debug: true
 secure: true
 httponly: false
-dependencies:
-  module:
-    - simplesamlphp_auth

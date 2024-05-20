@@ -64,10 +64,12 @@ install:
   - config_update
   - features
   - pantheon_advanced_page_cache
+  - pantheon_domain_masking
   - simple_sitemap
   - google_cse
   - google_tag
   - antibot
+  - smtp
   - redirect
   - datetime
   - scheduler
@@ -93,6 +95,7 @@ install:
   - menu_firstchild
   - responsive_preview
   - anchor_link
+  - simplesamlphp_auth
   
 # Required modules
 # Note that any dependencies of the modules listed here will be installed automatically.
