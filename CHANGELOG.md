@@ -9,142 +9,210 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Adds `text-align-center` and `text-align-right` as permitted classes for `<th>` and `<td>` in WYSIWYG fields
-  Resolves CuBoulder/tiamat10-profile#116
+- ### Adding in SMTP config and enabling SAML
+  Adding production modules and some config needed for Pantheon in production.  
 ---
 
-- ### Updates allowed file types for the document media type
-  Resolves CuBoulder/tiamat10-profile#118
+- ### Adds `bypass node access` permission to Architect and Content Editor roles
+  [Change] This update adds a permission which disables access restrictions on unpublished content as well as any other content access restrictions, to the Architect and Content Editor roles. Resolves CuBoulder/tiamat10-profile#112
 ---
 
-- ### Adds Anchor to WYSIWYG and Full HTML, removes Devel permissions
-  - Adds Anchor to WYSIWYG and Full HTML text editors, CK5 toolbars and allowed elements. 
-  - Removes Devel permissions from Architect and Developer. Also removes the 'switch user' permission -- all of which would break `install-site`
+- ### Updates user invite configuration
+  [Change] This update changes the login link to an HTML link in invite email messages.
   
-  Resolves #121 
-  Resolves #120 
+  CuBoulder/ucb_user_invite#8
   
-  Includes:
-  - `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/122
-  - `project-template`=> https://github.com/CuBoulder/tiamat10-project-template/pull/43
+  Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/9)
 ---
 
-- ### Removes the Devel contrib module
-  Resolves CuBoulder/tiamat10-profile#108
+- ### Adds 'View News Feed' permission to Anonymous Users
+  Adds the needed permission to allow anonymous users to view news feeds on the Aggregator Block. Previously the RSS feed element portion of the block would not display at all for anonymous users, causing image issues as the image part of the block would be the only part rendered.
   
-  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/42)
+  Resolves #129 
 ---
 
-- ### Update block.block.boulder_base_sidebar_menu.yml
-  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/898
-  Sister PR: https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/38
-  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/135
-  
-  Update for sidebar menu to not be displayed on basic page node types.
-  This is so that every other page that isn't a basic page will still get the navigation from the block layout.
----
+## [20240513] - 2024-05-13
 
-- ### Issue/tiamat theme/804
-  Sister pull request to close https://github.com/CuBoulder/tiamat-theme/issues/804.
-  Adds the necessary profile changes to add wallpaper image style.
----
+-   ### Update filter.format.wysiwyg.yml
 
-- ### remove how-to from permissions
-  Sister request to https://github.com/CuBoulder/tiamat-custom-entities/pull/134.
-  Removes all necessary permissions for the removal of the how-to pages.
----
+    Added `aria-hidden="true"` as acceptable html.
+    This is needed for the new update in the ckeditor 5 plugin
 
-- ### Form Configuration
-  Fixes the following configuration on forms and made config changes requested by Kevin during our Site Accessibility Review:
-  - Disable client-side validation for all webforms
-  - Display required indicator on all webforms
-  - Use Ajax for all webforms by default
-  - Adds Antibot to all webforms by default
-  
-  These changes and adding custom profile configuration for the default 'Contact' form allow both single and multipage forms to submit on Form Pages and Blocks
-  
-  Resolves #110 
----
+    Sister PR: <https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/60>
+    Sister PR: <https://github.com/CuBoulder/ucb_migration_shortcodes/pull/20>
 
-- ### Remove Video Hero Access
-  Removed video hero access
-  Users are still able to see that the item exists but they are unable to create or edit them.
-  
-  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/808
----
+* * *
 
-- ### Adds Responsive Preview on install
-  Includes:
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/107
-  - `project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/39
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/720
-  
----
+-   ### Adds `text-align-center` and `text-align-right` as permitted classes for `<th>` and `<td>` in WYSIWYG fields
+    Resolves CuBoulder/tiamat10-profile#116
 
-- ### Adds major User Invite settings update, Linkit document matcher
-  This update:
-  - [New] Enables selection of multiple user roles for an invite. Previously only one role could be selected.
-  - [New] Adds role descriptions, which can be edited in settings.
-  - [Change] Updates the default user invite custom message to be blank. Resolves CuBoulder/tiamat10-profile#104
-  - [Change] Changes the namespace of the CU Boulder User Invite settings.
-  - [New] Adds Linkit profile settings to suggest documents. Resolves CuBoulder/tiamat10-profile#97
-  
-  CuBoulder/ucb_user_invite#6
-  
-  Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/7)
----
+* * *
 
-- ### Block Styles update
-  Updated Editor, Filter, and user permissions for Block Styles
-  
-  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/729
-  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/106
----
+-   ### Updates allowed file types for the document media type
+    Resolves CuBoulder/tiamat10-profile#118
 
-- ### Change paste filter to accept ckeditor values
-  Closes #86.
-  Removes some of the paste filters to accept ckeditor values. This may have negative consequences on copy-pastes from word and other text editors.
----
+* * *
 
-- ### Removes child menu items from mobile menus
-  Displays only the root menu items. Resolves CuBoulder/tiamat10-profile#96
----
+-   ### Adds Anchor to WYSIWYG and Full HTML, removes Devel permissions
 
-- ### Update administer content permission
-  Adds the administer content permission to all 4 main roles.
-  
-  Resolves CuBoulder/tiamat10-profile#59
-  Resolves CuBoulder/tiamat10-profile#94
----
+    -   Adds Anchor to WYSIWYG and Full HTML text editors, CK5 toolbars and allowed elements. 
+    -   Removes Devel permissions from Architect and Developer. Also removes the 'switch user' permission -- all of which would break `install-site`
 
-- ### Adds "Google Tag" contrib module
-  Adds [Google Tag](https://www.drupal.org/project/google_tag) contrib module to serve Google Analytics 4 trackers. The settings were copied over to match D7 Express. Only Architects and Developers can configure Google Tag.
-  
-  Resolves CuBoulder/tiamat10-profile#90
-  
-  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/35)
----
+    Resolves #121 
+    Resolves #120 
 
-- ### Deprioritizes the "Aggregator HTML" text format
-  The "Aggregator HTML" text format should now show up at the bottom of the list. Resolves CuBoulder/tiamat10-profile#83
----
+    Includes:
 
-- ### Fixes Articles being duplicated on Taxonomy pages
-  Resolves CuBoulder/tiamat10-profile#88
----
+    -   `tiamat-profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/122>
+    -   `project-template`=> <https://github.com/CuBoulder/tiamat10-project-template/pull/43>
 
-- ### Updates Webform element settings
-  Resolves CuBoulder/tiamat10-profile#81
----
+* * *
 
-- ### Adds "Administer Users by Role" contrib module and associated configuration
-  Allows Site Managers to configure users with an equal or lower permission level, including adding or removing roles of an equal or lower permission level.
-  
-  Resolves CuBoulder/tiamat10-profile#78
-  
-  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/33)
----
+-   ### Removes the Devel contrib module
+
+    Resolves CuBoulder/tiamat10-profile#108
+
+    Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/42)
+
+* * *
+
+-   ### Update block.block.boulder_base_sidebar_menu.yml
+
+    Sister PR: <https://github.com/CuBoulder/tiamat-theme/pull/898>
+    Sister PR: <https://github.com/CuBoulder/ucb_bootstrap_layouts/pull/38>
+    Sister PR: <https://github.com/CuBoulder/tiamat-custom-entities/pull/135>
+
+    Update for sidebar menu to not be displayed on basic page node types.
+    This is so that every other page that isn't a basic page will still get the navigation from the block layout.
+
+* * *
+
+-   ### Issue/tiamat theme/804
+    Sister pull request to close <https://github.com/CuBoulder/tiamat-theme/issues/804>.
+    Adds the necessary profile changes to add wallpaper image style.
+
+* * *
+
+-   ### remove how-to from permissions
+    Sister request to <https://github.com/CuBoulder/tiamat-custom-entities/pull/134>.
+    Removes all necessary permissions for the removal of the how-to pages.
+
+* * *
+
+-   ### Form Configuration
+
+    Fixes the following configuration on forms and made config changes requested by Kevin during our Site Accessibility Review:
+
+    -   Disable client-side validation for all webforms
+    -   Display required indicator on all webforms
+    -   Use Ajax for all webforms by default
+    -   Adds Antibot to all webforms by default
+
+    These changes and adding custom profile configuration for the default 'Contact' form allow both single and multipage forms to submit on Form Pages and Blocks
+
+    Resolves #110 
+
+* * *
+
+-   ### Remove Video Hero Access
+
+    Removed video hero access
+    Users are still able to see that the item exists but they are unable to create or edit them.
+
+    Sister PR: <https://github.com/CuBoulder/tiamat-theme/pull/808>
+
+* * *
+
+-   ### Adds Responsive Preview on install
+
+    Includes:
+
+    -   `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/107>
+    -   `project-template` => <https://github.com/CuBoulder/tiamat10-project-template/pull/39>
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/720>
+
+* * *
+
+-   ### Adds major User Invite settings update, Linkit document matcher
+
+    This update:
+
+    -   [New] Enables selection of multiple user roles for an invite. Previously only one role could be selected.
+    -   [New] Adds role descriptions, which can be edited in settings.
+    -   [Change] Updates the default user invite custom message to be blank. Resolves CuBoulder/tiamat10-profile#104
+    -   [Change] Changes the namespace of the CU Boulder User Invite settings.
+    -   [New] Adds Linkit profile settings to suggest documents. Resolves CuBoulder/tiamat10-profile#97
+
+    CuBoulder/ucb_user_invite#6
+
+    Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/7)
+
+* * *
+
+-   ### Block Styles update
+
+    Updated Editor, Filter, and user permissions for Block Styles
+
+    Sister PR: <https://github.com/CuBoulder/tiamat-theme/pull/729>
+    Sister PR: <https://github.com/CuBoulder/tiamat-custom-entities/pull/106>
+
+* * *
+
+-   ### Change paste filter to accept ckeditor values
+    Closes #86.
+    Removes some of the paste filters to accept ckeditor values. This may have negative consequences on copy-pastes from word and other text editors.
+
+* * *
+
+-   ### Removes child menu items from mobile menus
+    Displays only the root menu items. Resolves CuBoulder/tiamat10-profile#96
+
+* * *
+
+-   ### Update administer content permission
+
+    Adds the administer content permission to all 4 main roles.
+
+    Resolves CuBoulder/tiamat10-profile#59
+    Resolves CuBoulder/tiamat10-profile#94
+
+* * *
+
+-   ### Adds "Google Tag" contrib module
+
+    Adds [Google Tag](https://www.drupal.org/project/google_tag) contrib module to serve Google Analytics 4 trackers. The settings were copied over to match D7 Express. Only Architects and Developers can configure Google Tag.
+
+    Resolves CuBoulder/tiamat10-profile#90
+
+    Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/35)
+
+* * *
+
+-   ### Deprioritizes the "Aggregator HTML" text format
+    The "Aggregator HTML" text format should now show up at the bottom of the list. Resolves CuBoulder/tiamat10-profile#83
+
+* * *
+
+-   ### Fixes Articles being duplicated on Taxonomy pages
+    Resolves CuBoulder/tiamat10-profile#88
+
+* * *
+
+-   ### Updates Webform element settings
+    Resolves CuBoulder/tiamat10-profile#81
+
+* * *
+
+-   ### Adds "Administer Users by Role" contrib module and associated configuration
+
+    Allows Site Managers to configure users with an equal or lower permission level, including adding or removing roles of an equal or lower permission level.
+
+    Resolves CuBoulder/tiamat10-profile#78
+
+    Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/33)
+
+* * *
 
 ## [20240221] - 2024-02-21
 
@@ -634,7 +702,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240221...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240513...HEAD
+
+[20240513]: https://github.com/CuBoulder/tiamat10-profile/compare/20240221...20240513
 
 [20240221]: https://github.com/CuBoulder/tiamat10-profile/compare/20231212...20240221
 
