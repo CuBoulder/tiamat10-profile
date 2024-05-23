@@ -1,8 +1,0 @@
-uuid: 65dce1f3-c34e-45a4-8cc7-bc798571fff9
-langcode: en
-status: true
-dependencies: {  }
-id: default_captcha
-label: 'Default Captcha'
-threshold: 0.5
-challenge: captcha/Math

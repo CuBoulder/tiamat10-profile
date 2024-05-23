@@ -1,6 +1,6 @@
 _core:
-  default_config_hash: ae8AQLsAFXvfcLPmE4YUBcxThAqf7psqRTHzhccslls
-site_key:
+  default_config_hash: 9T0HKuonKLqSmnlUDW7AJNn4j4Yzb4uU1GsbLNwErV8
+site_key: 6LfiWeYpAAAAAKuDrJxtLxXcvS9nvwJfq4s1zbaJ
 secret_key:
 hide_badge: false
 verify_hostname: true
