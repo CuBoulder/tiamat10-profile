@@ -1,5 +1,3 @@
-_core:
-  default_config_hash: UHx-6FUyZIt3WJjbibyVGIvWg0gR3R-6GIbrGYzsaSE
 enable_globally: 0
 enable_globally_on_admin_routes: false
 default_challenge: recaptcha_v3/default
