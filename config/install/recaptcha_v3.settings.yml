@@ -1,5 +1,5 @@
 ---
-site_key: 6LfiWeYpAAAAAKuDrJxtLxXcvS9nvwJfq4s1zbaJ
+site_key:
 secret_key:
 hide_badge: false
 verify_hostname: true
