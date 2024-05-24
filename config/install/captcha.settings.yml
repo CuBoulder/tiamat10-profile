@@ -1,3 +1,4 @@
+---
 enable_globally: 0
 enable_globally_on_admin_routes: false
 default_challenge: recaptcha_v3/default
