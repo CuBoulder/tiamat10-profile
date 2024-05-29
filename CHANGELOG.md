@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Configures nodes to show up in XML sitemap
+  [Change] Resolves CuBoulder/tiamat10-profile#139
+---
+
 - ### Adding in SMTP config and enabling SAML
   Adding production modules and some config needed for Pantheon in production.  
 ---
