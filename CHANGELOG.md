@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Captcha: Adds config and enables on install
+  Adds config and enables on install for Captcha v3. Needs site keys for v3.
+  
+  Includes:
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/138
+  - `project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/45
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/617
+---
+
 - ### Configures nodes to show up in XML sitemap
   [Change] Resolves CuBoulder/tiamat10-profile#139
 ---

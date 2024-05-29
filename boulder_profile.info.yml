@@ -1,3 +1,4 @@
+---
 name: CU Boulder Install Profile
 type: profile
 description: "CU Boulder Web Express D10 Installation Profile"
@@ -96,9 +97,12 @@ install:
   - responsive_preview
   - anchor_link
   - simplesamlphp_auth
-  
+  - captcha
+  - recaptcha_v3
+
 # Required modules
-# Note that any dependencies of the modules listed here will be installed automatically.
+# Note that any dependencies of the modules listed here
+# will be installed automatically.
 dependencies:
   - node
   - block
