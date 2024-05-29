@@ -6,7 +6,6 @@ smtp_protocol: tls
 smtp_autotls: true
 smtp_timeout: 30
 smtp_username: webexpress_noreply@colorado.edu
-smtp_password: ''
 smtp_from: webexpress_noreply@colorado.edu
 smtp_fromname: 'Web Express'
 smtp_client_hostname: www.colorado.edu

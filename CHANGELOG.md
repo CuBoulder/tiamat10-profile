@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removing blank password line from smtp configuration
+  This may cause issues down the line if it attempts to blank out a set password on update.  Removing that line from the config.  
+---
+
 - ### Captcha: Adds config and enables on install
   Adds config and enables on install for Captcha v3. Needs site keys for v3.
   
