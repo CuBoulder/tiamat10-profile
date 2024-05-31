@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Video: adds missing URL field to form
+  ### Video
+  Previously the video url was missing if you went to upload video media via `Content => Media => Add Media => Video`, resulting in just a title input there. This has been corrected.
+  
+  Resolves #141 
+---
+
 - ### Removing blank password line from smtp configuration
   This may cause issues down the line if it attempts to blank out a set password on update.  Removing that line from the config.  
 ---
