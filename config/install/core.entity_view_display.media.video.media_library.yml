@@ -13,8 +13,6 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-_core:
-  default_config_hash: tFStonYdaaMneR1HGBE67dTHp0_CdeLL5IkA-FLpilQ
 id: media.video.media_library
 targetEntityType: media
 bundle: video

@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: nvQTEk5sHiK-ZARm1mM26JI_UcEUcvV2m-PIYNPnLkg
 id: video
 label: Video
 description: 'A video from a remote source such as YouTube or Vimeo.'
