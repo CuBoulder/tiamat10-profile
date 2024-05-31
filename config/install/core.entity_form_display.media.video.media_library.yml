@@ -5,11 +5,23 @@ dependencies:
     - core.entity_form_mode.media.media_library
     - field.field.media.video.field_media_oembed_video
     - media.type.video
+  module:
+    - media
+_core:
+  default_config_hash: XYaRsRQt6zvVbmadqT2pvbJOp3VGLeN7TYsJukhSf2k
 id: media.video.media_library
 targetEntityType: media
 bundle: video
 mode: media_library
 content:
+  field_media_oembed_video:
+    type: oembed_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 75
+      placeholder: ''
+    third_party_settings: {  }
   name:
     type: string_textfield
     weight: 0
@@ -20,7 +32,8 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  field_media_oembed_video: true
   path: true
+  publish_on: true
   status: true
   uid: true
+  unpublish_on: true
