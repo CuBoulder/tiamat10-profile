@@ -9,52 +9,68 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Video: adds missing URL field to form
-  ### Video
-  Previously the video url was missing if you went to upload video media via `Content => Media => Add Media => Video`, resulting in just a title input there. This has been corrected.
-  
-  Resolves #141 
----
+## [20240604] - 2024-06-04
 
-- ### Removing blank password line from smtp configuration
-  This may cause issues down the line if it attempts to blank out a set password on update.  Removing that line from the config.  
----
+-   ### Video: adds missing URL field to form
 
-- ### Captcha: Adds config and enables on install
-  Adds config and enables on install for Captcha v3. Needs site keys for v3.
-  
-  Includes:
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/138
-  - `project-template` => https://github.com/CuBoulder/tiamat10-project-template/pull/45
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/617
----
+    ### Video
 
-- ### Configures nodes to show up in XML sitemap
-  [Change] Resolves CuBoulder/tiamat10-profile#139
----
+    Previously the video url was missing if you went to upload video media via `Content => Media => Add Media => Video`, resulting in just a title input there. This has been corrected.
 
-- ### Adding in SMTP config and enabling SAML
-  Adding production modules and some config needed for Pantheon in production.  
----
+    Resolves #141 
 
-- ### Adds `bypass node access` permission to Architect and Content Editor roles
-  [Change] This update adds a permission which disables access restrictions on unpublished content as well as any other content access restrictions, to the Architect and Content Editor roles. Resolves CuBoulder/tiamat10-profile#112
----
+* * *
 
-- ### Updates user invite configuration
-  [Change] This update changes the login link to an HTML link in invite email messages.
-  
-  CuBoulder/ucb_user_invite#8
-  
-  Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/9)
----
+-   ### Removing blank password line from smtp configuration
+    This may cause issues down the line if it attempts to blank out a set password on update.  Removing that line from the config.  
 
-- ### Adds 'View News Feed' permission to Anonymous Users
-  Adds the needed permission to allow anonymous users to view news feeds on the Aggregator Block. Previously the RSS feed element portion of the block would not display at all for anonymous users, causing image issues as the image part of the block would be the only part rendered.
-  
-  Resolves #129 
----
+* * *
+
+-   ### Captcha: Adds config and enables on install
+
+    Adds config and enables on install for Captcha v3. Needs site keys for v3.
+
+    Includes:
+
+    -   `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/138>
+    -   `project-template` => <https://github.com/CuBoulder/tiamat10-project-template/pull/45>
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/617>
+
+* * *
+
+-   ### Configures nodes to show up in XML sitemap
+    [Change] Resolves CuBoulder/tiamat10-profile#139
+
+* * *
+
+-   ### Adding in SMTP config and enabling SAML
+    Adding production modules and some config needed for Pantheon in production.  
+
+* * *
+
+-   ### Adds `bypass node access` permission to Architect and Content Editor roles
+    [Change] This update adds a permission which disables access restrictions on unpublished content as well as any other content access restrictions, to the Architect and Content Editor roles. Resolves CuBoulder/tiamat10-profile#112
+
+* * *
+
+-   ### Updates user invite configuration
+
+    [Change] This update changes the login link to an HTML link in invite email messages.
+
+    CuBoulder/ucb_user_invite#8
+
+    Sister PR in: [ucb_user_invite](https://github.com/CuBoulder/ucb_user_invite/pull/9)
+
+* * *
+
+-   ### Adds 'View News Feed' permission to Anonymous Users
+
+    Adds the needed permission to allow anonymous users to view news feeds on the Aggregator Block. Previously the RSS feed element portion of the block would not display at all for anonymous users, causing image issues as the image part of the block would be the only part rendered.
+
+    Resolves #129 
+
+* * *
 
 ## [20240513] - 2024-05-13
 
@@ -727,7 +743,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240513...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240604...HEAD
+
+[20240604]: https://github.com/CuBoulder/tiamat10-profile/compare/20240513...20240604
 
 [20240513]: https://github.com/CuBoulder/tiamat10-profile/compare/20240221...20240513
 
