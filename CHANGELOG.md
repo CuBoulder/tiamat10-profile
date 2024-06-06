@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Media Image: Sets Default to use 'Large (1500px, 100% display size)'
+  ### Media Image
+  - Sets `Default` to use 'Large (1500px, 100% display size)' Image Style
+  
+  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/144
+---
+
 ## [20240604] - 2024-06-04
 
 -   ### Video: adds missing URL field to form
