@@ -2,19 +2,19 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.social-media-menu
+    - system.menu.footer_menu
   module:
     - system
   theme:
     - boulder_base
 id: social_media_links
 theme: boulder_base
-region: social
+region: footer_menu
 weight: 0
 provider: null
-plugin: 'system_menu_block:social-media-menu'
+plugin: 'system_menu_block:footer_menu'
 settings:
-  id: 'system_menu_block:social-media-menu'
+  id: 'system_menu_block:footer_menu'
   label: 'Social Media Links'
   label_display: '0'
   provider: system
