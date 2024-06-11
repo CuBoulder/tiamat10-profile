@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds small styles to WYSIWYG editor
+  Resolves CuBoulder/tiamat-theme#829.
+  Adds the small style for text in 2 forms. There is a block style called Small that wraps it in a `<p>` and a text style called Small Span that wraps it in a `<span>`
+---
+
 - ### Media Image: Sets Default to use 'Large (1500px, 100% display size)'
   ### Media Image
   - Sets `Default` to use 'Large (1500px, 100% display size)' Image Style
