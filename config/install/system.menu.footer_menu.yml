@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: footer_menu
-label: 'Footer Menu'
-description: ''
-locked: false
