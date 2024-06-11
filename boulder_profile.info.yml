@@ -99,6 +99,7 @@ install:
   - simplesamlphp_auth
   - captcha
   - recaptcha_v3
+  - rebuild_cache_access
 
 # Required modules
 # Note that any dependencies of the modules listed here

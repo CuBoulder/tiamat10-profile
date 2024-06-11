@@ -73,6 +73,7 @@ dependencies:
     - node
     - paragraphs
     - path
+    - rebuild_cache_access
     - redirect
     - responsive_preview
     - scheduler
@@ -375,6 +376,7 @@ permissions:
   - 'edit users by role'
   - 'invite users'
   - 'link to any page'
+  - 'rebuild cache access'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'

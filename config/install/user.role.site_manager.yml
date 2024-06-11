@@ -26,8 +26,8 @@ dependencies:
     - block_content.type.ucb_tag_cloud
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
-    - filter.format.wysiwyg
     - filter.format.icon_picker
+    - filter.format.wysiwyg
     - media.type.audio
     - media.type.document
     - media.type.image
