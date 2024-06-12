@@ -89,6 +89,7 @@ dependencies:
     - paragraphs
     - path
     - pathauto
+    - rebuild_cache_access
     - redirect
     - responsive_preview
     - scheduler
@@ -479,6 +480,7 @@ permissions:
   - 'invite users'
   - 'link to any page'
   - 'notify of path changes'
+  - 'rebuild cache access'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'

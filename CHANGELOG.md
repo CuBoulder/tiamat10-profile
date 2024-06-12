@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Rebuild Cache Access contrib module
+  This new contrib module adds a "Rebuild Cache" option in the toolbar, accessible to architects and developers. **Use this sparingly and only as a last resort after you've tried everything else, such as clearing local browser caches. A cache rebuild is an administrative action that has temporary negative effects on the performance of the site.**
+  
+  Resolves CuBoulder/tiamat10-profile#147
+  
+  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/47)
+---
+
 - ### Adds small styles to WYSIWYG editor
   Resolves CuBoulder/tiamat-theme#829.
   Adds the small style for text in 2 forms. There is a block style called Small that wraps it in a `<p>` and a text style called Small Span that wraps it in a `<span>`
