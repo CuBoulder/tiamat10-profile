@@ -9,25 +9,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Adds Rebuild Cache Access contrib module
-  This new contrib module adds a "Rebuild Cache" option in the toolbar, accessible to architects and developers. **Use this sparingly and only as a last resort after you've tried everything else, such as clearing local browser caches. A cache rebuild is an administrative action that has temporary negative effects on the performance of the site.**
-  
-  Resolves CuBoulder/tiamat10-profile#147
-  
-  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/47)
----
+## [20240612] - 2024-06-12
 
-- ### Adds small styles to WYSIWYG editor
-  Resolves CuBoulder/tiamat-theme#829.
-  Adds the small style for text in 2 forms. There is a block style called Small that wraps it in a `<p>` and a text style called Small Span that wraps it in a `<span>`
----
+-   ### Adds Rebuild Cache Access contrib module
 
-- ### Media Image: Sets Default to use 'Large (1500px, 100% display size)'
-  ### Media Image
-  - Sets `Default` to use 'Large (1500px, 100% display size)' Image Style
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/144
----
+    This new contrib module adds a "Rebuild Cache" option in the toolbar, accessible to architects and developers. **Use this sparingly and only as a last resort after you've tried everything else, such as clearing local browser caches. A cache rebuild is an administrative action that has temporary negative effects on the performance of the site.**
+
+    Resolves CuBoulder/tiamat10-profile#147
+
+    Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/47)
+
+* * *
+
+-   ### Adds small styles to WYSIWYG editor
+    Resolves CuBoulder/tiamat-theme#829.
+    Adds the small style for text in 2 forms. There is a block style called Small that wraps it in a `<p>` and a text style called Small Span that wraps it in a `<span>`
+
+* * *
+
+-   ### Media Image: Sets Default to use 'Large (1500px, 100% display size)'
+
+    ### Media Image
+
+    -   Sets `Default` to use 'Large (1500px, 100% display size)' Image Style
+
+    Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/144>
+
+* * *
 
 ## [20240604] - 2024-06-04
 
@@ -763,7 +771,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240604...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240612...HEAD
+
+[20240612]: https://github.com/CuBoulder/tiamat10-profile/compare/20240604...20240612
 
 [20240604]: https://github.com/CuBoulder/tiamat10-profile/compare/20240513...20240604
 
