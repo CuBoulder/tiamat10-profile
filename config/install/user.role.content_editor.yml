@@ -371,6 +371,7 @@ permissions:
   - 'view any hero_unit block content history'
   - 'view any image_gallery block content history'
   - 'view any slider block content history'
+  - 'view any social_media_icons block content history'
   - 'view any text_block block content history'
   - 'view any ucb_article_feature block content history'
   - 'view any ucb_article_grid block content history'
