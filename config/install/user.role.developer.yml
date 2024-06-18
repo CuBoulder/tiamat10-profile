@@ -13,6 +13,7 @@ dependencies:
     - block_content.type.hero_unit
     - block_content.type.image_gallery
     - block_content.type.slider
+    - block_content.type.social_media_icons
     - block_content.type.statuspage_block
     - block_content.type.text_block
     - block_content.type.ucb_article_feature
@@ -233,6 +234,7 @@ permissions:
   - 'create media'
   - 'create newsletter content'
   - 'create slider block content'
+  - 'create social_media_icons block content'
   - 'create statuspage_block block content'
   - 'create terms in byline'
   - 'create terms in category'
