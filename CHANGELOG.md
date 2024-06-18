@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Fixes permissions for Social Media Icons block
+  Resolves CuBoulder/tiamat10-profile#150
+---
+
 ## [20240612] - 2024-06-12
 
 -   ### Adds Rebuild Cache Access contrib module

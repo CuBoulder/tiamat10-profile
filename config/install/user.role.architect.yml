@@ -13,6 +13,7 @@ dependencies:
     - block_content.type.hero_unit
     - block_content.type.image_gallery
     - block_content.type.slider
+    - block_content.type.social_media_icons
     - block_content.type.text_block
     - block_content.type.ucb_article_feature
     - block_content.type.ucb_article_grid
@@ -145,6 +146,7 @@ permissions:
   - 'create media'
   - 'create newsletter content'
   - 'create slider block content'
+  - 'create social_media_icons block content'
   - 'create terms in byline'
   - 'create terms in category'
   - 'create terms in collection_category'
@@ -214,6 +216,8 @@ permissions:
   - 'delete any newsletter content'
   - 'delete any slider block content'
   - 'delete any slider block content revisions'
+  - 'delete any social_media_icons block content'
+  - 'delete any social_media_icons block content revisions'
   - 'delete any text_block block content'
   - 'delete any text_block block content revisions'
   - 'delete any ucb_article content'
@@ -315,6 +319,7 @@ permissions:
   - 'edit any image_gallery block content'
   - 'edit any newsletter content'
   - 'edit any slider block content'
+  - 'edit any social_media_icons block content'
   - 'edit any text_block block content'
   - 'edit any ucb_article content'
   - 'edit any ucb_article_feature block content'
@@ -389,6 +394,7 @@ permissions:
   - 'revert any hero_unit block content revisions'
   - 'revert any image_gallery block content revisions'
   - 'revert any slider block content revisions'
+  - 'revert any social_media_icons block content revisions'
   - 'revert any text_block block content revisions'
   - 'revert any ucb_article_feature block content revisions'
   - 'revert any ucb_article_grid block content revisions'
@@ -438,6 +444,7 @@ permissions:
   - 'view any hero_unit block content history'
   - 'view any image_gallery block content history'
   - 'view any slider block content history'
+  - 'view any social_media_icons block content history'
   - 'view any text_block block content history'
   - 'view any ucb_article_feature block content history'
   - 'view any ucb_article_grid block content history'
