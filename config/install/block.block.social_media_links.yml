@@ -9,7 +9,7 @@ dependencies:
     - boulder_base
 id: social_media_links
 theme: boulder_base
-region: social
+region: footer_menu
 weight: 0
 provider: null
 plugin: 'system_menu_block:social-media-menu'

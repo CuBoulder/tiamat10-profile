@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Social media menu region removal
+  Used in conjunction with https://github.com/CuBoulder/tiamat-theme/pull/1051.
+  Removes the Social Media Menu Region and moves the Social Media Menu to the Footer Menu.
+---
+
 - ### Fixes permissions for Social Media Icons block
   Resolves CuBoulder/tiamat10-profile#150
 ---
