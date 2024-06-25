@@ -9,6 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Invisible: adds 'visually-hidden' to allowed
+  ### Invisible Plugin
+  Switches depreciated 'sr-only' class to 'visually-hidden' class, adds to allowed
+  
+  
+  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/78
+  Includes:
+  - ckeditor_plugins => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/79
+  - boulder_profile => https://github.com/CuBoulder/tiamat10-profile/pull/153
+---
+
 - ### Social media menu region removal
   Used in conjunction with https://github.com/CuBoulder/tiamat-theme/pull/1051.
   Removes the Social Media Menu Region and moves the Social Media Menu to the Footer Menu.
