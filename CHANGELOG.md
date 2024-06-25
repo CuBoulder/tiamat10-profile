@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update filter.format.wysiwyg.yml
+  Updated the allowed_html to have the new callout class
+  
+---
+
 - ### Invisible: adds 'visually-hidden' to allowed
   ### Invisible Plugin
   Switches depreciated 'sr-only' class to 'visually-hidden' class, adds to allowed
