@@ -46,6 +46,7 @@ settings:
       - heading
       - style
       - sourceEditing
+      - column
       - '-'
   plugins:
     ckeditor5_alignment:
