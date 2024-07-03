@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Column plugin to profile
+  Adds the new plugin 'Column' to the CKEditor5 toolbar on install
+  
+  Includes:
+  - `ucb_ckeditor_plugins` => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/85
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/156
+  
+  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/75
+---
+
 - ### Update filter.format.wysiwyg.yml
   Updated the allowed_html to have the new callout class
   

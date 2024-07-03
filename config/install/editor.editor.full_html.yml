@@ -37,6 +37,7 @@ settings:
       - calendar
       - tooltip
       - invisible
+      - column
   plugins:
     ckeditor5_codeBlock:
       languages:

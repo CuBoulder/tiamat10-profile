@@ -42,6 +42,7 @@ settings:
       - countup
       - countdown
       - callout
+      - column
       - '|'
       - heading
       - style
