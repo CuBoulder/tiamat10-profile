@@ -165,6 +165,15 @@ settings:
           label: 'Small Span'
           element: '<span class="small-text">'
         -
+          label: '2 Columns'
+          element: '<ul class="column-list column-list-2">'
+        -
+          label: '3 Columns'
+          element: '<ul class="column-list column-list-3">'
+        -
+          label: '4 Columns'
+          element: '<ul class="column-list column-list-4">'
+        -
           label: Underline
           element: '<ul class="list-style-underline">'
         -
