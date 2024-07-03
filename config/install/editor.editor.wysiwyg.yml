@@ -42,11 +42,11 @@ settings:
       - countup
       - countdown
       - callout
+      - column
       - '|'
       - heading
       - style
       - sourceEditing
-      - column
       - '-'
   plugins:
     ckeditor5_alignment:
