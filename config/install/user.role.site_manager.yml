@@ -102,6 +102,7 @@ permissions:
   - 'access user profiles'
   - 'access users overview'
   - 'access webform overview'
+  - 'administer blocks'
   - 'administer contact forms'
   - 'administer menu'
   - 'administer nodes'
