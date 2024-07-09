@@ -195,13 +195,13 @@ settings:
           label: 'Roman Lowercase'
           element: '<ol class="list-style-roman-lower">'
         -
-          label: '2 Columns'
+          label: '2 Column'
           element: '<ol class="column-list column-list-2">'
         -
-          label: '3 Columns'
+          label: '3 Column'
           element: '<ol class="column-list column-list-3">'
         -
-          label: '4 Columns'
+          label: '4 Column'
           element: '<ol class="column-list column-list-4">'
         -
           label: Zebra
