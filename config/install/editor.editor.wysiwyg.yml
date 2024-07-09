@@ -195,6 +195,15 @@ settings:
           label: 'Roman Lowercase'
           element: '<ol class="list-style-roman-lower">'
         -
+          label: '2 Columns'
+          element: '<ol class="column-list column-list-2">'
+        -
+          label: '3 Columns'
+          element: '<ol class="column-list column-list-3">'
+        -
+          label: '4 Columns'
+          element: '<ol class="column-list column-list-4">'
+        -
           label: Zebra
           element: '<table class="table-zebra">'
         -
