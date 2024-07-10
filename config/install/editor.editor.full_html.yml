@@ -32,7 +32,7 @@ settings:
       - '|'
       - icon
       - box
-      - Accordion
+      - bootstrapAccordion
       - button
       - buttongroup
       - map
