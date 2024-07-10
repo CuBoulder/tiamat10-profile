@@ -107,7 +107,7 @@ settings:
         startIndex: true
       multiBlock: true
     ckeditor5_paste_filter_pasteFilter:
-      enabled: true
+      enabled: false
       filters:
         -
           enabled: true
