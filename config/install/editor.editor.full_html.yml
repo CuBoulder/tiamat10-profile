@@ -1,3 +1,4 @@
+uuid: 1c5b85e7-d394-43d0-b5c7-c187fc99a430
 langcode: en
 status: true
 dependencies:
@@ -22,7 +23,6 @@ settings:
       - bulletedList
       - numberedList
       - specialCharacters
-      - icon
       - insertTable
       - '|'
       - heading
@@ -30,7 +30,9 @@ settings:
       - codeBlock
       - code
       - '|'
+      - icon
       - box
+      - bootstrapAccordion
       - button
       - buttongroup
       - map
@@ -100,10 +102,142 @@ settings:
       async_metadata: true
       recommended_enabled: false
     ckeditor5_list:
-      reversed: true
-      startIndex: true
+      properties:
+        reversed: true
+        startIndex: true
+      multiBlock: true
+    ckeditor5_paste_filter_pasteFilter:
+      enabled: false
+      filters:
+        -
+          enabled: true
+          weight: -10
+          search: '<o:p><\/o:p>'
+          replace: ''
+        -
+          enabled: true
+          weight: -9
+          search: '(<[^>]*) (style="[^"]*")'
+          replace: $1
+        -
+          enabled: true
+          weight: -8
+          search: '(<[^>]*) (face="[^"]*")'
+          replace: $1
+        -
+          enabled: false
+          weight: -7
+          search: '(<[^>]*) (class="[^"]*")'
+          replace: $1
+        -
+          enabled: true
+          weight: -6
+          search: '(<[^>]*) (valign="[^"]*")'
+          replace: $1
+        -
+          enabled: true
+          weight: -5
+          search: '<font[^>]*>'
+          replace: ''
+        -
+          enabled: true
+          weight: -4
+          search: '<\/font>'
+          replace: ''
+        -
+          enabled: false
+          weight: -3
+          search: '<span[^>]*>'
+          replace: ''
+        -
+          enabled: false
+          weight: -2
+          search: '<\/span>'
+          replace: ''
+        -
+          enabled: true
+          weight: -1
+          search: '<p>&nbsp;<\/p>'
+          replace: ''
+        -
+          enabled: true
+          weight: 0
+          search: '<p><\/p>'
+          replace: ''
+        -
+          enabled: true
+          weight: 1
+          search: '<b><\/b>'
+          replace: ''
+        -
+          enabled: false
+          weight: 2
+          search: '<i><\/i>'
+          replace: ''
+        -
+          enabled: true
+          weight: 3
+          search: '<a name="OLE_LINK[^"]*">(.*?)<\/a>'
+          replace: $1
     ckeditor5_sourceEditing:
       allowed_tags: {  }
+    ckeditor5_style:
+      styles:
+        -
+          label: Lead
+          element: '<p class="lead">'
+        -
+          label: Hero
+          element: '<p class="hero">'
+        -
+          label: Supersize
+          element: '<p class="supersize">'
+        -
+          label: Small
+          element: '<p class="small-text">'
+        -
+          label: 'Small Span'
+          element: '<span class="small-text">'
+        -
+          label: Underline
+          element: '<ul class="list-style-underline">'
+        -
+          label: 'No Bullets'
+          element: '<ul class="list-style-nobullet">'
+        -
+          label: Border
+          element: '<ul class="list-style-border">'
+        -
+          label: 'Alpha Uppercase'
+          element: '<ol class="list-style-alpha-upper">'
+        -
+          label: 'Alpha Lowercase'
+          element: '<ol class="list-style-alpha-lower">'
+        -
+          label: 'Roman Uppercase'
+          element: '<ol class="list-style-roman-upper">'
+        -
+          label: 'Roman Lowercase'
+          element: '<ol class="list-style-roman-lower">'
+        -
+          label: Zebra
+          element: '<table class="table-zebra">'
+        -
+          label: Condensed
+          element: '<table class="table-condensed">'
+        -
+          label: 'Small Table'
+          element: '<table class="table-small">'
+        -
+          label: Columns
+          element: '<table class="table-vertical">'
+        -
+          label: Rows
+          element: '<table class="table-horizontal">'
+    linkit_extension:
+      linkit_enabled: true
+      linkit_profile: default
     media_media:
       allow_view_mode_override: true
-image_upload: {  }
+image_upload:
+  status: false

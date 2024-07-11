@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds the CKEditor 5 Bootstrap Accordion module
+  This update:
+  - Adds the [CKEditor 5 Bootstrap Accordion](https://www.drupal.org/project/ckeditor5_bootstrap_accordion) module.
+  - Adds the "Accordion" item to the CKEditor 5 toolbar for the WYSIWYG and Full HTML text formats.
+  
+  Resolves CuBoulder/tiamat10-profile#160
+  
+  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/48)
+---
+
 - ### Add administer blocks permission to site manager
   Closes https://github.com/CuBoulder/tiamat-theme/issues/1099.
   Adds the administer blocks permission, as that is layout manager's only permission to the site manager.
