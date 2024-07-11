@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Add permission to site manager
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/1097.
+  Adds the bypass node access permission to the site manager role.
+---
+
 - ### Adds the CKEditor 5 Bootstrap Accordion module
   This update:
   - Adds the [CKEditor 5 Bootstrap Accordion](https://www.drupal.org/project/ckeditor5_bootstrap_accordion) module.
