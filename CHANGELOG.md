@@ -9,60 +9,75 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Add permission to site manager
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/1097.
-  Adds the bypass node access permission to the site manager role.
----
+## [20240711] - 2024-07-11
 
-- ### Adds the CKEditor 5 Bootstrap Accordion module
-  This update:
-  - Adds the [CKEditor 5 Bootstrap Accordion](https://www.drupal.org/project/ckeditor5_bootstrap_accordion) module.
-  - Adds the "Accordion" item to the CKEditor 5 toolbar for the WYSIWYG and Full HTML text formats.
-  
-  Resolves CuBoulder/tiamat10-profile#160
-  
-  Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/48)
----
+-   ### Add permission to site manager
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/1097>.
+    Adds the bypass node access permission to the site manager role.
 
-- ### Add administer blocks permission to site manager
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/1099.
-  Adds the administer blocks permission, as that is layout manager's only permission to the site manager.
----
+* * *
 
-- ### Adds Column plugin to profile
-  Adds the new plugin 'Column' to the CKEditor5 toolbar on install
-  
-  Includes:
-  - `ucb_ckeditor_plugins` => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/85
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/156
-  
-  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/75
----
+-   ### Adds the CKEditor 5 Bootstrap Accordion module
 
-- ### Update filter.format.wysiwyg.yml
-  Updated the allowed_html to have the new callout class
-  
----
+    This update:
 
-- ### Invisible: adds 'visually-hidden' to allowed
-  ### Invisible Plugin
-  Switches depreciated 'sr-only' class to 'visually-hidden' class, adds to allowed
-  
-  
-  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/78
-  Includes:
-  - ckeditor_plugins => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/79
-  - boulder_profile => https://github.com/CuBoulder/tiamat10-profile/pull/153
----
+    -   Adds the [CKEditor 5 Bootstrap Accordion](https://www.drupal.org/project/ckeditor5_bootstrap_accordion) module.
+    -   Adds the "Accordion" item to the CKEditor 5 toolbar for the WYSIWYG and Full HTML text formats.
 
-- ### Social media menu region removal
-  Used in conjunction with https://github.com/CuBoulder/tiamat-theme/pull/1051.
-  Removes the Social Media Menu Region and moves the Social Media Menu to the Footer Menu.
----
+    Resolves CuBoulder/tiamat10-profile#160
 
-- ### Fixes permissions for Social Media Icons block
-  Resolves CuBoulder/tiamat10-profile#150
----
+    Sister PR in: [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/48)
+
+* * *
+
+-   ### Add administer blocks permission to site manager
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/1099>.
+    Adds the administer blocks permission, as that is layout manager's only permission to the site manager.
+
+* * *
+
+-   ### Adds Column plugin to profile
+
+    Adds the new plugin 'Column' to the CKEditor5 toolbar on install
+
+    Includes:
+
+    -   `ucb_ckeditor_plugins` => <https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/85>
+    -   `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/156>
+
+    Resolves <https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/75>
+
+* * *
+
+-   ### Update filter.format.wysiwyg.yml
+    Updated the allowed_html to have the new callout class
+
+* * *
+
+-   ### Invisible: adds 'visually-hidden' to allowed
+
+    ### Invisible Plugin
+
+    Switches depreciated 'sr-only' class to 'visually-hidden' class, adds to allowed
+
+    Resolves <https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/78>
+    Includes:
+
+    -   ckeditor_plugins => <https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/79>
+    -   boulder_profile => <https://github.com/CuBoulder/tiamat10-profile/pull/153>
+
+* * *
+
+-   ### Social media menu region removal
+    Used in conjunction with <https://github.com/CuBoulder/tiamat-theme/pull/1051>.
+    Removes the Social Media Menu Region and moves the Social Media Menu to the Footer Menu.
+
+* * *
+
+-   ### Fixes permissions for Social Media Icons block
+    Resolves CuBoulder/tiamat10-profile#150
+
+* * *
 
 ## [20240612] - 2024-06-12
 
@@ -826,7 +841,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240612...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240711...HEAD
+
+[20240711]: https://github.com/CuBoulder/tiamat10-profile/compare/20240612...20240711
 
 [20240612]: https://github.com/CuBoulder/tiamat10-profile/compare/20240604...20240612
 
