@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Google Tag Update
+  Updaing the google tag manager code from the Universal Analytics to the newer global tag manager code. This is done in the Tag Manager module.
+  Site users can still put their personal codes in the GTM section of site settings.
+  
+  Resolve #163 
+---
+
 ## [20240711] - 2024-07-11
 
 -   ### Add permission to site manager

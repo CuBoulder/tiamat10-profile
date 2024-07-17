@@ -1,13 +1,22 @@
 langcode: en
 status: true
 dependencies: {  }
-id: UA-105731679-1.65de22067902c7.57590325
-label: UA-105731679-1
+id: GTM-M3DX2QP.65de22067902c7.57590325
+label: GTM-M3DX2QP
 weight: 0
 tag_container_ids:
-  - UA-105731679-1
+  - GTM-M3DX2QP
 advanced_settings:
-  consent_mode: 1
+  consent_mode: true
+  gtm:
+    GTM-M3DX2QP:
+      data_layer: dataLayer
+      include_classes: false
+      allowlist_classes: ''
+      blocklist_classes: ''
+      include_environment: false
+      environment_id: ''
+      environment_token: ''
 dimensions_metrics:
   -
     type: ''
