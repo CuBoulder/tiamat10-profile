@@ -44,6 +44,7 @@ settings:
       - countdown
       - callout
       - column
+      - jumpmenu
       - '|'
       - heading
       - style
