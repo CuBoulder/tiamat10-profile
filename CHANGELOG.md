@@ -9,6 +9,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20240719] - 2024-07-19
+
+-   ### Issue/155
+    Closes #155.
+    Adds the column list styles for both ul and ol.
+
+* * *
+
+-   ### Google Tag Update
+
+    Updaing the google tag manager code from the Universal Analytics to the newer global tag manager code. This is done in the Tag Manager module.
+    Site users can still put their personal codes in the GTM section of site settings.
+
+    Resolve #163 
+
+* * *
+
 ## [20240711] - 2024-07-11
 
 -   ### Add permission to site manager
@@ -841,7 +858,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240711...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...HEAD
+
+[20240719]: https://github.com/CuBoulder/tiamat10-profile/compare/20240711...20240719
 
 [20240711]: https://github.com/CuBoulder/tiamat10-profile/compare/20240612...20240711
 
