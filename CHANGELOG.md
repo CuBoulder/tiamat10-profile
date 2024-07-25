@@ -9,10 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Move smtp to config/optional
-  Closes #170.
-  Adds the smtp file to a new folder config/optional in an attempt to prevent password wiping.
----
+## [20240725] - 2024-07-25
+
+-   ### Move smtp to config/optional
+    Closes #170.
+    Adds the smtp file to a new folder config/optional in an attempt to prevent password wiping.
+
+* * *
 
 ## [20240719] - 2024-07-19
 
@@ -863,7 +866,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240725...HEAD
+
+[20240725]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...20240725
 
 [20240719]: https://github.com/CuBoulder/tiamat10-profile/compare/20240711...20240719
 
