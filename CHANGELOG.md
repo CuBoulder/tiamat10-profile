@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Move smtp to config/optional
+  Closes #170.
+  Adds the smtp file to a new folder config/optional in an attempt to prevent password wiping.
+---
+
 ## [20240719] - 2024-07-19
 
 -   ### Issue/155
