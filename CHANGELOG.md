@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removes shortcodes & updates WYSIWYG settings 
+  This update:
+  - [Remove] Removes shortcodes from the profile. Resolves CuBoulder/tiamat10-profile#171
+  - [Bug] Corrects Map plugin filter out of order. Resolves CuBoulder/tiamat10-profile#169
+  - [Change] Enables Linkit URL Converter filter. Resolves CuBoulder/tiamat10-profile#165
+---
+
+## [20240725] - 2024-07-25
+
+-   ### Move smtp to config/optional
+    Closes #170.
+    Adds the smtp file to a new folder config/optional in an attempt to prevent password wiping.
+
+* * *
+
 ## [20240719] - 2024-07-19
 
 -   ### Issue/155
@@ -858,7 +873,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240725...HEAD
+
+[20240725]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...20240725
 
 [20240719]: https://github.com/CuBoulder/tiamat10-profile/compare/20240711...20240719
 

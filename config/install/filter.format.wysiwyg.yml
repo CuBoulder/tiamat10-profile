@@ -18,8 +18,8 @@ dependencies:
     - ckeditor5_bootstrap_accordion
     - editor
     - entity_embed
+    - linkit
     - media
-    - shortcode
     - ucb_ckeditor_plugins
 name: WYSIWYG
 format: wysiwyg
@@ -29,83 +29,102 @@ filters:
     id: editor_file_reference
     provider: editor
     status: false
-    weight: -46
+    weight: -36
     settings: {  }
   entity_embed:
     id: entity_embed
     provider: entity_embed
     status: true
-    weight: -40
+    weight: -46
     settings: {  }
   filter_align:
     id: filter_align
     provider: filter
     status: true
-    weight: -41
+    weight: -47
     settings: {  }
   filter_autop:
     id: filter_autop
     provider: filter
     status: false
-    weight: -45
+    weight: -35
     settings: {  }
   filter_bootstrap_accordion:
     id: filter_bootstrap_accordion
     provider: ckeditor5_bootstrap_accordion
     status: true
-    weight: 10
+    weight: -42
     settings: {  }
   filter_calendar_embed:
     id: filter_calendar_embed
     provider: ucb_ckeditor_plugins
     status: true
-    weight: 10
+    weight: -39
+    settings: {  }
+  filter_caption:
+    id: filter_caption
+    provider: filter
+    status: false
+    weight: -34
     settings: {  }
   filter_html:
     id: filter_html
     provider: filter
     status: true
-    weight: -44
+    weight: -50
     settings:
-      allowed_html: '<a id target rel class="ck-anchor ucb-link-button ucb-link-button-blue ucb-link-button-black ucb-link-button-gray ucb-link-button-white ucb-link-button-large ucb-link-button-regular ucb-link-button-small ucb-link-button-full ucb-link-button-default ucb-link-button-gold accordion-button collapsed" href data-entity-type data-entity-uuid data-entity-substitution> <br> <p class="lead hero supersize small-text text-align-left text-align-center text-align-right"> <h2 class="text-align-left text-align-center text-align-right"> <h3 class="text-align-left text-align-center text-align-right"> <h4 class="text-align-left text-align-center text-align-right"> <h5 class="text-align-left text-align-center text-align-right"> <h6 class="text-align-left text-align-center text-align-right"> <span class="small-text visually-hidden ucb-link-button-contents ucb-countup counter ucb-countdown countdown-full countdown-solid countdown-transparent countdown-inline countdown-stacked" aria-hidden="true"> <ul class="list-style-underline list-style-nobullet list-style-border column-list column-list-2 column-list-3 column-list-4"> <ol class="list-style-alpha-upper list-style-alpha-lower list-style-roman-upper list-style-roman-lower column-list column-list-2 column-list-3 column-list-4" reversed start> <table class="table-zebra table-condensed table-small table-vertical table-horizontal"> <strong> <em> <sub> <sup> <blockquote> <li> <hr> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <drupal-media data-entity-type data-entity-uuid alt data-view-mode data-align> <i class> <div class data-accordion-id> <ucb-map class="ucb-map ucb-campus-map ucb-google-map ucb-map-size-small ucb-map-size-medium ucb-map-size-large" data-map-location> <ucb-calendar class="ucb-calendar ucb-google-calendar" data-query-string> <drupal-entity alt title data-align data-caption data-entity-embed-display data-entity-embed-display-settings data-view-mode data-entity-uuid data-langcode data-embed-button="node" data-entity-type="node"><ucb-jump-menu><ucb-jump-menu><ucb-jump-menu headertag data-initialized data-title><div class="ucb-jump-menu-container">'
+      allowed_html: '<a id target rel class="ck-anchor accordion-button collapsed ucb-link-button ucb-link-button-blue ucb-link-button-black ucb-link-button-gray ucb-link-button-white ucb-link-button-large ucb-link-button-regular ucb-link-button-small ucb-link-button-full ucb-link-button-default ucb-link-button-gold" href data-entity-type data-entity-uuid data-entity-substitution> <br> <p class="lead hero supersize small-text text-align-left text-align-center text-align-right"> <h2 class="text-align-left text-align-center text-align-right"> <h3 class="text-align-left text-align-center text-align-right"> <h4 class="text-align-left text-align-center text-align-right"> <h5 class="text-align-left text-align-center text-align-right"> <h6 class="text-align-left text-align-center text-align-right"> <span class="small-text visually-hidden ucb-link-button-contents ucb-countup counter ucb-countdown countdown-full countdown-solid countdown-transparent countdown-inline countdown-stacked" aria-hidden="true"> <ul class="column-list column-list-2 column-list-3 column-list-4 list-style-underline list-style-nobullet list-style-border"> <ol class="list-style-alpha-upper list-style-alpha-lower list-style-roman-upper list-style-roman-lower column-list column-list-2 column-list-3 column-list-4" reversed start> <table class="table-zebra table-condensed table-small table-vertical table-horizontal"> <strong> <em> <sub> <sup> <blockquote> <li> <hr> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <drupal-media data-entity-type data-entity-uuid alt data-view-mode data-align> <div data-accordion-id class> <i class> <ucb-map class="ucb-map ucb-campus-map ucb-google-map ucb-map-size-small ucb-map-size-medium ucb-map-size-large" data-map-location> <ucb-calendar class="ucb-calendar ucb-google-calendar" data-query-string> <drupal-entity alt title data-align data-caption data-entity-embed-display data-entity-embed-display-settings data-view-mode data-entity-uuid data-langcode data-embed-button="node" data-entity-type="node"><ucb-jump-menu><ucb-jump-menu><ucb-jump-menu headertag data-initialized data-title><div class="ucb-jump-menu-container">'
       filter_html_help: true
       filter_html_nofollow: true
   filter_html_escape:
     id: filter_html_escape
     provider: filter
     status: false
-    weight: -48
+    weight: -38
     settings: {  }
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
     status: true
-    weight: -43
+    weight: -49
     settings: {  }
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter
     status: true
-    weight: -42
+    weight: -48
+    settings: {  }
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: false
+    weight: -33
     settings: {  }
   filter_map_embed:
     id: filter_map_embed
     provider: ucb_ckeditor_plugins
     status: true
-    weight: -49
+    weight: -40
     settings: {  }
   filter_url:
     id: filter_url
     provider: filter
     status: false
-    weight: -47
+    weight: -37
     settings:
       filter_url_length: 72
+  linkit:
+    id: linkit
+    provider: linkit
+    status: true
+    weight: -43
+    settings:
+      title: true
   media_embed:
     id: media_embed
     provider: media
     status: true
-    weight: 0
+    weight: -45
     settings:
       default_view_mode: default
       allowed_view_modes:
@@ -124,37 +143,3 @@ filters:
       allowed_media_types:
         image: image
         video: video
-  shortcode:
-    id: shortcode
-    provider: shortcode
-    status: true
-    weight: 0
-    settings:
-      blockquote: '1'
-      box: '1'
-      buttongroup: '1'
-      button: '1'
-      callout: '1'
-      clear: '1'
-      close-margin: '1'
-      columnlist: '1'
-      column: '1'
-      countup: '1'
-      countdown: '1'
-      expand: '1'
-      give: '1'
-      googlecalendar: '1'
-      icon: '1'
-      imagecaption: '1'
-      invisible: '1'
-      listitem: '1'
-      map: '1'
-      masonry-images: '1'
-      print: '1'
-      responsive-table: '1'
-  shortcode_corrector:
-    id: shortcode_corrector
-    provider: shortcode
-    status: true
-    weight: 10
-    settings: {  }
