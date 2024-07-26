@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds 'Jump Menu' to profile on install
+  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/74
+  
+  Includes:
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/168
+  - `ucb_ckeditor_plugins` => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/87
+---
+
 - ### Removes shortcodes & updates WYSIWYG settings 
   This update:
   - [Remove] Removes shortcodes from the profile. Resolves CuBoulder/tiamat10-profile#171
