@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### GTM Consent Update
+  Change the consent mode from `true` to `false` to allow for tracking to work correctly. This change is being made in the interim before having a consent module so that tracking works across D10 sites.
+---
+
 - ### Adds 'Jump Menu' to profile on install
   Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/74
   

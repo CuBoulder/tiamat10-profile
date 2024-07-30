@@ -7,7 +7,7 @@ weight: 0
 tag_container_ids:
   - GTM-M3DX2QP
 advanced_settings:
-  consent_mode: true
+  consent_mode: false
   gtm:
     GTM-M3DX2QP:
       data_layer: dataLayer
