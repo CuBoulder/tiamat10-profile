@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds new Image Style to Editor Filters
+  Includes:
+  - `tiamat-custom-entities` => https://github.com/CuBoulder/tiamat-custom-entities/pull/155
+  - `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/177
+  
+  Resolves https://github.com/CuBoulder/tiamat-custom-entities/issues/154
+  
+  
+---
+
 - ### GTM Consent Update
   Change the consent mode from `true` to `false` to allow for tracking to work correctly. This change is being made in the interim before having a consent module so that tracking works across D10 sites.
 ---

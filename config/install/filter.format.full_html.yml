@@ -7,6 +7,7 @@ dependencies:
     - core.entity_view_mode.media.large_image_style
     - core.entity_view_mode.media.media_library
     - core.entity_view_mode.media.medium_image_style
+    - core.entity_view_mode.media.original_image_size
     - core.entity_view_mode.media.small_image_style
     - core.entity_view_mode.media.small_square_image_style
     - core.entity_view_mode.media.square_thumbnail
@@ -130,6 +131,7 @@ filters:
         large_image_style: large_image_style
         media_library: media_library
         medium_image_style: medium_image_style
+        original_image_size: original_image_size
         small_image_style: small_image_style
         small_square_image_style: small_square_image_style
         square_thumbnail: square_thumbnail
