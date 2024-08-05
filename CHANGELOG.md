@@ -9,34 +9,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Adds new Image Style to Editor Filters
-  Includes:
-  - `tiamat-custom-entities` => https://github.com/CuBoulder/tiamat-custom-entities/pull/155
-  - `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/177
-  
-  Resolves https://github.com/CuBoulder/tiamat-custom-entities/issues/154
-  
-  
----
+## [20240805] - 2024-08-05
 
-- ### GTM Consent Update
-  Change the consent mode from `true` to `false` to allow for tracking to work correctly. This change is being made in the interim before having a consent module so that tracking works across D10 sites.
----
+-   ### Adds new Image Style to Editor Filters
 
-- ### Adds 'Jump Menu' to profile on install
-  Resolves https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/74
-  
-  Includes:
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/168
-  - `ucb_ckeditor_plugins` => https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/87
----
+    Includes:
 
-- ### Removes shortcodes & updates WYSIWYG settings 
-  This update:
-  - [Remove] Removes shortcodes from the profile. Resolves CuBoulder/tiamat10-profile#171
-  - [Bug] Corrects Map plugin filter out of order. Resolves CuBoulder/tiamat10-profile#169
-  - [Change] Enables Linkit URL Converter filter. Resolves CuBoulder/tiamat10-profile#165
----
+    -   `tiamat-custom-entities` => <https://github.com/CuBoulder/tiamat-custom-entities/pull/155>
+    -   `tiamat-profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/177>
+
+    Resolves <https://github.com/CuBoulder/tiamat-custom-entities/issues/154>
+
+* * *
+
+-   ### GTM Consent Update
+    Change the consent mode from `true` to `false` to allow for tracking to work correctly. This change is being made in the interim before having a consent module so that tracking works across D10 sites.
+
+* * *
+
+-   ### Adds 'Jump Menu' to profile on install
+
+    Resolves <https://github.com/CuBoulder/ucb_ckeditor_plugins/issues/74>
+
+    Includes:
+
+    -   `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/168>
+    -   `ucb_ckeditor_plugins` => <https://github.com/CuBoulder/ucb_ckeditor_plugins/pull/87>
+
+* * *
+
+-   ### Removes shortcodes & updates WYSIWYG settings
+    This update:
+    -   [Remove] Removes shortcodes from the profile. Resolves CuBoulder/tiamat10-profile#171
+    -   [Bug] Corrects Map plugin filter out of order. Resolves CuBoulder/tiamat10-profile#169
+    -   [Change] Enables Linkit URL Converter filter. Resolves CuBoulder/tiamat10-profile#165
+
+* * *
 
 ## [20240725] - 2024-07-25
 
@@ -895,7 +903,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240725...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240805...HEAD
+
+[20240805]: https://github.com/CuBoulder/tiamat10-profile/compare/20240725...20240805
 
 [20240725]: https://github.com/CuBoulder/tiamat10-profile/compare/20240719...20240725
 
