@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Enabling ucb_drush_commands in the profile
+  Enabling new module for Drush commands.  
+---
+
 ## [20240805] - 2024-08-05
 
 -   ### Adds new Image Style to Editor Filters
