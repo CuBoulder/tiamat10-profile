@@ -227,9 +227,6 @@ settings:
           label: 'Margin Clear - Paragraph'
           element: '<p class="clear-margin">'
         -
-          label: 'Margin Clear - Heading 1'
-          element: '<h1 class="clear-margin">'
-        -
           label: 'Margin Clear - Heading 2'
           element: '<h2 class="clear-margin">'
         -
