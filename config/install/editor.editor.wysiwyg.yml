@@ -223,6 +223,27 @@ settings:
         -
           label: Rows
           element: '<table class="table-horizontal">'
+        -
+          label: 'Margin Clear - Paragraph'
+          element: '<p class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 1'
+          element: '<h1 class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 2'
+          element: '<h2 class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 3'
+          element: '<h3 class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 4'
+          element: '<h4 class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 5'
+          element: '<h5 class="clear-margin">'
+        -
+          label: 'Margin Clear - Heading 6'
+          element: '<h6 class="clear-margin">'
     linkit_extension:
       linkit_enabled: true
       linkit_profile: default
