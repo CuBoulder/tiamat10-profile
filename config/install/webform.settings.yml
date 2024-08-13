@@ -180,8 +180,8 @@ file:
 format: {  }
 mail:
   default_to_mail: '[site:mail]'
-  default_from_mail: '[site:mail]'
-  default_from_name: '[site:name]'
+  default_from_mail: webexpress_noreply@colorado.edu
+  default_from_name: 'webexpress noreply'
   default_reply_to: ''
   default_return_path: ''
   default_sender_mail: ''
