@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Cleaning up default users
+  Removing Nicole from the Architects list and moving Kevin from Dev to Architect by default for new sites.  
+---
+
 - ### New Image Styles: Colorbox Image Styles
   Adds Colorbox images to editor filters
   
