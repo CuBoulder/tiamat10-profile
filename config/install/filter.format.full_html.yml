@@ -2,6 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.colorbox_small
+    - core.entity_view_mode.media.colorbox_small_square
+    - core.entity_view_mode.media.colorbox_small_thumbnail
+    - core.entity_view_mode.media.colorbox_square
     - core.entity_view_mode.media.focal_image_square
     - core.entity_view_mode.media.focal_image_wide
     - core.entity_view_mode.media.large_image_style
@@ -126,6 +130,10 @@ filters:
     settings:
       default_view_mode: media_library
       allowed_view_modes:
+        colorbox_small: colorbox_small
+        colorbox_small_square: colorbox_small_square
+        colorbox_small_thumbnail: colorbox_small_thumbnail
+        colorbox_square: colorbox_square
         focal_image_square: focal_image_square
         focal_image_wide: focal_image_wide
         large_image_style: large_image_style
