@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update webform.settings.yml
+  Change default values for webform email and name
+  
+  Resolves #183 
+---
+
 - ### CK Styles: Margin Clear
   Adds a 'Margin Clear' style for headers and paragraphs
   
