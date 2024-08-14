@@ -9,44 +9,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Cleaning up default users
-  Removing Nicole from the Architects list and moving Kevin from Dev to Architect by default for new sites.  
----
+## [20240814] - 2024-08-14
 
-- ### New Image Styles: Colorbox Image Styles
-  Adds Colorbox images to editor filters
-  
-  ### New Image Styles
-  Adds 4 new colorbox image styles: `Colorbox Small` , `Colorbox Small Square`, `Colorbox Small Thumbnail`, `Colorbox Square`. On click, these open up a modal with the full image and caption.
-  
-  Includes:
-  
-  - `tiamat-theme` => https://github.com/CuBoulder/tiamat-theme/pull/1205
-  - `tiamat-custom-entities` => https://github.com/CuBoulder/tiamat-custom-entities/pull/160
-  - `tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/185
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1174
----
+-   ### Cleaning up default users
+    Removing Nicole from the Architects list and moving Kevin from Dev to Architect by default for new sites.  
 
-- ### Update webform.settings.yml
-  Change default values for webform email and name
-  
-  Resolves #183 
----
+* * *
 
-- ### CK Styles: Margin Clear
-  Adds a 'Margin Clear' style for headers and paragraphs
-  
-  Includes:
-  -`tiamat-profile` => https://github.com/CuBoulder/tiamat10-profile/pull/182
-  -`tiamat-theme` => https://github.com/CuBoulder/tiamat-theme/pull/1201
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/152
----
+-   ### New Image Styles: Colorbox Image Styles
 
-- ### Enabling ucb_drush_commands in the profile
-  Enabling new module for Drush commands.  
----
+    Adds Colorbox images to editor filters
+
+    ### New Image Styles
+
+    Adds 4 new colorbox image styles: `Colorbox Small` , `Colorbox Small Square`, `Colorbox Small Thumbnail`, `Colorbox Square`. On click, these open up a modal with the full image and caption.
+
+    Includes:
+
+    -   `tiamat-theme` => <https://github.com/CuBoulder/tiamat-theme/pull/1205>
+    -   `tiamat-custom-entities` => <https://github.com/CuBoulder/tiamat-custom-entities/pull/160>
+    -   `tiamat-profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/185>
+
+    Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1174>
+
+* * *
+
+-   ### Update webform.settings.yml
+
+    Change default values for webform email and name
+
+    Resolves #183 
+
+* * *
+
+-   ### CK Styles: Margin Clear
+
+    Adds a 'Margin Clear' style for headers and paragraphs
+
+    Includes:
+    \-`tiamat-profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/182>
+    \-`tiamat-theme` => <https://github.com/CuBoulder/tiamat-theme/pull/1201>
+
+    Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/152>
+
+* * *
+
+-   ### Enabling ucb_drush_commands in the profile
+    Enabling new module for Drush commands.  
+
+* * *
 
 ## [20240805] - 2024-08-05
 
@@ -942,7 +953,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240805...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240814...HEAD
+
+[20240814]: https://github.com/CuBoulder/tiamat10-profile/compare/20240805...20240814
 
 [20240805]: https://github.com/CuBoulder/tiamat10-profile/compare/20240725...20240805
 
