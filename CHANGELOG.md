@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds CU Boulder Styled Block custom module and updates block styles
+  This update:
+  - [new] Adds the new CU Boulder Styled Block custom module.
+  - [new] Converts the Campus News block to a styled block, adding new style options to match our other blocks. CuBoulder/ucb_campus_news#6 CuBoulder/ucb_campus_news#9
+  - [change] Refactors existing styled blocks to all extend the same Twig template with Twig inheritance.
+  - [change] Corrects some indentation and other minor code style issues in affected block templates.
+  
+  Sister PR in: [ucb_campus_news](https://github.com/CuBoulder/ucb_campus_news/pull/10), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1209), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/55)
+---
+
 ## [20240814] - 2024-08-14
 
 -   ### Cleaning up default users

@@ -78,6 +78,7 @@ install:
   - cu_boulder_content_types
   - ucb_admin_menus
   - ucb_site_configuration
+  - ucb_styled_block
   - ucb_campus_news
   - ucb_user_invite
   - ucb_focal_image_enable
