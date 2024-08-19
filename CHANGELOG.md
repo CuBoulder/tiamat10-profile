@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates Metatag settings
+  This update:
+  - [bug] Fixes meta tags missing on a site's home page but not other pages.
+  - [change] Resolves description meta tag to summary field instead of body field.
+  
+  Resolves CuBoulder/tiamat10-profile#189
+---
+
 - ### Add menu extras module
   Closes https://github.com/CuBoulder/tiamat-theme/issues/629.
   Adds the ncessary module for the mega menu.
