@@ -42,6 +42,7 @@ install:
   - ckeditor5_icons
   - metatag
   - metatag_open_graph
+  - menu_item_extras
   - ucb_ckeditor_plugins
   - webform
   - webform_ui

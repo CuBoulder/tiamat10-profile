@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Add menu extras module
+  Closes https://github.com/CuBoulder/tiamat-theme/issues/629.
+  Adds the ncessary module for the mega menu.
+---
+
 - ### Adds CU Boulder Styled Block custom module and updates block styles
   This update:
   - [new] Adds the new CU Boulder Styled Block custom module.
