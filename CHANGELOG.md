@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update filter.format.wysiwyg.yml
+  Filter updates to remove "focal point" styles.
+  Updated the default to be large to remove an option.
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/163
+  
+  Closes #191 
+---
+
 - ### Updates Metatag settings
   This update:
   - [bug] Fixes meta tags missing on a site's home page but not other pages.
