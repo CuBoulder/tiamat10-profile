@@ -9,37 +9,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Update filter.format.wysiwyg.yml
-  Filter updates to remove "focal point" styles.
-  Updated the default to be large to remove an option.
-  
-  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/163
-  
-  Closes #191 
----
+## [20240821] - 2024-08-21
 
-- ### Updates Metatag settings
-  This update:
-  - [bug] Fixes meta tags missing on a site's home page but not other pages.
-  - [change] Resolves description meta tag to summary field instead of body field.
-  
-  Resolves CuBoulder/tiamat10-profile#189
----
+-   ### Update filter.format.wysiwyg.yml
 
-- ### Add menu extras module
-  Closes https://github.com/CuBoulder/tiamat-theme/issues/629.
-  Adds the ncessary module for the mega menu.
----
+    Filter updates to remove "focal point" styles.
+    Updated the default to be large to remove an option.
 
-- ### Adds CU Boulder Styled Block custom module and updates block styles
-  This update:
-  - [new] Adds the new CU Boulder Styled Block custom module.
-  - [new] Converts the Campus News block to a styled block, adding new style options to match our other blocks. CuBoulder/ucb_campus_news#6 CuBoulder/ucb_campus_news#9
-  - [change] Refactors existing styled blocks to all extend the same Twig template with Twig inheritance.
-  - [change] Corrects some indentation and other minor code style issues in affected block templates.
-  
-  Sister PR in: [ucb_campus_news](https://github.com/CuBoulder/ucb_campus_news/pull/10), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1209), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/55)
----
+    Sister PR: <https://github.com/CuBoulder/tiamat-custom-entities/pull/163>
+
+    Closes #191 
+
+* * *
+
+-   ### Updates Metatag settings
+
+    This update:
+
+    -   [bug] Fixes meta tags missing on a site's home page but not other pages.
+    -   [change] Resolves description meta tag to summary field instead of body field.
+
+    Resolves CuBoulder/tiamat10-profile#189
+
+* * *
+
+-   ### Add menu extras module
+    Closes <https://github.com/CuBoulder/tiamat-theme/issues/629>.
+    Adds the ncessary module for the mega menu.
+
+* * *
+
+-   ### Adds CU Boulder Styled Block custom module and updates block styles
+
+    This update:
+
+    -   [new] Adds the new CU Boulder Styled Block custom module.
+    -   [new] Converts the Campus News block to a styled block, adding new style options to match our other blocks. CuBoulder/ucb_campus_news#6 CuBoulder/ucb_campus_news#9
+    -   [change] Refactors existing styled blocks to all extend the same Twig template with Twig inheritance.
+    -   [change] Corrects some indentation and other minor code style issues in affected block templates.
+
+    Sister PR in: [ucb_campus_news](https://github.com/CuBoulder/ucb_campus_news/pull/10), [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1209), [tiamat10-project-template](https://github.com/CuBoulder/tiamat10-project-template/pull/55)
+
+* * *
 
 ## [20240814] - 2024-08-14
 
@@ -985,7 +996,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240814...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240821...HEAD
+
+[20240821]: https://github.com/CuBoulder/tiamat10-profile/compare/20240814...20240821
 
 [20240814]: https://github.com/CuBoulder/tiamat10-profile/compare/20240805...20240814
 
