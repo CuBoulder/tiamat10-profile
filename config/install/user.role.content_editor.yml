@@ -12,6 +12,7 @@ dependencies:
     - block_content.type.expandable_content
     - block_content.type.hero_unit
     - block_content.type.image_gallery
+    - block_content.type.mega_menu
     - block_content.type.slider
     - block_content.type.social_media_icons
     - block_content.type.text_block
@@ -115,6 +116,7 @@ permissions:
   - 'create image media'
   - 'create image_gallery block content'
   - 'create media'
+  - 'create mega_menu block content'
   - 'create slider block content'
   - 'create social_media_icons block content'
   - 'create terms in byline'
@@ -179,6 +181,8 @@ permissions:
   - 'delete any image_gallery block content'
   - 'delete any image_gallery block content revisions'
   - 'delete any media'
+  - 'delete any mega_menu block content'
+  - 'delete any mega_menu block content revisions'
   - 'delete any slider block content'
   - 'delete any slider block content revisions'
   - 'delete any social_media_icons block content'
@@ -268,6 +272,7 @@ permissions:
   - 'edit any hero_unit block content'
   - 'edit any image media'
   - 'edit any image_gallery block content'
+  - 'edit any mega_menu block content'
   - 'edit any slider block content'
   - 'edit any social_media_icons block content'
   - 'edit any text_block block content'
@@ -326,6 +331,7 @@ permissions:
   - 'revert any expandable_content block content revisions'
   - 'revert any hero_unit block content revisions'
   - 'revert any image_gallery block content revisions'
+  - 'revert any mega_menu block content revisions'
   - 'revert any slider block content revisions'
   - 'revert any social_media_icons block content revisions'
   - 'revert any text_block block content revisions'
@@ -370,6 +376,7 @@ permissions:
   - 'view any expandable_content block content history'
   - 'view any hero_unit block content history'
   - 'view any image_gallery block content history'
+  - 'view any mega_menu block content history'
   - 'view any slider block content history'
   - 'view any social_media_icons block content history'
   - 'view any text_block block content history'

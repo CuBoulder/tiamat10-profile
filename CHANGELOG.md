@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Permissions for Mega Menu
+  Closes #194.
+  Adds the permissions needed for Mega Menu editing.
+---
+
 ## [20240821] - 2024-08-21
 
 -   ### Update filter.format.wysiwyg.yml
