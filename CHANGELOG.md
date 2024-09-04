@@ -9,10 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Permissions for Mega Menu
-  Closes #194.
-  Adds the permissions needed for Mega Menu editing.
----
+## [20240904] - 2024-09-04
+
+-   ### Permissions for Mega Menu
+    Closes #194.
+    Adds the permissions needed for Mega Menu editing.
+
+* * *
 
 ## [20240821] - 2024-08-21
 
@@ -1001,7 +1004,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240821...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240904...HEAD
+
+[20240904]: https://github.com/CuBoulder/tiamat10-profile/compare/20240821...20240904
 
 [20240821]: https://github.com/CuBoulder/tiamat10-profile/compare/20240814...20240821
 
