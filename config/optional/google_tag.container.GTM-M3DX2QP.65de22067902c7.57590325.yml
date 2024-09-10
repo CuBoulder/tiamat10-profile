@@ -1,6 +1,10 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: A71wVnirNKe1Q2SVfZgbc_00mgI8igQS9ziJbGCw9GY
 id: GTM-M3DX2QP.65de22067902c7.57590325
 label: GTM-M3DX2QP
 weight: 0
@@ -34,7 +38,14 @@ dimensions_metrics:
     type: dimension
     name: dimension4
     value: '[node:created]'
-conditions: {  }
+conditions:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
 events:
   generate_lead:
     value: ''
