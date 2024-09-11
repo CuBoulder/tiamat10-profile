@@ -9,11 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Tag Container Update for Anonymous only tracking
-  The change to the optional install file should make it so only anonymous users are being tracked.
-  This looks to fix the admin control issues too. 
-  The logged in users now see youtube videos loading properly for video reveal/hero blocks. They are still sometimes broken on anonymous users.
----
+## [20240911] - 2024-09-11
+
+-   ### Tag Container Update for Anonymous only tracking
+    The change to the optional install file should make it so only anonymous users are being tracked.
+    This looks to fix the admin control issues too. 
+    The logged in users now see youtube videos loading properly for video reveal/hero blocks. They are still sometimes broken on anonymous users.
+
+* * *
 
 ## [20240904] - 2024-09-04
 
@@ -1010,7 +1013,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240904...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240911...HEAD
+
+[20240911]: https://github.com/CuBoulder/tiamat10-profile/compare/20240904...20240911
 
 [20240904]: https://github.com/CuBoulder/tiamat10-profile/compare/20240821...20240904
 
