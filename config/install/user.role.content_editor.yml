@@ -10,6 +10,7 @@ dependencies:
     - block_content.type.content_sequence
     - block_content.type.events_calendar
     - block_content.type.expandable_content
+    - block_content.type.faculty_publications
     - block_content.type.hero_unit
     - block_content.type.image_gallery
     - block_content.type.mega_menu
@@ -111,6 +112,7 @@ permissions:
   - 'create document media'
   - 'create events_calendar block content'
   - 'create expandable_content block content'
+  - 'create faculty_publications block content'
   - 'create form_page content'
   - 'create hero_unit block content'
   - 'create image media'
@@ -173,6 +175,8 @@ permissions:
   - 'delete any events_calendar block content revisions'
   - 'delete any expandable_content block content'
   - 'delete any expandable_content block content revisions'
+  - 'delete any faculty_publications block content'
+  - 'delete any faculty_publications block content revisions'
   - 'delete any file'
   - 'delete any form_page content'
   - 'delete any hero_unit block content'
@@ -268,6 +272,7 @@ permissions:
   - 'edit any document media'
   - 'edit any events_calendar block content'
   - 'edit any expandable_content block content'
+  - 'edit any faculty_publications block content'
   - 'edit any form_page content'
   - 'edit any hero_unit block content'
   - 'edit any image media'
@@ -329,6 +334,7 @@ permissions:
   - 'revert any content_sequence block content revisions'
   - 'revert any events_calendar block content revisions'
   - 'revert any expandable_content block content revisions'
+  - 'revert any faculty_publications block content revisions'
   - 'revert any hero_unit block content revisions'
   - 'revert any image_gallery block content revisions'
   - 'revert any mega_menu block content revisions'
@@ -374,6 +380,7 @@ permissions:
   - 'view any content_sequence block content history'
   - 'view any events_calendar block content history'
   - 'view any expandable_content block content history'
+  - 'view any faculty_publications block content history'
   - 'view any hero_unit block content history'
   - 'view any image_gallery block content history'
   - 'view any mega_menu block content history'
