@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds permissions for the Faculty Publication block
+  [new] This update adds permissions for the Faculty Publications block.
+  
+  CuBoulder/tiamat-theme#1146
+  
+  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1297), [tiamat-custom-entities](https://github.com/CuBoulder/tiamat-custom-entities/pull/172)
+---
+
 ## [20240911] - 2024-09-11
 
 -   ### Tag Container Update for Anonymous only tracking
