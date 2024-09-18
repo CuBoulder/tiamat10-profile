@@ -9,13 +9,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Adds permissions for the Faculty Publication block
-  [new] This update adds permissions for the Faculty Publications block.
-  
-  CuBoulder/tiamat-theme#1146
-  
-  Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1297), [tiamat-custom-entities](https://github.com/CuBoulder/tiamat-custom-entities/pull/172)
----
+## [20240918] - 2024-09-18
+
+-   ### Adds permissions for the Faculty Publication block
+
+    [new] This update adds permissions for the Faculty Publications block.
+
+    CuBoulder/tiamat-theme#1146
+
+    Sister PR in: [tiamat-theme](https://github.com/CuBoulder/tiamat-theme/pull/1297), [tiamat-custom-entities](https://github.com/CuBoulder/tiamat-custom-entities/pull/172)
+
+* * *
 
 ## [20240911] - 2024-09-11
 
@@ -1021,7 +1025,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240911...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240918...HEAD
+
+[20240918]: https://github.com/CuBoulder/tiamat10-profile/compare/20240911...20240918
 
 [20240911]: https://github.com/CuBoulder/tiamat10-profile/compare/20240904...20240911
 
