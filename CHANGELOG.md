@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Move block layout files to optional
+  Move the block layout files to optional to stop update overrides. 
+  
+  The messages, help, and local task files are still in /install as those shouldn't need to be moved.
+---
+
 ## [20240918] - 2024-09-18
 
 -   ### Adds permissions for the Faculty Publication block
