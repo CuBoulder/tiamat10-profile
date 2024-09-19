@@ -9,15 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Moves `google_tag.container.GTM-M3DX2QP.65de22067902c7.57590325.yml` to `config/install`
-  [change] Resolves CuBoulder/tiamat10-profile#203
----
+## [20240919] - 2024-09-19
 
-- ### Move block layout files to optional
-  Move the block layout files to optional to stop update overrides. 
-  
-  The messages, help, and local task files are still in /install as those shouldn't need to be moved.
----
+-   ### Moves `google_tag.container.GTM-M3DX2QP.65de22067902c7.57590325.yml` to `config/install`
+    [change] Resolves CuBoulder/tiamat10-profile#203
+
+* * *
+
+-   ### Move block layout files to optional
+
+    Move the block layout files to optional to stop update overrides. 
+
+    The messages, help, and local task files are still in /install as those shouldn't need to be moved.
+
+* * *
 
 ## [20240918] - 2024-09-18
 
@@ -1035,7 +1040,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240918...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240919...HEAD
+
+[20240919]: https://github.com/CuBoulder/tiamat10-profile/compare/20240918...20240919
 
 [20240918]: https://github.com/CuBoulder/tiamat10-profile/compare/20240911...20240918
 
