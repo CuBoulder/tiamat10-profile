@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20240925] - 2024-09-25
+
 ## [20240919] - 2024-09-19
 
 -   ### Moves `google_tag.container.GTM-M3DX2QP.65de22067902c7.57590325.yml` to `config/install`
@@ -1040,7 +1042,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240919...HEAD
+[Unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240925...HEAD
+
+[20240925]: https://github.com/CuBoulder/tiamat10-profile/compare/20240919...20240925
 
 [20240919]: https://github.com/CuBoulder/tiamat10-profile/compare/20240918...20240919
 
