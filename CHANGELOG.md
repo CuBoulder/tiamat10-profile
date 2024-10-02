@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update system.performance.yml
+  Created a `system.performance.yml` file at the profile's install. 
+  Uses the base system file's info but changed max age to `86400` (One day) 
+  All other settings should remain default.
+  
+  Resolves #210 
+---
+
 ## [20240925] - 2024-09-25
 
 ## [20240919] - 2024-09-19
