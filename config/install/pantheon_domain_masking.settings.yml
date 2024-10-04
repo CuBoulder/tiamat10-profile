@@ -1,0 +1,4 @@
+_core:
+domain: www.colorado.edu
+enabled: 'no'
+allow_platform: 'no'
