@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Move main gtm container settings
+  Move the main gtm container settings from `config/install` to `config/optional` so that additional tags don't get removed on site updates.
+  
+  Resolves #218 
+---
+
 ## [20241009] - 2024-10-09
 
 -   ### Create developers-sandbox-ci
