@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Aggregator permission to authenticated users
+  [bug, severity:moderate] Resolves CuBoulder/tiamat10-profile#219
+---
+
 - ### Move main gtm container settings
   Move the main gtm container settings from `config/install` to `config/optional` so that additional tags don't get removed on site updates.
   
