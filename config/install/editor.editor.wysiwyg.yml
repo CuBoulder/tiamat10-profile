@@ -167,6 +167,9 @@ settings:
           label: Small
           element: '<p class="small-text">'
         -
+          label: Clear Floats
+          element: '<p class="clearfix">'
+        -
           label: 'Small Span'
           element: '<span class="small-text">'
         -

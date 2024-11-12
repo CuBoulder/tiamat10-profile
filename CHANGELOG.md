@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Clear Floats Block Style
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1451.
+  Adds a clear floats block style.
+---
+
 ## [20241030] - 2024-10-30
 
 ## [20241023] - 2024-10-23
