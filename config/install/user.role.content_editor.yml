@@ -62,6 +62,7 @@ dependencies:
     - entity_reference_revisions
     - file
     - filter
+    - help
     - layout_builder
     - media
     - node
@@ -85,6 +86,7 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access help pages'
   - 'access media overview'
   - 'access responsive preview'
   - 'access shortcuts'
