@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20241113] - 2024-11-13
+
+- ### Clear Floats Block Style
+  Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1451>.
+  Adds a clear floats block style.
+
+* * *
+
 ## [20241030] - 2024-10-30
 
 ## [20241023] - 2024-10-23
@@ -1090,7 +1098,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241030...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241113...HEAD
+[20241113]: https://github.com/CuBoulder/tiamat10-profile/compare/20241030...20241113
 [20241030]: https://github.com/CuBoulder/tiamat10-profile/compare/20241023...20241030
 [20241023]: https://github.com/CuBoulder/tiamat10-profile/compare/20241017...20241023
 [20241017]: https://github.com/CuBoulder/tiamat10-profile/compare/20241009...20241017
