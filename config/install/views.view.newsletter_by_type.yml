@@ -1,16 +1,14 @@
-uuid: 4158aac1-41b0-46fa-b053-d58307db9420
 langcode: en
 status: true
 dependencies:
   config:
+    - field.storage.node.field_newsletter_summary
     - field.storage.paragraph.field_newsletter_content_title
     - node.type.newsletter
   module:
     - node
     - paragraphs
     - user
-_core:
-  default_config_hash: OW9bxCdLy1T0YzKtRj06gDR62WEG4LtpQOAQjHQerSE
 id: newsletter_by_type
 label: 'Newsletter by Type'
 module: views
@@ -27,6 +25,68 @@ display:
     display_options:
       title: 'Newsletter by Type'
       fields:
+        field_newsletter_summary:
+          id: field_newsletter_summary
+          table: node__field_newsletter_summary
+          field: field_newsletter_summary
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: basic_string
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
         title_1:
           id: title_1
           table: node_field_data
@@ -168,7 +228,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"container\">\r\n<div class=\"ucb-newsletter-row\">\r\n{% if title %}\r\n<div class=\"row\">{{title}}</div>\r\n{% endif %}\r\n{% if field_newsletter_content_title %}\r\n<div class=\"row>{{ field_newsletter_content_title }}</div>\r\n{% endif %}\r\n{% if title_1 %}\r\n<div class=\"row\"> <p>{{ title_1 |striptags}}</p></div>\r\n{% endif %}\r\n</div>\r\n</div>"
+            text: "<div class=\"container\">\r\n  <div class=\"ucb-newsletter-row\">\r\n    {% if title %}\r\n      <div class=\"row\">{{ title }}</div>\r\n    {% endif %}\r\n    {% if field_newsletter_summary %}\r\n      <div class=\"row\"><p>{{ field_newsletter_summary}}</p></div>\r\n    {% else %}\r\n      {% if field_newsletter_content_title %}\r\n        <div class=\"row\"><p>{{ field_newsletter_content_title|striptags}}</p></div>\r\n      {% elseif title_1 %}\r\n        <div class=\"row\"><p>{{ title_1|striptags }}</p></div>\r\n      {% endif %}\r\n    {% endif %}\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -469,6 +529,7 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_newsletter_summary'
         - 'config:field.storage.paragraph.field_newsletter_content_title'
   page_1:
     id: page_1
@@ -488,4 +549,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags:
+        - 'config:field.storage.node.field_newsletter_summary'
         - 'config:field.storage.paragraph.field_newsletter_content_title'
