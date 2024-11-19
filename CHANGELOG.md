@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Fixes missing help link in the admin toolbar
+  This update:
+  
+  - Adds permission to access help pages to fix missing help link.
+  
+  [bug, severity:minor, permissions] Resolves CuBoulder/tiamat10-profile#229
+---
+
 - ### Adds Newsletter Archive View
   Adds the`Newsletter Archive` view.
   
