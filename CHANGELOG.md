@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Newsletter Archive View
+  Adds the`Newsletter Archive` view.
+  
+  Includes:
+  - `theme` => https://github.com/CuBoulder/tiamat-theme/pull/1476
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/231
+  - `custom-entities`  => https://github.com/CuBoulder/tiamat-custom-entities/pull/192
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1391
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1475
+---
+
 ## [20241113] - 2024-11-13
 
 - ### Clear Floats Block Style
