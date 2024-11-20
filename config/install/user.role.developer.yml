@@ -81,6 +81,7 @@ dependencies:
     - file
     - filter
     - google_tag
+    - help
     - image
     - layout_builder
     - layout_builder_iframe_modal
@@ -118,6 +119,7 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access help pages'
   - 'access media overview'
   - 'access news feeds'
   - 'access own webform configuration'

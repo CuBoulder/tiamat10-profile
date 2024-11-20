@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: newsletter_archive
+label: 'Newsletter Archive'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/newsletter/[term:name]'
+selection_criteria:
+  f03eff00-1b58-45a0-83be-9e1edfe06b67:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: f03eff00-1b58-45a0-83be-9e1edfe06b67
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      newsletter: newsletter
+selection_logic: and
+weight: -5
+relationships: {  }
