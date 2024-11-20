@@ -427,7 +427,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "{% if field_ucb_article_thumbnail %}\r\n<div class = \"ucb-taxonomy-thumbnail\">{{ field_ucb_article_thumbnail }}</div>\r\n{% endif %}\r\n<div class = \"ucb-view-wrapper\">\r\n<div class = \"ucb-taxonomy-title\"> {{ title }} </div>\r\n{% if field_ucb_article_date_override|render|striptags|trim != 7 %}\r\n<div class = \"ucb-taxonomy-date\"> {{ created }} </div>\r\n{% endif %}\r\n<div class= \"ucb-taxonomy-summary\">\r\n{% if field_ucb_article_summary %}\r\n{{ field_ucb_article_summary }}\r\n{% else %}\r\n{{ field_article_text }}\r\n{% endif %}\r\n</div>\r\n<div class= \"ucb-taxonomy-readmore\">{{ view_node }} </div>\r\n</div>"
+            text: "{% if field_ucb_article_thumbnail %}\r\n<div class = \"ucb-taxonomy-thumbnail\">{{ field_ucb_article_thumbnail }}</div>\r\n{% endif %}\r\n<div class = \"ucb-view-wrapper\">\r\n<div class = \"ucb-taxonomy-title\"> {{ title }} </div>\r\n{% set global_date_format = drupal_config('ucb_site_configuration.settings', 'article_date_format') %}\r\n{% set node_date_override = field_ucb_article_date_override|render|striptags|trim %}\r\n\r\n{% if node_date_override != '7' and (global_date_format != 6 or node_date_override != '0') %}\r\n  <div class=\"ucb-taxonomy-date\"> {{ created }} </div>\r\n{% endif %}\r\n<div class= \"ucb-taxonomy-summary\">\r\n{% if field_ucb_article_summary %}\r\n{{ field_ucb_article_summary }}\r\n{% else %}\r\n{{ field_article_text }}\r\n{% endif %}\r\n</div>\r\n<div class= \"ucb-taxonomy-readmore\">{{ view_node }} </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
