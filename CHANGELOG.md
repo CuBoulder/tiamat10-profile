@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates to SMTP settings
+  A boolean value change for the SMTP configuration and there's a new settings.mail configuration file to be added.  
+---
+
 - ### Fixes missing help link in the admin toolbar
   This update:
   

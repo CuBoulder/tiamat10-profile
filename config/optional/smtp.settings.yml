@@ -10,7 +10,7 @@ smtp_from: webexpress_noreply@colorado.edu
 smtp_fromname: 'Web Express'
 smtp_client_hostname: www.colorado.edu
 smtp_client_helo: ''
-smtp_allowhtml: '1'
+smtp_allowhtml: true
 smtp_test_address: ''
 smtp_reroute_address: ''
 smtp_debugging: false
