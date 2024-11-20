@@ -9,29 +9,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20241120] - 2024-11-20
+
 - ### Updates to SMTP settings
   A boolean value change for the SMTP configuration and there's a new settings.mail configuration file to be added.  
----
+
+* * *
 
 - ### Fixes missing help link in the admin toolbar
+
   This update:
-  
+
   - Adds permission to access help pages to fix missing help link.
-  
+
   [bug, severity:minor, permissions] Resolves CuBoulder/tiamat10-profile#229
----
+
+* * *
 
 - ### Adds Newsletter Archive View
+
   Adds the`Newsletter Archive` view.
-  
+
   Includes:
-  - `theme` => https://github.com/CuBoulder/tiamat-theme/pull/1476
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/231
-  - `custom-entities`  => https://github.com/CuBoulder/tiamat-custom-entities/pull/192
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1391
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1475
----
+
+  - `theme` => <https://github.com/CuBoulder/tiamat-theme/pull/1476>
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/231>
+  - `custom-entities`  => <https://github.com/CuBoulder/tiamat-custom-entities/pull/192>
+
+  Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1391>
+  Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1475>
+
+* * *
 
 ## [20241113] - 2024-11-13
 
@@ -1122,7 +1130,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241113...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241120...HEAD
+[20241120]: https://github.com/CuBoulder/tiamat10-profile/compare/20241113...20241120
 [20241113]: https://github.com/CuBoulder/tiamat10-profile/compare/20241030...20241113
 [20241030]: https://github.com/CuBoulder/tiamat10-profile/compare/20241023...20241030
 [20241023]: https://github.com/CuBoulder/tiamat10-profile/compare/20241017...20241023
