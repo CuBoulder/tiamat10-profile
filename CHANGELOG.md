@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20241204] - 2024-12-04
+
 ## [20241122] - 2024-11-22
 
 ## [20241120] - 2024-11-20
@@ -1132,7 +1134,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241122...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241204...HEAD
+[20241204]: https://github.com/CuBoulder/tiamat10-profile/compare/20241122...20241204
 [20241122]: https://github.com/CuBoulder/tiamat10-profile/compare/20241120...20241122
 [20241120]: https://github.com/CuBoulder/tiamat10-profile/compare/20241113...20241120
 [20241113]: https://github.com/CuBoulder/tiamat10-profile/compare/20241030...20241113
