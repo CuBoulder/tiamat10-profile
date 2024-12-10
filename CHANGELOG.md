@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Resolve view issues and adds date functionality
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1429.
+  Theme - > https://github.com/CuBoulder/tiamat-theme/pull/1470.
+  
+  This also resolves the issue where 2 created views were creating problems and preventing either from loading.
+---
+
 ## [20241204] - 2024-12-04
 
 ## [20241122] - 2024-11-22
