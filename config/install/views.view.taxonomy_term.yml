@@ -9,9 +9,7 @@ dependencies:
     - field.storage.paragraph.field_article_text
     - field.storage.paragraph.field_newsletter_content_title
     - image.style.square_thumbnail_image_style
-    - taxonomy.vocabulary.category
     - taxonomy.vocabulary.newsletter
-    - taxonomy.vocabulary.tags
   module:
     - media
     - node
@@ -852,7 +850,7 @@ display:
           operator: in
           value:
             '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
-          group: 3
+          group: 2
           exposed: false
           expose:
             operator_id: ''
@@ -891,7 +889,7 @@ display:
           plugin_id: boolean
           operator: '='
           value: '1'
-          group: 3
+          group: 2
           exposed: false
           expose:
             operator_id: ''
@@ -932,7 +930,7 @@ display:
             min: ''
             max: ''
             value: '0'
-          group: 2
+          group: 1
           exposed: false
           expose:
             operator_id: ''
@@ -976,7 +974,7 @@ display:
             min: ''
             max: ''
             value: '0'
-          group: 2
+          group: 1
           exposed: false
           expose:
             operator_id: ''
@@ -1017,7 +1015,7 @@ display:
           plugin_id: boolean
           operator: '='
           value: '1'
-          group: 2
+          group: 1
           exposed: false
           expose:
             operator_id: ''
@@ -1058,6 +1056,48 @@ display:
           operator: in
           value:
             '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+        delta_2:
+          id: delta_2
+          table: node__field_ucb_article_content
+          field: delta
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: numeric
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: '0'
           group: 2
           exposed: false
           expose:
@@ -1074,171 +1114,9 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-        vid:
-          id: vid
-          table: taxonomy_term_field_data
-          field: vid
-          relationship: term_node_tid_1
-          group_type: group
-          admin_label: ''
-          entity_type: taxonomy_term
-          entity_field: vid
-          plugin_id: bundle
-          operator: in
-          value:
-            category: category
-          group: 3
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-        langcode_2:
-          id: langcode_2
-          table: node_field_revision
-          field: langcode
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: langcode
-          plugin_id: language
-          operator: in
-          value:
-            '***LANGUAGE_language_content***': '***LANGUAGE_language_content***'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-        status_2:
-          id: status_2
-          table: taxonomy_index
-          field: status
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: boolean
-          operator: '='
-          value: '1'
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-        vid_1:
-          id: vid_1
-          table: taxonomy_term_field_data
-          field: vid
-          relationship: term_node_tid_2
-          group_type: group
-          admin_label: ''
-          entity_type: taxonomy_term
-          entity_field: vid
-          plugin_id: bundle
-          operator: in
-          value:
-            tags: tags
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
+            min_placeholder: ''
+            max_placeholder: ''
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -1256,7 +1134,6 @@ display:
         groups:
           1: AND
           2: AND
-          3: AND
       style:
         type: html_list
         options:
@@ -1330,30 +1207,6 @@ display:
           admin_label: 'field_newsletter_article_select: Content'
           plugin_id: standard
           required: false
-        term_node_tid_1:
-          id: term_node_tid_1
-          table: node_field_data
-          field: term_node_tid
-          relationship: none
-          group_type: group
-          admin_label: term-category
-          entity_type: node
-          plugin_id: node_term_data
-          required: false
-          vids:
-            - category
-        term_node_tid_2:
-          id: term_node_tid_2
-          table: node_field_data
-          field: term_node_tid
-          relationship: none
-          group_type: group
-          admin_label: term-tags
-          entity_type: node
-          plugin_id: node_term_data
-          required: false
-          vids:
-            - tags
       css_class: taxonomy-views
       show_admin_links: true
       link_display: page_1
