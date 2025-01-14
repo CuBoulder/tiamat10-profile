@@ -49,12 +49,12 @@ function _boulder_profile_install_users() {
   /*
    * Create inital users for the Web Team
    */
-  $users = ['jesp3304', 'mibo7729', 'alco6164', 'joni1621', 'jako6198', 'titr7839', 'pabr5825'];
+  $users = ['jesp3304', 'mibo7729', 'joni1621', 'pabr5825'];
   foreach ($users as $i) {
     User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
-      'pass' => 'nextest',
+      'pass' => 'nextest20252025nextest',
       'status' => 1,
       'roles' => 'developer',
     ])->enforceIsNew()->save();
@@ -63,12 +63,12 @@ function _boulder_profile_install_users() {
   /*
    * Create inital users for the UX Team
    */
-  $users = ['linebarg', 'crafts', 'brokaw', 'wetu1300', 'fraziere'];
+  $users = ['crafts', 'fraziere'];
   foreach ($users as $i) {
     User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
-      'pass' => 'nextest',
+      'pass' => 'nextest20252025nextest',
       'status' => 1,
       'roles' => 'architect',
     ])->enforceIsNew()->save();

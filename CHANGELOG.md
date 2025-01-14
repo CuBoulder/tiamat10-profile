@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removing default users that no longer work here.
+  Resolves #241 
+---
+
 ## [20241211] - 2024-12-11
 
 - ### Resolve view issues and adds date functionality
