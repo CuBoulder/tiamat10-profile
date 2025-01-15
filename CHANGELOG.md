@@ -9,30 +9,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250115] - 2025-01-15
+
 - ### #244 Site Managers: sitemap permissions to exclude content
+
   Gives 'Site Managers' the ability to exclude content from the sitemap
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/244
----
+
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/244>
+
+* * *
 
 - ### #235 Allows Webform Submission viewer to navigate to Submissions
+
   Gives the "Webform Submissions Viewer" Role the ability to navigate to the Submissions page via the toolbar. Previously this was only possible via direct link, but this adds the following permissions to allow that route of navigation:
-  
-    - 'access administration pages'
-    - 'access toolbar'
-    - 'access webform overview'
-    - 'view the administration theme'
-  
+
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access webform overview'
+  - 'view the administration theme'
+
   Webforms will be the only link that shows up in their Toolbar under Structure
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/235
-  
-  
----
+
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/235>
+
+* * *
 
 - ### Removing default users that no longer work here.
   Resolves #241 
----
+
+* * *
 
 ## [20241211] - 2024-12-11
 
@@ -1170,7 +1175,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20241211...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250115...HEAD
+[20250115]: https://github.com/CuBoulder/tiamat10-profile/compare/20241211...20250115
 [20241211]: https://github.com/CuBoulder/tiamat10-profile/compare/20241204...20241211
 [20241204]: https://github.com/CuBoulder/tiamat10-profile/compare/20241122...20241204
 [20241122]: https://github.com/CuBoulder/tiamat10-profile/compare/20241120...20241122
