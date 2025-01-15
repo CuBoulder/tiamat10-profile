@@ -2,11 +2,17 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
+    - toolbar
     - webform
 id: webform_submissions_viewer
 label: 'Webform Submissions Viewer'
 weight: 12
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access webform overview'
   - 'view any webform submission'
   - 'view own webform submission'
+  - 'view the administration theme'
