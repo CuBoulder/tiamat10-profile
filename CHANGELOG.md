@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #244 Site Managers: sitemap permissions to exclude content
+  Gives 'Site Managers' the ability to exclude content from the sitemap
+  
+  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/244
+---
+
 - ### #235 Allows Webform Submission viewer to navigate to Submissions
   Gives the "Webform Submissions Viewer" Role the ability to navigate to the Submissions page via the toolbar. Previously this was only possible via direct link, but this adds the following permissions to allow that route of navigation:
   
