@@ -1,5 +1,5 @@
 roles:
-  site_manager: safe
+  site_manager: perm
   content_editor: safe
   layout_manager: unsafe
   site_owner: unsafe

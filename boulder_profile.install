@@ -143,3 +143,35 @@ function _boulder_profile_install_webform_settings() {
   $htmlEditorSettings['element_format'] = $htmlEditorSettings['mail_format'] = 'wysiwyg';
   $settings->set('html_editor', $htmlEditorSettings)->save();
 }
+
+/**
+ * Grants permissions to Site Manager and updates administerusersbyrole.settings so site managers can run operations on fellow site managers
+ *
+ * This is a workaround as having these permissions explicitly itemized in the user.role.site_manager config causes an install error
+ */
+function boulder_profile_update_9503() {
+  // Ensures that the "administerusersbyrole" module is fully installed before proceeding
+  if (!\Drupal::moduleHandler()->moduleExists('administerusersbyrole')) {
+    \Drupal::logger('boulder_profile')->error('administerusersbyrole module is not installed. Skipping role and config update.');
+    return;
+  }
+
+  $role = \Drupal\user\Entity\Role::load('site_manager');
+  if ($role) {
+    $permissions = [
+      'cancel users with role site_manager',
+      'edit users with role site_manager',
+      'role-assign users with role site_manager',
+      'view users with role site_manager',
+    ];
+
+    foreach ($permissions as $permission) {
+      $role->grantPermission($permission);
+    }
+    $role->save();
+    \Drupal::logger('boulder_profile')->notice('Updated permissions for Site Manager role.');
+  } else {
+    \Drupal::logger('boulder_profile')->error('Site Manager role does not exist.');
+  }
+}
+
