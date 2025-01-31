@@ -102,6 +102,7 @@ install:
   - recaptcha_v3
   - rebuild_cache_access
   - ucb_drush_commands
+  - trash
 
 # Required modules
 # Note that any dependencies of the modules listed here
