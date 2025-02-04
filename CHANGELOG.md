@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Secondary/Footer sidebar menus
+  Added the secondary and footer sidebar menus to work like the main navigation and menus that display with the basic page layout
+  
+  Resolves #248 
+---
+
 - ### Adds Trash module and associated permissions
   Gives Site Manager roles and up the ability to restore deleted content
   
