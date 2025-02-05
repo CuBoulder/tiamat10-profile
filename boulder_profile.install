@@ -159,6 +159,10 @@ function boulder_profile_update_9503() {
   $role = \Drupal\user\Entity\Role::load('site_manager');
   if ($role) {
     $permissions = [
+      'view users by role',
+      'cancel users by role',
+      'edit users by role',
+      'role-assign users by role',
       'cancel users with role site_manager',
       'edit users with role site_manager',
       'role-assign users with role site_manager',
