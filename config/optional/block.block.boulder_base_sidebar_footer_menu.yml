@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - menu_block
+    - node
+  theme:
+    - boulder_base
+id: boulder_base_sidebar_footer_menu
+theme: boulder_base
+region: sidebar
+weight: -4
+provider: null
+plugin: 'menu_block:footer'
+settings:
+  id: 'menu_block:footer'
+  label: 'Sidebar Footer menu'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: block
+  level: 2
+  depth: 0
+  expand_all_items: false
+  parent: 'footer:'
+  render_parent: false
+  suggestion: footer
+  hide_on_nonactive: false
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      collection_item_page: collection_item_page
+      form_page: form_page
+      newsletter: newsletter
+      ucb_article: ucb_article
+      ucb_article_list: ucb_article_list
+      ucb_class_notes: ucb_class_notes
+      ucb_class_notes_list_page: ucb_class_notes_list_page
+      ucb_faq_page: ucb_faq_page
+      ucb_issue: ucb_issue
+      ucb_issue_archive: ucb_issue_archive
+      ucb_people_list_page: ucb_people_list_page
