@@ -76,6 +76,7 @@ dependencies:
     - media
     - node
     - paragraphs
+    - paragraphs_library
     - path
     - rebuild_cache_access
     - redirect
@@ -120,6 +121,7 @@ permissions:
   - 'administer menu'
   - 'administer news feeds'
   - 'administer nodes'
+  - 'administer paragraphs library'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer search'
@@ -153,6 +155,7 @@ permissions:
   - 'create media'
   - 'create mega_menu block content'
   - 'create newsletter content'
+  - 'create paragraph library item'
   - 'create slider block content'
   - 'create social_media_icons block content'
   - 'create terms in byline'
@@ -376,6 +379,7 @@ permissions:
   - 'edit own video media'
   - 'edit own webform'
   - 'edit own webform submission'
+  - 'edit paragraph library item'
   - 'edit terms in byline'
   - 'edit terms in category'
   - 'edit terms in collection_category'

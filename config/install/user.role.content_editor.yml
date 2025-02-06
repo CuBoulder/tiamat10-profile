@@ -67,6 +67,7 @@ dependencies:
     - media
     - node
     - paragraphs
+    - paragraphs_library
     - path
     - redirect
     - responsive_preview
@@ -97,6 +98,7 @@ permissions:
   - 'access user profiles'
   - 'administer menu'
   - 'administer nodes'
+  - 'administer paragraphs library'
   - 'administer redirect settings'
   - 'administer redirects'
   - 'bypass node access'
@@ -123,6 +125,7 @@ permissions:
   - 'create image_gallery block content'
   - 'create media'
   - 'create mega_menu block content'
+  - 'create paragraph library item'
   - 'create slider block content'
   - 'create social_media_icons block content'
   - 'create terms in byline'
@@ -317,6 +320,7 @@ permissions:
   - 'edit own ucb_people_list_page content'
   - 'edit own ucb_person content'
   - 'edit own video media'
+  - 'edit paragraph library item'
   - 'edit terms in byline'
   - 'edit terms in category'
   - 'edit terms in collection_category'

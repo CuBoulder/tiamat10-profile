@@ -9,6 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Issue/1597
+  Updated profile to enable `entity_usage` and `paragraphs_library` modules. 
+  This also sets up the permissions needed for the reusable paragraphs.
+---
+
 ## [20250205] - 2025-02-05
 
 - ### Secondary/Footer sidebar menus

@@ -91,6 +91,7 @@ dependencies:
     - metatag
     - node
     - paragraphs
+    - paragraphs_library
     - path
     - pathauto
     - rebuild_cache_access
@@ -184,6 +185,7 @@ permissions:
   - 'administer paragraph display'
   - 'administer paragraph fields'
   - 'administer paragraph form display'
+  - 'administer paragraphs library'
   - 'administer paragraphs settings'
   - 'administer paragraphs types'
   - 'administer pathauto'
@@ -242,6 +244,7 @@ permissions:
   - 'create media'
   - 'create mega_menu block content'
   - 'create newsletter content'
+  - 'create paragraph library item'
   - 'create slider block content'
   - 'create social_media_icons block content'
   - 'create statuspage_block block content'
@@ -474,6 +477,7 @@ permissions:
   - 'edit own video media'
   - 'edit own webform'
   - 'edit own webform submission'
+  - 'edit paragraph library item'
   - 'edit terms in byline'
   - 'edit terms in category'
   - 'edit terms in collection_category'
