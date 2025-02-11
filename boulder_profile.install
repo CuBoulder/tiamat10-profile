@@ -169,33 +169,47 @@ function boulder_profile_update_9503() {
 
   \Drupal::logger('boulder_profile')->notice('Updated administerusersbyrole.settings.yml to set site_manager and site_owner to "perm".');
 
-  // Load the Site Manager role and update permissions.
-  $role = \Drupal\user\Entity\Role::load('site_manager');
-  if ($role) {
-    $permissions = [
-      'view users by role',
-      'cancel users by role',
-      'edit users by role',
-      'role-assign users by role',
-      'cancel users with role site_manager',
-      'edit users with role site_manager',
-      'view users with role site_manager',
-      'role-assign users with role site_manager',
-      'cancel users with role site_owner',
-      'edit users with role site_owner',
-      'role-assign users with role site_owner',
-      'view users with role site_owner',
-    ];
+  // Permissions for site_manager
+  $site_manager_permissions = [
+    'view users by role',
+    'cancel users by role',
+    'edit users by role',
+    'role-assign users by role',
+    'cancel users with role site_manager',
+    'edit users with role site_manager',
+    'view users with role site_manager',
+    'role-assign users with role site_manager',
+    'cancel users with role site_owner',
+    'edit users with role site_owner',
+    'role-assign users with role site_owner',
+    'view users with role site_owner',
+  ];
 
-    foreach ($permissions as $permission) {
-      if (!$role->hasPermission($permission)) {
-        $role->grantPermission($permission);
+  // Permissions for site_owner
+  $site_owner_permissions = [
+    'cancel users with role site_owner',
+    'edit users with role site_owner',
+    'role-assign users with role site_owner',
+    'view users with role site_owner',
+  ];
+
+  // function to update a role's permissions
+  $update_role_permissions = function ($role_name, $permissions) {
+    $role = \Drupal\user\Entity\Role::load($role_name);
+    if ($role) {
+      foreach ($permissions as $permission) {
+        if (!$role->hasPermission($permission)) {
+          $role->grantPermission($permission);
+        }
       }
+      $role->save();
+      \Drupal::logger('boulder_profile')->notice("Updated permissions for $role_name role.");
+    } else {
+      \Drupal::logger('boulder_profile')->error("$role_name role does not exist.");
     }
-    $role->save();
+  };
 
-    \Drupal::logger('boulder_profile')->notice('Updated permissions for Site Manager role.');
-  } else {
-    \Drupal::logger('boulder_profile')->error('Site Manager role does not exist.');
-  }
+  // Update permissions for site_manager and site_owner.
+  $update_role_permissions('site_manager', $site_manager_permissions);
+  $update_role_permissions('site_owner', $site_owner_permissions);
 }
