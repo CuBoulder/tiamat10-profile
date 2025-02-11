@@ -9,23 +9,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### Secondary/Footer sidebar menus
-  Added the secondary and footer sidebar menus to work like the main navigation and menus that display with the basic page layout
-  
-  Resolves #248 
+- ### Issue/1597
+  Updated profile to enable `entity_usage` and `paragraphs_library` modules. 
+  This also sets up the permissions needed for the reusable paragraphs.
 ---
 
+## [20250205] - 2025-02-05
+
+- ### Secondary/Footer sidebar menus
+
+  Added the secondary and footer sidebar menus to work like the main navigation and menus that display with the basic page layout
+
+  Resolves #248 
+
+* * *
+
 - ### Adds Trash module and associated permissions
+
   Gives Site Manager roles and up the ability to restore deleted content
-  
+
   Includes:
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/251
-  - `template` => https://github.com/CuBoulder/tiamat10-project-template/pull/71
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/250
-  
-  
----
+
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/251>
+  - `template` => <https://github.com/CuBoulder/tiamat10-project-template/pull/71>
+
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/250>
+
+* * *
 
 ## [20250115] - 2025-01-15
 
@@ -1193,7 +1203,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250115...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250205...HEAD
+[20250205]: https://github.com/CuBoulder/tiamat10-profile/compare/20250115...20250205
 [20250115]: https://github.com/CuBoulder/tiamat10-profile/compare/20241211...20250115
 [20241211]: https://github.com/CuBoulder/tiamat10-profile/compare/20241204...20241211
 [20241204]: https://github.com/CuBoulder/tiamat10-profile/compare/20241122...20241204
