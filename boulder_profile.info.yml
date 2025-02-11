@@ -75,6 +75,7 @@ install:
   - antibot
   - smtp
   - redirect
+  - unpublished_404
   - datetime
   - scheduler
   - cu_boulder_content_types

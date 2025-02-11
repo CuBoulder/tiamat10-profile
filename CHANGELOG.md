@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update boulder_profile.info.yml
+  Make `unpublished_404` on when installed
+  
+  Resolved #258 
+  
+  Sister PR: https://github.com/CuBoulder/tiamat10-project-template/pull/74
+---
+
 - ### Issue/1597
   Updated profile to enable `entity_usage` and `paragraphs_library` modules. 
   This also sets up the permissions needed for the reusable paragraphs.
