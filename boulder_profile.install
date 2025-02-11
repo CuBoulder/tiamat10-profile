@@ -150,12 +150,26 @@ function _boulder_profile_install_webform_settings() {
  * This is a workaround as having these permissions explicitly itemized in the user.role.site_manager config causes an install error
  */
 function boulder_profile_update_9503() {
-  // Ensures that the "administerusersbyrole" module is fully installed before proceeding
+  // Ensure that the "administerusersbyrole" module is fully installed before proceeding.
   if (!\Drupal::moduleHandler()->moduleExists('administerusersbyrole')) {
     \Drupal::logger('boulder_profile')->error('administerusersbyrole module is not installed. Skipping role and config update.');
     return;
   }
 
+  // Load and update administerusersbyrole.settings.yml.
+  $config = \Drupal::configFactory()->getEditable('administerusersbyrole.settings');
+
+  // Merge the required updates.
+  $config->merge([
+    'roles' => [
+      'site_manager' => 'perm',
+      'site_owner' => 'perm',
+    ],
+  ])->save();
+
+  \Drupal::logger('boulder_profile')->notice('Updated administerusersbyrole.settings.yml to set site_manager and site_owner to "perm".');
+
+  // Load the Site Manager role and update permissions.
   $role = \Drupal\user\Entity\Role::load('site_manager');
   if ($role) {
     $permissions = [
@@ -165,17 +179,23 @@ function boulder_profile_update_9503() {
       'role-assign users by role',
       'cancel users with role site_manager',
       'edit users with role site_manager',
-      'role-assign users with role site_manager',
       'view users with role site_manager',
+      'role-assign users with role site_manager',
+      'cancel users with role site_owner',
+      'edit users with role site_owner',
+      'role-assign users with role site_owner',
+      'view users with role site_owner',
     ];
 
     foreach ($permissions as $permission) {
-      $role->grantPermission($permission);
+      if (!$role->hasPermission($permission)) {
+        $role->grantPermission($permission);
+      }
     }
     $role->save();
+
     \Drupal::logger('boulder_profile')->notice('Updated permissions for Site Manager role.');
   } else {
     \Drupal::logger('boulder_profile')->error('Site Manager role does not exist.');
   }
 }
-
