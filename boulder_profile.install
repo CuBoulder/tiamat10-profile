@@ -187,6 +187,11 @@ function boulder_profile_update_9503() {
 
   // Permissions for site_owner
   $site_owner_permissions = [
+    'access administration pages',
+    'access toolbar',
+    'view the administration theme',
+    'access user profiles',
+    'access users overview',
     'view users by role',
     'cancel users by role',
     'edit users by role',
@@ -195,7 +200,7 @@ function boulder_profile_update_9503() {
     'edit users with role site_owner',
     'role-assign users with role site_owner',
     'view users with role site_owner',
-  ];
+];
 
   // function to update a role's permissions
   $update_role_permissions = function ($role_name, $permissions) {
