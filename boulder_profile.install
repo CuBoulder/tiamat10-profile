@@ -163,11 +163,10 @@ function boulder_profile_update_9503() {
   $config->merge([
     'roles' => [
       'site_manager' => 'perm',
-      'site_owner' => 'perm',
     ],
   ])->save();
 
-  \Drupal::logger('boulder_profile')->notice('Updated administerusersbyrole.settings.yml to set site_manager and site_owner to "perm".');
+  \Drupal::logger('boulder_profile')->notice('Updated administerusersbyrole.settings.yml to set site_manager to "perm".');
 
   // Permissions for site_manager
   $site_manager_permissions = [
@@ -179,28 +178,7 @@ function boulder_profile_update_9503() {
     'edit users with role site_manager',
     'view users with role site_manager',
     'role-assign users with role site_manager',
-    'cancel users with role site_owner',
-    'edit users with role site_owner',
-    'role-assign users with role site_owner',
-    'view users with role site_owner',
   ];
-
-  // Permissions for site_owner
-  $site_owner_permissions = [
-    'access administration pages',
-    'access toolbar',
-    'view the administration theme',
-    'access user profiles',
-    'access users overview',
-    'view users by role',
-    'cancel users by role',
-    'edit users by role',
-    'role-assign users by role',
-    'cancel users with role site_owner',
-    'edit users with role site_owner',
-    'role-assign users with role site_owner',
-    'view users with role site_owner',
-];
 
   // function to update a role's permissions
   $update_role_permissions = function ($role_name, $permissions) {
@@ -218,7 +196,6 @@ function boulder_profile_update_9503() {
     }
   };
 
-  // Update permissions for site_manager and site_owner.
+  // Update permissions for site_manager
   $update_role_permissions('site_manager', $site_manager_permissions);
-  $update_role_permissions('site_owner', $site_owner_permissions);
 }
