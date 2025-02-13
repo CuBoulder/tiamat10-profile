@@ -2,7 +2,7 @@ roles:
   site_manager: perm
   content_editor: safe
   layout_manager: unsafe
-  site_owner: perm
+  site_owner: unsafe
   edit_own_content: safe
   newsletter: unsafe
   webform_editor: safe
