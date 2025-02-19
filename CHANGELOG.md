@@ -9,14 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250219] - 2025-02-19
+
 - ### #247 Site Manager: role can view/edit/delete other site manager roles
+
   Allows the Site Manager role to view/edit/delete other Site Managers and administer Site Owners
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/247
-  
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/247>
+
   Includes:
-  - `drush-commands` => https://github.com/CuBoulder/ucb_drush_commands/pull/3
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/253
----
+
+  - `drush-commands` => <https://github.com/CuBoulder/ucb_drush_commands/pull/3>
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/253>
+
+* * *
 
 ## [20250212] - 2025-02-12
 
@@ -1225,7 +1230,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250212...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...HEAD
+[20250219]: https://github.com/CuBoulder/tiamat10-profile/compare/20250212...20250219
 [20250212]: https://github.com/CuBoulder/tiamat10-profile/compare/20250205...20250212
 [20250205]: https://github.com/CuBoulder/tiamat10-profile/compare/20250115...20250205
 [20250115]: https://github.com/CuBoulder/tiamat10-profile/compare/20241211...20250115
