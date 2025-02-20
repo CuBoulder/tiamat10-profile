@@ -143,3 +143,15 @@ function _boulder_profile_install_webform_settings() {
   $htmlEditorSettings['element_format'] = $htmlEditorSettings['mail_format'] = 'wysiwyg';
   $settings->set('html_editor', $htmlEditorSettings)->save();
 }
+
+/**
+ * Updates Webform settings by importing new configuration and applying custom settings.
+ * We reset the config after finding stray JS that breaks forms
+ */
+function boulder_profile_update_9503() {
+  // Re-import the Webform settings from the updated configuration.
+  \Drupal::configFactory()->getEditable('webform.settings')->save();
+
+  // Apply additional Webform settings modifications.
+  _boulder_profile_install_webform_settings();
+}

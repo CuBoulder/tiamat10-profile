@@ -1,14 +1,12 @@
-_core:
-  default_config_hash: 0nbc-QwjjjLZljaYJeeEYg3a8d6cKCl11BEiZh9JRIs
 langcode: en
 settings:
   default_status: open
   default_categories: {  }
   default_page: true
   default_page_base_path: /form
-  default_ajax: true
+  default_ajax: false
   default_ajax_progress_type: throbber
-  default_ajax_effect: none
+  default_ajax_effect: fade
   default_ajax_speed: 500
   default_submit_button_label: Submit
   default_reset_button_label: Reset
@@ -19,8 +17,7 @@ settings:
   default_form_exception_message: '<p>Unable to display this webform. Please contact the site administrator.</p>'
   default_form_confidential_message: '<p>This form is confidential. You must <a href="login-url]/logout?destination=[current-page:url:relative]">Log out</a> to submit it.</p>'
   default_form_access_denied_message: '<p>Please login to access this form.</p>'
-  default_form_disable_remote_addr: false
-  default_form_novalidate: true
+  default_form_novalidate: false
   default_form_disable_inline_errors: false
   default_form_required: true
   default_form_required_label: 'Indicates required field'
