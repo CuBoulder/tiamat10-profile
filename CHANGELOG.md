@@ -9,6 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Webforms: Modify config to defauts to prevent multiple submissions
+  This update turns off Ajax and resets the form config back to mostly default, so that forms aren't submitted multiple times. We are currently working on debugging multi-page form blocks which seem to have the most issues. Strongly recommended to try to keep new Webforms limited to Webform Pages or modify existing Form blocks to pages, especially the more complex multi-page forms until more is known about the issue. 
+  
+  With this disabled you should also be able to enable Ajax as a per-form setting, which may help issues with complex multi-page forms. 
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1330
+  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/215
+---
+
 ## [20250219] - 2025-02-19
 
 - ### #247 Site Manager: role can view/edit/delete other site manager roles
