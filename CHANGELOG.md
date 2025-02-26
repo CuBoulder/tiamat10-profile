@@ -9,32 +9,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250226] - 2025-02-26
+
 - ### Add Klaro (GDPR) Cookie manager
+
   Profile and installation settings for the new Klaro! module. 
-  
+
   Devs and Architects have access to the settings options for Klaro
   anonymous and authenticated users all needed permissions to interact with the popup.
-  
+
   By default klaro is looking for 
-   - gtm
-   - ga
-   - facebook
-   - tiktok
-   - youtube
-   - vimeo
-  
-  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/1607
-  Sister PR: https://github.com/CuBoulder/tiamat10-project-template/pull/75
----
+
+  - gtm
+  - ga
+  - facebook
+  - tiktok
+  - youtube
+  - vimeo
+
+  Sister PR: <https://github.com/CuBoulder/tiamat-theme/pull/1607>
+  Sister PR: <https://github.com/CuBoulder/tiamat10-project-template/pull/75>
+
+* * *
 
 - ### Webforms: Modify config to defauts to prevent multiple submissions
+
   This update turns off Ajax and resets the form config back to mostly default, so that forms aren't submitted multiple times. We are currently working on debugging multi-page form blocks which seem to have the most issues. Strongly recommended to try to keep new Webforms limited to Webform Pages or modify existing Form blocks to pages, especially the more complex multi-page forms until more is known about the issue. 
-  
+
   With this disabled you should also be able to enable Ajax as a per-form setting, which may help issues with complex multi-page forms. 
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1330
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/215
----
+
+  Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1330>
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/215>
+
+* * *
 
 ## [20250219] - 2025-02-19
 
@@ -1257,7 +1264,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...HEAD
+[20250226]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...20250226
 [20250219]: https://github.com/CuBoulder/tiamat10-profile/compare/20250212...20250219
 [20250212]: https://github.com/CuBoulder/tiamat10-profile/compare/20250205...20250212
 [20250205]: https://github.com/CuBoulder/tiamat10-profile/compare/20250115...20250205
