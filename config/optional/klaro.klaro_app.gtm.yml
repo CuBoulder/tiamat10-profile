@@ -1,6 +1,8 @@
 langcode: en
+dependencies: 
+  module: 
+    - klaro
 status: true
-dependencies: {  }
 id: gtm
 label: 'Google Tag Manager'
 description: 'Manages and deploys marketing tags.'

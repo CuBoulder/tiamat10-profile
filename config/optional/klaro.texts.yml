@@ -1,4 +1,7 @@
 langcode: en
+dependencies: 
+  module: 
+    - klaro
 consentModal:
   title: 'Use of personal data and cookies'
   description: "Please choose the services and 3rd party applications we would like to use.\r\n"

@@ -1,6 +1,8 @@
 langcode: en
+dependencies: 
+  module: 
+    - klaro
 status: true
-dependencies: {  }
 id: facebook
 label: Facebook
 description: 'Facebook is a social media platform by Meta Platforms, Inc (USA).'
