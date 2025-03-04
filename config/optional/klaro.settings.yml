@@ -1,4 +1,7 @@
 langcode: en
+dependencies: 
+  module: 
+    - klaro
 dialog_mode: notice
 auto_decorate_final_html: false
 auto_decorate_js_alter: true

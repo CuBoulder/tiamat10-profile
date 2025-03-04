@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Removing Klaro from the base install
+  Klaro is in testing on the Sandbox sites but should not be enable in production.  Moving the config for that module from `config/install` to `config/optional` and setting a module dependency so that this config will be added once the module is turned on.  
+---
+
 ## [20250226] - 2025-02-26
 
 - ### Add Klaro (GDPR) Cookie manager

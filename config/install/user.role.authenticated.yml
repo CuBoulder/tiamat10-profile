@@ -5,7 +5,6 @@ dependencies:
     - aggregator
     - contact
     - google_cse
-    - klaro
     - media
     - search
     - system
@@ -21,5 +20,4 @@ permissions:
   - 'access webform submission user'
   - 'search Google CSE'
   - 'search content'
-  - 'use klaro'
   - 'view media'

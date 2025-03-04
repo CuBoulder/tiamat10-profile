@@ -83,7 +83,6 @@ dependencies:
     - google_tag
     - help
     - image
-    - klaro
     - layout_builder
     - layout_builder_iframe_modal
     - linkit
@@ -168,7 +167,6 @@ permissions:
   - 'administer filters'
   - 'administer google_tag_container'
   - 'administer image styles'
-  - 'administer klaro'
   - 'administer linkit profiles'
   - 'administer media'
   - 'administer media display'

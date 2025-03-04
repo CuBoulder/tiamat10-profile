@@ -1,6 +1,8 @@
 langcode: en
+dependencies: 
+  module: 
+    - klaro
 status: true
-dependencies: {  }
 id: ga
 label: 'Google Analytics'
 description: 'Tracks online visits of the website as a service.'
