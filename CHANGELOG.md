@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250305] - 2025-03-05
+
 - ### Removing Klaro from the base install
   Klaro is in testing on the Sandbox sites but should not be enable in production.  Moving the config for that module from `config/install` to `config/optional` and setting a module dependency so that this config will be added once the module is turned on.  
----
+
+* * *
 
 ## [20250226] - 2025-02-26
 
@@ -1268,7 +1271,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...HEAD
+[20250305]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...20250305
 [20250226]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...20250226
 [20250219]: https://github.com/CuBoulder/tiamat10-profile/compare/20250212...20250219
 [20250212]: https://github.com/CuBoulder/tiamat10-profile/compare/20250205...20250212
