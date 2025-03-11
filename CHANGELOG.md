@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### recaptcha settings move
+  Move recaptcha settings from `install` to `optional` to avoid key override
+  
+  Resolves #269
+---
+
 ## [20250305] - 2025-03-05
 
 - ### Removing Klaro from the base install
