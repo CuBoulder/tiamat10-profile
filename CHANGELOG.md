@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250312] - 2025-03-12
+
 - ### recaptcha settings move
+
   Move recaptcha settings from `install` to `optional` to avoid key override
-  
+
   Resolves #269
----
+
+* * *
 
 ## [20250305] - 2025-03-05
 
@@ -1277,7 +1281,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...HEAD
+[20250312]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...20250312
 [20250305]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...20250305
 [20250226]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...20250226
 [20250219]: https://github.com/CuBoulder/tiamat10-profile/compare/20250212...20250219
