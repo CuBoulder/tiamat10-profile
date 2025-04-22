@@ -23,6 +23,7 @@ dependencies:
     - block_content.type.ucb_category_cloud
     - block_content.type.ucb_current_issue_block
     - block_content.type.ucb_form
+    - block_content.type.ucb_hero_slider
     - block_content.type.ucb_latest_issues_block
     - block_content.type.ucb_people_list_block
     - block_content.type.ucb_slate_form
@@ -149,6 +150,7 @@ permissions:
   - 'create ucb_current_issue_block block content'
   - 'create ucb_faq_page content'
   - 'create ucb_form block content'
+  - 'create ucb_hero_slider block content'
   - 'create ucb_issue content'
   - 'create ucb_issue_archive content'
   - 'create ucb_latest_issues_block block content'
@@ -215,6 +217,8 @@ permissions:
   - 'delete any ucb_faq_page content'
   - 'delete any ucb_form block content'
   - 'delete any ucb_form block content revisions'
+  - 'delete any ucb_hero_slider block content'
+  - 'delete any ucb_hero_slider block content revisions'
   - 'delete any ucb_issue content'
   - 'delete any ucb_issue_archive content'
   - 'delete any ucb_latest_issues_block block content'
@@ -297,6 +301,7 @@ permissions:
   - 'edit any ucb_current_issue_block block content'
   - 'edit any ucb_faq_page content'
   - 'edit any ucb_form block content'
+  - 'edit any ucb_hero_slider block content'
   - 'edit any ucb_issue content'
   - 'edit any ucb_issue_archive content'
   - 'edit any ucb_latest_issues_block block content'
@@ -356,6 +361,7 @@ permissions:
   - 'revert any ucb_category_cloud block content revisions'
   - 'revert any ucb_current_issue_block block content revisions'
   - 'revert any ucb_form block content revisions'
+  - 'revert any ucb_hero_slider block content revisions'
   - 'revert any ucb_latest_issues_block block content revisions'
   - 'revert any ucb_people_list_block block content revisions'
   - 'revert any ucb_slate_form block content revisions'
@@ -402,6 +408,7 @@ permissions:
   - 'view any ucb_category_cloud block content history'
   - 'view any ucb_current_issue_block block content history'
   - 'view any ucb_form block content history'
+  - 'view any ucb_hero_slider block content history'
   - 'view any ucb_latest_issues_block block content history'
   - 'view any ucb_people_list_block block content history'
   - 'view any ucb_slate_form block content history'
