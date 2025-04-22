@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update role permissions
+  Updated role permissions for the Hero Slider
+---
+
 ## [20250312] - 2025-03-12
 
 - ### recaptcha settings move
