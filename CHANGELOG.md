@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20240423] - 2025-04-23
+
 - ### Update role permissions
   Updated role permissions for the Hero Slider
----
+
+* * *
 
 ## [20250312] - 2025-03-12
 
@@ -1285,7 +1288,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...HEAD
+[20240423]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...20240423
 [20250312]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...20250312
 [20250305]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...20250305
 [20250226]: https://github.com/CuBoulder/tiamat10-profile/compare/20250219...20250226
