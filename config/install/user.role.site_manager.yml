@@ -122,6 +122,7 @@ permissions:
   - 'administer ucb external services'
   - 'administer webform element access'
   - 'bypass node access'
+  - 'cancel users by role'
   - 'configure all basic_page node layout overrides'
   - 'configure any layout'
   - 'configure editable basic_page node layout overrides'
