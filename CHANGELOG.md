@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Site Manager: Allows cancel User
+  Provides Site Managers the ability to cancel User accounts
+  
+  Resolves #275 
+---
+
 ## [20240423] - 2025-04-23
 
 - ### Update role permissions
