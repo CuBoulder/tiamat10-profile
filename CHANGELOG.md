@@ -9,22 +9,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250514] - 2025-05-14
+
 - ### #279 - Using direct image file paths instead of image styles pathing for `og:image` previews
+
   Previously images in Cards/Previews when sharing a site via Facebook, Twitter, Teams, etc. would not show up, despite having correct Open Graph tags. This is believed to be caused by additional url information added to the end of links, which has been adjusted to just grab the image, rather than a processed version with additional info
-  
+
   Includes: 
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/280
-  - `custom_entities` => https://github.com/CuBoulder/tiamat-custom-entities/pull/210
-  
+
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/280>
+  - `custom_entities` => <https://github.com/CuBoulder/tiamat-custom-entities/pull/210>
+
   Resolves #279
   Resolves #277 
----
+
+* * *
 
 - ### Site Manager: Allows cancel User
+
   Provides Site Managers the ability to cancel User accounts
-  
+
   Resolves #275 
----
+
+* * *
 
 ## [20240423] - 2025-04-23
 
@@ -1305,7 +1312,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...HEAD
+[20250514]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...20250514
 [20240423]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...20240423
 [20250312]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...20250312
 [20250305]: https://github.com/CuBoulder/tiamat10-profile/compare/20250226...20250305
