@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250521] - 2025-05-21
+
 - ### Add meta name="description"
+
   This adds the <meta name="description" content=""> tag for SEO reasons.
-  
+
   Resolves #282
----
+
+* * *
 
 ## [20250514] - 2025-05-14
 
@@ -1318,7 +1322,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...HEAD
+[20250521]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...20250521
 [20250514]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...20250514
 [20240423]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...20240423
 [20250312]: https://github.com/CuBoulder/tiamat10-profile/compare/20250305...20250312
