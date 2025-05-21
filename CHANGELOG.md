@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Add meta name="description"
+  This adds the <meta name="description" content=""> tag for SEO reasons.
+  
+  Resolves #282
+---
+
 ## [20250514] - 2025-05-14
 
 - ### #279 - Using direct image file paths instead of image styles pathing for `og:image` previews
