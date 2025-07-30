@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250730] - 2025-07-30
+
 - ### #286 - Removes admin_toolbar_links_access_filter
   Resolves #286 
----
+
+* * *
 
 ## [20250521] - 2025-05-21
 
@@ -1326,7 +1329,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...HEAD
+[20250730]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...20250730
 [20250521]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...20250521
 [20250514]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...20250514
 [20240423]: https://github.com/CuBoulder/tiamat10-profile/compare/20250312...20240423
