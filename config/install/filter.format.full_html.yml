@@ -17,7 +17,6 @@ dependencies:
     - core.entity_view_mode.media.square_thumbnail
     - core.entity_view_mode.media.wide_image_style
   module:
-    - ckeditor5_bootstrap_accordion
     - editor
     - entity_embed
     - linkit
@@ -53,7 +52,7 @@ filters:
     settings: {  }
   filter_bootstrap_accordion:
     id: filter_bootstrap_accordion
-    provider: ckeditor5_bootstrap_accordion
+    provider: ucb_ckeditor_plugins
     status: true
     weight: -46
     settings: {  }
