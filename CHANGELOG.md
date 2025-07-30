@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #286 - Removes admin_toolbar_links_access_filter
+  Resolves #286 
+---
+
 ## [20250521] - 2025-05-21
 
 - ### Add meta name="description"
