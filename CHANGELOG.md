@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update filter.format.wysiwyg.yml
+  Add `tabindex="0"` to the allowed html 
+  This is for the new update for the accordions so that they can be tabbed to
+  
+  Sister PR: https://github.com/CuBoulder/ucb_ckeditor_accordion/pull/2
+---
+
 ## [20250730] - 2025-07-30
 
 - ### #286 - Removes admin_toolbar_links_access_filter
