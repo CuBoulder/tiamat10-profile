@@ -9,12 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250806] - 2025-08-06
+
 - ### Update filter.format.wysiwyg.yml
+
   Add `tabindex="0"` to the allowed html 
   This is for the new update for the accordions so that they can be tabbed to
-  
-  Sister PR: https://github.com/CuBoulder/ucb_ckeditor_accordion/pull/2
----
+
+  Sister PR: <https://github.com/CuBoulder/ucb_ckeditor_accordion/pull/2>
+
+* * *
 
 ## [20250730] - 2025-07-30
 
@@ -1336,7 +1340,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...HEAD
+[20250806]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...20250806
 [20250730]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...20250730
 [20250521]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...20250521
 [20250514]: https://github.com/CuBoulder/tiamat10-profile/compare/20240423...20250514
