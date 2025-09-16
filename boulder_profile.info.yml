@@ -107,6 +107,7 @@ install:
   - rebuild_cache_access
   - ucb_drush_commands
   - trash
+  - diff
 
 # Required modules
 # Note that any dependencies of the modules listed here
