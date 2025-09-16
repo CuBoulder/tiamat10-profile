@@ -9,6 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Enables diff module
+  Enables the diff module
+  
+  Includes
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/293
+  - `template` => https://github.com/CuBoulder/tiamat10-project-template/pull/86
+  - `theme` => https://github.com/CuBoulder/tiamat-theme/pull/1680
+  
+  Resolves #1679 
+  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/292
+---
+
 ## [20250806] - 2025-08-06
 
 - ### Update filter.format.wysiwyg.yml
