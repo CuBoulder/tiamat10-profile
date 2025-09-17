@@ -9,17 +9,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20250917] - 2025-09-17
+
 - ### Enables diff module
+
   Enables the diff module
-  
+
   Includes
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/293
-  - `template` => https://github.com/CuBoulder/tiamat10-project-template/pull/86
-  - `theme` => https://github.com/CuBoulder/tiamat-theme/pull/1680
-  
+
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/293>
+  - `template` => <https://github.com/CuBoulder/tiamat10-project-template/pull/86>
+  - `theme` => <https://github.com/CuBoulder/tiamat-theme/pull/1680>
+
   Resolves #1679 
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/292
----
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/292>
+
+* * *
 
 ## [20250806] - 2025-08-06
 
@@ -1352,7 +1357,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...HEAD
+[20250917]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...20250917
 [20250806]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...20250806
 [20250730]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...20250730
 [20250521]: https://github.com/CuBoulder/tiamat10-profile/compare/20250514...20250521
