@@ -28,6 +28,7 @@ dependencies:
     - block_content.type.ucb_people_list_block
     - block_content.type.ucb_slate_form
     - block_content.type.ucb_tag_cloud
+    - block_content.type.ucb_trusted_content_block
     - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
@@ -60,6 +61,7 @@ dependencies:
     - taxonomy.vocabulary.filter_3
     - taxonomy.vocabulary.newsletter
     - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.trust_topics
     - taxonomy.vocabulary.ucb_person_job_type
   module:
     - administerusersbyrole
@@ -90,6 +92,8 @@ dependencies:
     - toolbar
     - trash
     - ucb_site_configuration
+    - ucb_trust_schema
+    - ucb_trusted_content_discovery
     - ucb_user_invite
     - webform
 id: architect
@@ -169,6 +173,7 @@ permissions:
   - 'create terms in filter_3'
   - 'create terms in newsletter'
   - 'create terms in tags'
+  - 'create terms in trust_topics'
   - 'create terms in ucb_person_job_type'
   - 'create text_block block content'
   - 'create ucb_article content'
@@ -191,6 +196,7 @@ permissions:
   - 'create ucb_person content'
   - 'create ucb_slate_form block content'
   - 'create ucb_tag_cloud block content'
+  - 'create ucb_trusted_content_block block content'
   - 'create url aliases'
   - 'create video media'
   - 'create video_hero_unit block content'
@@ -268,6 +274,8 @@ permissions:
   - 'delete any ucb_slate_form block content revisions'
   - 'delete any ucb_tag_cloud block content'
   - 'delete any ucb_tag_cloud block content revisions'
+  - 'delete any ucb_trusted_content_block block content'
+  - 'delete any ucb_trusted_content_block block content revisions'
   - 'delete any video media'
   - 'delete any video_hero_unit block content'
   - 'delete any video_hero_unit block content revisions'
@@ -300,6 +308,7 @@ permissions:
   - 'delete own video media'
   - 'delete own webform'
   - 'delete own webform submission'
+  - 'delete term revisions in trust_topics'
   - 'delete terms in byline'
   - 'delete terms in category'
   - 'delete terms in collection_category'
@@ -310,6 +319,7 @@ permissions:
   - 'delete terms in filter_3'
   - 'delete terms in newsletter'
   - 'delete terms in tags'
+  - 'delete terms in trust_topics'
   - 'delete terms in ucb_person_job_type'
   - 'delete ucb_article revisions'
   - 'delete ucb_article_list revisions'
@@ -362,6 +372,7 @@ permissions:
   - 'edit any ucb_person content'
   - 'edit any ucb_slate_form block content'
   - 'edit any ucb_tag_cloud block content'
+  - 'edit any ucb_trusted_content_block block content'
   - 'edit any video media'
   - 'edit any video_hero_unit block content'
   - 'edit any video_reveal block content'
@@ -395,6 +406,7 @@ permissions:
   - 'edit terms in filter_3'
   - 'edit terms in newsletter'
   - 'edit terms in tags'
+  - 'edit terms in trust_topics'
   - 'edit terms in ucb_person_job_type'
   - 'edit ucb site advanced'
   - 'edit ucb site appearance'
@@ -404,6 +416,7 @@ permissions:
   - 'edit users by role'
   - 'invite users'
   - 'link to any page'
+  - 'manage trust metadata'
   - 'purge node entities'
   - 'rebuild cache access'
   - 'restore node entities'
@@ -434,12 +447,14 @@ permissions:
   - 'revert any ucb_people_list_block block content revisions'
   - 'revert any ucb_slate_form block content revisions'
   - 'revert any ucb_tag_cloud block content revisions'
+  - 'revert any ucb_trusted_content_block block content revisions'
   - 'revert any video_hero_unit block content revisions'
   - 'revert any video_reveal block content revisions'
   - 'revert basic_page revisions'
   - 'revert collection_item_page revisions'
   - 'revert form_page revisions'
   - 'revert newsletter revisions'
+  - 'revert term revisions in trust_topics'
   - 'revert ucb_article revisions'
   - 'revert ucb_article_list revisions'
   - 'revert ucb_class_notes revisions'
@@ -487,6 +502,7 @@ permissions:
   - 'view any ucb_people_list_block block content history'
   - 'view any ucb_slate_form block content history'
   - 'view any ucb_tag_cloud block content history'
+  - 'view any ucb_trusted_content_block block content history'
   - 'view any video_hero_unit block content history'
   - 'view any video_reveal block content history'
   - 'view any webform submission'
@@ -502,7 +518,10 @@ permissions:
   - 'view scheduled content'
   - 'view scheduled media'
   - 'view scheduled taxonomy_term'
+  - 'view term revisions in trust_topics'
   - 'view the administration theme'
+  - 'view trust metadata'
+  - 'view trusted content references'
   - 'view ucb_article revisions'
   - 'view ucb_article_list revisions'
   - 'view ucb_class_notes revisions'
