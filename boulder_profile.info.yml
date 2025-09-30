@@ -97,6 +97,7 @@ install:
   - ucb_default_content
   - ucb_person_title
   - ucb_article_author
+  - ucb_trust_schema
   - ckeditor5_paste_filter
   - menu_firstchild
   - responsive_preview
