@@ -93,7 +93,6 @@ dependencies:
     - trash
     - ucb_site_configuration
     - ucb_trust_schema
-    - ucb_trusted_content_discovery
     - ucb_user_invite
     - webform
 id: architect
