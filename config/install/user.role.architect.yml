@@ -520,7 +520,6 @@ permissions:
   - 'view term revisions in trust_topics'
   - 'view the administration theme'
   - 'view trust metadata'
-  - 'view trusted content references'
   - 'view ucb_article revisions'
   - 'view ucb_article_list revisions'
   - 'view ucb_class_notes revisions'
