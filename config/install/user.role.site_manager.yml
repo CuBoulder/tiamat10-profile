@@ -28,6 +28,7 @@ dependencies:
     - block_content.type.ucb_people_list_block
     - block_content.type.ucb_slate_form
     - block_content.type.ucb_tag_cloud
+    - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
     - filter.format.icon_picker
@@ -183,6 +184,7 @@ permissions:
   - 'create ucb_tag_cloud block content'
   - 'create url aliases'
   - 'create video media'
+  - 'create video_hero_unit block content'
   - 'create video_reveal block content'
   - 'create webform'
   - 'customize shortcut links'
@@ -257,6 +259,8 @@ permissions:
   - 'delete any ucb_tag_cloud block content'
   - 'delete any ucb_tag_cloud block content revisions'
   - 'delete any video media'
+  - 'delete any video_hero_unit block content'
+  - 'delete any video_hero_unit block content revisions'
   - 'delete any video_reveal block content'
   - 'delete any video_reveal block content revisions'
   - 'delete any webform'
@@ -345,6 +349,7 @@ permissions:
   - 'edit any ucb_slate_form block content'
   - 'edit any ucb_tag_cloud block content'
   - 'edit any video media'
+  - 'edit any video_hero_unit block content'
   - 'edit any video_reveal block content'
   - 'edit any webform'
   - 'edit entity sitemap settings'
@@ -413,6 +418,7 @@ permissions:
   - 'revert any ucb_people_list_block block content revisions'
   - 'revert any ucb_slate_form block content revisions'
   - 'revert any ucb_tag_cloud block content revisions'
+  - 'revert any video_hero_unit block content revisions'
   - 'revert any video_reveal block content revisions'
   - 'revert basic_page revisions'
   - 'revert collection_item_page revisions'
@@ -464,6 +470,7 @@ permissions:
   - 'view any ucb_people_list_block block content history'
   - 'view any ucb_slate_form block content history'
   - 'view any ucb_tag_cloud block content history'
+  - 'view any video_hero_unit block content history'
   - 'view any video_reveal block content history'
   - 'view any webform submission'
   - 'view basic_page revisions'
