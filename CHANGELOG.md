@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Video Hero Unit Permissions
+  Changes video hero unit permissions to match normal hero units. 
+  This will keep things consistent in the Block Layout.
+  
+  Resolves #295 
+---
+
 ## [20250917] - 2025-09-17
 
 - ### Enables diff module
