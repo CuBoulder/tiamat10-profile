@@ -32,6 +32,7 @@ dependencies:
     - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
+    - filter.format.abstract
     - filter.format.icon_picker
     - filter.format.wysiwyg
     - media.type.audio
@@ -471,6 +472,7 @@ permissions:
   - 'update any media'
   - 'update media'
   - 'use advanced search'
+  - 'use text format abstract'
   - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'

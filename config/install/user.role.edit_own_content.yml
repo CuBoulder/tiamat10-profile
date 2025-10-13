@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.abstract
     - filter.format.icon_picker
     - filter.format.wysiwyg
     - media.type.audio
@@ -58,6 +59,7 @@ permissions:
   - 'edit own ucb_person content'
   - 'edit own video media'
   - 'update media'
+  - 'use text format abstract'
   - 'use text format icon_picker'
   - 'use text format wysiwyg'
   - 'view all media revisions'

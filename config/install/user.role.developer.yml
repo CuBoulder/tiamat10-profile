@@ -33,6 +33,7 @@ dependencies:
     - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
+    - filter.format.abstract
     - filter.format.full_html
     - filter.format.icon_picker
     - filter.format.wysiwyg
@@ -579,6 +580,7 @@ permissions:
   - 'update media'
   - 'update own consumer entities'
   - 'use advanced search'
+  - 'use text format abstract'
   - 'use text format full_html'
   - 'use text format icon_picker'
   - 'use text format wysiwyg'
