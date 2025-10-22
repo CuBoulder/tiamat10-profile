@@ -9,19 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20251022] - 2025-10-22
+
 - ### Discovery trust permissions
+
   Permissions needed for the new trust and discovery modules.
   Also handles the Abstract WYSIWYG editor for abstract fields on body, article, and person pages.
-  
-  Resolves https://github.com/CuBoulder/tiamat10-profile/issues/297
----
+
+  Resolves <https://github.com/CuBoulder/tiamat10-profile/issues/297>
+
+* * *
 
 - ### Video Hero Unit Permissions
+
   Changes video hero unit permissions to match normal hero units. 
   This will keep things consistent in the Block Layout.
-  
+
   Resolves #295 
----
+
+* * *
 
 ## [20250917] - 2025-09-17
 
@@ -1371,7 +1377,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...HEAD
+[20251022]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...20251022
 [20250917]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...20250917
 [20250806]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...20250806
 [20250730]: https://github.com/CuBoulder/tiamat10-profile/compare/20250521...20250730
