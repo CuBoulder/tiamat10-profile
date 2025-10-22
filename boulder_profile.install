@@ -43,6 +43,25 @@ function boulder_profile_update_9502() {
 }
 
 /**
+ * Adds abstract text editor configuration.
+ */
+function boulder_profile_update_9503() {
+  $profilePath = \Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
+  
+  // Install the abstract filter format.
+  $filterFormatYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/filter.format.abstract.yml'));
+  \Drupal::configFactory()->getEditable('filter.format.abstract')
+    ->setData($filterFormatYaml)
+    ->save();
+  
+  // Install the abstract editor configuration.
+  $editorYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/editor.editor.abstract.yml'));
+  \Drupal::configFactory()->getEditable('editor.editor.abstract')
+    ->setData($editorYaml)
+    ->save();
+}
+
+/**
  * Installs default (privileged) users.
  */
 function _boulder_profile_install_users() {
