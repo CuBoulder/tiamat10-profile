@@ -87,7 +87,6 @@ install:
   - ucb_user_invite
   - ucb_focal_image_enable
   - ucb_bootstrap_layouts
-  - media_library_form_element
   - media_alias_display
   - media_entity_file_replace
   - entity_usage
