@@ -156,6 +156,7 @@ element:
   excluded_elements:
     password: password
     password_confirm: password_confirm
+    webform_signature: webform_signature
 html_editor:
   disabled: false
   element_format: wysiwyg
