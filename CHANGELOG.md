@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20251119] - 2025-11-19
+
 - ### #300 - Disables 'media library' and 'signature' in Webform allowed inputs
+
   Removes the signature and uninstalls the optional Media Library Input module (media_library_form_element) to disable the two insecure inputs
-  
+
   Resolves #300 
----
+
+* * *
 
 ## [20251022] - 2025-10-22
 
@@ -1383,7 +1387,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...HEAD
+[20251119]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...20251119
 [20251022]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...20251022
 [20250917]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...20250917
 [20250806]: https://github.com/CuBoulder/tiamat10-profile/compare/20250730...20250806
