@@ -70,7 +70,7 @@ function _boulder_profile_install_users() {
    */
   $users = ['jesp3304', 'mibo7729', 'joni1621', 'pabr5825'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest20252025nextest',
@@ -86,7 +86,7 @@ function _boulder_profile_install_users() {
    */
   $users = ['crafts', 'fraziere'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest20252025nextest',
@@ -102,7 +102,7 @@ function _boulder_profile_install_users() {
    */
   $users = ['webexpress-manager'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest',
@@ -118,7 +118,7 @@ function _boulder_profile_install_users() {
    */
   $users = ['webexpress-editor'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest',
