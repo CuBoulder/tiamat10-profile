@@ -70,13 +70,15 @@ function _boulder_profile_install_users() {
    */
   $users = ['jesp3304', 'mibo7729', 'joni1621', 'pabr5825'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest20252025nextest',
       'status' => 1,
       'roles' => 'developer',
-    ])->enforceIsNew()->save();
+    ]);
+    _boulder_profile_set_user_identikey($user, $i);
+    $user->enforceIsNew()->save();
   }
 
   /*
@@ -84,13 +86,15 @@ function _boulder_profile_install_users() {
    */
   $users = ['crafts', 'fraziere'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest20252025nextest',
       'status' => 1,
       'roles' => 'architect',
-    ])->enforceIsNew()->save();
+    ]);
+    _boulder_profile_set_user_identikey($user, $i);
+    $user->enforceIsNew()->save();
   }
 
   /*
@@ -98,13 +102,15 @@ function _boulder_profile_install_users() {
    */
   $users = ['webexpress-manager'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest',
       'status' => 1,
       'roles' => 'site_manager',
-    ])->enforceIsNew()->save();
+    ]);
+    _boulder_profile_set_user_identikey($user, $i);
+    $user->enforceIsNew()->save();
   }
 
   /*
@@ -112,13 +118,35 @@ function _boulder_profile_install_users() {
    */
   $users = ['webexpress-editor'];
   foreach ($users as $i) {
-    User::create([
+    $user = User::create([
       'name' => $i,
       'mail' => "{$i}@colorado.edu",
       'pass' => 'nextest',
       'status' => 1,
       'roles' => 'content_editor',
-    ])->enforceIsNew()->save();
+    ]);
+    _boulder_profile_set_user_identikey($user, $i);
+    $user->enforceIsNew()->save();
+  }
+}
+
+/**
+ * Sets the identikey field for a user.
+ *
+ * @param \Drupal\user\Entity\User $user
+ *   The user entity to update.
+ * @param string $identikey
+ *   The identikey value to set.
+ */
+function _boulder_profile_set_user_identikey($user, $identikey) {
+  // Skip if identikey contains "admin" (case-insensitive).
+  if (stripos($identikey, 'admin') !== FALSE) {
+    return;
+  }
+
+  // Set identikey field if it exists.
+  if ($user->hasField('field_identikey')) {
+    $user->set('field_identikey', $identikey);
   }
 }
 
