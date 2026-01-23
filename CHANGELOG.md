@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260123] - 2026-01-23
+
 - ### Moving to Drupal 11
   Moving the default boulder_base profile to D11.  
----
+
+* * *
 
 ## [20251119] - 2025-11-19
 
@@ -1391,7 +1394,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...HEAD
+[20260123]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...20260123
 [20251119]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...20251119
 [20251022]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...20251022
 [20250917]: https://github.com/CuBoulder/tiamat10-profile/compare/20250806...20250917
