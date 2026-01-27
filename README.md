@@ -10,5 +10,5 @@ composer require cu-boulder/boulder_profile
 
 This profile will not work without the corresponding CU Boulder modules that this profile expects to install.  
 
-It's easier to start with the Drupal 11 project template, which can be found here => 
+It's easier to start with the Drupal 11 project template, which can be found here =>
 [CU Boulder D11 Project Template](https://github.com/CuBoulder/sandpoint-d11-project-template)
