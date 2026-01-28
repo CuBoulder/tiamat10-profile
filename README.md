@@ -2,9 +2,7 @@
 
 ## Usage
 
-```
-composer require cu-boulder/boulder_profile
-```
+`composer require cu-boulder/boulder_profile`
 
 ### Notes
 
