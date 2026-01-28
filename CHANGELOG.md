@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updating README for D11 changes
+  Just updating the README to correctly reference D11 information.  
+---
+
 ## [20260123] - 2026-01-23
 
 - ### Moving to Drupal 11
