@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260204] - 2026-02-04
+
 - ### Updating README for D11 changes
   Just updating the README to correctly reference D11 information.  
----
+
+* * *
 
 ## [20260123] - 2026-01-23
 
@@ -1398,7 +1401,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...HEAD
+[20260204]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...20260204
 [20260123]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...20260123
 [20251119]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...20251119
 [20251022]: https://github.com/CuBoulder/tiamat10-profile/compare/20250917...20251022
