@@ -9,19 +9,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260211] - 2026-02-11
+
 - ### Adds Sitemap permissions to Architect and Developer roles
+
   Adds the following permissions to Architect and Developer roles:
+
   - Administer sitemap settings
   - Edit entity sitemap settings
-  
+
   Resolves #311 
----
+
+* * *
 
 - ### Moving Views config back to config/install
+
   Moving config files from optional to install, no code changes.  
-  
+
   Resolves #313 
----
+
+* * *
 
 ## [20260204] - 2026-02-04
 
@@ -1415,7 +1422,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...HEAD
+[20260211]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...20260211
 [20260204]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...20260204
 [20260123]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...20260123
 [20251119]: https://github.com/CuBoulder/tiamat10-profile/compare/20251022...20251119
