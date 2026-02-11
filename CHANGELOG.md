@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update boulder_profile.info.yml
+  Update to add back in `media_library_form_element` so that background images work for the sections forms as well as other image errors.
+  
+  Resolves #316 
+---
+
 ## [20260211] - 2026-02-11
 
 - ### Adds Sitemap permissions to Architect and Developer roles
