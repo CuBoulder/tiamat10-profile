@@ -88,6 +88,7 @@ dependencies:
     - scheduler
     - search
     - shortcut
+    - simple_sitemap
     - system
     - taxonomy
     - toolbar
@@ -130,6 +131,7 @@ permissions:
   - 'administer redirect settings'
   - 'administer redirects'
   - 'administer search'
+  - 'administer sitemap settings'
   - 'administer ucb external services'
   - 'administer user invite'
   - 'administer users'
@@ -377,6 +379,7 @@ permissions:
   - 'edit any video_hero_unit block content'
   - 'edit any video_reveal block content'
   - 'edit any webform'
+  - 'edit entity sitemap settings'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own collection_item_page content'

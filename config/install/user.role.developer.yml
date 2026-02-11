@@ -475,6 +475,7 @@ permissions:
   - 'edit any webform'
   - 'edit any webform submission'
   - 'edit behavior plugin settings'
+  - 'edit entity sitemap settings'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own collection_item_page content'

@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds Sitemap permissions to Architect and Developer roles
+  Adds the following permissions to Architect and Developer roles:
+  - Administer sitemap settings
+  - Edit entity sitemap settings
+  
+  Resolves #311 
+---
+
 - ### Moving Views config back to config/install
   Moving config files from optional to install, no code changes.  
   
