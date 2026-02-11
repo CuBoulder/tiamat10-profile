@@ -52,6 +52,7 @@ install:
   - admin_toolbar_tools
   - media
   - media_library
+  - media_library_form_element
   - field_group
   - twig_tweak
   - telephone
