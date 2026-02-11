@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Moving Views config back to config/install
+  Moving config files from optional to install, no code changes.  
+  
+  Resolves #313 
+---
+
 ## [20260204] - 2026-02-04
 
 - ### Updating README for D11 changes
