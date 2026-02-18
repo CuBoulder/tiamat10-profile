@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260218] - 2026-02-18
+
 - ### Update boulder_profile.info.yml
+
   Update to add back in `media_library_form_element` so that background images work for the sections forms as well as other image errors.
-  
+
   Resolves #316 
----
+
+* * *
 
 ## [20260211] - 2026-02-11
 
@@ -1428,7 +1432,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...HEAD
+[20260218]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...20260218
 [20260211]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...20260211
 [20260204]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...20260204
 [20260123]: https://github.com/CuBoulder/tiamat10-profile/compare/20251119...20260123
