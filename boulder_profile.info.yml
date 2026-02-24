@@ -108,6 +108,8 @@ install:
   - ucb_drush_commands
   - trash
   - diff
+  - feeds
+  - feeds_ex
 
 # Required modules
 # Note that any dependencies of the modules listed here
