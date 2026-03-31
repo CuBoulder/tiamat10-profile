@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #319 - Adds David architect permissions
+  Adds David DePuy's architect role to the default installation profile, since he's involved with analytics and configuring things for ad campaigns.
+  
+  Resolves #319 
+---
+
 ## [20260218] - 2026-02-18
 
 - ### Update boulder_profile.info.yml
