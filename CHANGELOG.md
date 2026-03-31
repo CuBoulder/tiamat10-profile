@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260331] - 2026-03-31
+
 - ### #319 - Adds David architect permissions
+
   Adds David DePuy's architect role to the default installation profile, since he's involved with analytics and configuring things for ad campaigns.
-  
+
   Resolves #319 
----
+
+* * *
 
 ## [20260218] - 2026-02-18
 
@@ -1438,7 +1442,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260331...HEAD
+[20260331]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...20260331
 [20260218]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...20260218
 [20260211]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...20260211
 [20260204]: https://github.com/CuBoulder/tiamat10-profile/compare/20260123...20260204
