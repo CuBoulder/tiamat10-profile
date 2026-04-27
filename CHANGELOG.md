@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Wysiwyg Styles
+  Updated wysiwyg styles to have focal square and focal wide styles.
+  
+  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/1789
+  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/233
+---
+
 ## [20260331] - 2026-03-31
 
 - ### #319 - Adds David architect permissions
