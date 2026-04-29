@@ -9,12 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260429] - 2026-04-29
+
 - ### Wysiwyg Styles
+
   Updated wysiwyg styles to have focal square and focal wide styles.
-  
-  Sister PR: https://github.com/CuBoulder/tiamat-theme/pull/1789
-  Sister PR: https://github.com/CuBoulder/tiamat-custom-entities/pull/233
----
+
+  Sister PR: <https://github.com/CuBoulder/tiamat-theme/pull/1789>
+  Sister PR: <https://github.com/CuBoulder/tiamat-custom-entities/pull/233>
+
+* * *
 
 ## [20260331] - 2026-03-31
 
@@ -1449,7 +1453,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260331...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260429...HEAD
+[20260429]: https://github.com/CuBoulder/tiamat10-profile/compare/20260331...20260429
 [20260331]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...20260331
 [20260218]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...20260218
 [20260211]: https://github.com/CuBoulder/tiamat10-profile/compare/20260204...20260211
