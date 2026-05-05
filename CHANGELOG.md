@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #324 - Remove Erin on new installs
+  Removes Erin Fraizer from being installed on new sites
+  
+  Resolves #324 
+---
+
 ## [20260429] - 2026-04-29
 
 - ### Wysiwyg Styles
