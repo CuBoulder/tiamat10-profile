@@ -82,9 +82,9 @@ function _boulder_profile_install_users() {
   }
 
   /*
-   * Create inital users for the UX Team
+   * Create inital users for the UX Team / CXT
    */
-  $users = ['crafts', 'fraziere', 'dadu0810'];
+  $users = ['crafts', 'dadu0810'];
   foreach ($users as $i) {
     $user = User::create([
       'name' => $i,
