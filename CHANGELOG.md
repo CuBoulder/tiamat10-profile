@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260513] - 2026-05-13
+
 - ### #324 - Remove Erin on new installs
+
   Removes Erin Fraizer from being installed on new sites
-  
+
   Resolves #324 
----
+
+* * *
 
 ## [20260429] - 2026-04-29
 
@@ -1459,7 +1463,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260429...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260513...HEAD
+[20260513]: https://github.com/CuBoulder/tiamat10-profile/compare/20260429...20260513
 [20260429]: https://github.com/CuBoulder/tiamat10-profile/compare/20260331...20260429
 [20260331]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...20260331
 [20260218]: https://github.com/CuBoulder/tiamat10-profile/compare/20260211...20260218
