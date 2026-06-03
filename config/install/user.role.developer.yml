@@ -104,6 +104,7 @@ dependencies:
     - scheduler
     - search
     - shortcut
+    - simple_media_bulk_upload
     - simple_sitemap
     - system
     - taxonomy
@@ -201,6 +202,7 @@ permissions:
   - 'administer scheduler'
   - 'administer search'
   - 'administer shortcuts'
+  - 'administer simple media bulk upload'
   - 'administer site configuration'
   - 'administer sitemap settings'
   - 'administer software updates'
