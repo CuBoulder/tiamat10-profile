@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### ToS View Update
+  New optional entity for user form displays to show whether not ToS has been accepted as well as the acceptance date.
+  
+  Resolves #327 
+---
+
 - ### #1821 - Fixes issue with captions not displaying on Focal Image Wide/Square image styles
   Previously the 'Focal Image Wide' and 'Focal Image Square' image styles did not display Captions set on the media. This has been corrected for those two Image Styles
   
