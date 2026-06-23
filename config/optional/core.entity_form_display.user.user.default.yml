@@ -1,0 +1,53 @@
+uuid: 392f91d9-4e51-4b9f-ae23-dbf9d827e32f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_accepted_date
+    - field.field.user.user.field_identikey
+    - field.field.user.user.field_tos_acceptance
+  module:
+    - datetime
+    - path
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  contact:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_accepted_date:
+    type: datetime_default
+    weight: 35
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tos_acceptance:
+    type: boolean_checkbox
+    weight: 40
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  language:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_identikey: true
