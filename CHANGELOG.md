@@ -9,21 +9,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260624] - 2026-06-24
+
 - ### ToS View Update
+
   New optional entity for user form displays to show whether not ToS has been accepted as well as the acceptance date.
-  
+
   Resolves #327 
----
+
+* * *
 
 - ### #1821 - Fixes issue with captions not displaying on Focal Image Wide/Square image styles
+
   Previously the 'Focal Image Wide' and 'Focal Image Square' image styles did not display Captions set on the media. This has been corrected for those two Image Styles
-  
+
   Includes:
-  - `custom_entities` =>  https://github.com/CuBoulder/tiamat-custom-entities/pull/235
-  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/328
-  
-  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1821
----
+
+  - `custom_entities` =>  <https://github.com/CuBoulder/tiamat-custom-entities/pull/235>
+  - `profile` => <https://github.com/CuBoulder/tiamat10-profile/pull/328>
+
+  Resolves <https://github.com/CuBoulder/tiamat-theme/issues/1821>
+
+* * *
 
 ## [20260513] - 2026-05-13
 
@@ -1479,7 +1486,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260513...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624...HEAD
+[20260624]: https://github.com/CuBoulder/tiamat10-profile/compare/20260513...20260624
 [20260513]: https://github.com/CuBoulder/tiamat10-profile/compare/20260429...20260513
 [20260429]: https://github.com/CuBoulder/tiamat10-profile/compare/20260331...20260429
 [20260331]: https://github.com/CuBoulder/tiamat10-profile/compare/20260218...20260331
