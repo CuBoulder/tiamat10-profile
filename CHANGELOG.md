@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Move user form display setup
+  Move user form display setup to `install` rather than `optional`
+  
+  Resolves #331 
+---
+
 ## [20260624] - 2026-06-24
 
 - ### ToS View Update
