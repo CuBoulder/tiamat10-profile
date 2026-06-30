@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Enable metatag defaults
+  Change metatag default to true to handle [site:url] as the main canonical name scheme for SEO
+  
+  Resolves #334
+---
+
 ## [20260624a] - 2026-06-24
 
 - ### Move user form display setup
