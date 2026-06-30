@@ -62,6 +62,16 @@ function boulder_profile_update_9503() {
 }
 
 /**
+ * Enables the front page Metatag defaults for correct homepage canonical URLs.
+ */
+function boulder_profile_update_9504() {
+  \Drupal::configFactory()
+    ->getEditable('metatag.metatag_defaults.front')
+    ->set('status', TRUE)
+    ->save();
+}
+
+/**
  * Installs default (privileged) users.
  */
 function _boulder_profile_install_users() {
