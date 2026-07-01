@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260701] - 2026-07-01
+
 - ### Enable metatag defaults
+
   Change metatag default to true to handle [site:url] as the main canonical name scheme for SEO
-  
+
   Resolves #334
----
+
+* * *
 
 ## [20260624a] - 2026-06-24
 
@@ -1502,7 +1506,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624a...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260701...HEAD
+[20260701]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624a...20260701
 [20260624a]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624...20260624a
 [20260624]: https://github.com/CuBoulder/tiamat10-profile/compare/20260513...20260624
 [20260513]: https://github.com/CuBoulder/tiamat10-profile/compare/20260429...20260513
