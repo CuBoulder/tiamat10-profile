@@ -17,11 +17,7 @@ use Symfony\Component\Yaml\Yaml;
  * @see system_install()
  */
 function boulder_profile_install() {
-  // First, do everything in standard profile.
-  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
-  standard_install();
-
-  // Afterward, run the custom install tasks.
+  // Run the custom install tasks.
   _boulder_profile_install_users();
   _boulder_profile_install_shortcuts();
   _boulder_profile_install_administerusersbyrole_settings();
