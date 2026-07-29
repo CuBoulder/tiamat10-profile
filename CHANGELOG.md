@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updates for Drupal 11.4
+  Remove install references to the core profile standard install to remove references to deprecated code that was removed in Drupal 11.4. 
+---
+
 ## [20260701] - 2026-07-01
 
 - ### Enable metatag defaults
