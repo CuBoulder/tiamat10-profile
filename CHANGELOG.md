@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260729] - 2026-07-29
+
 - ### Updates for Drupal 11.4
   Remove install references to the core profile standard install to remove references to deprecated code that was removed in Drupal 11.4. 
----
+
+* * *
 
 ## [20260701] - 2026-07-01
 
@@ -1510,7 +1513,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260701...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260729...HEAD
+[20260729]: https://github.com/CuBoulder/tiamat10-profile/compare/20260701...20260729
 [20260701]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624a...20260701
 [20260624a]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624...20260624a
 [20260624]: https://github.com/CuBoulder/tiamat10-profile/compare/20260513...20260624
