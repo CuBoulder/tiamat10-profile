@@ -22,7 +22,6 @@ function boulder_profile_install() {
   _boulder_profile_install_shortcuts();
   _boulder_profile_install_administerusersbyrole_settings();
   _boulder_profile_install_webform_settings();
-  // Enable trash last so entity schema updates run after all modules exist.
   _boulder_profile_install_trash_settings();
 }
 
@@ -200,12 +199,11 @@ function _boulder_profile_install_webform_settings() {
 }
 
 /**
- * Enables Trash for configured entity types using profile settings.
- **/
+ * Installs Trash contrib module settings.
+ */
 function _boulder_profile_install_trash_settings() {
-  $profilePath = \Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
+  $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
   $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/trash.settings.yml'));
-  \Drupal::configFactory()->getEditable('trash.settings')
-    ->setData($settingsYaml)
-    ->save();
+  $settingsYaml['enabled_entity_types'] = ['node' => []];
+  \Drupal::configFactory()->getEditable('trash.settings')->setData($settingsYaml)->save();
 }
