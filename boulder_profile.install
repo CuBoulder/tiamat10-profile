@@ -204,9 +204,6 @@ function _boulder_profile_install_webform_settings() {
 function _boulder_profile_install_trash_settings() {
   $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
   $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/trash.settings.yml'));
-  \Drupal::configFactory()->getEditable('trash.settings')
-    ->set('enabled_entity_types', ['node' => []])
-    ->set('auto_purge', $settingsYaml['auto_purge'])
-    ->set('compact_overview', $settingsYaml['compact_overview'])
-    ->save();
+  $settingsYaml['enabled_entity_types'] = ['node' => []];
+  \Drupal::configFactory()->getEditable('trash.settings')->setData($settingsYaml)->save();
 }
