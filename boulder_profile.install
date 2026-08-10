@@ -202,8 +202,12 @@ function _boulder_profile_install_webform_settings() {
  * Installs Trash contrib module settings.
  */
 function _boulder_profile_install_trash_settings() {
-  $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
-  $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/trash.settings.yml'));
-  $settingsYaml['enabled_entity_types'] = ['node' => []];
-  \Drupal::configFactory()->getEditable('trash.settings')->setData($settingsYaml)->save();
+  \Drupal::configFactory()->getEditable('trash.settings')
+    ->set('enabled_entity_types', ['node' => []])
+    ->set('auto_purge', [
+      'enabled' => TRUE,
+      'after' => '14 days',
+    ])
+    ->set('compact_overview', FALSE)
+    ->save();
 }
