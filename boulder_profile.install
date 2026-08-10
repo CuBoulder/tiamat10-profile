@@ -22,6 +22,7 @@ function boulder_profile_install() {
   _boulder_profile_install_shortcuts();
   _boulder_profile_install_administerusersbyrole_settings();
   _boulder_profile_install_webform_settings();
+  _boulder_profile_install_trash_settings();
 }
 
 /**
@@ -195,4 +196,14 @@ function _boulder_profile_install_webform_settings() {
   $htmlEditorSettings = $settings->get('html_editor');
   $htmlEditorSettings['element_format'] = $htmlEditorSettings['mail_format'] = 'wysiwyg';
   $settings->set('html_editor', $htmlEditorSettings)->save();
+}
+
+/**
+ * Installs Trash contrib module settings.
+ */
+function _boulder_profile_install_trash_settings() {
+  $profilePath = Drupal::getContainer()->get('extension.path.resolver')->getPath('profile', 'boulder_profile');
+  $settingsYaml = Yaml::parse(file_get_contents($profilePath . '/config/install/trash.settings.yml'));
+  $settingsYaml['enabled_entity_types'] = ['node' => []];
+  \Drupal::configFactory()->getEditable('trash.settings')->setData($settingsYaml)->save();
 }

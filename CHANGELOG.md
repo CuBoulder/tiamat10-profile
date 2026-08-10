@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update trash.settings.yml
+  Added `node` back to entity types.
+---
+
 ## [20260729] - 2026-07-29
 
 - ### Updates for Drupal 11.4
