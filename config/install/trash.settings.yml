@@ -1,6 +1,5 @@
-enabled_entity_types:
-  node: {  }
+enabled_entity_types: {  }
 auto_purge:
-  enabled: true
-  after: '14 days'
+  enabled: false
+  after: '30 days'
 compact_overview: false
