@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260812] - 2026-08-12
+
 - ### Update trash.settings.yml
   Added `node` back to entity types.
----
+
+* * *
 
 ## [20260729] - 2026-07-29
 
@@ -1517,7 +1520,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260729...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260812...HEAD
+[20260812]: https://github.com/CuBoulder/tiamat10-profile/compare/20260729...20260812
 [20260729]: https://github.com/CuBoulder/tiamat10-profile/compare/20260701...20260729
 [20260701]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624a...20260701
 [20260624a]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624...20260624a
