@@ -342,7 +342,6 @@ permissions:
   - 'edit terms in tags'
   - 'edit terms in ucb_person_job_type'
   - 'link to any page'
-  - 'restore node entities'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'
