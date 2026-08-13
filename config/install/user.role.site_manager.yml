@@ -87,7 +87,6 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - trash
     - ucb_site_configuration
     - ucb_user_invite
     - webform
@@ -110,7 +109,6 @@ permissions:
   - 'access site-wide contact form'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access trash'
   - 'access user profiles'
   - 'access users overview'
   - 'access webform overview'

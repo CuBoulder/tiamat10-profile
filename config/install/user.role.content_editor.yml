@@ -80,7 +80,6 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - trash
 id: content_editor
 label: 'Content Editor'
 weight: 4
@@ -97,7 +96,6 @@ permissions:
   - 'access shortcuts'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access trash'
   - 'access user profiles'
   - 'administer menu'
   - 'administer nodes'
