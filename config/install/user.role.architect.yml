@@ -92,7 +92,6 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - trash
     - ucb_site_configuration
     - ucb_trust_schema
     - ucb_user_invite
@@ -117,7 +116,6 @@ permissions:
   - 'access site-wide contact form'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access trash'
   - 'access user profiles'
   - 'access users overview'
   - 'access webform overview'
@@ -420,9 +418,7 @@ permissions:
   - 'invite users'
   - 'link to any page'
   - 'manage trust metadata'
-  - 'purge node entities'
   - 'rebuild cache access'
-  - 'restore node entities'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'
@@ -512,7 +508,6 @@ permissions:
   - 'view any webform submission'
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
-  - 'view deleted entities'
   - 'view form_page revisions'
   - 'view media'
   - 'view newsletter revisions'

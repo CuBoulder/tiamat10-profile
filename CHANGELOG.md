@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove trash
+  Remove the trash module as well as associated permissions and settings. It cannot be trusted.
+  
+  Resolves #340
+---
+
 ## [20260812] - 2026-08-12
 
 - ### Update trash.settings.yml

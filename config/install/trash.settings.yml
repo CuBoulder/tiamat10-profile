@@ -1,5 +1,0 @@
-enabled_entity_types: {  }
-auto_purge:
-  enabled: true
-  after: '14 days'
-compact_overview: false

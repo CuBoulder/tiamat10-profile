@@ -80,7 +80,6 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - trash
 id: content_editor
 label: 'Content Editor'
 weight: 4
@@ -97,7 +96,6 @@ permissions:
   - 'access shortcuts'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access trash'
   - 'access user profiles'
   - 'administer menu'
   - 'administer nodes'
@@ -344,7 +342,6 @@ permissions:
   - 'edit terms in tags'
   - 'edit terms in ucb_person_job_type'
   - 'link to any page'
-  - 'restore node entities'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'
@@ -425,7 +422,6 @@ permissions:
   - 'view any video_reveal block content history'
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
-  - 'view deleted entities'
   - 'view form_page revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'
