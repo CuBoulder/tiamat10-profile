@@ -422,7 +422,6 @@ permissions:
   - 'view any video_reveal block content history'
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
-  - 'view deleted entities'
   - 'view form_page revisions'
   - 'view own unpublished content'
   - 'view own unpublished media'

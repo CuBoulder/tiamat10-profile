@@ -616,7 +616,6 @@ permissions:
   - 'view authmap'
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
-  - 'view deleted entities'
   - 'view form_page revisions'
   - 'view media'
   - 'view newsletter revisions'
