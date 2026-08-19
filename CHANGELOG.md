@@ -9,11 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20260819] - 2026-08-19
+
 - ### Remove trash
+
   Remove the trash module as well as associated permissions and settings. It cannot be trusted.
-  
+
   Resolves #340
----
+
+* * *
 
 ## [20260812] - 2026-08-12
 
@@ -1526,7 +1530,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * * *
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260812...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20260819...HEAD
+[20260819]: https://github.com/CuBoulder/tiamat10-profile/compare/20260812...20260819
 [20260812]: https://github.com/CuBoulder/tiamat10-profile/compare/20260729...20260812
 [20260729]: https://github.com/CuBoulder/tiamat10-profile/compare/20260701...20260729
 [20260701]: https://github.com/CuBoulder/tiamat10-profile/compare/20260624a...20260701
