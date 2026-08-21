@@ -85,6 +85,7 @@ dependencies:
     - file
     - filter
     - google_tag
+    - gtranslate
     - help
     - image
     - layout_builder
@@ -515,6 +516,7 @@ permissions:
   - 'edit webform twig'
   - 'edit webform variants'
   - 'export configuration'
+  - 'gtranslate settings'
   - 'import configuration'
   - 'invite users'
   - 'link to any page'
