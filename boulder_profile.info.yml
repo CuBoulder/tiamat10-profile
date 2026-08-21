@@ -107,6 +107,8 @@ install:
   - rebuild_cache_access
   - ucb_drush_commands
   - diff
+  - gtranslate
+
 
 # Required modules
 # Note that any dependencies of the modules listed here
