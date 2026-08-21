@@ -41,7 +41,7 @@ languages:
   de: de
   el: 0
   hi: 0
-  it: it
+  it: 0
   ja: ja
   ko: ko
   'no': 0
@@ -101,7 +101,7 @@ languages:
   mi: 0
   mr: 0
   mn: 0
-  ne: 0
+  ne: ne
   pa: 0
   so: 0
   ta: 0
@@ -251,7 +251,7 @@ flag_languages:
   de: de
   el: 0
   hi: 0
-  it: it
+  it: 0
   ja: ja
   ko: ko
   'no': 0
@@ -311,7 +311,7 @@ flag_languages:
   mi: 0
   mr: 0
   mn: 0
-  ne: 0
+  ne: ne
   pa: 0
   so: 0
   ta: 0
