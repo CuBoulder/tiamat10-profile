@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Google Translate Depreciated, Move Translator to GTranslate
+  This change swaps out the Google Translate JS tooling for GTranslate, due to the Google Translate tool being discontinued in September 2026. Adds in the contrib module https://www.drupal.org/project/gtranslate , and mirror existing translate styling.
+  
+  Includes a patch in template for a mistyped variable present in the config form: https://www.drupal.org/project/gtranslate/issues/3590106
+  
+  Includes:
+  
+  theme => https://github.com/CuBoulder/tiamat-theme/pull/1852
+  profile => https://github.com/CuBoulder/tiamat10-profile/pull/345
+  template => https://github.com/CuBoulder/sandpoint-d11-project-template/pull/17
+  
+  Resolves https://github.com/CuBoulder/tiamat-theme/issues/1851
+---
+
 ## [20260819] - 2026-08-19
 
 - ### Remove trash
