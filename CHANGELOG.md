@@ -9,6 +9,69 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #347 - JSON:API disabled by default, Maintains Functionality on Aggregator Content
+  This change turns JSON:API off by default and adds configuration to enable on the existing entities that currently rely on JSON:API functionality:
+  
+  ## JSON:API enabled
+  ```
+  node--ucb_article
+  node--ucb_person
+  node--ucb_issue
+  node--ucb_class_notes
+  node--newsletter
+  node--collection_item_page
+  node--basic_page
+  paragraph--article_content
+  paragraph--newsletter_section
+  paragraph--newsletter_section_article
+  paragraph--newsletter_section_content
+  media--image
+  file--file
+  taxonomy_term--category
+  taxonomy_term--tags
+  taxonomy_term--newsletter
+  taxonomy_term--collection_category
+  taxonomy_term--department
+  taxonomy_term--ucb_person_job_type
+  taxonomy_term--filter_1
+  taxonomy_term--filter_2
+  taxonomy_term--filter_3
+  taxonomy_term--byline
+  taxonomy_term--syndication_audience
+  taxonomy_term--syndication_unit
+  taxonomy_term--trust_topics
+  trust_metadata--trust_metadata
+  ```
+  This change allows the following content types to maintain existing functionality:
+  
+  ## Aggregator pages
+  - Article List
+  - People List
+  - Class Notes List
+  - Issue Archive
+  
+  ## Aggregator blocks
+  - Article List
+  - Article Grid
+  - Article Feature
+  - Article Slider
+  - Category Cloud
+  - Tag Cloud
+  - People List
+  - Newsletter List
+  - Collection Grid
+  - Current Issue
+  - Latest Issue
+  - Campus News (Today)
+  - Trusted Content Share
+  
+  ## On a node
+  - Related Articles (on Article pages)
+  - Articles by this person (on Person pages)
+  
+  Resolves #347 
+---
+
 ## [20260909] - 2026-09-09
 
 - ### Google Translate Depreciated, Move Translator to GTranslate

@@ -1,0 +1,106 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ucb_trust_schema
+id: trust_metadata--trust_metadata
+disabled: false
+path: trust_metadata/trust_metadata
+resourceType: trust_metadata--trust_metadata
+resourceFields:
+  id:
+    disabled: false
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  node_id:
+    disabled: false
+    fieldName: node_id
+    publicName: node_id
+    enhancer:
+      id: ''
+  trust_role:
+    disabled: false
+    fieldName: trust_role
+    publicName: trust_role
+    enhancer:
+      id: ''
+  trust_scope:
+    disabled: false
+    fieldName: trust_scope
+    publicName: trust_scope
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  trust_contact:
+    disabled: false
+    fieldName: trust_contact
+    publicName: trust_contact
+    enhancer:
+      id: ''
+  timeliness:
+    disabled: false
+    fieldName: timeliness
+    publicName: timeliness
+    enhancer:
+      id: ''
+  audience:
+    disabled: false
+    fieldName: audience
+    publicName: audience
+    enhancer:
+      id: ''
+  trust_topics:
+    disabled: false
+    fieldName: trust_topics
+    publicName: trust_topics
+    enhancer:
+      id: ''
+  content_authority:
+    disabled: false
+    fieldName: content_authority
+    publicName: content_authority
+    enhancer:
+      id: ''
+  trust_syndication_enabled:
+    disabled: false
+    fieldName: trust_syndication_enabled
+    publicName: trust_syndication_enabled
+    enhancer:
+      id: ''
+  syndication_consumer_sites:
+    disabled: false
+    fieldName: syndication_consumer_sites
+    publicName: syndication_consumer_sites
+    enhancer:
+      id: ''
+  syndication_total_views:
+    disabled: false
+    fieldName: syndication_total_views
+    publicName: syndication_total_views
+    enhancer:
+      id: ''
+  syndication_consumer_sites_list:
+    disabled: false
+    fieldName: syndication_consumer_sites_list
+    publicName: syndication_consumer_sites_list
+    enhancer:
+      id: ''
+  metatag:
+    disabled: false
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
