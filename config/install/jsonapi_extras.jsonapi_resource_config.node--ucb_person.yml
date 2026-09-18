@@ -1,0 +1,262 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ucb_person
+id: node--ucb_person
+disabled: false
+path: node/ucb_person
+resourceType: node--ucb_person
+resourceFields:
+  nid:
+    disabled: false
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  vid:
+    disabled: false
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: false
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: false
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: false
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  title:
+    disabled: false
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  promote:
+    disabled: false
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+  sticky:
+    disabled: false
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: false
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: false
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: false
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  metatag:
+    disabled: false
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  publish_on:
+    disabled: false
+    fieldName: publish_on
+    publicName: publish_on
+    enhancer:
+      id: ''
+  unpublish_on:
+    disabled: false
+    fieldName: unpublish_on
+    publicName: unpublish_on
+    enhancer:
+      id: ''
+  menu_link:
+    disabled: false
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+  body:
+    disabled: false
+    fieldName: body
+    publicName: body
+    enhancer:
+      id: ''
+  field_abstract:
+    disabled: false
+    fieldName: field_abstract
+    publicName: field_abstract
+    enhancer:
+      id: ''
+  field_ucb_articles_by_person:
+    disabled: false
+    fieldName: field_ucb_articles_by_person
+    publicName: field_ucb_articles_by_person
+    enhancer:
+      id: ''
+  field_ucb_person_address:
+    disabled: false
+    fieldName: field_ucb_person_address
+    publicName: field_ucb_person_address
+    enhancer:
+      id: ''
+  field_ucb_person_department:
+    disabled: false
+    fieldName: field_ucb_person_department
+    publicName: field_ucb_person_department
+    enhancer:
+      id: ''
+  field_ucb_person_email:
+    disabled: false
+    fieldName: field_ucb_person_email
+    publicName: field_ucb_person_email
+    enhancer:
+      id: ''
+  field_ucb_person_filter_1:
+    disabled: false
+    fieldName: field_ucb_person_filter_1
+    publicName: field_ucb_person_filter_1
+    enhancer:
+      id: ''
+  field_ucb_person_filter_2:
+    disabled: false
+    fieldName: field_ucb_person_filter_2
+    publicName: field_ucb_person_filter_2
+    enhancer:
+      id: ''
+  field_ucb_person_filter_3:
+    disabled: false
+    fieldName: field_ucb_person_filter_3
+    publicName: field_ucb_person_filter_3
+    enhancer:
+      id: ''
+  field_ucb_person_first_name:
+    disabled: false
+    fieldName: field_ucb_person_first_name
+    publicName: field_ucb_person_first_name
+    enhancer:
+      id: ''
+  field_ucb_person_job_type:
+    disabled: false
+    fieldName: field_ucb_person_job_type
+    publicName: field_ucb_person_job_type
+    enhancer:
+      id: ''
+  field_ucb_person_last_name:
+    disabled: false
+    fieldName: field_ucb_person_last_name
+    publicName: field_ucb_person_last_name
+    enhancer:
+      id: ''
+  field_ucb_person_links:
+    disabled: false
+    fieldName: field_ucb_person_links
+    publicName: field_ucb_person_links
+    enhancer:
+      id: ''
+  field_ucb_person_office_hours:
+    disabled: false
+    fieldName: field_ucb_person_office_hours
+    publicName: field_ucb_person_office_hours
+    enhancer:
+      id: ''
+  field_ucb_person_phone:
+    disabled: false
+    fieldName: field_ucb_person_phone
+    publicName: field_ucb_person_phone
+    enhancer:
+      id: ''
+  field_ucb_person_photo:
+    disabled: false
+    fieldName: field_ucb_person_photo
+    publicName: field_ucb_person_photo
+    enhancer:
+      id: ''
+  field_ucb_person_primary_link:
+    disabled: false
+    fieldName: field_ucb_person_primary_link
+    publicName: field_ucb_person_primary_link
+    enhancer:
+      id: ''
+  field_ucb_person_pronouns:
+    disabled: false
+    fieldName: field_ucb_person_pronouns
+    publicName: field_ucb_person_pronouns
+    enhancer:
+      id: ''
+  field_ucb_person_title:
+    disabled: false
+    fieldName: field_ucb_person_title
+    publicName: field_ucb_person_title
+    enhancer:
+      id: ''
