@@ -5,6 +5,7 @@ dependencies:
     - node.type.newsletter
   module:
     - node
+    - ucb_site_configuration
 id: newsletter
 label: Newsletter
 weight: 10
@@ -16,5 +17,6 @@ permissions:
   - 'delete own newsletter content'
   - 'edit any newsletter content'
   - 'edit own newsletter content'
+  - 'preview newsletter mjml email'
   - 'revert newsletter revisions'
   - 'view newsletter revisions'

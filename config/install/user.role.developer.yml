@@ -522,6 +522,7 @@ permissions:
   - 'link to any page'
   - 'manage trust metadata'
   - 'notify of path changes'
+  - 'preview newsletter mjml email'
   - 'rebuild cache access'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
