@@ -74,7 +74,7 @@ function _boulder_profile_install_users() {
   /*
    * Create inital users for the Web Team
    */
-  $users = ['jesp3304', 'mibo7729', 'joni1621', 'pabr5825'];
+  $users = ['jesp3304', 'mibo7729', 'joni1621', 'pabr5825', 'grni9877'];
   foreach ($users as $i) {
     $user = User::create([
       'name' => $i,
