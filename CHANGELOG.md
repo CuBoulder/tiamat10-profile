@@ -9,6 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Update frontpage defaults
+  The Node settings don't seem to apply to `Front Page` anymore(?) even if the front page is a node
+  
+  This update adds the same settings from `node` to `front` to make sure outputs are the same on shared links on social media.
+  
+  Resolves #349 
+---
+
 - ### #347 - JSON:API disabled by default, Maintains Functionality on Aggregator Content
   This change turns JSON:API off by default and adds configuration to enable on the existing entities that currently rely on JSON:API functionality:
   
