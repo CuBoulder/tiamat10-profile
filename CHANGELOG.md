@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Adds MJML Config
+  Adds in necessary MJML config to user roles
+---
+
 - ### Update frontpage defaults
   The Node settings don't seem to apply to `Front Page` anymore(?) even if the front page is a node
   
