@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #355 - Remove sticky sort from Taxonomy View
+  Remove the Sticky sort from Taxonomy View should remove the honoring of Sticky content, which no longer exists on D10+. This was removed in the migration from D7. 
+  
+  Resolves #355 
+---
+
 ## [20261007] - 2026-10-07
 
 - ### Adds MJML Config
