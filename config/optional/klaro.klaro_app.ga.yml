@@ -2,11 +2,11 @@ langcode: en
 dependencies: 
   module: 
     - klaro
-status: true
+status: false
 id: ga
 label: 'Google Analytics'
 description: 'Tracks online visits of the website as a service.'
-default: true
+default: false
 purposes:
   - analytics
 cookies:

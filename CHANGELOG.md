@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Klaro Config Updates
+  Updated Klaro configs with the following
+  - added `analytics` to `gtm`
+  - disabled `facebook`, `ga`, `tiktok`, `vimeo`, `youtube`
+  
+  The  `facebook`, `ga`, `tiktok`, `vimeo`, `youtube` yml files are still in optional but disabled because Klaro has defaults that turn `vimeo` and `youtube` when installed so they are needed. `facebook`, `ga`, `tiktok` ymls should be safe to remove after disabling.
+  
+  Resolves #358 
+---
+
 ## [20261014] - 2026-10-14
 
 - ### #355 - Remove sticky sort from Taxonomy View
