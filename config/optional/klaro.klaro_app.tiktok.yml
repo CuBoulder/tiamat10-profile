@@ -2,11 +2,11 @@ langcode: en
 dependencies: 
   module: 
     - klaro
-status: true
+status: false
 id: tiktok
 label: TikTok
 description: 'TikTok is a social media platform by Bytedance Ltd. (China/Cayman Islands).'
-default: true
+default: false
 purposes:
   - external_content
 cookies: {  }

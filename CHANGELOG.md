@@ -9,11 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- ### #355 - Remove sticky sort from Taxonomy View
-  Remove the Sticky sort from Taxonomy View should remove the honoring of Sticky content, which no longer exists on D10+. This was removed in the migration from D7. 
+- ### Klaro Config Updates
+  Updated Klaro configs with the following
+  - added `analytics` to `gtm`
+  - disabled `facebook`, `ga`, `tiktok`, `vimeo`, `youtube`
   
-  Resolves #355 
+  The  `facebook`, `ga`, `tiktok`, `vimeo`, `youtube` yml files are still in optional but disabled because Klaro has defaults that turn `vimeo` and `youtube` when installed so they are needed. `facebook`, `ga`, `tiktok` ymls should be safe to remove after disabling.
+  
+  Resolves #358 
 ---
+
+## [20261014] - 2026-10-14
+
+- ### #355 - Remove sticky sort from Taxonomy View
+
+  Remove the Sticky sort from Taxonomy View should remove the honoring of Sticky content, which no longer exists on D10+. This was removed in the migration from D7.
+
+  Resolves #355
+
+***
 
 ## [20261007] - 2026-10-07
 
@@ -1641,7 +1655,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ***
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261007...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261014...HEAD
+[20261014]: https://github.com/CuBoulder/tiamat10-profile/compare/20261007...20261014
 [20261007]: https://github.com/CuBoulder/tiamat10-profile/compare/20260909...20261007
 [20260909]: https://github.com/CuBoulder/tiamat10-profile/compare/20260819...20260909
 [20260819]: https://github.com/CuBoulder/tiamat10-profile/compare/20260812...20260819

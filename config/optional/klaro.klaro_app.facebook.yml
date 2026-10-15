@@ -2,11 +2,11 @@ langcode: en
 dependencies: 
   module: 
     - klaro
-status: true
+status: false
 id: facebook
 label: Facebook
 description: 'Facebook is a social media platform by Meta Platforms, Inc (USA).'
-default: true
+default: false
 purposes:
   - external_content
 cookies: {  }

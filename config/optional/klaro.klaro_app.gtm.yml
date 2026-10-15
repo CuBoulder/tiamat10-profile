@@ -5,10 +5,11 @@ dependencies:
 status: true
 id: gtm
 label: 'Google Tag Manager'
-description: 'Manages and deploys marketing tags.'
+description: 'Google Tag Manager manages tags used for website analytics, marketing and performance measurement to help us improve your experience.'
 default: true
 purposes:
   - advertising
+  - analytics
 cookies: {  }
 required: false
 opt_out: false
