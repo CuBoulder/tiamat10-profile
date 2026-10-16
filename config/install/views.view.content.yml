@@ -331,7 +331,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: 'Category'
+          label: Category
           exclude: false
           alter:
             alter_text: false
@@ -625,7 +625,7 @@ display:
           exposed: true
           expose:
             operator_id: field_color_categorization_value_op
-            label: 'Category'
+            label: Category
             description: ''
             use_operator: false
             operator: field_color_categorization_value_op
@@ -662,7 +662,7 @@ display:
                 title: ''
                 operator: or
                 value: {  }
-          reduce_duplicates: false
+          reduce_duplicates: true
       filter_groups:
         operator: AND
         groups:
