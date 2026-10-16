@@ -331,7 +331,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: field
-          label: Category
+          label: Marker
           exclude: false
           alter:
             alter_text: false
@@ -625,7 +625,7 @@ display:
           exposed: true
           expose:
             operator_id: field_color_categorization_value_op
-            label: Category
+            label: Marker
             description: ''
             use_operator: false
             operator: field_color_categorization_value_op

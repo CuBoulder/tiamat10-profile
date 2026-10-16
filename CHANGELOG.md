@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #363 - Change label of 'Category' to 'Marker' on /Content View
+  Resolves #363 
+---
+
 - ### 361 - Adds Reduce Duplicates to `/admin/content`
   If a Basic Page has multiple color categories, the Content View could duplicate the entry in the results. This has been corrected.
   
