@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### 361 - Adds Reduce Duplicates to `/admin/content`
+  If a Basic Page has multiple color categories, the Content View could duplicate the entry in the results. This has been corrected.
+  
+  Resolves #361 
+---
+
 - ### Updates Content View for Color Categorization Addition
   This change adds a new field to Basic Pages -- "Color Category", which allows content editors to assign color categories to Basic Pages. These colors can represent whatever you decide for your site to enable additional user-accessible filtering on the `/admin/content` View.
   
