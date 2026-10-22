@@ -9,37 +9,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20261022] - 2026-10-22
+
 - ### #363 - Change label of 'Category' to 'Marker' on /Content View
-  Resolves #363 
----
+  Resolves #363
+
+***
 
 - ### 361 - Adds Reduce Duplicates to `/admin/content`
+
   If a Basic Page has multiple color categories, the Content View could duplicate the entry in the results. This has been corrected.
-  
-  Resolves #361 
----
+
+  Resolves #361
+
+***
 
 - ### Updates Content View for Color Categorization Addition
+
   This change adds a new field to Basic Pages -- "Color Category", which allows content editors to assign color categories to Basic Pages. These colors can represent whatever you decide for your site to enable additional user-accessible filtering on the `/admin/content` View.
-  
+
   Includes:
+
   - `theme` : https://github.com/CuBoulder/tiamat-theme/pull/1876
   - `profile` : https://github.com/CuBoulder/tiamat10-profile/pull/360
   - `custom_entities` : https://github.com/CuBoulder/tiamat-custom-entities/pull/245
-  - `express_admin` :  https://github.com/CuBoulder/express_admin/pull/24
-  
+  - `express_admin` :  https://github.com/CuBoulder/express\_admin/pull/24
+
   Resolves https://github.com/CuBoulder/tiamat-theme/issues/1872
----
+
+***
 
 - ### Klaro Config Updates
+
   Updated Klaro configs with the following
+
   - added `analytics` to `gtm`
   - disabled `facebook`, `ga`, `tiktok`, `vimeo`, `youtube`
-  
+
   The  `facebook`, `ga`, `tiktok`, `vimeo`, `youtube` yml files are still in optional but disabled because Klaro has defaults that turn `vimeo` and `youtube` when installed so they are needed. `facebook`, `ga`, `tiktok` ymls should be safe to remove after disabling.
-  
-  Resolves #358 
----
+
+  Resolves #358
+
+***
 
 ## [20261014] - 2026-10-14
 
@@ -1677,7 +1688,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ***
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261014...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261022...HEAD
+[20261022]: https://github.com/CuBoulder/tiamat10-profile/compare/20261014...20261022
 [20261014]: https://github.com/CuBoulder/tiamat10-profile/compare/20261007...20261014
 [20261007]: https://github.com/CuBoulder/tiamat10-profile/compare/20260909...20261007
 [20260909]: https://github.com/CuBoulder/tiamat10-profile/compare/20260819...20260909
