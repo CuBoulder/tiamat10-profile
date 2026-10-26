@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Enable Klaro
+  Moves the klaro yml settings from `/optional` to `/install` for update and enable purposes.
+  
+  Adds permissions for roles usage
+  `anonymous` and `authenticated` can use Klaro accept/decline 
+  `developer` and `architect` can administrate core Klaro settings 
+  
+  Enable klaro at install
+---
+
 ## [20261022] - 2026-10-22
 
 - ### #363 - Change label of 'Category' to 'Marker' on /Content View

@@ -73,7 +73,7 @@ install:
   - simple_sitemap
   - google_cse
   - google_tag
-  #- klaro
+  - klaro
   - antibot
   - smtp
   - redirect
