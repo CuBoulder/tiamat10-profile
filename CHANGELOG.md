@@ -9,21 +9,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20261026] - 2026-10-26
+
 - ### Remove dependencies
+
   Settings files in `/install` don't need the dependencies for themselves as it will load the defaults out of `/contrib` or `/core`
-  
+
   Removing these lines fixes the new site installs not having our proper settings.
----
+
+***
 
 - ### Enable Klaro
+
   Moves the klaro yml settings from `/optional` to `/install` for update and enable purposes.
-  
+
   Adds permissions for roles usage
-  `anonymous` and `authenticated` can use Klaro accept/decline 
-  `developer` and `architect` can administrate core Klaro settings 
-  
+  `anonymous` and `authenticated` can use Klaro accept/decline
+  `developer` and `architect` can administrate core Klaro settings
+
   Enable klaro at install
----
+
+***
 
 ## [20261022] - 2026-10-22
 
@@ -1704,7 +1710,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ***
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261022...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261026...HEAD
+[20261026]: https://github.com/CuBoulder/tiamat10-profile/compare/20261022...20261026
 [20261022]: https://github.com/CuBoulder/tiamat10-profile/compare/20261014...20261022
 [20261014]: https://github.com/CuBoulder/tiamat10-profile/compare/20261007...20261014
 [20261007]: https://github.com/CuBoulder/tiamat10-profile/compare/20260909...20261007
