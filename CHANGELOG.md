@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Remove dependencies
+  Settings files in `/install` don't need the dependencies for themselves as it will load the defaults out of `/contrib` or `/core`
+  
+  Removing these lines fixes the new site installs not having our proper settings.
+---
+
 - ### Enable Klaro
   Moves the klaro yml settings from `/optional` to `/install` for update and enable purposes.
   
