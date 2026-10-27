@@ -92,6 +92,8 @@ install:
   - media_entity_file_replace
   - entity_usage
   - media_file_delete
+  - dropzonejs
+  - simple_media_bulk_upload
   - menu_block
   - ucb_third_party_libraries
   - ucb_default_content
