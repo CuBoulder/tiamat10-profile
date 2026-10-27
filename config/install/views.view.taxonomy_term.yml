@@ -772,19 +772,6 @@ display:
         options: {  }
       empty: {  }
       sorts:
-        sticky:
-          id: sticky
-          table: taxonomy_index
-          field: sticky
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: standard
-          order: DESC
-          expose:
-            label: ''
-            field_identifier: sticky
-          exposed: false
         created:
           id: created
           table: taxonomy_index

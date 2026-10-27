@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ucb_trusted_content_block
+    - taxonomy.vocabulary.trust_topics
+  module:
+    - block_content
+    - taxonomy
+    - ucb_trust_schema
+id: beta_tester
+label: 'Beta Tester'
+weight: 13
+is_admin: null
+permissions:
+  - 'create terms in trust_topics'
+  - 'create ucb_trusted_content_block block content'
+  - 'delete any ucb_trusted_content_block block content'
+  - 'delete any ucb_trusted_content_block block content revisions'
+  - 'delete term revisions in trust_topics'
+  - 'delete terms in trust_topics'
+  - 'edit any ucb_trusted_content_block block content'
+  - 'edit terms in trust_topics'
+  - 'manage trust metadata'
+  - 'revert any ucb_trusted_content_block block content revisions'
+  - 'revert term revisions in trust_topics'
+  - 'view any ucb_trusted_content_block block content history'
+  - 'view term revisions in trust_topics'
+  - 'view trust metadata'

@@ -24,13 +24,16 @@ dependencies:
     - block_content.type.ucb_category_cloud
     - block_content.type.ucb_current_issue_block
     - block_content.type.ucb_form
+    - block_content.type.ucb_hero_slider
     - block_content.type.ucb_latest_issues_block
     - block_content.type.ucb_people_list_block
     - block_content.type.ucb_slate_form
     - block_content.type.ucb_tag_cloud
+    - block_content.type.ucb_trusted_content_block
     - block_content.type.video_hero_unit
     - block_content.type.video_reveal
     - core.entity_view_display.node.basic_page.default
+    - filter.format.abstract
     - filter.format.full_html
     - filter.format.icon_picker
     - filter.format.wysiwyg
@@ -61,6 +64,7 @@ dependencies:
     - taxonomy.vocabulary.filter_3
     - taxonomy.vocabulary.newsletter
     - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.trust_topics
     - taxonomy.vocabulary.ucb_person_job_type
   module:
     - administerusersbyrole
@@ -81,6 +85,7 @@ dependencies:
     - file
     - filter
     - google_tag
+    - gtranslate
     - help
     - image
     - klaro
@@ -106,8 +111,8 @@ dependencies:
     - system
     - taxonomy
     - toolbar
-    - trash
     - ucb_site_configuration
+    - ucb_trust_schema
     - ucb_user_invite
     - views_ui
     - webform
@@ -134,7 +139,6 @@ permissions:
   - 'access site-wide contact form'
   - 'access taxonomy overview'
   - 'access toolbar'
-  - 'access trash'
   - 'access user contact forms'
   - 'access user profiles'
   - 'access users overview'
@@ -208,7 +212,6 @@ permissions:
   - 'administer taxonomy_term fields'
   - 'administer taxonomy_term form display'
   - 'administer themes'
-  - 'administer trash'
   - 'administer ucb external services'
   - 'administer url aliases'
   - 'administer user display'
@@ -262,6 +265,7 @@ permissions:
   - 'create terms in filter_3'
   - 'create terms in newsletter'
   - 'create terms in tags'
+  - 'create terms in trust_topics'
   - 'create terms in ucb_person_job_type'
   - 'create text_block block content'
   - 'create ucb_article content'
@@ -275,6 +279,7 @@ permissions:
   - 'create ucb_current_issue_block block content'
   - 'create ucb_faq_page content'
   - 'create ucb_form block content'
+  - 'create ucb_hero_slider block content'
   - 'create ucb_issue content'
   - 'create ucb_issue_archive content'
   - 'create ucb_latest_issues_block block content'
@@ -283,6 +288,7 @@ permissions:
   - 'create ucb_person content'
   - 'create ucb_slate_form block content'
   - 'create ucb_tag_cloud block content'
+  - 'create ucb_trusted_content_block block content'
   - 'create url aliases'
   - 'create users'
   - 'create video media'
@@ -349,6 +355,8 @@ permissions:
   - 'delete any ucb_faq_page content'
   - 'delete any ucb_form block content'
   - 'delete any ucb_form block content revisions'
+  - 'delete any ucb_hero_slider block content'
+  - 'delete any ucb_hero_slider block content revisions'
   - 'delete any ucb_issue content'
   - 'delete any ucb_issue_archive content'
   - 'delete any ucb_latest_issues_block block content'
@@ -361,6 +369,8 @@ permissions:
   - 'delete any ucb_slate_form block content revisions'
   - 'delete any ucb_tag_cloud block content'
   - 'delete any ucb_tag_cloud block content revisions'
+  - 'delete any ucb_trusted_content_block block content'
+  - 'delete any ucb_trusted_content_block block content revisions'
   - 'delete any video media'
   - 'delete any video_hero_unit block content'
   - 'delete any video_hero_unit block content revisions'
@@ -395,6 +405,7 @@ permissions:
   - 'delete own video media'
   - 'delete own webform'
   - 'delete own webform submission'
+  - 'delete term revisions in trust_topics'
   - 'delete terms in byline'
   - 'delete terms in category'
   - 'delete terms in collection_category'
@@ -405,6 +416,7 @@ permissions:
   - 'delete terms in filter_3'
   - 'delete terms in newsletter'
   - 'delete terms in tags'
+  - 'delete terms in trust_topics'
   - 'delete terms in ucb_person_job_type'
   - 'delete ucb_article revisions'
   - 'delete ucb_article_list revisions'
@@ -449,6 +461,7 @@ permissions:
   - 'edit any ucb_current_issue_block block content'
   - 'edit any ucb_faq_page content'
   - 'edit any ucb_form block content'
+  - 'edit any ucb_hero_slider block content'
   - 'edit any ucb_issue content'
   - 'edit any ucb_issue_archive content'
   - 'edit any ucb_latest_issues_block block content'
@@ -457,12 +470,14 @@ permissions:
   - 'edit any ucb_person content'
   - 'edit any ucb_slate_form block content'
   - 'edit any ucb_tag_cloud block content'
+  - 'edit any ucb_trusted_content_block block content'
   - 'edit any video media'
   - 'edit any video_hero_unit block content'
   - 'edit any video_reveal block content'
   - 'edit any webform'
   - 'edit any webform submission'
   - 'edit behavior plugin settings'
+  - 'edit entity sitemap settings'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own collection_item_page content'
@@ -492,6 +507,7 @@ permissions:
   - 'edit terms in filter_3'
   - 'edit terms in newsletter'
   - 'edit terms in tags'
+  - 'edit terms in trust_topics'
   - 'edit terms in ucb_person_job_type'
   - 'edit ucb site advanced'
   - 'edit ucb site appearance'
@@ -504,13 +520,14 @@ permissions:
   - 'edit webform twig'
   - 'edit webform variants'
   - 'export configuration'
+  - 'gtranslate settings'
   - 'import configuration'
   - 'invite users'
   - 'link to any page'
+  - 'manage trust metadata'
   - 'notify of path changes'
-  - 'purge node entities'
+  - 'preview newsletter mjml email'
   - 'rebuild cache access'
-  - 'restore node entities'
   - 'revert all revisions'
   - 'revert any article_list_block block content revisions'
   - 'revert any collection_grid block content revisions'
@@ -534,16 +551,19 @@ permissions:
   - 'revert any ucb_category_cloud block content revisions'
   - 'revert any ucb_current_issue_block block content revisions'
   - 'revert any ucb_form block content revisions'
+  - 'revert any ucb_hero_slider block content revisions'
   - 'revert any ucb_latest_issues_block block content revisions'
   - 'revert any ucb_people_list_block block content revisions'
   - 'revert any ucb_slate_form block content revisions'
   - 'revert any ucb_tag_cloud block content revisions'
+  - 'revert any ucb_trusted_content_block block content revisions'
   - 'revert any video_hero_unit block content revisions'
   - 'revert any video_reveal block content revisions'
   - 'revert basic_page revisions'
   - 'revert collection_item_page revisions'
   - 'revert form_page revisions'
   - 'revert newsletter revisions'
+  - 'revert term revisions in trust_topics'
   - 'revert ucb_article revisions'
   - 'revert ucb_article_list revisions'
   - 'revert ucb_class_notes revisions'
@@ -563,6 +583,7 @@ permissions:
   - 'update media'
   - 'update own consumer entities'
   - 'use advanced search'
+  - 'use text format abstract'
   - 'use text format full_html'
   - 'use text format icon_picker'
   - 'use text format wysiwyg'
@@ -590,17 +611,18 @@ permissions:
   - 'view any ucb_category_cloud block content history'
   - 'view any ucb_current_issue_block block content history'
   - 'view any ucb_form block content history'
+  - 'view any ucb_hero_slider block content history'
   - 'view any ucb_latest_issues_block block content history'
   - 'view any ucb_people_list_block block content history'
   - 'view any ucb_slate_form block content history'
   - 'view any ucb_tag_cloud block content history'
+  - 'view any ucb_trusted_content_block block content history'
   - 'view any video_hero_unit block content history'
   - 'view any video_reveal block content history'
   - 'view any webform submission'
   - 'view authmap'
   - 'view basic_page revisions'
   - 'view collection_item_page revisions'
-  - 'view deleted entities'
   - 'view form_page revisions'
   - 'view media'
   - 'view newsletter revisions'
@@ -611,7 +633,9 @@ permissions:
   - 'view scheduled content'
   - 'view scheduled media'
   - 'view scheduled taxonomy_term'
+  - 'view term revisions in trust_topics'
   - 'view the administration theme'
+  - 'view trust metadata'
   - 'view ucb_article revisions'
   - 'view ucb_article_list revisions'
   - 'view ucb_class_notes revisions'

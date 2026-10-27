@@ -1,0 +1,220 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.newsletter
+id: node--newsletter
+disabled: false
+path: node/newsletter
+resourceType: node--newsletter
+resourceFields:
+  nid:
+    disabled: false
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+  uuid:
+    disabled: false
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+  vid:
+    disabled: false
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+  langcode:
+    disabled: false
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+  type:
+    disabled: false
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+  revision_timestamp:
+    disabled: false
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+  revision_uid:
+    disabled: false
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+  revision_log:
+    disabled: false
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+  status:
+    disabled: false
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+  uid:
+    disabled: false
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+  title:
+    disabled: false
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+  created:
+    disabled: false
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+  changed:
+    disabled: false
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+  promote:
+    disabled: false
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+  sticky:
+    disabled: false
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+  default_langcode:
+    disabled: false
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+  revision_default:
+    disabled: false
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+  revision_translation_affected:
+    disabled: false
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+  metatag:
+    disabled: false
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
+  path:
+    disabled: false
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+  publish_on:
+    disabled: false
+    fieldName: publish_on
+    publicName: publish_on
+    enhancer:
+      id: ''
+  unpublish_on:
+    disabled: false
+    fieldName: unpublish_on
+    publicName: unpublish_on
+    enhancer:
+      id: ''
+  menu_link:
+    disabled: false
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+  field_newsletter_block_title_one:
+    disabled: false
+    fieldName: field_newsletter_block_title_one
+    publicName: field_newsletter_block_title_one
+    enhancer:
+      id: ''
+  field_newsletter_block_title_two:
+    disabled: false
+    fieldName: field_newsletter_block_title_two
+    publicName: field_newsletter_block_title_two
+    enhancer:
+      id: ''
+  field_newsletter_content_blocks:
+    disabled: false
+    fieldName: field_newsletter_content_blocks
+    publicName: field_newsletter_content_blocks
+    enhancer:
+      id: ''
+  field_newsletter_intro_body:
+    disabled: false
+    fieldName: field_newsletter_intro_body
+    publicName: field_newsletter_intro_body
+    enhancer:
+      id: ''
+  field_newsletter_intro_image:
+    disabled: false
+    fieldName: field_newsletter_intro_image
+    publicName: field_newsletter_intro_image
+    enhancer:
+      id: ''
+  field_newsletter_promo_image_one:
+    disabled: false
+    fieldName: field_newsletter_promo_image_one
+    publicName: field_newsletter_promo_image_one
+    enhancer:
+      id: ''
+  field_newsletter_promo_image_two:
+    disabled: false
+    fieldName: field_newsletter_promo_image_two
+    publicName: field_newsletter_promo_image_two
+    enhancer:
+      id: ''
+  field_newsletter_promo_link_one:
+    disabled: false
+    fieldName: field_newsletter_promo_link_one
+    publicName: field_newsletter_promo_link_one
+    enhancer:
+      id: ''
+  field_newsletter_promo_link_two:
+    disabled: false
+    fieldName: field_newsletter_promo_link_two
+    publicName: field_newsletter_promo_link_two
+    enhancer:
+      id: ''
+  field_newsletter_section_block:
+    disabled: false
+    fieldName: field_newsletter_section_block
+    publicName: field_newsletter_section_block
+    enhancer:
+      id: ''
+  field_newsletter_summary:
+    disabled: false
+    fieldName: field_newsletter_summary
+    publicName: field_newsletter_summary
+    enhancer:
+      id: ''
+  field_newsletter_type:
+    disabled: false
+    fieldName: field_newsletter_type
+    publicName: field_newsletter_type
+    enhancer:
+      id: ''

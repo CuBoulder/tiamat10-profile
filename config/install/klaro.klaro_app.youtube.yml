@@ -1,10 +1,12 @@
 langcode: en
-status: true
-dependencies: {  }
+dependencies: 
+  module: 
+    - klaro
+status: false
 id: youtube
 label: YouTube
 description: 'YouTube is an online video sharing platform owned by Google.'
-default: true
+default: false
 purposes:
   - external_content
 cookies: {  }

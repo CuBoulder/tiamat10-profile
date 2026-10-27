@@ -1,8 +1,11 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.storage.node.field_color_categorization
   module:
     - node
+    - options
     - user
 id: content
 label: Content
@@ -320,6 +323,68 @@ display:
           empty_zero: false
           hide_alter_empty: true
           destination: true
+        field_color_categorization:
+          id: field_color_categorization
+          table: node__field_color_categorization
+          field: field_color_categorization
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: field
+          label: Marker
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: list_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
       pager:
         type: full
         options:
@@ -384,8 +449,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
           is_grouped: false
           group_info:
             label: ''
@@ -426,8 +489,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -517,8 +578,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
             reduce: false
           is_grouped: false
           group_info:
@@ -544,6 +603,66 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
+        field_color_categorization_value:
+          id: field_color_categorization_value
+          table: node__field_color_categorization
+          field: field_color_categorization_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: list_field
+          operator: or
+          value:
+            all: all
+            blue: blue
+            green: green
+            purple: purple
+            pink: pink
+            orange: orange
+            yellow: yellow
+            red: red
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_color_categorization_value_op
+            label: Marker
+            description: ''
+            use_operator: false
+            operator: field_color_categorization_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_color_categorization_value
+            required: false
+            remember: false
+            multiple: true
+            remember_roles:
+              authenticated: authenticated
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: 'Color Categorization (field_color_categorization)'
+            description: ''
+            identifier: field_color_categorization_value
+            optional: true
+            widget: select
+            multiple: true
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items:
+              1:
+                title: ''
+                operator: or
+                value: {  }
+              2:
+                title: ''
+                operator: or
+                value: {  }
+              3:
+                title: ''
+                operator: or
+                value: {  }
+          reduce_duplicates: true
       filter_groups:
         operator: AND
         groups:
@@ -647,7 +766,8 @@ display:
         - user
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_color_categorization'
   page_1:
     id: page_1
     display_title: Page
@@ -679,4 +799,5 @@ display:
         - user
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_color_categorization'

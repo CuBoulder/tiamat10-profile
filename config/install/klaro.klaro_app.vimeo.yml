@@ -1,10 +1,12 @@
 langcode: en
-status: true
-dependencies: {  }
+dependencies: 
+  module: 
+    - klaro
+status: false
 id: vimeo
 label: Vimeo
 description: 'Vimeo is a video sharing platform by Vimeo, LLC (USA).'
-default: true
+default: false
 purposes:
   - external_content
 cookies: {  }
