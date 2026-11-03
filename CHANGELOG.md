@@ -9,6 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Simple Media Bulk Upload and Dropzonejs
+  Add dropzonejs and simple_media_bulk_upload to the install profile
+  
+  Sister PRs: 
+  - `profile` => https://github.com/CuBoulder/tiamat10-profile/pull/265
+  - `template` => https://github.com/CuBoulder/sandpoint-d11-project-template/pull/19
+  
+  Resolves #264
+---
+
 ## [20261026] - 2026-10-26
 
 - ### Remove dependencies
