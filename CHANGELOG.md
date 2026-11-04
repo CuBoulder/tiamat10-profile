@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### Updated Permissions
+  Add permissions to appropriate roles so that dropzone multi upload can be used.
+---
+
 ## [20261104] - 2026-11-04
 
 - ### Simple Media Bulk Upload and Dropzonejs

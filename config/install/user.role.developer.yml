@@ -78,6 +78,7 @@ dependencies:
     - contact
     - contextual
     - crop
+    - dropzonejs
     - embed
     - entity_reference_revisions
     - externalauth
@@ -427,6 +428,7 @@ permissions:
   - 'delete ucb_issue_archive revisions'
   - 'delete ucb_people_list_page revisions'
   - 'delete ucb_person revisions'
+  - 'dropzone upload files'
   - 'edit any article_list_block block content'
   - 'edit any audio media'
   - 'edit any basic_page content'

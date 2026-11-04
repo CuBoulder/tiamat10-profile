@@ -17,6 +17,7 @@ dependencies:
     - node.type.ucb_person
   module:
     - contextual
+    - dropzonejs
     - file
     - filter
     - help
@@ -48,6 +49,7 @@ permissions:
   - 'delete own files'
   - 'delete own image media'
   - 'delete own video media'
+  - 'dropzone upload files'
   - 'edit own audio media'
   - 'edit own basic_page content'
   - 'edit own document media'
