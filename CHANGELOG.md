@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [20261104a] - 2026-11-04
+
 - ### Updated Permissions
   Add permissions to appropriate roles so that dropzone multi upload can be used.
----
+
+***
 
 ## [20261104] - 2026-11-04
 
@@ -1729,7 +1732,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ***
 
-[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261104...HEAD
+[unreleased]: https://github.com/CuBoulder/tiamat10-profile/compare/20261104a...HEAD
+[20261104a]: https://github.com/CuBoulder/tiamat10-profile/compare/20261104...20261104a
 [20261104]: https://github.com/CuBoulder/tiamat10-profile/compare/20261026...20261104
 [20261026]: https://github.com/CuBoulder/tiamat10-profile/compare/20261022...20261026
 [20261022]: https://github.com/CuBoulder/tiamat10-profile/compare/20261014...20261022
