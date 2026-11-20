@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- ### #372 - Disable Klaro
+  Resolves #372 
+---
+
 ## [20261104a] - 2026-11-04
 
 - ### Updated Permissions
