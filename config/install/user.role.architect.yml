@@ -77,7 +77,6 @@ dependencies:
     - filter
     - google_tag
     - help
-    - klaro
     - layout_builder
     - media
     - node
@@ -124,7 +123,6 @@ permissions:
   - 'administer blocks'
   - 'administer contact forms'
   - 'administer google_tag_container'
-  - 'administer klaro'
   - 'administer menu'
   - 'administer news feeds'
   - 'administer nodes'
